@@ -1,5 +1,5 @@
 [Eagle]
-Version="07 01 00"
+Version="07 02 00"
 Platform="Linux"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -10,7 +10,6 @@ AutoSaveProject=1
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorConnectors.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorRCL.lbr"
 UsedLibrary="/home/abilos/projects/private/PCB/lbr/supply1.lbr"
-UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorTransformer.lbr"
 
 [Win_1]
 Type="Library Editor"
@@ -57,7 +56,6 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=21
-Package="TRIADMAG1,5/8:1,5/16"
 
 [Win_2]
 Type="Schematic Editor"
@@ -109,11 +107,11 @@ Sheet="1"
 
 [Win_3]
 Type="Board Editor"
-Loc="-1 25 1364 743"
+Loc="0 25 1365 743"
 State=1
 Number=2
 File="transformer_supply.brd"
-View="0.490647 6.64844 50.645 46.7719"
+View="-19.693 -37.1736 130.067 82.6344"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 3.81 6.4516 0.4064 1.27 2.54"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -155,12 +153,12 @@ Layer=16
 
 [Win_4]
 Type="Control Panel"
-Loc="0 25 1365 743"
-State=1
+Loc="485 364 1473 963"
+State=2
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="1600 1200"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
