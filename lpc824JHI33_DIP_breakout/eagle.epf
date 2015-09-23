@@ -25,11 +25,11 @@ UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/ohw-logo.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="142 79 1257 926"
+Loc="0 0 599 399"
 State=2
 Number=1
-File="datalogger.sch"
-View="-32.9126 -34.9377 233.36 136.238"
+File="lpc824JHI33_DIP_breakout.sch"
+View="-16.256 -14.986 168.656 103.886"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -68,21 +68,20 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -32.9126 -34.9377 233.36 136.238"
 Sheet="1"
 
 [Win_2]
 Type="Board Editor"
-Loc="0 25 1289 1062"
+Loc="0 0 599 399"
 State=2
 Number=2
-File="datalogger.brd"
-View="-17.9315 -26.1293 106.869 73.711"
-WireWidths=" 0 0.254 0.3048 0.6096 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.8128 0.4064"
+File="lpc824JHI33_DIP_breakout.brd"
+View="-2 -1.6 102 81.6"
+WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-ViaDrills=" 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6 0.4"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
 HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
 TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
@@ -98,7 +97,7 @@ WireBendSet=0
 WireCap=1
 MiterStyle=0
 PadShape=0
-ViaShape=2
+ViaShape=0
 PolygonPour=0
 PolygonRank=1
 PolygonThermals=1
@@ -115,7 +114,7 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=21
+Layer=16
 
 [Win_3]
 Type="Control Panel"
