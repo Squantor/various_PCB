@@ -178,34 +178,34 @@ Library with NXP products with NXP footprints and nomenclature. Some footprints 
 <wire x1="9.779" y1="-6.604" x2="10.541" y2="-6.604" width="0.1524" layer="21"/>
 <wire x1="12.319" y1="-6.604" x2="13.081" y2="-6.604" width="0.1524" layer="21"/>
 <wire x1="14.859" y1="-6.604" x2="15.621" y2="-6.604" width="0.1524" layer="21"/>
-<pad name="1" x="-16.51" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="2" x="-13.97" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="3" x="-11.43" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="4" x="-8.89" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="5" x="-6.35" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="6" x="-3.81" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="7" x="-1.27" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="8" x="1.27" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="9" x="3.81" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="10" x="6.35" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="11" x="8.89" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="12" x="11.43" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="13" x="13.97" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="14" x="16.51" y="-7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="15" x="16.51" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="16" x="13.97" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="17" x="11.43" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="18" x="8.89" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="19" x="6.35" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="20" x="3.81" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="21" x="1.27" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="22" x="-1.27" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="23" x="-3.81" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="24" x="-6.35" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="25" x="-8.89" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="26" x="-11.43" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="27" x="-13.97" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
-<pad name="28" x="-16.51" y="7.62" drill="1.6" diameter="2.1844" shape="octagon" rot="R90"/>
+<pad name="1" x="-16.51" y="-7.62" drill="1.5" diameter="1.8" shape="octagon" rot="R90"/>
+<pad name="2" x="-13.97" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="3" x="-11.43" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="4" x="-8.89" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="5" x="-6.35" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="6" x="-3.81" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="7" x="-1.27" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="8" x="1.27" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="9" x="3.81" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="10" x="6.35" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="11" x="8.89" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="12" x="11.43" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="13" x="13.97" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="14" x="16.51" y="-7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="15" x="16.51" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="16" x="13.97" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="17" x="11.43" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="18" x="8.89" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="19" x="6.35" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="20" x="3.81" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="21" x="1.27" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="22" x="-1.27" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="23" x="-3.81" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="24" x="-6.35" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="25" x="-8.89" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="26" x="-11.43" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="27" x="-13.97" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
+<pad name="28" x="-16.51" y="7.62" drill="1.5" diameter="2" shape="octagon" rot="R90"/>
 <text x="-2.5" y="-0.01" size="1" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.5" y="-1.5" size="1" layer="27" font="vector">&gt;VALUE</text>
 </package>
@@ -14255,18 +14255,6 @@ TODO silkscreen checks for PCB manufacturing.</description>
 <label x="45.72" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="SWCLK" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SWCLK/PIO0_10"/>
-<wire x1="48.26" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
-<label x="45.72" y="81.28" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="JP3" gate="A" pin="4"/>
-<wire x1="137.16" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
-<label x="142.24" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PIO0_11" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PIO0_11"/>
@@ -14339,18 +14327,6 @@ TODO silkscreen checks for PCB manufacturing.</description>
 <pinref part="U$1" gate="G$1" pin="PIO1_2"/>
 <wire x1="48.26" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <label x="45.72" y="60.96" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="SWDIO" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SWDIO/PIO1_3"/>
-<wire x1="48.26" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
-<label x="45.72" y="58.42" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="JP3" gate="A" pin="2"/>
-<wire x1="137.16" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
-<label x="142.24" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PIO1_4" class="0">
@@ -14429,29 +14405,6 @@ TODO silkscreen checks for PCB manufacturing.</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="RESET" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="RESET/PIO0_0"/>
-<wire x1="83.82" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<label x="86.36" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
-<label x="172.72" y="53.34" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="1"/>
-<pinref part="U$5" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="35.56" x2="172.72" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="35.56" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
-<junction x="172.72" y="53.34"/>
-</segment>
-<segment>
-<pinref part="JP3" gate="A" pin="10"/>
-<wire x1="137.16" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
-<label x="142.24" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PIO0_1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PIO0_1"/>
@@ -14482,6 +14435,53 @@ TODO silkscreen checks for PCB manufacturing.</description>
 <pinref part="U$1" gate="G$1" pin="PIO0_7"/>
 <wire x1="83.82" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
 <label x="86.36" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PIO0_10" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SWCLK/PIO0_10"/>
+<wire x1="48.26" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+<label x="45.72" y="81.28" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="137.16" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<label x="142.24" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PIO1_3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SWDIO/PIO1_3"/>
+<wire x1="48.26" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
+<label x="45.72" y="58.42" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="137.16" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
+<label x="142.24" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PIO0_0" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="RESET/PIO0_0"/>
+<wire x1="83.82" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
+<label x="86.36" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="10"/>
+<wire x1="137.16" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
+<label x="142.24" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
+<label x="172.72" y="53.34" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$3" gate="G$1" pin="1"/>
+<pinref part="U$5" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="35.56" x2="172.72" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="35.56" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
+<junction x="172.72" y="53.34"/>
 </segment>
 </net>
 </nets>
