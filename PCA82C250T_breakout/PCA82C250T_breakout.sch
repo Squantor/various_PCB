@@ -6515,9 +6515,9 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <label x="15.24" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RXD"/>
-<wire x1="60.96" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
-<label x="58.42" y="43.18" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$1" gate="G$1" pin="TXD"/>
+<wire x1="60.96" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<label x="58.42" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
@@ -6527,9 +6527,9 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <label x="15.24" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="TXD"/>
-<wire x1="60.96" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
-<label x="58.42" y="50.8" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$1" gate="G$1" pin="RXD"/>
+<wire x1="60.96" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<label x="58.42" y="43.18" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$3" class="0">
