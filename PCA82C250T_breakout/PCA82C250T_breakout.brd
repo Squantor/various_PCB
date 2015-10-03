@@ -152,6 +152,8 @@
 <wire x1="40.64" y1="0" x2="40.64" y2="17.78" width="0" layer="20"/>
 <wire x1="40.64" y1="17.78" x2="3.81" y2="17.78" width="0" layer="20"/>
 <wire x1="3.81" y1="17.78" x2="3.81" y2="0" width="0" layer="20"/>
+<text x="9.525" y="15.875" size="1.778" layer="25" font="vector" rot="R90">1</text>
+<text x="33.02" y="14.605" size="1.27" layer="26" font="vector" rot="MR270">V2015.10.03</text>
 </plain>
 <libraries>
 <library name="SquantorNxp">
@@ -1409,6 +1411,44 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="ohw-logo">
+<packages>
+<package name="OSHW_10X200_NOTEXT">
+<wire x1="2.4384" y1="1.4224" x2="1.9304" y2="0.2794" width="0.254" layer="21"/>
+<wire x1="1.9304" y1="0.2794" x2="1.6764" y2="0.4318" width="0.254" layer="21"/>
+<wire x1="1.6764" y1="0.4318" x2="1.0668" y2="0" width="0.254" layer="21"/>
+<wire x1="1.0668" y1="0" x2="0.6096" y2="0.4826" width="0.254" layer="21"/>
+<wire x1="0.6096" y1="0.4826" x2="1.016" y2="1.0922" width="0.254" layer="21"/>
+<wire x1="0.762" y1="1.778" x2="0" y2="1.905" width="0.254" layer="21"/>
+<wire x1="0" y1="1.905" x2="0" y2="2.5654" width="0.254" layer="21"/>
+<wire x1="0" y1="2.5654" x2="0.762" y2="2.7178" width="0.254" layer="21"/>
+<wire x1="1.0414" y1="3.3528" x2="0.5842" y2="4.0132" width="0.254" layer="21"/>
+<wire x1="0.5842" y1="4.0132" x2="1.0668" y2="4.4704" width="0.254" layer="21"/>
+<wire x1="1.0668" y1="4.4704" x2="1.7272" y2="4.0132" width="0.254" layer="21"/>
+<wire x1="2.3622" y1="4.2672" x2="2.4892" y2="5.08" width="0.254" layer="21"/>
+<wire x1="2.4892" y1="5.08" x2="3.175" y2="5.08" width="0.254" layer="21"/>
+<wire x1="3.175" y1="5.08" x2="3.302" y2="4.2672" width="0.254" layer="21"/>
+<wire x1="3.937" y1="4.0132" x2="4.5974" y2="4.4704" width="0.254" layer="21"/>
+<wire x1="4.5974" y1="4.4704" x2="5.08" y2="4.0132" width="0.254" layer="21"/>
+<wire x1="5.08" y1="4.0132" x2="4.6228" y2="3.3528" width="0.254" layer="21"/>
+<wire x1="4.9022" y1="2.7178" x2="5.6642" y2="2.5654" width="0.254" layer="21"/>
+<wire x1="5.6642" y1="2.5654" x2="5.6642" y2="1.905" width="0.254" layer="21"/>
+<wire x1="5.6642" y1="1.905" x2="4.9022" y2="1.778" width="0.254" layer="21"/>
+<wire x1="4.6482" y1="1.0922" x2="5.08" y2="0.4826" width="0.254" layer="21"/>
+<wire x1="5.08" y1="0.4826" x2="4.5974" y2="0" width="0.254" layer="21"/>
+<wire x1="4.5974" y1="0" x2="3.9878" y2="0.4318" width="0.254" layer="21"/>
+<wire x1="3.9878" y1="0.4318" x2="3.7338" y2="0.2794" width="0.254" layer="21"/>
+<wire x1="3.7338" y1="0.2794" x2="3.2512" y2="1.4224" width="0.254" layer="21"/>
+<wire x1="2.4384" y1="1.4478" x2="3.2512" y2="1.4478" width="0.254" layer="21" curve="-308.267286"/>
+<wire x1="1.0245" y1="1.1004" x2="0.7637" y2="1.774" width="0.254" layer="21" curve="-19.673848"/>
+<wire x1="0.7779" y1="2.7179" x2="1.0435" y2="3.3392" width="0.254" layer="21" curve="-18.371859"/>
+<wire x1="1.736" y1="4.0223" x2="2.3432" y2="4.2689" width="0.254" layer="21" curve="-17.83212"/>
+<wire x1="3.3155" y1="4.2736" x2="3.9464" y2="4.0175" width="0.254" layer="21" curve="-18.449318"/>
+<wire x1="4.6199" y1="3.3487" x2="4.8997" y2="2.7179" width="0.254" layer="21" curve="-19.303177"/>
+<wire x1="4.9045" y1="1.7692" x2="4.6484" y2="1.0909" width="0.254" layer="21" curve="-20.344696"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1609,11 +1649,11 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C1" library="SquantorRCL" package="C0603" value="100n" x="12.7" y="8.89" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.97" y="12.7" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="15.24" y="14.605" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="15.875" y="14.605" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C2" library="SquantorRCL" package="C0805" value="2.2u" x="10.16" y="12.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.795" y="16.51" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="15.24" y="16.51" size="1.27" layer="27" rot="R180"/>
+<attribute name="NAME" x="12.065" y="16.51" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="15.875" y="16.51" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="SquantorRCL" package="R0805" value="FB" x="25.4" y="2.54" smashed="yes" rot="MR0">
 <attribute name="NAME" x="20.955" y="2.54" size="1.27" layer="26" rot="MR180"/>
@@ -1631,6 +1671,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="20.955" y="15.24" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="20.955" y="17.145" size="1.27" layer="28" rot="MR180"/>
 </element>
+<element name="LOGO1" library="ohw-logo" package="OSHW_10X200_NOTEXT" value="OSHW_LOGO_10MILX0200-NT" x="20.32" y="6.35" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">

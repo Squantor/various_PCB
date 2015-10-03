@@ -7,25 +7,25 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/LPC800.lbr"
-UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorButtons.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorNxp.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorConnectors.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorButtons.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorRCL.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/ohw-logo.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/LPC800.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorCrystal.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorIC.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorLinearTechnology.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorMaxim.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorMicrochipLinear.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorModules.lbr"
-UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorNxp.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorPCBOutline.lbr"
-UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorRCL.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorTransformer.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorUsb.lbr"
-UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/ohw-logo.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="0 0 599 399"
+Loc="0 25 599 424"
 State=2
 Number=1
 File="lpc824JHI33_DIP_breakout.sch"
@@ -68,11 +68,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -16.256 -14.986 168.656 103.886"
 Sheet="1"
 
 [Win_2]
 Type="Board Editor"
-Loc="0 0 599 399"
+Loc="0 25 599 424"
 State=2
 Number=2
 File="lpc824JHI33_DIP_breakout.brd"
@@ -118,7 +119,7 @@ Layer=16
 
 [Win_3]
 Type="Control Panel"
-Loc="0 25 599 424"
+Loc="344 244 1113 769"
 State=2
 Number=0
 
