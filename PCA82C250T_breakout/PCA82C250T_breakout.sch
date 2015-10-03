@@ -6351,6 +6351,7 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="R3" library="SquantorRCL" deviceset="R-EU_" device="R0805" value="FB"/>
 <part name="LOGO1" library="ohw-logo" deviceset="OSHW_LOGO_10MIL" device="X0200-NT"/>
+<part name="R4" library="SquantorRCL" deviceset="R-EU_" device="R0805" value="124"/>
 </parts>
 <sheets>
 <sheet>
@@ -6380,6 +6381,7 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <instance part="P+6" gate="1" x="35.56" y="43.18" rot="R270"/>
 <instance part="R3" gate="G$1" x="114.3" y="35.56" rot="R90"/>
 <instance part="LOGO1" gate="G$1" x="22.86" y="78.74"/>
+<instance part="R4" gate="G$1" x="99.06" y="45.72" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6475,6 +6477,11 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="116.84" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <label x="111.76" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="50.8" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<label x="99.06" y="53.34" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="CANL" class="0">
 <segment>
@@ -6486,6 +6493,11 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="116.84" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 <label x="111.76" y="45.72" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="40.64" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<label x="99.06" y="38.1" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="N$2" class="0">
