@@ -12107,14 +12107,24 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <label x="203.2" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="55.88" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
-<label x="226.06" y="55.88" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$5" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="17.78" x2="271.78" y2="17.78" width="0.1524" layer="91"/>
+<label x="271.78" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="35.56" x2="226.06" y2="35.56" width="0.1524" layer="91"/>
-<label x="226.06" y="35.56" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$3" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="35.56" x2="271.78" y2="35.56" width="0.1524" layer="91"/>
+<label x="271.78" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="55.88" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
+<label x="271.78" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="73.66" x2="271.78" y2="73.66" width="0.1524" layer="91"/>
+<label x="271.78" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -12171,24 +12181,14 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <label x="215.9" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="17.78" x2="271.78" y2="17.78" width="0.1524" layer="91"/>
-<label x="271.78" y="17.78" size="1.778" layer="95"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="55.88" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
+<label x="226.06" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="35.56" x2="271.78" y2="35.56" width="0.1524" layer="91"/>
-<label x="271.78" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="55.88" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
-<label x="271.78" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="73.66" x2="271.78" y2="73.66" width="0.1524" layer="91"/>
-<label x="271.78" y="73.66" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="35.56" x2="226.06" y2="35.56" width="0.1524" layer="91"/>
+<label x="226.06" y="35.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="XTALOUT" class="0">
