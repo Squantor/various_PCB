@@ -136,7 +136,7 @@
 <wire x1="30.48" y1="2.54" x2="30.48" y2="35.56" width="0" layer="20"/>
 <wire x1="30.48" y1="35.56" x2="0" y2="35.56" width="0" layer="20"/>
 <wire x1="0" y1="35.56" x2="0" y2="2.54" width="0" layer="20"/>
-<text x="23.8125" y="17.78" size="1.016" layer="26" font="vector" rot="MR270">V2015.11.22</text>
+<text x="23.8125" y="17.78" size="1.016" layer="26" font="vector" rot="MR270">V2015.11.23</text>
 <text x="20.955" y="26.3525" size="0.6096" layer="25" font="vector">1_6 1_5</text>
 <text x="20.6375" y="23.8125" size="0.6096" layer="25" font="vector">3_2 1_11</text>
 <text x="20.955" y="21.2725" size="0.6096" layer="25" font="vector">1_4 1_3</text>
@@ -160,7 +160,7 @@
 <text x="6.6675" y="28.575" size="0.6096" layer="25" font="vector">2_0</text>
 <text x="5.3975" y="33.9725" size="0.6096" layer="25" font="vector">3.3V</text>
 <text x="5.3975" y="31.4325" size="0.6096" layer="25" font="vector">GND</text>
-<text x="23.1775" y="31.4325" size="0.6096" layer="25" font="vector">GND</text>
+<text x="23.495" y="31.4325" size="0.6096" layer="25" font="vector">GND</text>
 <text x="23.495" y="33.9725" size="0.6096" layer="25" font="vector">Vin</text>
 <text x="22.86" y="30.48" size="0.8128" layer="25" font="vector" rot="R90">RESET</text>
 <text x="11.7475" y="27.94" size="0.8128" layer="25" font="vector" rot="R90">ISP</text>
@@ -3015,16 +3015,16 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="LOGO2" library="ohw-logo" package="OSHW_FILLX150_NOTEXT" value="OSHW_LOGO_FILLX0150-NT" x="21.59" y="15.5575" rot="MR270"/>
 <element name="Q1" library="bart_crystals" package="CRYSTAL_5.0X3.2" value="12MHz" x="10.795" y="23.495" smashed="yes" rot="MR315">
-<attribute name="NAME" x="11.513421875" y="27.045390625" size="0.4064" layer="26" rot="MR315"/>
+<attribute name="NAME" x="8.020921875" y="20.695390625" size="0.4064" layer="26" rot="MR315"/>
 <attribute name="VALUE" x="14.2075" y="24.0338125" size="0.4064" layer="28" rot="MR315"/>
 </element>
 <element name="C2" library="SquantorRCL" package="C0603K" value="22p" x="8.89" y="26.67" smashed="yes" rot="MR45">
-<attribute name="NAME" x="10.23280625" y="26.88143125" size="1.016" layer="26" rot="MR45"/>
+<attribute name="NAME" x="11.18530625" y="27.83393125" size="1.016" layer="26" rot="MR45"/>
 <attribute name="VALUE" x="8.288959375" y="24.9375875" size="1.016" layer="28" rot="MR45"/>
 </element>
-<element name="C3" library="SquantorRCL" package="C0603K" value="22p" x="7.3025" y="24.765" smashed="yes" rot="MR45">
-<attribute name="NAME" x="6.42280625" y="22.75393125" size="1.016" layer="26" rot="MR45"/>
-<attribute name="VALUE" x="6.701459375" y="23.0325875" size="1.016" layer="28" rot="MR45"/>
+<element name="C3" library="SquantorRCL" package="C0603K" value="22p" x="6.985" y="24.765" smashed="yes" rot="MR45">
+<attribute name="NAME" x="6.10530625" y="22.75393125" size="1.016" layer="26" rot="MR45"/>
+<attribute name="VALUE" x="6.383959375" y="23.0325875" size="1.016" layer="28" rot="MR45"/>
 </element>
 <element name="JP3" library="SquantorConnectors" package="2X05_1.27_SMD" value="JTAG" x="15.24" y="6.35" smashed="yes">
 <attribute name="NAME" x="7.9375" y="3.4925" size="1.27" layer="25" ratio="10"/>
@@ -3035,11 +3035,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="16.9731125" y="17.778603125" size="1.016" layer="28" rot="MR315"/>
 </element>
 <element name="R1" library="bart_rcl" package="R0603" value="10k" x="16.8275" y="33.655" smashed="yes">
-<attribute name="NAME" x="15.5575" y="31.4325" size="1.27" layer="25"/>
+<attribute name="NAME" x="15.875" y="31.4325" size="1.27" layer="25"/>
 <attribute name="VALUE" x="16.1925" y="31.75" size="1.27" layer="27"/>
 </element>
 <element name="R2" library="bart_rcl" package="R0603" value="10k" x="13.6525" y="33.655" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.605" y="32.7025" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="12.7" y="31.4325" size="1.27" layer="25"/>
 <attribute name="VALUE" x="14.2875" y="35.56" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C6" library="SquantorRCL" package="C0603K" value="100n" x="13.6525" y="20.6375" smashed="yes" rot="MR135">
@@ -3051,18 +3051,18 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$4" library="SquantorButtons" package="TD-85XU" value="TACT_2PIN" x="9.525" y="31.115" smashed="yes" rot="R270"/>
 <element name="U$5" library="SquantorButtons" package="TD-85XU" value="TACT_2PIN" x="20.32" y="31.115" smashed="yes" rot="R270"/>
 <element name="R4" library="bart_rcl" package="R0603" value="100k" x="15.24" y="6.35" smashed="yes" rot="MR270">
-<attribute name="NAME" x="14.2875" y="7.3025" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="17.4625" y="7.3025" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="17.145" y="6.985" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R5" library="bart_rcl" package="R0603" value="100k" x="12.065" y="6.35" smashed="yes" rot="MR270">
 <attribute name="NAME" x="10.795" y="7.3025" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="13.97" y="6.985" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="U$1" library="SquantorMicrochipLinear" package="SOT223" value="MCP1703T-3302E/DB" x="15.24" y="30.7975" smashed="yes" rot="MR0">
+<element name="IC1" library="SquantorMicrochipLinear" package="SOT223" value="MCP1703T-3302E/DB" x="15.24" y="30.7975" smashed="yes" rot="MR0">
 <attribute name="NAME" x="21.2725" y="33.3883" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="17.78" y="29.4767" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="U$6" library="SquantorNxp" package="SOT313-2" value="LPC1114FBD48" x="15.24" y="19.05" locked="yes" smashed="yes" rot="R225">
+<element name="IC2" library="SquantorNxp" package="SOT313-2" value="LPC1114FBD48" x="15.24" y="19.05" locked="yes" smashed="yes" rot="R225">
 <attribute name="VALUE" x="9.936696875" y="15.1609125" size="1" layer="27" font="vector" rot="R225"/>
 <attribute name="NAME" x="14.80735625" y="13.46525" size="1" layer="25" font="vector" rot="R225"/>
 </element>
@@ -3089,16 +3089,16 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP3" pad="9"/>
 <contactref element="JP3" pad="5"/>
 <contactref element="R4" pad="2"/>
-<contactref element="U$1" pad="2"/>
+<contactref element="IC1" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C8" pad="2"/>
-<contactref element="U$1" pad="4"/>
+<contactref element="IC1" pad="4"/>
 <contactref element="JP1" pad="3"/>
 <contactref element="JP1" pad="4"/>
 <contactref element="JP2" pad="3"/>
 <contactref element="JP2" pad="4"/>
-<contactref element="U$6" pad="5"/>
-<contactref element="U$6" pad="41"/>
+<contactref element="IC2" pad="5"/>
+<contactref element="IC2" pad="41"/>
 <contactref element="C1" pad="2"/>
 <wire x1="14.07815625" y1="21.2725" x2="14.2875" y2="21.2725" width="0.3048" layer="1"/>
 <via x="14.2875" y="21.2725" extent="1-16" drill="0.4" shape="octagon"/>
@@ -3153,11 +3153,11 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP3" pad="1"/>
 <contactref element="R5" pad="2"/>
 <contactref element="C8" pad="1"/>
-<contactref element="U$1" pad="3"/>
+<contactref element="IC1" pad="3"/>
 <contactref element="JP1" pad="2"/>
 <contactref element="JP1" pad="1"/>
-<contactref element="U$6" pad="8"/>
-<contactref element="U$6" pad="44"/>
+<contactref element="IC2" pad="8"/>
+<contactref element="IC2" pad="44"/>
 <contactref element="C1" pad="1"/>
 <wire x1="3.81" y1="34.29" x2="5.08" y2="34.29" width="0.8128" layer="1"/>
 <wire x1="5.08" y1="34.29" x2="8.255" y2="31.115" width="0.8128" layer="1"/>
@@ -3216,7 +3216,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="XTALOUT">
 <contactref element="Q1" pad="2"/>
 <contactref element="C3" pad="1"/>
-<contactref element="U$6" pad="7"/>
+<contactref element="IC2" pad="7"/>
 <via x="9.525" y="23.495" extent="1-16" drill="0.4" shape="octagon"/>
 <wire x1="9.34543125" y1="22.04543125" x2="9.34543125" y2="22.045428125" width="0.3048" layer="16"/>
 <wire x1="9.34543125" y1="22.68043125" x2="9.34543125" y2="22.045428125" width="0.3048" layer="16"/>
@@ -3225,14 +3225,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="9.8425" y1="23.495" x2="9.525" y2="23.495" width="0.3048" layer="1"/>
 <wire x1="9.525" y1="23.495" x2="9.34543125" y2="23.31543125" width="0.3048" layer="16"/>
 <wire x1="9.34543125" y1="23.31543125" x2="9.34543125" y2="22.045428125" width="0.3048" layer="16"/>
-<wire x1="7.92121875" y1="24.14628125" x2="8.87371875" y2="24.14628125" width="0.254" layer="16"/>
+<wire x1="7.60371875" y1="24.14628125" x2="8.87371875" y2="24.14628125" width="0.254" layer="16"/>
 <wire x1="8.87371875" y1="24.14628125" x2="9.525" y2="23.495" width="0.254" layer="16"/>
 <wire x1="11.07644375" y1="22.86" x2="11.934275" y2="22.00216875" width="0.254" layer="1"/>
 </signal>
 <signal name="XTALIN">
 <contactref element="Q1" pad="1"/>
 <contactref element="C2" pad="1"/>
-<contactref element="U$6" pad="6"/>
+<contactref element="IC2" pad="6"/>
 <wire x1="12.24456875" y1="24.94456875" x2="12.244571875" y2="24.94456875" width="0.3048" layer="16"/>
 <wire x1="9.50871875" y1="25.09878125" x2="9.50871875" y2="26.05128125" width="0.3048" layer="16"/>
 <via x="10.795" y="23.8125" extent="1-16" drill="0.4" diameter="0.3048" shape="octagon"/>
@@ -3247,7 +3247,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R2" pad="2"/>
 <contactref element="U$2" pad="P$1"/>
 <contactref element="U$4" pad="P$1"/>
-<contactref element="U$6" pad="4"/>
+<contactref element="IC2" pad="4"/>
 <contactref element="JP1" pad="8"/>
 <wire x1="11.2927625" y1="24.765" x2="7.62" y2="24.765" width="0.3048" layer="1"/>
 <wire x1="12.8025" y1="33.655" x2="9.8425" y2="33.655" width="0.4064" layer="1"/>
@@ -3268,7 +3268,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="PIO0_10">
 <contactref element="JP3" pad="4"/>
 <contactref element="R4" pad="1"/>
-<contactref element="U$6" pad="29"/>
+<contactref element="IC2" pad="29"/>
 <contactref element="JP2" pad="22"/>
 <wire x1="29.21" y1="8.89" x2="27.94" y2="7.62" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="7.62" x2="25.7175" y2="7.62" width="0.3048" layer="1"/>
@@ -3291,7 +3291,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="PIO1_3">
 <contactref element="JP3" pad="2"/>
 <contactref element="R5" pad="1"/>
-<contactref element="U$6" pad="39"/>
+<contactref element="IC2" pad="39"/>
 <contactref element="JP2" pad="12"/>
 <wire x1="29.21" y1="21.59" x2="27.94" y2="20.32" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="20.32" x2="25.7175" y2="20.32" width="0.3048" layer="1"/>
@@ -3315,7 +3315,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="U$3" pad="P$1"/>
 <contactref element="U$5" pad="P$1"/>
-<contactref element="U$6" pad="3"/>
+<contactref element="IC2" pad="3"/>
 <contactref element="JP1" pad="7"/>
 <wire x1="11.36486875" y1="25.4" x2="7.9375" y2="25.4" width="0.3048" layer="1"/>
 <wire x1="2.54" y1="27.94" x2="1.27" y2="26.67" width="0.3048" layer="1"/>
@@ -3346,7 +3346,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="15.24" y1="14.9225" x2="15.24" y2="13.97" width="0.3048" layer="1"/>
 </signal>
 <signal name="VDDIN">
-<contactref element="U$1" pad="1"/>
+<contactref element="IC1" pad="1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="JP2" pad="2"/>
 <contactref element="JP2" pad="1"/>
@@ -3364,7 +3364,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17.4625" y1="28.575" x2="16.51" y2="28.5775" width="0.8128" layer="1"/>
 </signal>
 <signal name="PIO2_6">
-<contactref element="U$6" pad="1"/>
+<contactref element="IC2" pad="1"/>
 <contactref element="JP1" pad="5"/>
 <wire x1="11.5939375" y1="26.67" x2="8.5725" y2="26.67" width="0.3048" layer="1"/>
 <wire x1="8.5725" y1="26.67" x2="4.7625" y2="30.48" width="0.3048" layer="1"/>
@@ -3373,7 +3373,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="14.098021875" y1="24.165915625" x2="11.5939375" y2="26.67" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO2_0">
-<contactref element="U$6" pad="2"/>
+<contactref element="IC2" pad="2"/>
 <contactref element="JP1" pad="6"/>
 <wire x1="11.436978125" y1="26.035" x2="8.255" y2="26.035" width="0.3048" layer="1"/>
 <wire x1="8.255" y1="26.035" x2="5.08" y2="29.21" width="0.3048" layer="1"/>
@@ -3381,7 +3381,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.702040625" y1="23.7699375" x2="11.436978125" y2="26.035" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO1_8">
-<contactref element="U$6" pad="9"/>
+<contactref element="IC2" pad="9"/>
 <contactref element="JP1" pad="9"/>
 <wire x1="2.54" y1="25.4" x2="1.27" y2="24.13" width="0.3048" layer="1"/>
 <wire x1="9.97973125" y1="22.5425" x2="8.89" y2="22.5425" width="0.3048" layer="1"/>
@@ -3392,7 +3392,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="4.445" y1="25.4" x2="2.54" y2="25.4" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO0_2">
-<contactref element="U$6" pad="10"/>
+<contactref element="IC2" pad="10"/>
 <contactref element="JP1" pad="10"/>
 <wire x1="6.35" y1="24.13" x2="3.81" y2="24.13" width="0.3048" layer="1"/>
 <wire x1="9.907625" y1="21.9075" x2="8.5725" y2="21.9075" width="0.3048" layer="1"/>
@@ -3400,7 +3400,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="9.907625" y1="21.9075" x2="10.873615625" y2="20.941509375" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO2_7">
-<contactref element="U$6" pad="11"/>
+<contactref element="IC2" pad="11"/>
 <contactref element="JP1" pad="11"/>
 <wire x1="6.6675" y1="22.86" x2="2.54" y2="22.86" width="0.3048" layer="1"/>
 <wire x1="2.54" y1="22.86" x2="1.27" y2="21.59" width="0.3048" layer="1"/>
@@ -3409,7 +3409,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="9.835515625" y1="21.2725" x2="10.520059375" y2="20.58795625" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO2_8">
-<contactref element="U$6" pad="12"/>
+<contactref element="IC2" pad="12"/>
 <contactref element="JP1" pad="12"/>
 <wire x1="9.67855625" y1="20.6375" x2="7.9375" y2="20.6375" width="0.3048" layer="1"/>
 <wire x1="7.9375" y1="20.6375" x2="6.985" y2="21.59" width="0.3048" layer="1"/>
@@ -3417,7 +3417,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.12408125" y1="20.191975" x2="9.67855625" y2="20.6375" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO2_1">
-<contactref element="U$6" pad="13"/>
+<contactref element="IC2" pad="13"/>
 <contactref element="JP1" pad="13"/>
 <wire x1="10.12408125" y1="17.908021875" x2="9.361059375" y2="17.145" width="0.254" layer="1"/>
 <wire x1="9.361059375" y1="17.145" x2="8.89" y2="17.145" width="0.3048" layer="1"/>
@@ -3426,7 +3426,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.54" y1="20.32" x2="1.27" y2="19.05" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO0_3">
-<contactref element="U$6" pad="14"/>
+<contactref element="IC2" pad="14"/>
 <contactref element="JP1" pad="14"/>
 <wire x1="10.520059375" y1="17.512040625" x2="9.51801875" y2="16.51" width="0.254" layer="1"/>
 <wire x1="9.51801875" y1="16.51" x2="8.5725" y2="16.51" width="0.3048" layer="1"/>
@@ -3434,7 +3434,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="6.0325" y1="19.05" x2="3.81" y2="19.05" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO0_4">
-<contactref element="U$6" pad="15"/>
+<contactref element="IC2" pad="15"/>
 <contactref element="JP1" pad="15"/>
 <wire x1="10.873615625" y1="17.1584875" x2="9.590128125" y2="15.875" width="0.254" layer="1"/>
 <wire x1="9.590128125" y1="15.875" x2="8.255" y2="15.875" width="0.3048" layer="1"/>
@@ -3443,7 +3443,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.54" y1="17.78" x2="1.27" y2="16.51" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO0_5">
-<contactref element="U$6" pad="16"/>
+<contactref element="IC2" pad="16"/>
 <contactref element="JP1" pad="16"/>
 <wire x1="11.22716875" y1="16.804934375" x2="9.662234375" y2="15.24" width="0.254" layer="1"/>
 <wire x1="9.662234375" y1="15.24" x2="7.9375" y2="15.24" width="0.3048" layer="1"/>
@@ -3451,7 +3451,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="6.6675" y1="16.51" x2="3.81" y2="16.51" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO1_9">
-<contactref element="U$6" pad="17"/>
+<contactref element="IC2" pad="17"/>
 <contactref element="JP1" pad="17"/>
 <wire x1="11.580721875" y1="16.45138125" x2="9.734340625" y2="14.605" width="0.254" layer="1"/>
 <wire x1="9.734340625" y1="14.605" x2="7.62" y2="14.605" width="0.3048" layer="1"/>
@@ -3460,13 +3460,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.54" y1="15.24" x2="1.27" y2="13.97" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO3_4">
-<contactref element="U$6" pad="18"/>
+<contactref element="IC2" pad="18"/>
 <contactref element="JP1" pad="18"/>
 <wire x1="11.934275" y1="16.097828125" x2="9.806446875" y2="13.97" width="0.254" layer="1"/>
 <wire x1="9.806446875" y1="13.97" x2="3.81" y2="13.97" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO2_4">
-<contactref element="U$6" pad="19"/>
+<contactref element="IC2" pad="19"/>
 <contactref element="JP1" pad="19"/>
 <wire x1="12.287828125" y1="15.744275" x2="9.878553125" y2="13.335" width="0.254" layer="1"/>
 <wire x1="9.878553125" y1="13.335" x2="5.08" y2="13.335" width="0.3048" layer="1"/>
@@ -3475,7 +3475,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.54" y1="12.7" x2="1.27" y2="11.43" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO2_5">
-<contactref element="U$6" pad="20"/>
+<contactref element="IC2" pad="20"/>
 <contactref element="JP1" pad="20"/>
 <wire x1="12.64138125" y1="15.390721875" x2="9.950659375" y2="12.7" width="0.254" layer="1"/>
 <wire x1="9.950659375" y1="12.7" x2="5.3975" y2="12.7" width="0.3048" layer="1"/>
@@ -3484,7 +3484,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="4.445" y1="12.065" x2="3.81" y2="11.43" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO3_5">
-<contactref element="U$6" pad="21"/>
+<contactref element="IC2" pad="21"/>
 <contactref element="JP1" pad="21"/>
 <wire x1="12.994934375" y1="15.03716875" x2="10.022765625" y2="12.065" width="0.254" layer="1"/>
 <wire x1="10.022765625" y1="12.065" x2="5.715" y2="12.065" width="0.3048" layer="1"/>
@@ -3495,7 +3495,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.54" y1="10.16" x2="1.27" y2="8.89" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO0_6">
-<contactref element="U$6" pad="22"/>
+<contactref element="IC2" pad="22"/>
 <contactref element="JP1" pad="22"/>
 <wire x1="13.3484875" y1="14.683615625" x2="10.094871875" y2="11.43" width="0.254" layer="1"/>
 <wire x1="10.094871875" y1="11.43" x2="6.6675" y2="11.43" width="0.3048" layer="1"/>
@@ -3504,7 +3504,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="4.445" y1="9.525" x2="3.81" y2="8.89" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO0_7">
-<contactref element="U$6" pad="23"/>
+<contactref element="IC2" pad="23"/>
 <contactref element="JP1" pad="23"/>
 <wire x1="13.702040625" y1="14.330059375" x2="10.16698125" y2="10.795" width="0.254" layer="1"/>
 <wire x1="10.16698125" y1="10.795" x2="6.985" y2="10.795" width="0.3048" layer="1"/>
@@ -3515,7 +3515,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.54" y1="7.62" x2="1.27" y2="6.35" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO2_9">
-<contactref element="U$6" pad="24"/>
+<contactref element="IC2" pad="24"/>
 <contactref element="JP1" pad="24"/>
 <wire x1="14.098021875" y1="13.93408125" x2="10.323940625" y2="10.16" width="0.3048" layer="1"/>
 <wire x1="10.323940625" y1="10.16" x2="7.3025" y2="10.16" width="0.3048" layer="1"/>
@@ -3526,7 +3526,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="4.445" y1="6.985" x2="3.81" y2="6.35" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO2_10">
-<contactref element="U$6" pad="25"/>
+<contactref element="IC2" pad="25"/>
 <contactref element="JP2" pad="26"/>
 <wire x1="23.1775" y1="5.08" x2="23.1775" y2="6.6675" width="0.3048" layer="1"/>
 <wire x1="23.1775" y1="6.6675" x2="19.3675" y2="10.4775" width="0.3048" layer="1"/>
@@ -3537,7 +3537,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="27.94" y1="5.08" x2="29.21" y2="3.81" width="0.3048" layer="16"/>
 </signal>
 <signal name="PIO2_2">
-<contactref element="U$6" pad="26"/>
+<contactref element="IC2" pad="26"/>
 <contactref element="JP2" pad="25"/>
 <wire x1="26.67" y1="3.81" x2="26.035" y2="3.81" width="0.3048" layer="1"/>
 <wire x1="26.035" y1="3.81" x2="23.8125" y2="6.0325" width="0.3048" layer="1"/>
@@ -3547,7 +3547,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="20.0025" y1="11.105515625" x2="16.77795625" y2="14.330059375" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO0_8">
-<contactref element="U$6" pad="27"/>
+<contactref element="IC2" pad="27"/>
 <contactref element="JP2" pad="24"/>
 <wire x1="29.21" y1="6.35" x2="27.94" y2="5.08" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="5.08" x2="25.7175" y2="5.08" width="0.3048" layer="1"/>
@@ -3558,7 +3558,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="20.6375" y1="11.177625" x2="17.131509375" y2="14.683615625" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO0_9">
-<contactref element="U$6" pad="28"/>
+<contactref element="IC2" pad="28"/>
 <contactref element="JP2" pad="23"/>
 <wire x1="26.67" y1="6.35" x2="25.4" y2="6.35" width="0.3048" layer="1"/>
 <wire x1="25.4" y1="6.35" x2="25.0825" y2="6.6675" width="0.3048" layer="1"/>
@@ -3566,7 +3566,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="25.0825" y1="7.43973125" x2="17.4850625" y2="15.03716875" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO1_10">
-<contactref element="U$6" pad="30"/>
+<contactref element="IC2" pad="30"/>
 <contactref element="JP2" pad="21"/>
 <wire x1="26.67" y1="8.89" x2="25.4" y2="8.89" width="0.3048" layer="1"/>
 <wire x1="25.4" y1="8.89" x2="21.59" y2="12.7" width="0.3048" layer="1"/>
@@ -3574,7 +3574,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.23644375" y1="12.7" x2="18.19216875" y2="15.744275" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO2_11">
-<contactref element="U$6" pad="31"/>
+<contactref element="IC2" pad="31"/>
 <contactref element="JP2" pad="20"/>
 <wire x1="29.21" y1="11.43" x2="27.94" y2="10.16" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="10.16" x2="25.7175" y2="10.16" width="0.3048" layer="1"/>
@@ -3583,7 +3583,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.30855" y1="13.335" x2="18.545721875" y2="16.097828125" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO0_11">
-<contactref element="U$6" pad="32"/>
+<contactref element="IC2" pad="32"/>
 <contactref element="JP2" pad="19"/>
 <wire x1="26.67" y1="11.43" x2="25.4" y2="11.43" width="0.3048" layer="1"/>
 <wire x1="25.4" y1="11.43" x2="22.86" y2="13.97" width="0.3048" layer="1"/>
@@ -3591,7 +3591,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.38065625" y1="13.97" x2="18.899275" y2="16.45138125" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO1_0">
-<contactref element="U$6" pad="33"/>
+<contactref element="IC2" pad="33"/>
 <contactref element="JP2" pad="18"/>
 <wire x1="29.21" y1="13.97" x2="27.94" y2="12.7" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="12.7" x2="25.7175" y2="12.7" width="0.3048" layer="1"/>
@@ -3600,7 +3600,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.4527625" y1="14.605" x2="19.252828125" y2="16.804934375" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO1_1">
-<contactref element="U$6" pad="34"/>
+<contactref element="IC2" pad="34"/>
 <contactref element="JP2" pad="17"/>
 <wire x1="26.67" y1="13.97" x2="25.4" y2="13.97" width="0.3048" layer="1"/>
 <wire x1="25.4" y1="13.97" x2="24.13" y2="15.24" width="0.3048" layer="1"/>
@@ -3608,7 +3608,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.52486875" y1="15.24" x2="19.60638125" y2="17.1584875" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO1_2">
-<contactref element="U$6" pad="35"/>
+<contactref element="IC2" pad="35"/>
 <contactref element="JP2" pad="16"/>
 <wire x1="29.21" y1="16.51" x2="27.94" y2="15.24" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="15.24" x2="26.035" y2="15.24" width="0.3048" layer="1"/>
@@ -3617,13 +3617,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.596978125" y1="15.875" x2="19.9599375" y2="17.512040625" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO3_0">
-<contactref element="U$6" pad="36"/>
+<contactref element="IC2" pad="36"/>
 <contactref element="JP2" pad="15"/>
 <wire x1="26.67" y1="16.51" x2="21.7539375" y2="16.51" width="0.3048" layer="1"/>
 <wire x1="21.7539375" y1="16.51" x2="20.355915625" y2="17.908021875" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO3_1">
-<contactref element="U$6" pad="37"/>
+<contactref element="IC2" pad="37"/>
 <contactref element="JP2" pad="14"/>
 <wire x1="29.21" y1="19.05" x2="27.94" y2="17.78" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="17.78" x2="25.7175" y2="17.78" width="0.3048" layer="1"/>
@@ -3634,7 +3634,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.118940625" y1="20.955" x2="20.355915625" y2="20.191975" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO2_3">
-<contactref element="U$6" pad="38"/>
+<contactref element="IC2" pad="38"/>
 <contactref element="JP2" pad="13"/>
 <wire x1="26.67" y1="19.05" x2="25.4" y2="19.05" width="0.3048" layer="1"/>
 <wire x1="25.4" y1="19.05" x2="25.0825" y2="19.3675" width="0.3048" layer="1"/>
@@ -3644,7 +3644,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="20.96198125" y1="21.59" x2="19.9599375" y2="20.58795625" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO1_4">
-<contactref element="U$6" pad="40"/>
+<contactref element="IC2" pad="40"/>
 <contactref element="JP2" pad="11"/>
 <wire x1="26.67" y1="21.59" x2="25.4" y2="21.59" width="0.3048" layer="1"/>
 <wire x1="20.817765625" y1="22.86" x2="19.252828125" y2="21.2950625" width="0.254" layer="1"/>
@@ -3652,7 +3652,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="24.13" y1="22.86" x2="25.4" y2="21.59" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO1_11">
-<contactref element="U$6" pad="42"/>
+<contactref element="IC2" pad="42"/>
 <contactref element="JP2" pad="10"/>
 <wire x1="29.21" y1="24.13" x2="27.94" y2="22.86" width="0.3048" layer="1"/>
 <wire x1="20.038553125" y1="23.495" x2="18.545721875" y2="22.00216875" width="0.254" layer="1"/>
@@ -3661,13 +3661,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="25.4" y1="23.495" x2="20.038553125" y2="23.495" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO3_2">
-<contactref element="U$6" pad="43"/>
+<contactref element="IC2" pad="43"/>
 <contactref element="JP2" pad="9"/>
 <wire x1="26.67" y1="24.13" x2="19.966446875" y2="24.13" width="0.3048" layer="1"/>
 <wire x1="19.966446875" y1="24.13" x2="18.19216875" y2="22.355721875" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO1_5">
-<contactref element="U$6" pad="45"/>
+<contactref element="IC2" pad="45"/>
 <contactref element="JP2" pad="8"/>
 <wire x1="29.21" y1="26.67" x2="27.94" y2="25.4" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="25.4" x2="25.0825" y2="25.4" width="0.3048" layer="1"/>
@@ -3676,7 +3676,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.187234375" y1="24.765" x2="17.4850625" y2="23.062828125" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO1_6">
-<contactref element="U$6" pad="46"/>
+<contactref element="IC2" pad="46"/>
 <contactref element="JP2" pad="7"/>
 <wire x1="26.67" y1="26.67" x2="25.0825" y2="26.67" width="0.3048" layer="1"/>
 <wire x1="25.0825" y1="26.67" x2="23.8125" y2="25.4" width="0.3048" layer="1"/>
@@ -3684,7 +3684,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.115128125" y1="25.4" x2="17.131509375" y2="23.41638125" width="0.254" layer="1"/>
 </signal>
 <signal name="PIO1_7">
-<contactref element="U$6" pad="47"/>
+<contactref element="IC2" pad="47"/>
 <contactref element="JP2" pad="6"/>
 <wire x1="29.21" y1="29.21" x2="27.94" y2="27.94" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="27.94" x2="25.0825" y2="27.94" width="0.3048" layer="1"/>
@@ -3694,7 +3694,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.7849375" y1="23.7699375" x2="16.77795625" y2="23.7699375" width="0.3048" layer="1"/>
 </signal>
 <signal name="PIO3_3">
-<contactref element="U$6" pad="48"/>
+<contactref element="IC2" pad="48"/>
 <contactref element="JP2" pad="5"/>
 <wire x1="26.67" y1="29.21" x2="25.4" y2="29.21" width="0.3048" layer="1"/>
 <wire x1="25.4" y1="29.21" x2="22.86" y2="26.67" width="0.3048" layer="1"/>

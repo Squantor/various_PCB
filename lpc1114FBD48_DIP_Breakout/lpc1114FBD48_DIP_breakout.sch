@@ -11977,8 +11977,8 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <part name="U$5" library="SquantorButtons" deviceset="TACT_2PIN" device=""/>
 <part name="R4" library="bart_rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R5" library="bart_rcl" deviceset="R-EU_" device="R0603" value="100k"/>
-<part name="U$1" library="SquantorMicrochipLinear" deviceset="MCP1703T-3302E/DB" device=""/>
-<part name="U$6" library="SquantorNxp" deviceset="LPC1114FBD48" device=""/>
+<part name="IC1" library="SquantorMicrochipLinear" deviceset="MCP1703T-3302E/DB" device=""/>
+<part name="IC2" library="SquantorNxp" deviceset="LPC1114FBD48" device=""/>
 <part name="C7" library="SquantorRCL" deviceset="C-EU" device="C0805" value="2.2u"/>
 <part name="C8" library="SquantorRCL" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="C1" library="SquantorRCL" deviceset="C-EU" device="C0603K" value="100n"/>
@@ -12005,8 +12005,8 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <instance part="U$5" gate="G$1" x="256.54" y="17.78"/>
 <instance part="R4" gate="G$1" x="256.54" y="91.44" rot="R180"/>
 <instance part="R5" gate="G$1" x="256.54" y="101.6" rot="R180"/>
-<instance part="U$1" gate="G$1" x="287.02" y="93.98"/>
-<instance part="U$6" gate="G$1" x="142.24" y="71.12"/>
+<instance part="IC1" gate="G$1" x="287.02" y="93.98"/>
+<instance part="IC2" gate="G$1" x="142.24" y="71.12"/>
 <instance part="C7" gate="G$1" x="284.48" y="76.2"/>
 <instance part="C8" gate="G$1" x="289.56" y="76.2"/>
 <instance part="C1" gate="G$1" x="210.82" y="73.66" rot="R270"/>
@@ -12055,7 +12055,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <label x="248.92" y="91.44" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="287.02" y1="81.28" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="68.58" x2="284.48" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -12067,7 +12067,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <label x="284.48" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="TAB"/>
+<pinref part="IC1" gate="G$1" pin="TAB"/>
 <wire x1="287.02" y1="106.68" x2="287.02" y2="109.22" width="0.1524" layer="91"/>
 <label x="287.02" y="109.22" size="1.778" layer="95"/>
 </segment>
@@ -12092,12 +12092,12 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <label x="63.5" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="VSS@5"/>
+<pinref part="IC2" gate="G$1" pin="VSS@5"/>
 <wire x1="124.46" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
 <label x="121.92" y="91.44" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="VSS@41"/>
+<pinref part="IC2" gate="G$1" pin="VSS@41"/>
 <wire x1="160.02" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <label x="162.56" y="83.82" size="1.778" layer="95"/>
 </segment>
@@ -12151,7 +12151,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="VOUT"/>
+<pinref part="IC1" gate="G$1" pin="VOUT"/>
 <wire x1="289.56" y1="78.74" x2="289.56" y2="81.28" width="0.1524" layer="91"/>
 <label x="292.1" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -12166,12 +12166,12 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <label x="10.16" y="58.42" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="VDD@8"/>
+<pinref part="IC2" gate="G$1" pin="VDD@8"/>
 <wire x1="124.46" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
 <label x="121.92" y="83.82" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="VDD@44"/>
+<pinref part="IC2" gate="G$1" pin="VDD@44"/>
 <wire x1="160.02" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
 <label x="162.56" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -12201,7 +12201,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="XTALOUT"/>
+<pinref part="IC2" gate="G$1" pin="XTALOUT"/>
 <wire x1="124.46" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
 <label x="121.92" y="86.36" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12216,7 +12216,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="XTALIN"/>
+<pinref part="IC2" gate="G$1" pin="XTALIN"/>
 <wire x1="124.46" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 <label x="121.92" y="88.9" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12234,7 +12234,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <junction x="241.3" y="55.88"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_1"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_1"/>
 <wire x1="124.46" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
 <label x="121.92" y="93.98" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12256,7 +12256,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <label x="264.16" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_10/SWCLK"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_10/SWCLK"/>
 <wire x1="160.02" y1="50.8" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
 <label x="162.56" y="50.8" size="1.778" layer="95"/>
 </segment>
@@ -12278,7 +12278,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <label x="264.16" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_3/SWDIO"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_3/SWDIO"/>
 <wire x1="160.02" y1="78.74" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
 <label x="162.56" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -12306,7 +12306,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <junction x="241.3" y="35.56"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_0/RESET"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_0/RESET"/>
 <wire x1="124.46" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
 <label x="121.92" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12318,7 +12318,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="VDDIN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="81.28" x2="284.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="281.94" y="81.28" size="1.778" layer="95" rot="R180"/>
@@ -12336,7 +12336,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_6" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_6"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_6"/>
 <wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
 <label x="121.92" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12348,7 +12348,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_0" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_0"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_0"/>
 <wire x1="124.46" y1="99.06" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
 <label x="121.92" y="99.06" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12360,7 +12360,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_8" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_8"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_8"/>
 <wire x1="124.46" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
 <label x="121.92" y="81.28" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12372,7 +12372,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO0_2" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_2"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_2"/>
 <wire x1="124.46" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
 <label x="121.92" y="78.74" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12384,7 +12384,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_7" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_7"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_7"/>
 <wire x1="124.46" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
 <label x="121.92" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12396,7 +12396,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_8" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_8"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_8"/>
 <wire x1="124.46" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
 <label x="121.92" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12408,7 +12408,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_1" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_1"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_1"/>
 <wire x1="124.46" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 <label x="121.92" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12420,7 +12420,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO0_3" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_3"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_3"/>
 <wire x1="124.46" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
 <label x="121.92" y="66.04" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12432,7 +12432,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO0_4" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_4"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_4"/>
 <wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
 <label x="121.92" y="63.5" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12444,7 +12444,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO0_5" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_5"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_5"/>
 <wire x1="124.46" y1="60.96" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
 <label x="121.92" y="60.96" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12456,7 +12456,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_9" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_9"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_9"/>
 <wire x1="124.46" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
 <label x="121.92" y="58.42" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12468,7 +12468,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO3_4" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO3_4"/>
+<pinref part="IC2" gate="G$1" pin="PIO3_4"/>
 <wire x1="124.46" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 <label x="121.92" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12480,7 +12480,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_4" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_4"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_4"/>
 <wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 <label x="121.92" y="53.34" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12492,7 +12492,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_5" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_5"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_5"/>
 <wire x1="124.46" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 <label x="121.92" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12504,7 +12504,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO3_5" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO3_5"/>
+<pinref part="IC2" gate="G$1" pin="PIO3_5"/>
 <wire x1="124.46" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
 <label x="121.92" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12516,7 +12516,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO0_6" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_6"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_6"/>
 <wire x1="124.46" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
 <label x="121.92" y="45.72" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12528,7 +12528,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO0_7" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_7"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_7"/>
 <wire x1="124.46" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 <label x="121.92" y="43.18" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12540,7 +12540,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_9" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_9"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_9"/>
 <wire x1="124.46" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
 <label x="121.92" y="40.64" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -12552,7 +12552,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_10" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_10"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_10"/>
 <wire x1="160.02" y1="40.64" x2="162.56" y2="40.64" width="0.1524" layer="91"/>
 <label x="162.56" y="40.64" size="1.778" layer="95"/>
 </segment>
@@ -12564,7 +12564,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_2" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_2"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_2"/>
 <wire x1="160.02" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
 <label x="162.56" y="43.18" size="1.778" layer="95"/>
 </segment>
@@ -12576,7 +12576,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO0_8" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_8"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_8"/>
 <wire x1="160.02" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
 <label x="162.56" y="45.72" size="1.778" layer="95"/>
 </segment>
@@ -12588,7 +12588,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO0_9" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_9"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_9"/>
 <wire x1="160.02" y1="48.26" x2="162.56" y2="48.26" width="0.1524" layer="91"/>
 <label x="162.56" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -12600,7 +12600,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_10" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_10"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_10"/>
 <wire x1="160.02" y1="53.34" x2="162.56" y2="53.34" width="0.1524" layer="91"/>
 <label x="162.56" y="53.34" size="1.778" layer="95"/>
 </segment>
@@ -12612,7 +12612,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_11" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_11"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_11"/>
 <wire x1="160.02" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
 <label x="162.56" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -12624,7 +12624,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO0_11" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO0_11"/>
+<pinref part="IC2" gate="G$1" pin="PIO0_11"/>
 <wire x1="162.56" y1="58.42" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
 <label x="162.56" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -12636,7 +12636,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_0" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_0"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_0"/>
 <wire x1="160.02" y1="60.96" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
 <label x="162.56" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -12648,7 +12648,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_1" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_1"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_1"/>
 <wire x1="160.02" y1="63.5" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
 <label x="162.56" y="63.5" size="1.778" layer="95"/>
 </segment>
@@ -12660,7 +12660,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_2" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_2"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_2"/>
 <wire x1="160.02" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 <label x="162.56" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -12672,7 +12672,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO3_0" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO3_0"/>
+<pinref part="IC2" gate="G$1" pin="PIO3_0"/>
 <wire x1="160.02" y1="68.58" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
 <label x="162.56" y="68.58" size="1.778" layer="95"/>
 </segment>
@@ -12684,7 +12684,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO3_1" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO3_1"/>
+<pinref part="IC2" gate="G$1" pin="PIO3_1"/>
 <wire x1="160.02" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
 <label x="162.56" y="73.66" size="1.778" layer="95"/>
 </segment>
@@ -12696,7 +12696,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO2_3" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO2_3"/>
+<pinref part="IC2" gate="G$1" pin="PIO2_3"/>
 <wire x1="160.02" y1="76.2" x2="162.56" y2="76.2" width="0.1524" layer="91"/>
 <label x="162.56" y="76.2" size="1.778" layer="95"/>
 </segment>
@@ -12708,7 +12708,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_4" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_4"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_4"/>
 <wire x1="160.02" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
 <label x="162.56" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -12720,7 +12720,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_11" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_11"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_11"/>
 <wire x1="160.02" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
 <label x="162.56" y="86.36" size="1.778" layer="95"/>
 </segment>
@@ -12732,7 +12732,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO3_2" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO3_2"/>
+<pinref part="IC2" gate="G$1" pin="PIO3_2"/>
 <wire x1="160.02" y1="88.9" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
 <label x="162.56" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -12744,7 +12744,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_5" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_5"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_5"/>
 <wire x1="160.02" y1="93.98" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
 <label x="162.56" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -12756,7 +12756,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_6" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_6"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_6"/>
 <wire x1="160.02" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 <label x="162.56" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -12768,7 +12768,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO1_7" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO1_7"/>
+<pinref part="IC2" gate="G$1" pin="PIO1_7"/>
 <wire x1="160.02" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
 <label x="162.56" y="99.06" size="1.778" layer="95"/>
 </segment>
@@ -12780,7 +12780,7 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 </net>
 <net name="PIO3_3" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="PIO3_3"/>
+<pinref part="IC2" gate="G$1" pin="PIO3_3"/>
 <wire x1="160.02" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <label x="162.56" y="101.6" size="1.778" layer="95"/>
 </segment>
