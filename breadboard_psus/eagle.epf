@@ -1,0 +1,36 @@
+[Eagle]
+Version="07 04 00"
+Platform="Linux"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/LPC800.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorButtons.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorConnectors.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorCrystal.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorIC.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorLinearTechnology.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorMaxim.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorMicrochipLinear.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorModules.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorNxp.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorPCBOutline.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorRCL.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorTransformer.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorUsb.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/ohw-logo.lbr"
+UsedLibrary="/home/abilos/projects/public/Adafruit-Eagle-Library/adafruit.lbr"
+UsedLibrary="/home/abilos/projects/public/SparkFun-Eagle-Libraries/SparkFun-Connectors.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 0 1205 502"
+State=2
+Number=0
+
+[Desktop]
+Screen="3286 1080"
+Window="Win_1"
