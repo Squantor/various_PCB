@@ -1,4 +1,4 @@
-update=vr 06 mei 2016 14:38:02 CEST
+update=wo 11 mei 2016 22:35:08 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,12 +27,13 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../SquantorEagleLib/kicad
+LibDir=
 [eeschema/libraries]
 LibName1=power
-LibName2=/home/abilos/projects/public/SquantorEagleLib/kicad/SparkFun-Connectors
-LibName3=/home/abilos/projects/public/SquantorEagleLib/kicad/SquantorConnectors
-LibName4=/home/abilos/projects/public/SquantorEagleLib/kicad/SquantorNxp
-LibName5=/home/abilos/projects/public/SquantorEagleLib/kicad/SquantorPCBOutline
-LibName6=/home/abilos/projects/public/SquantorEagleLib/kicad/SquantorRCL
-LibName7=ohw-logo
+LibName2=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorButtons
+LibName3=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorConnectors
+LibName4=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorDiodes
+LibName5=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorMicrochip
+LibName6=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorNxp
+LibName7=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorPCBOutline
+LibName8=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorRCL
