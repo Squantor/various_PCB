@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/abilos/projects/public/various_PCB/kicad/TJA1040_breadboard/TJA1040_breadboard.sch)
-    (date "zo 15 mei 2016 23:49:41 CEST")
+    (date "zo 22 mei 2016 21:09:47 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -154,7 +154,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 573392CC))
     (comp (ref C5)
-      (value C-EUC0603)
+      (value 100n)
       (footprint SquantorRcl:SquantorRCL-C0603)
       (libsource (lib SquantorRCL) (part C-EUC0603))
       (sheetpath (names /) (tstamps /))
@@ -290,10 +290,10 @@
       (uri /home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorMicrochip.lib))
     (library (logical SquantorNxp)
       (uri /home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorNxp.lib))
-    (library (logical SquantorRCL)
-      (uri /home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorRCL.lib))
     (library (logical TJA1040_breadboard-cache)
-      (uri /home/abilos/projects/public/various_PCB/kicad/TJA1040_breadboard/TJA1040_breadboard-cache.lib)))
+      (uri /home/abilos/projects/public/various_PCB/kicad/TJA1040_breadboard/TJA1040_breadboard-cache.lib))
+    (library (logical SquantorRCL)
+      (uri /home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorRCL.lib)))
   (nets
     (net (code 1) (name "Net-(C1-Pad1)")
       (node (ref R5) (pin 2))
