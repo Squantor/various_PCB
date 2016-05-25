@@ -1,4 +1,4 @@
-update=wo 11 mei 2016 22:35:08 CEST
+update=di 24 mei 2016 22:04:52 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,11 +29,12 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=power
-LibName2=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorButtons
-LibName3=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorConnectors
-LibName4=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorDiodes
-LibName5=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorMicrochip
-LibName6=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorNxp
-LibName7=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorPCBOutline
-LibName8=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorRCL
+LibName1=TJA1040_breadboard-rescue
+LibName2=power
+LibName3=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorButtons
+LibName4=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorConnectors
+LibName5=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorDiodes
+LibName6=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorMicrochip
+LibName7=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorNxp
+LibName8=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorPCBOutline
+LibName9=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorRCL
