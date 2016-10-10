@@ -1,4 +1,4 @@
-update=ma 10 okt 2016 11:47:50 CEST
+update=ma 10 okt 2016 23:10:38 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad
@@ -59,3 +57,7 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=SquantorPCBOutline
+LibName31=empty
+LibName32=SquantorWinbond
+[general]
+version=1
