@@ -1,4 +1,4 @@
-update=ma 10 okt 2016 23:10:38 CEST
+update=di 11 okt 2016 18:57:06 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,6 @@ LibName29=valves
 LibName30=SquantorPCBOutline
 LibName31=empty
 LibName32=SquantorWinbond
+LibName33=ohw-logo
 [general]
 version=1
