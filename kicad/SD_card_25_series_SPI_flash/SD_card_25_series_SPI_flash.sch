@@ -1,0 +1,287 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorPCBOutline
+LIBS:empty
+LIBS:SquantorWinbond
+LIBS:ohw-logo
+LIBS:SD_card_serial_flash-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 57FB62C9
+P 1750 5300
+F 0 "#PWR01" H 1750 5050 50  0001 C CNN
+F 1 "GND" H 1750 5150 50  0000 C CNN
+F 2 "" H 1750 5300 50  0000 C CNN
+F 3 "" H 1750 5300 50  0000 C CNN
+	1    1750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SD_CARD_connector J1
+U 1 1 57FB7E61
+P 1350 5400
+F 0 "J1" H 1250 5850 60  0000 C CNN
+F 1 "SD_CARD_connector" H 1600 4900 60  0000 C CNN
+F 2 "SquantorPcbOutline:SD_CARD_connector" H 1350 5500 60  0001 C CNN
+F 3 "" H 1350 5500 60  0001 C CNN
+	1    1350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 57FB7F46
+P 1750 5600
+F 0 "#PWR02" H 1750 5350 50  0001 C CNN
+F 1 "GND" H 1750 5450 50  0000 C CNN
+F 2 "" H 1750 5600 50  0000 C CNN
+F 3 "" H 1750 5600 50  0000 C CNN
+	1    1750 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 5300 1750 5300
+Wire Wire Line
+	1700 5600 1750 5600
+$Comp
+L C C1
+U 1 1 57FB81C5
+P 2700 5400
+F 0 "C1" H 2725 5500 50  0000 L CNN
+F 1 "1u" H 2725 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2738 5250 50  0001 C CNN
+F 3 "" H 2700 5400 50  0000 C CNN
+	1    2700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 57FB8208
+P 3000 5400
+F 0 "C2" H 3025 5500 50  0000 L CNN
+F 1 "100n" H 3025 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3038 5250 50  0001 C CNN
+F 3 "" H 3000 5400 50  0000 C CNN
+	1    3000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR03
+U 1 1 57FB8274
+P 1850 5400
+F 0 "#PWR03" H 1850 5250 50  0001 C CNN
+F 1 "+3.3V" H 1850 5540 50  0000 C CNN
+F 2 "" H 1850 5400 50  0000 C CNN
+F 3 "" H 1850 5400 50  0000 C CNN
+	1    1850 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 5400 1850 5400
+$Comp
+L GND #PWR04
+U 1 1 57FB829F
+P 2700 5550
+F 0 "#PWR04" H 2700 5300 50  0001 C CNN
+F 1 "GND" H 2700 5400 50  0000 C CNN
+F 2 "" H 2700 5550 50  0000 C CNN
+F 3 "" H 2700 5550 50  0000 C CNN
+	1    2700 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR05
+U 1 1 57FB82B3
+P 2700 5250
+F 0 "#PWR05" H 2700 5100 50  0001 C CNN
+F 1 "+3.3V" H 2700 5390 50  0000 C CNN
+F 2 "" H 2700 5250 50  0000 C CNN
+F 3 "" H 2700 5250 50  0000 C CNN
+	1    2700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR06
+U 1 1 57FB82C7
+P 3000 5250
+F 0 "#PWR06" H 3000 5100 50  0001 C CNN
+F 1 "+3.3V" H 3000 5390 50  0000 C CNN
+F 2 "" H 3000 5250 50  0000 C CNN
+F 3 "" H 3000 5250 50  0000 C CNN
+	1    3000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 57FB82DB
+P 3000 5550
+F 0 "#PWR07" H 3000 5300 50  0001 C CNN
+F 1 "GND" H 3000 5400 50  0000 C CNN
+F 2 "" H 3000 5550 50  0000 C CNN
+F 3 "" H 3000 5550 50  0000 C CNN
+	1    3000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L W25Q32BV U1
+U 1 1 57FBFDCA
+P 5000 4600
+F 0 "U1" H 4800 4850 60  0000 C CNN
+F 1 "W25Q32BV" H 5000 4300 60  0000 C CNN
+F 2 "SquantorWinbond:W25Q32BVST" H 4950 4600 60  0001 C CNN
+F 3 "" H 4950 4600 60  0001 C CNN
+	1    5000 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 4450 0    60   Input ~ 0
+CS
+Text GLabel 4500 4550 0    60   Input ~ 0
+DO
+$Comp
+L GND #PWR08
+U 1 1 57FBFECF
+P 4500 4750
+F 0 "#PWR08" H 4500 4500 50  0001 C CNN
+F 1 "GND" H 4500 4600 50  0000 C CNN
+F 2 "" H 4500 4750 50  0000 C CNN
+F 3 "" H 4500 4750 50  0000 C CNN
+	1    4500 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR09
+U 1 1 57FBFEEA
+P 3850 4650
+F 0 "#PWR09" H 3850 4500 50  0001 C CNN
+F 1 "+3.3V" H 3850 4790 50  0000 C CNN
+F 2 "" H 3850 4650 50  0000 C CNN
+F 3 "" H 3850 4650 50  0000 C CNN
+	1    3850 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR010
+U 1 1 57FBFF05
+P 6150 4550
+F 0 "#PWR010" H 6150 4400 50  0001 C CNN
+F 1 "+3.3V" H 6150 4690 50  0000 C CNN
+F 2 "" H 6150 4550 50  0000 C CNN
+F 3 "" H 6150 4550 50  0000 C CNN
+	1    6150 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR011
+U 1 1 57FBFF36
+P 5500 4450
+F 0 "#PWR011" H 5500 4300 50  0001 C CNN
+F 1 "+3.3V" H 5500 4590 50  0000 C CNN
+F 2 "" H 5500 4450 50  0000 C CNN
+F 3 "" H 5500 4450 50  0000 C CNN
+	1    5500 4450
+	0    1    1    0   
+$EndComp
+Text GLabel 5500 4650 2    60   Input ~ 0
+SCLK
+Text GLabel 5500 4750 2    60   Input ~ 0
+DI
+Wire Wire Line
+	4550 4750 4500 4750
+Wire Wire Line
+	4500 4450 4550 4450
+Wire Wire Line
+	4500 4550 4550 4550
+Wire Wire Line
+	5450 4450 5500 4450
+Wire Wire Line
+	5450 4650 5500 4650
+Wire Wire Line
+	5500 4750 5450 4750
+$Comp
+L R R1
+U 1 1 57FC007B
+P 4050 4650
+F 0 "R1" V 4130 4650 50  0000 C CNN
+F 1 "10K" V 4050 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3980 4650 50  0001 C CNN
+F 3 "" H 4050 4650 50  0000 C CNN
+	1    4050 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 57FC027B
+P 5950 4550
+F 0 "R2" V 6030 4550 50  0000 C CNN
+F 1 "10k" V 5950 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5880 4550 50  0001 C CNN
+F 3 "" H 5950 4550 50  0000 C CNN
+	1    5950 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 4550 6100 4550
+Wire Wire Line
+	3850 4650 3900 4650
+Wire Wire Line
+	4200 4650 4550 4650
+Wire Wire Line
+	5450 4550 5800 4550
+Text GLabel 2050 5100 2    60   Input ~ 0
+CS
+Text GLabel 2050 5700 2    60   Input ~ 0
+DO
+Text GLabel 2050 5500 2    60   Input ~ 0
+SCLK
+Text GLabel 2050 5200 2    60   Input ~ 0
+DI
+Wire Wire Line
+	1700 5100 2050 5100
+Wire Wire Line
+	2050 5200 1700 5200
+Wire Wire Line
+	1700 5500 2050 5500
+Wire Wire Line
+	2050 5700 1700 5700
+$EndSCHEMATC
