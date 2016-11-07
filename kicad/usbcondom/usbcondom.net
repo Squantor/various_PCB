@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/abilos/projects/public/various_PCB/kicad/usbcondom/usbcondom.sch)
-    (date "ma 17 okt 2016 22:44:48 CEST")
+    (date "ma 07 nov 2016 23:23:48 CET")
     (tool "Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -18,7 +18,7 @@
     (comp (ref U1)
       (value USB-micro)
       (footprint SquantorUsb:SquantorUsb-USB-UB-SMD4H)
-      (libsource (lib SquantorUsb) (part USB-micro))
+      (libsource (lib usbcondom-rescue) (part USB-micro-RESCUE-usbcondom))
       (sheetpath (names /) (tstamps /))
       (tstamp 577434D6))
     (comp (ref F1)
@@ -133,10 +133,10 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib SquantorUsb) (part USB-micro)
+    (libpart (lib usbcondom-rescue) (part USB-micro-RESCUE-usbcondom)
       (fields
         (field (name Reference) U)
-        (field (name Value) USB-micro))
+        (field (name Value) USB-micro-RESCUE-usbcondom))
       (pins
         (pin (num 1) (name VCC) (type power_out))
         (pin (num 2) (name D-) (type BiDi))
@@ -151,10 +151,12 @@
       (pins
         (pin (num ~) (name D+) (type BiDi)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical SquantorUsb)
-      (uri /home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorUsb.lib)))
+      (uri /home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorUsb.lib))
+    (library (logical usbcondom-rescue)
+      (uri /home/abilos/projects/public/various_PCB/kicad/usbcondom/usbcondom-rescue.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(R10-Pad2)")
       (node (ref R10) (pin 2))

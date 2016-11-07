@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:usbcondom-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,7 +48,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L USB-micro U1
+L USB-micro-RESCUE-usbcondom U1
 U 1 1 577434D6
 P 1300 1450
 F 0 "U1" H 1100 1750 60  0000 C CNN
@@ -187,7 +188,9 @@ $EndComp
 Wire Wire Line
 	2950 850  2900 850 
 Wire Wire Line
-	2900 850  2900 1050
+	2900 850  2900 950 
+Wire Wire Line
+	2900 950  2900 1050
 Wire Wire Line
 	2900 1050 2950 1050
 Wire Wire Line
@@ -202,7 +205,9 @@ Wire Wire Line
 Wire Wire Line
 	2750 1400 2750 1250
 Wire Wire Line
-	2750 1250 2950 1250
+	2750 1250 2900 1250
+Wire Wire Line
+	2900 1250 2950 1250
 Wire Wire Line
 	2900 1300 2900 1250
 Connection ~ 2900 1250
@@ -211,18 +216,24 @@ Wire Wire Line
 Wire Wire Line
 	2750 1500 2750 1650
 Wire Wire Line
-	2750 1650 2950 1650
+	2750 1650 2900 1650
+Wire Wire Line
+	2900 1650 2950 1650
 Wire Wire Line
 	2900 1600 2900 1650
 Connection ~ 2900 1650
 Wire Wire Line
-	3250 1250 3450 1250
+	3250 1250 3300 1250
+Wire Wire Line
+	3300 1250 3450 1250
 Wire Wire Line
 	3300 1250 3300 1300
 Wire Wire Line
 	3300 1650 3300 1600
 Wire Wire Line
-	3250 1650 3450 1650
+	3250 1650 3300 1650
+Wire Wire Line
+	3300 1650 3450 1650
 Text GLabel 3450 1250 2    60   Input ~ 0
 D+
 Text GLabel 3450 1650 2    60   Input ~ 0
@@ -285,23 +296,31 @@ F 3 "" H 3300 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 1950 2950 1950
+	2600 1950 2900 1950
+Wire Wire Line
+	2900 1950 2950 1950
 Wire Wire Line
 	2900 2000 2900 1950
 Connection ~ 2900 1950
 Wire Wire Line
-	2600 2350 2950 2350
+	2600 2350 2900 2350
+Wire Wire Line
+	2900 2350 2950 2350
 Wire Wire Line
 	2900 2300 2900 2350
 Connection ~ 2900 2350
 Wire Wire Line
-	3250 1950 3450 1950
+	3250 1950 3300 1950
+Wire Wire Line
+	3300 1950 3450 1950
 Wire Wire Line
 	3300 1950 3300 2000
 Wire Wire Line
 	3300 2350 3300 2300
 Wire Wire Line
-	3250 2350 3450 2350
+	3250 2350 3300 2350
+Wire Wire Line
+	3300 2350 3450 2350
 Connection ~ 3300 2350
 Connection ~ 3300 1950
 $Comp
@@ -316,10 +335,10 @@ F 3 "" H 1800 2400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR08
+L +5V #PWR06
 U 1 1 5803F894
 P 1800 2300
-F 0 "#PWR08" H 1800 2150 50  0001 C CNN
+F 0 "#PWR06" H 1800 2150 50  0001 C CNN
 F 1 "+5V" H 1800 2440 50  0000 C CNN
 F 2 "" H 1800 2300 50  0000 C CNN
 F 3 "" H 1800 2300 50  0000 C CNN
@@ -331,10 +350,10 @@ Wire Wire Line
 Wire Wire Line
 	1750 2300 1800 2300
 $Comp
-L Earth #PWR012
+L Earth #PWR07
 U 1 1 5803FEC7
 P 1800 2000
-F 0 "#PWR012" H 1800 1750 50  0001 C CNN
+F 0 "#PWR07" H 1800 1750 50  0001 C CNN
 F 1 "Earth" H 1800 1850 50  0001 C CNN
 F 2 "" H 1800 2000 50  0000 C CNN
 F 3 "" H 1800 2000 50  0000 C CNN
@@ -342,10 +361,10 @@ F 3 "" H 1800 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Earth #PWR014
+L Earth #PWR08
 U 1 1 58040029
 P 800 1400
-F 0 "#PWR014" H 800 1150 50  0001 C CNN
+F 0 "#PWR08" H 800 1150 50  0001 C CNN
 F 1 "Earth" H 800 1250 50  0001 C CNN
 F 2 "" H 800 1400 50  0000 C CNN
 F 3 "" H 800 1400 50  0000 C CNN
