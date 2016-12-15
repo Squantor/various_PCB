@@ -1,0 +1,245 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorOpto
+LIBS:SquantorConnectors
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 58530ACE
+P 3300 2950
+F 0 "#PWR01" H 3300 2700 50  0001 C CNN
+F 1 "GND" H 3300 2800 50  0000 C CNN
+F 2 "" H 3300 2950 50  0000 C CNN
+F 3 "" H 3300 2950 50  0000 C CNN
+	1    3300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6N139 U1
+U 1 1 58530E4D
+P 2900 2750
+F 0 "U1" H 2700 3000 60  0000 C CNN
+F 1 "6N139" H 2800 2500 60  0000 C CNN
+F 2 "SquantorIC:DIL08_0.8" H 2750 2750 60  0001 C CNN
+F 3 "" H 2750 2750 60  0001 C CNN
+	1    2900 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2900 3300 2900
+Wire Wire Line
+	3300 2900 3300 2950
+$Comp
+L PINS_1X4 J1
+U 1 1 58530FED
+P 1850 2750
+F 0 "J1" H 1800 3050 60  0000 C CNN
+F 1 "PINS_1X4" H 1850 2450 60  0000 C CNN
+F 2 "SquantorConnectors:Header-2.54-1X04-H1.0" H 1850 2900 60  0001 C CNN
+F 3 "" H 1850 2900 60  0001 C CNN
+	1    1850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 585310ED
+P 2300 2700
+F 0 "R1" V 2380 2700 50  0000 C CNN
+F 1 "Sel" V 2300 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2230 2700 50  0001 C CNN
+F 3 "" H 2300 2700 50  0000 C CNN
+	1    2300 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 2700 2450 2700
+Wire Wire Line
+	2150 2700 2050 2700
+Wire Wire Line
+	2050 2800 2550 2800
+$Comp
+L R R2
+U 1 1 585312FE
+P 3300 2200
+F 0 "R2" V 3380 2200 50  0000 C CNN
+F 1 "220" V 3300 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3230 2200 50  0001 C CNN
+F 3 "" H 3300 2200 50  0000 C CNN
+	1    3300 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C1
+U 1 1 58531416
+P 3100 2400
+F 0 "C1" H 3125 2500 50  0000 L CNN
+F 1 "100n" H 3125 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3138 2250 50  0001 C CNN
+F 3 "" H 3100 2400 50  0000 C CNN
+	1    3100 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 5853147F
+P 3300 2000
+F 0 "#PWR02" H 3300 1850 50  0001 C CNN
+F 1 "VCC" H 3300 2150 50  0000 C CNN
+F 2 "" H 3300 2000 50  0000 C CNN
+F 3 "" H 3300 2000 50  0000 C CNN
+	1    3300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 585314A3
+P 2900 2400
+F 0 "#PWR03" H 2900 2150 50  0001 C CNN
+F 1 "GND" H 2900 2250 50  0000 C CNN
+F 2 "" H 2900 2400 50  0000 C CNN
+F 3 "" H 2900 2400 50  0000 C CNN
+	1    2900 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 2400 2950 2400
+Wire Wire Line
+	3300 2350 3300 2600
+Wire Wire Line
+	3300 2600 3250 2600
+$Comp
+L VCC #PWR04
+U 1 1 58531501
+P 4100 2550
+F 0 "#PWR04" H 4100 2400 50  0001 C CNN
+F 1 "VCC" H 4100 2700 50  0000 C CNN
+F 2 "" H 4100 2550 50  0000 C CNN
+F 3 "" H 4100 2550 50  0000 C CNN
+	1    4100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 58531532
+P 4100 2950
+F 0 "#PWR05" H 4100 2700 50  0001 C CNN
+F 1 "GND" H 4100 2800 50  0000 C CNN
+F 2 "" H 4100 2950 50  0000 C CNN
+F 3 "" H 4100 2950 50  0000 C CNN
+	1    4100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2900 4100 2900
+Wire Wire Line
+	4100 2900 4100 2950
+Wire Wire Line
+	3300 2400 3250 2400
+Connection ~ 3300 2400
+Wire Wire Line
+	3300 2000 3300 2050
+$Comp
+L R R3
+U 1 1 5853179B
+P 3500 2500
+F 0 "R3" V 3580 2500 50  0000 C CNN
+F 1 "R" V 3500 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3430 2500 50  0001 C CNN
+F 3 "" H 3500 2500 50  0000 C CNN
+	1    3500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5853199C
+P 3950 2700
+F 0 "R4" V 4030 2700 50  0000 C CNN
+F 1 "R" V 3950 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3880 2700 50  0001 C CNN
+F 3 "" H 3950 2700 50  0000 C CNN
+	1    3950 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 2700 4100 2700
+Wire Wire Line
+	3250 2800 4150 2800
+Wire Wire Line
+	3800 2700 3750 2700
+Wire Wire Line
+	3750 2700 3750 2800
+Connection ~ 3750 2800
+$Comp
+L GND #PWR06
+U 1 1 58531C04
+P 3500 2300
+F 0 "#PWR06" H 3500 2050 50  0001 C CNN
+F 1 "GND" H 3500 2150 50  0000 C CNN
+F 2 "" H 3500 2300 50  0000 C CNN
+F 3 "" H 3500 2300 50  0000 C CNN
+	1    3500 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 2300 3500 2350
+Wire Wire Line
+	3250 2700 3500 2700
+Wire Wire Line
+	3500 2700 3500 2650
+$Comp
+L PINS_1X4 J2
+U 1 1 58531CAF
+P 4350 2750
+F 0 "J2" H 4300 3050 60  0000 C CNN
+F 1 "PINS_1X4" H 4350 2450 60  0000 C CNN
+F 2 "SquantorConnectors:Header-2.54-1X04-H1.0" H 4350 2900 60  0001 C CNN
+F 3 "" H 4350 2900 60  0001 C CNN
+	1    4350 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 2600 4100 2600
+Wire Wire Line
+	4100 2600 4100 2550
+$EndSCHEMATC
