@@ -15,7 +15,7 @@ My measurement setup is as follows:
 ### Resistor values ###
 There are 3 main resistors determining performance:
 
-R1: Current limiting resistors for the optocoupler LED. This determines how heavely your output will be loaded. All measurements have been performed with a 1K resistor. The current draw is then around 2.1mA (assuming a led voltage drop of 1.2V).
+R1: Current limiting resistors for the optocoupler LED. This determines how heavely your output will be loaded. All measurements have been performed with a 1K resistor. The current draw is then around 2.1mA at 3.3V I/O voltage (assuming a led voltage drop of 1.2V).
 
 R3: Base resistor, changes Delaytimes and influences risetime. Smaller resistors increase turn on time, decreases turn off. I have settled for 4.7K to be the best tradeoff with the 1K led resistor R1. The delay times become more or less symmetrical.
 
