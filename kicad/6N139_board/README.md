@@ -25,11 +25,11 @@ R4: Pull up resistor, changes off to on risetime. I have settled for 2.2K to kee
 Add a PNP risetime accelerator transistor to improve risetime performance, but this would add complexity. Best to check if your peripherals/devices can handle such slow slopes, or use a separate shmitt trigger to improve risetimes.
 ### Measurement results ###
 
-![Lineon optocoupler 1](images/Lineon_0.png)
+![Lineon optocoupler 1](images/Liteon_0.png)
 
-![Lineon optocoupler 2](images/Lineon_0.png)
+![Lineon optocoupler 2](images/Liteon_1.png)
 
-![Lineon optocoupler 3](images/Lineon_0.png)
+![Lineon optocoupler 3](images/Liteon_2.png)
 
 Big difference with a china "fairchild" opto.
 
