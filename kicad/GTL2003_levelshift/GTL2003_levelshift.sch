@@ -1,0 +1,526 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorNxp
+LIBS:SquantorButtons
+LIBS:SquantorConnectors
+LIBS:SquantorCrystal
+LIBS:SquantorDiodes
+LIBS:SquantorUsb
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PINS_1X10 J?
+U 1 1 58754021
+P 1650 1850
+F 0 "J?" H 1600 2450 60  0000 C CNN
+F 1 "PINS_1X10" H 1650 1250 60  0000 C CNN
+F 2 "" H 1650 2300 60  0001 C CNN
+F 3 "" H 1650 2300 60  0001 C CNN
+	1    1650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X10 J?
+U 1 1 58754068
+P 3800 1850
+F 0 "J?" H 3750 2450 60  0000 C CNN
+F 1 "PINS_1X10" H 3800 1250 60  0000 C CNN
+F 2 "" H 3800 2300 60  0001 C CNN
+F 3 "" H 3800 2300 60  0001 C CNN
+	1    3800 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 1400 2150 1400
+Text Label 1900 1400 0    60   ~ 0
+GND
+Wire Wire Line
+	1850 1500 2150 1500
+Wire Wire Line
+	1850 1600 2150 1600
+Wire Wire Line
+	1850 1700 2150 1700
+Wire Wire Line
+	1850 1800 2150 1800
+Wire Wire Line
+	1850 1900 2150 1900
+Wire Wire Line
+	1850 2000 2150 2000
+$Comp
+L GTL2003 U?
+U 1 1 587548A5
+P 2500 1850
+F 0 "U?" H 2300 2450 50  0000 C CNN
+F 1 "GTL2003" H 2400 1250 50  0000 C CNN
+F 2 "SquantorIC:SOT360" H 2500 1900 60  0001 C CNN
+F 3 "" H 2500 1900 60  0001 C CNN
+	1    2500 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2100 2150 2100
+Wire Wire Line
+	1850 2200 2150 2200
+Wire Wire Line
+	1850 2300 2150 2300
+Wire Wire Line
+	2850 2300 3600 2300
+Wire Wire Line
+	2850 2200 3600 2200
+Wire Wire Line
+	2850 2100 3600 2100
+Wire Wire Line
+	2850 2000 3600 2000
+Wire Wire Line
+	2850 1900 3600 1900
+Wire Wire Line
+	2850 1800 3600 1800
+Wire Wire Line
+	2850 1700 3600 1700
+Wire Wire Line
+	2850 1600 3600 1600
+Text Label 1900 1500 0    60   ~ 0
+SREF
+Text Label 1900 1600 0    60   ~ 0
+S1
+Text Label 1900 1700 0    60   ~ 0
+S2
+Text Label 1900 1800 0    60   ~ 0
+S3
+Text Label 1900 1900 0    60   ~ 0
+S4
+Text Label 1900 2000 0    60   ~ 0
+S5
+Text Label 1900 2100 0    60   ~ 0
+S6
+Text Label 1900 2200 0    60   ~ 0
+S7
+Text Label 1900 2300 0    60   ~ 0
+S8
+Wire Wire Line
+	2200 2600 2300 2600
+Wire Wire Line
+	2300 2600 2550 2600
+$Comp
+L R R?
+U 1 1 58754B2D
+P 2050 2600
+F 0 "R?" V 2130 2600 50  0000 C CNN
+F 1 "PULL" V 2050 2600 50  0000 C CNN
+F 2 "" V 1980 2600 50  0000 C CNN
+F 3 "" H 2050 2600 50  0000 C CNN
+	1    2050 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58754B6E
+P 2050 2750
+F 0 "R?" V 2130 2750 50  0000 C CNN
+F 1 "PULL" V 2050 2750 50  0000 C CNN
+F 2 "" V 1980 2750 50  0000 C CNN
+F 3 "" H 2050 2750 50  0000 C CNN
+	1    2050 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58754B8F
+P 2050 2900
+F 0 "R?" V 2130 2900 50  0000 C CNN
+F 1 "PULL" V 2050 2900 50  0000 C CNN
+F 2 "" V 1980 2900 50  0000 C CNN
+F 3 "" H 2050 2900 50  0000 C CNN
+	1    2050 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58754BB2
+P 2050 3050
+F 0 "R?" V 2130 3050 50  0000 C CNN
+F 1 "PULL" V 2050 3050 50  0000 C CNN
+F 2 "" V 1980 3050 50  0000 C CNN
+F 3 "" H 2050 3050 50  0000 C CNN
+	1    2050 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58754BED
+P 2050 3200
+F 0 "R?" V 2130 3200 50  0000 C CNN
+F 1 "PULL" V 2050 3200 50  0000 C CNN
+F 2 "" V 1980 3200 50  0000 C CNN
+F 3 "" H 2050 3200 50  0000 C CNN
+	1    2050 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58754C1C
+P 2050 3350
+F 0 "R?" V 2130 3350 50  0000 C CNN
+F 1 "PULL" V 2050 3350 50  0000 C CNN
+F 2 "" V 1980 3350 50  0000 C CNN
+F 3 "" H 2050 3350 50  0000 C CNN
+	1    2050 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58754C45
+P 2050 3500
+F 0 "R?" V 2130 3500 50  0000 C CNN
+F 1 "PULL" V 2050 3500 50  0000 C CNN
+F 2 "" V 1980 3500 50  0000 C CNN
+F 3 "" H 2050 3500 50  0000 C CNN
+	1    2050 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58754C7C
+P 2050 3650
+F 0 "R?" V 2130 3650 50  0000 C CNN
+F 1 "PULL" V 2050 3650 50  0000 C CNN
+F 2 "" V 1980 3650 50  0000 C CNN
+F 3 "" H 2050 3650 50  0000 C CNN
+	1    2050 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 2600 2300 2750
+Wire Wire Line
+	2300 2750 2300 2900
+Wire Wire Line
+	2300 2900 2300 3050
+Wire Wire Line
+	2300 3050 2300 3200
+Wire Wire Line
+	2300 3200 2300 3350
+Wire Wire Line
+	2300 3350 2300 3500
+Wire Wire Line
+	2300 3500 2300 3650
+Wire Wire Line
+	2300 3650 2200 3650
+Connection ~ 2300 2600
+Wire Wire Line
+	2200 3500 2300 3500
+Connection ~ 2300 3500
+Wire Wire Line
+	2200 3350 2300 3350
+Connection ~ 2300 3350
+Wire Wire Line
+	2200 3200 2300 3200
+Connection ~ 2300 3200
+Wire Wire Line
+	2200 3050 2300 3050
+Connection ~ 2300 3050
+Wire Wire Line
+	2200 2900 2300 2900
+Connection ~ 2300 2900
+Wire Wire Line
+	2200 2750 2300 2750
+Connection ~ 2300 2750
+Text Label 2350 2600 0    60   ~ 0
+SREF
+Wire Wire Line
+	1900 2600 1800 2600
+Text Label 1800 2600 0    60   ~ 0
+S1
+Wire Wire Line
+	1900 2750 1800 2750
+Wire Wire Line
+	1900 2900 1800 2900
+Wire Wire Line
+	1900 3050 1800 3050
+Wire Wire Line
+	1900 3200 1800 3200
+Wire Wire Line
+	1900 3350 1800 3350
+Wire Wire Line
+	1900 3500 1800 3500
+Wire Wire Line
+	1900 3650 1800 3650
+Text Label 1800 2750 0    60   ~ 0
+S2
+Text Label 1800 2900 0    60   ~ 0
+S3
+Text Label 1800 3050 0    60   ~ 0
+S4
+Text Label 1800 3200 0    60   ~ 0
+S5
+Text Label 1800 3350 0    60   ~ 0
+S6
+Text Label 1800 3500 0    60   ~ 0
+S7
+Text Label 1800 3650 0    60   ~ 0
+S8
+Text Label 2900 2300 0    60   ~ 0
+D8
+Text Label 2900 2200 0    60   ~ 0
+D7
+Text Label 2900 2100 0    60   ~ 0
+D6
+Text Label 2900 2000 0    60   ~ 0
+D5
+Text Label 2900 1900 0    60   ~ 0
+D4
+Text Label 2900 1800 0    60   ~ 0
+D3
+Text Label 2900 1700 0    60   ~ 0
+D2
+Text Label 2900 1600 0    60   ~ 0
+D1
+Wire Wire Line
+	2850 1400 2950 1400
+Wire Wire Line
+	2950 1400 3600 1400
+$Comp
+L R R?
+U 1 1 587557C3
+P 3150 1500
+F 0 "R?" V 3230 1500 50  0000 C CNN
+F 1 "R" V 3150 1500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3080 1500 50  0001 C CNN
+F 3 "" H 3150 1500 50  0000 C CNN
+	1    3150 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 58755847
+P 2600 1100
+F 0 "C?" H 2625 1200 50  0000 L CNN
+F 1 "100n" H 2625 1000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2638 950 50  0001 C CNN
+F 3 "" H 2600 1100 50  0000 C CNN
+	1    2600 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 1100 2450 1100
+Text Label 2250 1100 0    60   ~ 0
+GND
+Wire Wire Line
+	2850 1500 2950 1500
+Wire Wire Line
+	2950 1500 3000 1500
+Wire Wire Line
+	2750 1100 2950 1100
+Wire Wire Line
+	2950 1100 2950 1400
+Wire Wire Line
+	2950 1400 2950 1500
+Connection ~ 2950 1500
+Connection ~ 2950 1400
+Wire Wire Line
+	2850 2600 3100 2600
+Wire Wire Line
+	3100 2600 3200 2600
+$Comp
+L R R?
+U 1 1 58756498
+P 3350 2600
+F 0 "R?" V 3430 2600 50  0000 C CNN
+F 1 "PULL" V 3350 2600 50  0000 C CNN
+F 2 "" V 3280 2600 50  0000 C CNN
+F 3 "" H 3350 2600 50  0000 C CNN
+	1    3350 2600
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5875649E
+P 3350 2750
+F 0 "R?" V 3430 2750 50  0000 C CNN
+F 1 "PULL" V 3350 2750 50  0000 C CNN
+F 2 "" V 3280 2750 50  0000 C CNN
+F 3 "" H 3350 2750 50  0000 C CNN
+	1    3350 2750
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 587564A4
+P 3350 2900
+F 0 "R?" V 3430 2900 50  0000 C CNN
+F 1 "PULL" V 3350 2900 50  0000 C CNN
+F 2 "" V 3280 2900 50  0000 C CNN
+F 3 "" H 3350 2900 50  0000 C CNN
+	1    3350 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 587564AA
+P 3350 3050
+F 0 "R?" V 3430 3050 50  0000 C CNN
+F 1 "PULL" V 3350 3050 50  0000 C CNN
+F 2 "" V 3280 3050 50  0000 C CNN
+F 3 "" H 3350 3050 50  0000 C CNN
+	1    3350 3050
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 587564B0
+P 3350 3200
+F 0 "R?" V 3430 3200 50  0000 C CNN
+F 1 "PULL" V 3350 3200 50  0000 C CNN
+F 2 "" V 3280 3200 50  0000 C CNN
+F 3 "" H 3350 3200 50  0000 C CNN
+	1    3350 3200
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 587564B6
+P 3350 3350
+F 0 "R?" V 3430 3350 50  0000 C CNN
+F 1 "PULL" V 3350 3350 50  0000 C CNN
+F 2 "" V 3280 3350 50  0000 C CNN
+F 3 "" H 3350 3350 50  0000 C CNN
+	1    3350 3350
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 587564BC
+P 3350 3500
+F 0 "R?" V 3430 3500 50  0000 C CNN
+F 1 "PULL" V 3350 3500 50  0000 C CNN
+F 2 "" V 3280 3500 50  0000 C CNN
+F 3 "" H 3350 3500 50  0000 C CNN
+	1    3350 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 587564C2
+P 3350 3650
+F 0 "R?" V 3430 3650 50  0000 C CNN
+F 1 "PULL" V 3350 3650 50  0000 C CNN
+F 2 "" V 3280 3650 50  0000 C CNN
+F 3 "" H 3350 3650 50  0000 C CNN
+	1    3350 3650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3100 2600 3100 2750
+Wire Wire Line
+	3100 2750 3100 2900
+Wire Wire Line
+	3100 2900 3100 3050
+Wire Wire Line
+	3100 3050 3100 3200
+Wire Wire Line
+	3100 3200 3100 3350
+Wire Wire Line
+	3100 3350 3100 3500
+Wire Wire Line
+	3100 3500 3100 3650
+Wire Wire Line
+	3100 3650 3200 3650
+Connection ~ 3100 2600
+Wire Wire Line
+	3200 3500 3100 3500
+Connection ~ 3100 3500
+Wire Wire Line
+	3200 3350 3100 3350
+Connection ~ 3100 3350
+Wire Wire Line
+	3200 3200 3100 3200
+Connection ~ 3100 3200
+Wire Wire Line
+	3200 3050 3100 3050
+Connection ~ 3100 3050
+Wire Wire Line
+	3200 2900 3100 2900
+Connection ~ 3100 2900
+Wire Wire Line
+	3200 2750 3100 2750
+Connection ~ 3100 2750
+Text Label 3050 2600 2    60   ~ 0
+DREF
+Wire Wire Line
+	3500 2600 3600 2600
+Text Label 3600 2600 2    60   ~ 0
+D1
+Wire Wire Line
+	3500 2750 3600 2750
+Wire Wire Line
+	3500 2900 3600 2900
+Wire Wire Line
+	3500 3050 3600 3050
+Wire Wire Line
+	3500 3200 3600 3200
+Wire Wire Line
+	3500 3350 3600 3350
+Wire Wire Line
+	3500 3500 3600 3500
+Wire Wire Line
+	3500 3650 3600 3650
+Text Label 3600 2750 2    60   ~ 0
+D2
+Text Label 3600 2900 2    60   ~ 0
+D3
+Text Label 3600 3050 2    60   ~ 0
+D4
+Text Label 3600 3200 2    60   ~ 0
+D5
+Text Label 3600 3350 2    60   ~ 0
+D6
+Text Label 3600 3500 2    60   ~ 0
+D7
+Text Label 3600 3650 2    60   ~ 0
+D8
+Wire Wire Line
+	3600 1500 3300 1500
+Text Label 3100 1400 0    60   ~ 0
+GREF
+Text Label 3350 1500 0    60   ~ 0
+DREF
+$EndSCHEMATC
