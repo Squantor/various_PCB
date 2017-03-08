@@ -28,6 +28,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:SquantorIC
+LIBS:SquantorConnectors
+LIBS:SquantorDiodes
+LIBS:PCB_coils_10x10mm-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -42,18 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	1350 1500 1350 1300
-Wire Wire Line
-	1350 1300 1750 1300
-Wire Wire Line
-	1750 1300 1750 1500
-Wire Wire Line
-	1950 1500 1950 1300
-Wire Wire Line
-	1950 1300 2350 1300
-Wire Wire Line
-	2350 1300 2350 1500
 $Comp
 L R R1
 U 1 1 58973BA5
@@ -131,6 +123,88 @@ F 3 "" H 1850 2550 50  0000 C CNN
 	1    1850 2550
 	0    1    1    0   
 $EndComp
+Text Label 1400 1300 0    60   ~ 0
+COIL1
+Text Label 2000 1300 0    60   ~ 0
+COIL2
+$Comp
+L C C5
+U 1 1 58C06E66
+P 1550 2800
+F 0 "C5" H 1575 2900 50  0000 L CNN
+F 1 "C" H 1575 2700 50  0000 L CNN
+F 2 "SquantorRcl:C_0603_hand" H 1588 2650 50  0001 C CNN
+F 3 "" H 1550 2800 50  0001 C CNN
+	1    1550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 58C06EE5
+P 1350 2800
+F 0 "C4" H 1375 2900 50  0000 L CNN
+F 1 "C" H 1375 2700 50  0000 L CNN
+F 2 "SquantorRcl:C_0603_hand" H 1388 2650 50  0001 C CNN
+F 3 "" H 1350 2800 50  0001 C CNN
+	1    1350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 58C072CF
+P 2150 2800
+F 0 "C7" H 2175 2900 50  0000 L CNN
+F 1 "C" H 2175 2700 50  0000 L CNN
+F 2 "SquantorRcl:C_0603_hand" H 2188 2650 50  0001 C CNN
+F 3 "" H 2150 2800 50  0001 C CNN
+	1    2150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 58C07302
+P 2350 2800
+F 0 "C8" H 2375 2900 50  0000 L CNN
+F 1 "C" H 2375 2700 50  0000 L CNN
+F 2 "SquantorRcl:C_0603_hand" H 2388 2650 50  0001 C CNN
+F 3 "" H 2350 2800 50  0001 C CNN
+	1    2350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_ACom_KKA D2
+U 1 1 58C082A2
+P 2250 3350
+F 0 "D2" H 2300 3250 50  0000 C CNN
+F 1 "D_Schottky_x2_ACom_KKA" H 2250 3450 50  0000 C CNN
+F 2 "" H 2250 3350 50  0001 C CNN
+F 3 "" H 2250 3350 50  0001 C CNN
+	1    2250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D1
+U 1 1 58C082D1
+P 1450 3350
+F 0 "D1" H 1500 3250 50  0000 C CNN
+F 1 "D_Schottky_x2_KCom_AAK" H 1450 3450 50  0000 C CNN
+F 2 "" H 1450 3350 50  0001 C CNN
+F 3 "" H 1450 3350 50  0001 C CNN
+	1    1450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1500 1350 1300
+Wire Wire Line
+	1350 1300 1750 1300
+Wire Wire Line
+	1750 1300 1750 1500
+Wire Wire Line
+	1950 1500 1950 1300
+Wire Wire Line
+	1950 1300 2350 1300
+Wire Wire Line
+	2350 1300 2350 1500
 Wire Wire Line
 	1750 1800 1750 1850
 Wire Wire Line
@@ -138,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1850 2050 2550
 Wire Wire Line
-	2050 2550 2000 2550
+	2000 2550 2350 2550
 Wire Wire Line
 	2000 2300 2050 2300
 Connection ~ 2050 2300
@@ -152,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1900 1650 2550
 Wire Wire Line
-	1650 2550 1700 2550
+	1350 2550 1700 2550
 Wire Wire Line
 	1700 2300 1650 2300
 Connection ~ 1650 2300
@@ -165,8 +239,67 @@ Connection ~ 1650 1900
 Wire Wire Line
 	2350 1850 2350 1800
 Connection ~ 2050 1850
-Text Label 1400 1300 0    60   ~ 0
-COIL1
-Text Label 2000 1300 0    60   ~ 0
-COIL2
+Wire Wire Line
+	1350 2550 1350 2650
+Connection ~ 1650 2550
+Wire Wire Line
+	1550 2650 1550 2550
+Connection ~ 1550 2550
+Wire Wire Line
+	2350 2550 2350 2650
+Connection ~ 2050 2550
+Wire Wire Line
+	2150 2650 2150 2550
+Connection ~ 2150 2550
+Wire Wire Line
+	2350 2950 2350 3050
+Wire Wire Line
+	2350 3050 2150 3050
+Wire Wire Line
+	2150 3050 2150 2950
+Wire Wire Line
+	1350 2950 1350 3050
+Wire Wire Line
+	1350 3050 1550 3050
+Wire Wire Line
+	1550 3050 1550 2950
+Wire Wire Line
+	1950 3350 1950 3200
+Wire Wire Line
+	1950 3200 1150 3200
+Wire Wire Line
+	1150 3200 1150 3350
+Wire Wire Line
+	1750 3350 1750 3250
+Wire Wire Line
+	1750 3250 2550 3250
+Wire Wire Line
+	2550 3250 2550 3350
+Wire Wire Line
+	1450 3050 1450 3200
+Connection ~ 1450 3200
+Connection ~ 1450 3050
+Wire Wire Line
+	2250 3250 2250 3050
+Connection ~ 2250 3050
+Connection ~ 2250 3250
+$Comp
+L C C6
+U 1 1 58C086D4
+P 1850 3700
+F 0 "C6" H 1875 3800 50  0000 L CNN
+F 1 "C" H 1875 3600 50  0000 L CNN
+F 2 "" H 1888 3550 50  0001 C CNN
+F 3 "" H 1850 3700 50  0001 C CNN
+	1    1850 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 3700 2250 3700
+Wire Wire Line
+	2250 3700 2250 3550
+Wire Wire Line
+	1700 3700 1450 3700
+Wire Wire Line
+	1450 3700 1450 3550
 $EndSCHEMATC
