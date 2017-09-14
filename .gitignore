@@ -1,6 +1,5 @@
 *rescue.lib
 *.net
 *.kicad_pcb-bak
-*-cache.lib
 *.bak
 
