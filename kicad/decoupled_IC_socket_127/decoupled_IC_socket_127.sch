@@ -1,0 +1,315 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorConnectors
+LIBS:SquantorIC
+LIBS:SquantorProto
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PINS_1X20 J1
+U 1 1 59BAD962
+P 850 2250
+F 0 "J1" H 800 3350 60  0000 C CNN
+F 1 "PINS_1X20" H 850 1150 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X20-H015" H 850 3200 60  0001 C CNN
+F 3 "" H 850 3200 60  0001 C CNN
+	1    850  2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X20 J12
+U 1 1 59BADA31
+P 1950 2250
+F 0 "J12" H 1900 3350 60  0000 C CNN
+F 1 "PINS_1X20" H 1950 1150 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X20-H015" H 1950 3200 60  0001 C CNN
+F 3 "" H 1950 3200 60  0001 C CNN
+	1    1950 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PINS_1X20 J13
+U 1 1 59BADAA0
+P 2850 2250
+F 0 "J13" H 2800 3350 60  0000 C CNN
+F 1 "PINS_1X20" H 2850 1150 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X20-H015" H 2850 3200 60  0001 C CNN
+F 3 "" H 2850 3200 60  0001 C CNN
+	1    2850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X20 J24
+U 1 1 59BADAF1
+P 3900 2250
+F 0 "J24" H 3850 3350 60  0000 C CNN
+F 1 "PINS_1X20" H 3900 1150 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X20-H015" H 3900 3200 60  0001 C CNN
+F 3 "" H 3900 3200 60  0001 C CNN
+	1    3900 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Proto J7
+U 1 1 59BAE168
+P 1350 2350
+F 0 "J7" H 1350 2450 60  0000 C CNN
+F 1 "Proto" H 1350 2250 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 2350 60  0001 C CNN
+F 3 "" H 1350 2350 60  0001 C CNN
+	1    1350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J8
+U 1 1 59BAE259
+P 1350 2650
+F 0 "J8" H 1350 2750 60  0000 C CNN
+F 1 "Proto" H 1350 2550 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 2650 60  0001 C CNN
+F 3 "" H 1350 2650 60  0001 C CNN
+	1    1350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J9
+U 1 1 59BAE5DC
+P 1350 2950
+F 0 "J9" H 1350 3050 60  0000 C CNN
+F 1 "Proto" H 1350 2850 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 2950 60  0001 C CNN
+F 3 "" H 1350 2950 60  0001 C CNN
+	1    1350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J10
+U 1 1 59BAE611
+P 1350 3250
+F 0 "J10" H 1350 3350 60  0000 C CNN
+F 1 "Proto" H 1350 3150 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 3250 60  0001 C CNN
+F 3 "" H 1350 3250 60  0001 C CNN
+	1    1350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J11
+U 1 1 59BAE661
+P 1350 3550
+F 0 "J11" H 1350 3650 60  0000 C CNN
+F 1 "Proto" H 1350 3450 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 3550 60  0001 C CNN
+F 3 "" H 1350 3550 60  0001 C CNN
+	1    1350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J2
+U 1 1 59BAEA07
+P 1350 850
+F 0 "J2" H 1350 950 60  0000 C CNN
+F 1 "Proto" H 1350 750 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 850 60  0001 C CNN
+F 3 "" H 1350 850 60  0001 C CNN
+	1    1350 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J3
+U 1 1 59BAEA0D
+P 1350 1150
+F 0 "J3" H 1350 1250 60  0000 C CNN
+F 1 "Proto" H 1350 1050 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 1150 60  0001 C CNN
+F 3 "" H 1350 1150 60  0001 C CNN
+	1    1350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J4
+U 1 1 59BAEA13
+P 1350 1450
+F 0 "J4" H 1350 1550 60  0000 C CNN
+F 1 "Proto" H 1350 1350 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 1450 60  0001 C CNN
+F 3 "" H 1350 1450 60  0001 C CNN
+	1    1350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J5
+U 1 1 59BAEA19
+P 1350 1750
+F 0 "J5" H 1350 1850 60  0000 C CNN
+F 1 "Proto" H 1350 1650 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 1750 60  0001 C CNN
+F 3 "" H 1350 1750 60  0001 C CNN
+	1    1350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J6
+U 1 1 59BAEA1F
+P 1350 2050
+F 0 "J6" H 1350 2150 60  0000 C CNN
+F 1 "Proto" H 1350 1950 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 1350 2050 60  0001 C CNN
+F 3 "" H 1350 2050 60  0001 C CNN
+	1    1350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J19
+U 1 1 59BAF1B6
+P 3400 2350
+F 0 "J19" H 3400 2450 60  0000 C CNN
+F 1 "Proto" H 3400 2250 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 2350 60  0001 C CNN
+F 3 "" H 3400 2350 60  0001 C CNN
+	1    3400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J20
+U 1 1 59BAF1BC
+P 3400 2650
+F 0 "J20" H 3400 2750 60  0000 C CNN
+F 1 "Proto" H 3400 2550 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 2650 60  0001 C CNN
+F 3 "" H 3400 2650 60  0001 C CNN
+	1    3400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J21
+U 1 1 59BAF1C2
+P 3400 2950
+F 0 "J21" H 3400 3050 60  0000 C CNN
+F 1 "Proto" H 3400 2850 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 2950 60  0001 C CNN
+F 3 "" H 3400 2950 60  0001 C CNN
+	1    3400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J22
+U 1 1 59BAF1C8
+P 3400 3250
+F 0 "J22" H 3400 3350 60  0000 C CNN
+F 1 "Proto" H 3400 3150 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 3250 60  0001 C CNN
+F 3 "" H 3400 3250 60  0001 C CNN
+	1    3400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J23
+U 1 1 59BAF1CE
+P 3400 3550
+F 0 "J23" H 3400 3650 60  0000 C CNN
+F 1 "Proto" H 3400 3450 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 3550 60  0001 C CNN
+F 3 "" H 3400 3550 60  0001 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J14
+U 1 1 59BAF1D4
+P 3400 850
+F 0 "J14" H 3400 950 60  0000 C CNN
+F 1 "Proto" H 3400 750 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 850 60  0001 C CNN
+F 3 "" H 3400 850 60  0001 C CNN
+	1    3400 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J15
+U 1 1 59BAF1DA
+P 3400 1150
+F 0 "J15" H 3400 1250 60  0000 C CNN
+F 1 "Proto" H 3400 1050 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 1150 60  0001 C CNN
+F 3 "" H 3400 1150 60  0001 C CNN
+	1    3400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J16
+U 1 1 59BAF1E0
+P 3400 1450
+F 0 "J16" H 3400 1550 60  0000 C CNN
+F 1 "Proto" H 3400 1350 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 1450 60  0001 C CNN
+F 3 "" H 3400 1450 60  0001 C CNN
+	1    3400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J17
+U 1 1 59BAF1E6
+P 3400 1750
+F 0 "J17" H 3400 1850 60  0000 C CNN
+F 1 "Proto" H 3400 1650 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 1750 60  0001 C CNN
+F 3 "" H 3400 1750 60  0001 C CNN
+	1    3400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J18
+U 1 1 59BAF1EC
+P 3400 2050
+F 0 "J18" H 3400 2150 60  0000 C CNN
+F 1 "Proto" H 3400 1950 60  0000 C CNN
+F 2 "SquantorProto:proto-0254-02X02-P020" H 3400 2050 60  0001 C CNN
+F 3 "" H 3400 2050 60  0001 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
