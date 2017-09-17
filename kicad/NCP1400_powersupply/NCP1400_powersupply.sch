@@ -1,1 +1,294 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorConnectors
+LIBS:SquantorDiodes
+LIBS:SquantorOnSemi
+LIBS:SquantorRCL
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NCP1400 U?
+U 1 1 59BEB0B3
+P 2900 2000
+F 0 "U?" H 2900 2250 60  0000 C CNN
+F 1 "NCP1400" H 2900 1750 60  0000 C CNN
+F 2 "" H 2850 2000 60  0001 C CNN
+F 3 "" H 2850 2000 60  0001 C CNN
+	1    2900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X03 J?
+U 1 1 59BEB1AD
+P 4050 2000
+F 0 "J?" H 4000 2250 60  0000 C CNN
+F 1 "PINS_1X03" H 4050 1750 60  0000 C CNN
+F 2 "" H 4050 2100 60  0001 C CNN
+F 3 "" H 4050 2100 60  0001 C CNN
+	1    4050 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L PINS_1X03 J?
+U 1 1 59BEB1F6
+P 1500 2000
+F 0 "J?" H 1450 2250 60  0000 C CNN
+F 1 "PINS_1X03" H 1500 1750 60  0000 C CNN
+F 2 "" H 1500 2100 60  0001 C CNN
+F 3 "" H 1500 2100 60  0001 C CNN
+	1    1500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59BEB27C
+P 3650 1950
+F 0 "C?" H 3675 2050 50  0000 L CNN
+F 1 "10u" H 3675 1850 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 3688 1800 50  0001 C CNN
+F 3 "" H 3650 1950 50  0001 C CNN
+	1    3650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59BEB307
+P 2200 2000
+F 0 "C?" H 2225 2100 50  0000 L CNN
+F 1 "10u" H 2225 1900 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 2238 1850 50  0001 C CNN
+F 3 "" H 2200 2000 50  0001 C CNN
+	1    2200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 59BEB389
+P 1950 2000
+F 0 "C?" H 1975 2100 50  0000 L CNN
+F 1 "100u" H 1975 1900 50  0000 L CNN
+F 2 "" H 1988 1850 50  0001 C CNN
+F 3 "" H 1950 2000 50  0001 C CNN
+	1    1950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L?
+U 1 1 59BEB3D0
+P 3450 1600
+F 0 "L?" V 3400 1600 50  0000 C CNN
+F 1 "22u" V 3525 1600 50  0000 C CNN
+F 2 "" H 3450 1600 50  0001 C CNN
+F 3 "" H 3450 1600 50  0001 C CNN
+	1    3450 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59BEB4B5
+P 3800 2150
+F 0 "#PWR?" H 3800 1900 50  0001 C CNN
+F 1 "GND" H 3800 2000 50  0000 C CNN
+F 2 "" H 3800 2150 50  0001 C CNN
+F 3 "" H 3800 2150 50  0001 C CNN
+	1    3800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2100 3800 2100
+Wire Wire Line
+	3800 2100 3800 2150
+$Comp
+L GND #PWR?
+U 1 1 59BEB4E6
+P 1750 2200
+F 0 "#PWR?" H 1750 1950 50  0001 C CNN
+F 1 "GND" H 1750 2050 50  0000 C CNN
+F 2 "" H 1750 2200 50  0001 C CNN
+F 3 "" H 1750 2200 50  0001 C CNN
+	1    1750 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2100 1750 2100
+Wire Wire Line
+	1750 2100 1750 2200
+$Comp
+L GND #PWR?
+U 1 1 59BEB531
+P 3250 2150
+F 0 "#PWR?" H 3250 1900 50  0001 C CNN
+F 1 "GND" H 3250 2000 50  0000 C CNN
+F 2 "" H 3250 2150 50  0001 C CNN
+F 3 "" H 3250 2150 50  0001 C CNN
+	1    3250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2100 3250 2100
+Wire Wire Line
+	3250 2100 3250 2150
+$Comp
+L GND #PWR?
+U 1 1 59BEB55E
+P 3650 2150
+F 0 "#PWR?" H 3650 1900 50  0001 C CNN
+F 1 "GND" H 3650 2000 50  0000 C CNN
+F 2 "" H 3650 2150 50  0001 C CNN
+F 3 "" H 3650 2150 50  0001 C CNN
+	1    3650 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2150 3650 2100
+Wire Wire Line
+	3850 1900 3800 1900
+Wire Wire Line
+	3800 1900 3800 1600
+Wire Wire Line
+	3800 1600 3650 1600
+Wire Wire Line
+	3650 1600 3600 1600
+Wire Wire Line
+	3200 1900 3250 1900
+Wire Wire Line
+	3650 1600 3650 1800
+Connection ~ 3650 1600
+Wire Wire Line
+	1800 1600 1800 1900
+Wire Wire Line
+	1800 1900 1700 1900
+Wire Wire Line
+	1950 1850 1950 1600
+Connection ~ 1950 1600
+Wire Wire Line
+	2200 1600 2200 1850
+Connection ~ 2200 1600
+$Comp
+L GND #PWR?
+U 1 1 59BEB8FE
+P 1950 2200
+F 0 "#PWR?" H 1950 1950 50  0001 C CNN
+F 1 "GND" H 1950 2050 50  0000 C CNN
+F 2 "" H 1950 2200 50  0001 C CNN
+F 3 "" H 1950 2200 50  0001 C CNN
+	1    1950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59BEB91E
+P 2200 2200
+F 0 "#PWR?" H 2200 1950 50  0001 C CNN
+F 1 "GND" H 2200 2050 50  0000 C CNN
+F 2 "" H 2200 2200 50  0001 C CNN
+F 3 "" H 2200 2200 50  0001 C CNN
+	1    2200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2200 1950 2150
+Wire Wire Line
+	2200 2200 2200 2150
+Wire Wire Line
+	2600 2000 2550 2000
+Wire Wire Line
+	2550 2000 2550 1600
+Connection ~ 2550 1600
+Wire Wire Line
+	2600 1900 2500 1900
+Wire Wire Line
+	2500 1900 2500 2000
+Wire Wire Line
+	2500 2000 2400 2000
+Wire Wire Line
+	2400 2000 1700 2000
+$Comp
+L D_Schottky D?
+U 1 1 59BEBC77
+P 2900 1600
+F 0 "D?" H 2900 1700 50  0000 C CNN
+F 1 "D_Schottky" H 2900 1500 50  0000 C CNN
+F 2 "" H 2900 1600 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1600 3250 1600
+Wire Wire Line
+	3250 1600 3300 1600
+Wire Wire Line
+	3250 1900 3250 1600
+Connection ~ 3250 1600
+Wire Wire Line
+	1800 1600 1950 1600
+Wire Wire Line
+	1950 1600 2200 1600
+Wire Wire Line
+	2200 1600 2400 1600
+Wire Wire Line
+	2400 1600 2550 1600
+Wire Wire Line
+	2550 1600 2750 1600
+$Comp
+L R R?
+U 1 1 59BEBF12
+P 2400 1800
+F 0 "R?" V 2480 1800 50  0000 C CNN
+F 1 "10K" V 2400 1800 50  0000 C CNN
+F 2 "" V 2330 1800 50  0001 C CNN
+F 3 "" H 2400 1800 50  0001 C CNN
+	1    2400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1650 2400 1600
+Connection ~ 2400 1600
+Wire Wire Line
+	2400 1950 2400 2000
+Connection ~ 2400 2000
+$EndSCHEMATC
