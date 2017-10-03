@@ -1,4 +1,4 @@
-update=zo 17 sep 2017 19:19:00 CEST
+update=di 03 okt 2017 22:12:31 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,7 +61,10 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorConnectors
-LibName34=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorDiodes
-LibName35=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorOnSemi
-LibName36=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorRCL
+LibName33=SquantorLabels
+LibName34=SquantorConnectors
+LibName35=SquantorDiodes
+LibName36=SquantorOnSemi
+LibName37=SquantorProto
+LibName38=SquantorRCL
+LibName39=ohw-logo

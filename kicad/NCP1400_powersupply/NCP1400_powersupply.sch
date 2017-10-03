@@ -31,10 +31,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:SquantorLabels
 LIBS:SquantorConnectors
 LIBS:SquantorDiodes
 LIBS:SquantorOnSemi
+LIBS:SquantorProto
 LIBS:SquantorRCL
+LIBS:ohw-logo
 LIBS:NCP1400_powersupply-cache
 EELAYER 25 0
 EELAYER END
@@ -317,4 +320,37 @@ Text GLabel 4050 2000 0    60   Input ~ 0
 CE
 Wire Wire Line
 	4100 2000 4050 2000
+$Comp
+L VYYYYMMDD N1
+U 1 1 59D3F091
+P 1000 2750
+F 0 "N1" H 1000 2850 60  0000 C CNN
+F 1 "V20171003" H 1000 2750 60  0000 C CNN
+F 2 "SquantorLabels:Label_version" H 1000 2750 60  0001 C CNN
+F 3 "" H 1000 2750 60  0001 C CNN
+	1    1000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L OHWLOGO N2
+U 1 1 59D3F294
+P 1000 3000
+F 0 "N2" H 1000 3150 60  0000 C CNN
+F 1 "OHWLOGO" H 1000 2850 60  0000 C CNN
+F 2 "SquantorOHW_logo:ohw-logo-OSHW_6X70_NOTEXT" H 1000 3000 60  0001 C CNN
+F 3 "" H 1000 3000 60  0001 C CNN
+	1    1000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Label N3
+U 1 1 59D3F305
+P 1000 3350
+F 0 "N3" H 1000 3400 60  0000 C CNN
+F 1 "V:" H 1000 3300 60  0000 C CNN
+F 2 "SquantorLabels:Label_Note_small" H 1000 3350 60  0001 C CNN
+F 3 "" H 1000 3350 60  0001 C CNN
+	1    1000 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
