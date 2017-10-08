@@ -1,1 +1,366 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorAtmel
+LIBS:SquantorButtons
+LIBS:SquantorConnectors
+LIBS:SquantorCrystal
+LIBS:SquantorDiodes
+LIBS:SquantorGenericAnalog
+LIBS:SquantorIC
+LIBS:SquantorLabels
+LIBS:SquantorLinearTechnology
+LIBS:SquantorMaxim
+LIBS:SquantorMicrochip
+LIBS:SquantorModules
+LIBS:SquantorNxp
+LIBS:SquantorOnSemi
+LIBS:SquantorOpto
+LIBS:SquantorPCBOutline
+LIBS:SquantorProto
+LIBS:SquantorRCL
+LIBS:SquantorST
+LIBS:SquantorTexasInstruments
+LIBS:SquantorTransformer
+LIBS:SquantorUsb
+LIBS:SquantorWinbond
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74LVC1G98 U?
+U 1 1 59DAAB59
+P 2600 2100
+F 0 "U?" H 2600 2350 60  0000 C CNN
+F 1 "74LVC1G98" H 2600 1850 60  0000 C CNN
+F 2 "" H 2600 2100 60  0001 C CNN
+F 3 "" H 2600 2100 60  0001 C CNN
+	1    2600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X03 J?
+U 1 1 59DAAC23
+P 1700 2100
+F 0 "J?" H 1650 2350 60  0000 C CNN
+F 1 "PINS_1X03" H 1700 1850 60  0000 C CNN
+F 2 "" H 1700 2200 60  0001 C CNN
+F 3 "" H 1700 2200 60  0001 C CNN
+	1    1700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X03 J?
+U 1 1 59DAAC8A
+P 3650 2100
+F 0 "J?" H 3600 2350 60  0000 C CNN
+F 1 "PINS_1X03" H 3650 1850 60  0000 C CNN
+F 2 "" H 3650 2200 60  0001 C CNN
+F 3 "" H 3650 2200 60  0001 C CNN
+	1    3650 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 2000 2300 2000
+Wire Wire Line
+	1900 2100 2300 2100
+Wire Wire Line
+	1900 2200 2300 2200
+Wire Wire Line
+	3450 2200 2900 2200
+Wire Wire Line
+	2900 2100 3450 2100
+Wire Wire Line
+	3450 2000 2900 2000
+$Comp
+L GND #PWR?
+U 1 1 59DAADC8
+P 2200 2300
+F 0 "#PWR?" H 2200 2050 50  0001 C CNN
+F 1 "GND" H 2200 2150 50  0000 C CNN
+F 2 "" H 2200 2300 50  0001 C CNN
+F 3 "" H 2200 2300 50  0001 C CNN
+	1    2200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2100 2200 2300
+Connection ~ 2200 2100
+$Comp
+L VCC #PWR?
+U 1 1 59DAAE51
+P 3000 1800
+F 0 "#PWR?" H 3000 1650 50  0001 C CNN
+F 1 "VCC" H 3000 1950 50  0000 C CNN
+F 2 "" H 3000 1800 50  0001 C CNN
+F 3 "" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1800 3000 2100
+Connection ~ 3000 2100
+$Comp
+L VCC #PWR?
+U 1 1 59DAAE83
+P 2800 1700
+F 0 "#PWR?" H 2800 1550 50  0001 C CNN
+F 1 "VCC" H 2800 1850 50  0000 C CNN
+F 2 "" H 2800 1700 50  0001 C CNN
+F 3 "" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59DAAE97
+P 2400 1700
+F 0 "#PWR?" H 2400 1450 50  0001 C CNN
+F 1 "GND" H 2400 1550 50  0000 C CNN
+F 2 "" H 2400 1700 50  0001 C CNN
+F 3 "" H 2400 1700 50  0001 C CNN
+	1    2400 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59DAAEAA
+P 2600 1700
+F 0 "C?" H 2625 1800 50  0000 L CNN
+F 1 "100n" H 2625 1600 50  0000 L CNN
+F 2 "SquantorRcl:C_0402" H 2638 1550 50  0001 C CNN
+F 3 "" H 2600 1700 50  0001 C CNN
+	1    2600 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 1700 2400 1700
+Wire Wire Line
+	2750 1700 2800 1700
+Text GLabel 2050 2300 3    60   Input ~ 0
+A
+Text GLabel 2050 1900 1    60   Input ~ 0
+B
+Wire Wire Line
+	2050 1900 2050 2000
+Connection ~ 2050 2000
+Wire Wire Line
+	2050 2300 2050 2200
+Connection ~ 2050 2200
+Text GLabel 3100 1900 1    60   Input ~ 0
+C
+Wire Wire Line
+	3100 1900 3100 2000
+Connection ~ 3100 2000
+Text GLabel 3100 2350 3    60   Input ~ 0
+Y
+Wire Wire Line
+	3100 2350 3100 2200
+Connection ~ 3100 2200
+Text GLabel 1200 1050 0    60   Input ~ 0
+A
+$Comp
+L R R?
+U 1 1 59DAB1EC
+P 1250 850
+F 0 "R?" V 1330 850 50  0000 C CNN
+F 1 "10k" V 1250 850 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1180 850 50  0001 C CNN
+F 3 "" H 1250 850 50  0001 C CNN
+	1    1250 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59DAB25F
+P 1250 1450
+F 0 "#PWR?" H 1250 1200 50  0001 C CNN
+F 1 "GND" H 1250 1300 50  0000 C CNN
+F 2 "" H 1250 1450 50  0001 C CNN
+F 3 "" H 1250 1450 50  0001 C CNN
+	1    1250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 59DAB2EF
+P 1250 650
+F 0 "#PWR?" H 1250 500 50  0001 C CNN
+F 1 "VCC" H 1250 800 50  0000 C CNN
+F 2 "" H 1250 650 50  0001 C CNN
+F 3 "" H 1250 650 50  0001 C CNN
+	1    1250 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1050 1250 1050
+Wire Wire Line
+	1250 1000 1250 1100
+Connection ~ 1250 1050
+Wire Wire Line
+	1250 700  1250 650 
+Wire Wire Line
+	1250 1400 1250 1450
+$Comp
+L GND #PWR?
+U 1 1 59DAB477
+P 1500 1450
+F 0 "#PWR?" H 1500 1200 50  0001 C CNN
+F 1 "GND" H 1500 1300 50  0000 C CNN
+F 2 "" H 1500 1450 50  0001 C CNN
+F 3 "" H 1500 1450 50  0001 C CNN
+	1    1500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 59DAB483
+P 1500 650
+F 0 "#PWR?" H 1500 500 50  0001 C CNN
+F 1 "VCC" H 1500 800 50  0000 C CNN
+F 2 "" H 1500 650 50  0001 C CNN
+F 3 "" H 1500 650 50  0001 C CNN
+	1    1500 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1050 1500 1050
+Wire Wire Line
+	1500 1000 1500 1100
+Connection ~ 1500 1050
+Wire Wire Line
+	1500 700  1500 650 
+Wire Wire Line
+	1500 1400 1500 1450
+$Comp
+L GND #PWR?
+U 1 1 59DAB4ED
+P 1750 1450
+F 0 "#PWR?" H 1750 1200 50  0001 C CNN
+F 1 "GND" H 1750 1300 50  0000 C CNN
+F 2 "" H 1750 1450 50  0001 C CNN
+F 3 "" H 1750 1450 50  0001 C CNN
+	1    1750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 59DAB4F9
+P 1750 650
+F 0 "#PWR?" H 1750 500 50  0001 C CNN
+F 1 "VCC" H 1750 800 50  0000 C CNN
+F 2 "" H 1750 650 50  0001 C CNN
+F 3 "" H 1750 650 50  0001 C CNN
+	1    1750 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1050 1750 1050
+Wire Wire Line
+	1750 1000 1750 1100
+Connection ~ 1750 1050
+Wire Wire Line
+	1750 700  1750 650 
+Wire Wire Line
+	1750 1400 1750 1450
+Text GLabel 1450 1050 0    60   Input ~ 0
+B
+Text GLabel 1700 1050 0    60   Input ~ 0
+C
+$Comp
+L R R?
+U 1 1 59DAB607
+P 1500 850
+F 0 "R?" V 1580 850 50  0000 C CNN
+F 1 "10k" V 1500 850 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1430 850 50  0001 C CNN
+F 3 "" H 1500 850 50  0001 C CNN
+	1    1500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59DAB639
+P 1750 850
+F 0 "R?" V 1830 850 50  0000 C CNN
+F 1 "10k" V 1750 850 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1680 850 50  0001 C CNN
+F 3 "" H 1750 850 50  0001 C CNN
+	1    1750 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59DAB688
+P 1750 1250
+F 0 "R?" V 1830 1250 50  0000 C CNN
+F 1 "10k" V 1750 1250 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1680 1250 50  0001 C CNN
+F 3 "" H 1750 1250 50  0001 C CNN
+	1    1750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59DAB6C4
+P 1500 1250
+F 0 "R?" V 1580 1250 50  0000 C CNN
+F 1 "10k" V 1500 1250 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1430 1250 50  0001 C CNN
+F 3 "" H 1500 1250 50  0001 C CNN
+	1    1500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59DAB6F5
+P 1250 1250
+F 0 "R?" V 1330 1250 50  0000 C CNN
+F 1 "10k" V 1250 1250 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1180 1250 50  0001 C CNN
+F 3 "" H 1250 1250 50  0001 C CNN
+	1    1250 1250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
