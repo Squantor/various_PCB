@@ -2,7 +2,7 @@
 
   (general
     (links 21)
-    (no_connects 1)
+    (no_connects 0)
     (area 143.87 95.65 161.2348 106.910238)
     (thickness 1.6)
     (drawings 4)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.4)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
@@ -135,7 +135,7 @@
     (tags "capacitor 0402")
     (path /59DAAEAA)
     (attr smd)
-    (fp_text reference C1 (at 0 1.27 180) (layer F.SilkS)
+    (fp_text reference C1 (at 2.286 -0.0254 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.7 180) (layer F.Fab) hide
@@ -318,7 +318,7 @@
     (tags "resistor 0402")
     (path /59DAB607)
     (attr smd)
-    (fp_text reference R3 (at -2.159 0 180) (layer B.SilkS)
+    (fp_text reference R3 (at -3.048 -0.0254 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 10k (at 0 -1.8 180) (layer B.Fab) hide
@@ -351,7 +351,7 @@
     (tags "resistor 0402")
     (path /59DAB6C4)
     (attr smd)
-    (fp_text reference R4 (at 2.159 0) (layer B.SilkS)
+    (fp_text reference R4 (at 3.048 0.0762) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 10k (at 0 -1.8) (layer B.Fab) hide
@@ -477,15 +477,15 @@
     )
   )
 
-  (module SquantorIC:SOT363 (layer F.Cu) (tedit 59DA82A0) (tstamp 59DC21AF)
+  (module SquantorIC:SOT363 (layer F.Cu) (tedit 59DA8821) (tstamp 59DC21AF)
     (at 152.4 101.6 270)
     (descr "<li><b>SOT363</b><hr>\n<ul><li>Plastic surface-mounted package; 6 leads\n<li><u>JEDEC</u>: --\n<li><u>IEC</u>: --\n<li><u>JEITA</u>:  SC-88</ul>")
     (path /59DAAB59)
-    (fp_text reference U1 (at 2.667 1.143 540) (layer F.SilkS)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    (fp_text reference U1 (at 2.5908 0.7112 360) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     )
-    (fp_text value 74LVC1G98 (at 3.2 3.3 360) (layer F.Fab) hide
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    (fp_text value 74LVC1G98 (at 2.9 2.8 360) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     )
     (fp_line (start -1 -0.625) (end -1 0.625) (layer Dwgs.User) (width 0.127))
     (fp_line (start 1 0.625) (end 1 -0.625) (layer Dwgs.User) (width 0.127))
