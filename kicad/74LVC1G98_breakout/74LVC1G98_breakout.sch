@@ -54,6 +54,7 @@ LIBS:SquantorTexasInstruments
 LIBS:SquantorTransformer
 LIBS:SquantorUsb
 LIBS:SquantorWinbond
+LIBS:74LVC1G98_breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -376,4 +377,15 @@ Wire Wire Line
 	2900 2200 3150 2200
 Wire Wire Line
 	3500 2200 3450 2200
+$Comp
+L Label L1
+U 1 1 59DE8885
+P 1450 3300
+F 0 "L1" H 1450 3350 60  0000 C CNN
+F 1 "Label" H 1450 3250 60  0000 C CNN
+F 2 "SquantorLabels:Label_Note_small" H 1450 3300 60  0001 C CNN
+F 3 "" H 1450 3300 60  0001 C CNN
+	1    1450 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
