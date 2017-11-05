@@ -1,1 +1,483 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorAtmel
+LIBS:SquantorButtons
+LIBS:SquantorConnectors
+LIBS:SquantorCrystal
+LIBS:SquantorDiodes
+LIBS:SquantorGenericAnalog
+LIBS:SquantorIC
+LIBS:SquantorLabels
+LIBS:SquantorLinearTechnology
+LIBS:SquantorMaxim
+LIBS:SquantorMicrochip
+LIBS:SquantorModules
+LIBS:SquantorNxp
+LIBS:SquantorOnSemi
+LIBS:SquantorOpto
+LIBS:SquantorPCBOutline
+LIBS:SquantorProto
+LIBS:SquantorRCL
+LIBS:SquantorST
+LIBS:SquantorTexasInstruments
+LIBS:SquantorTransformer
+LIBS:SquantorUsb
+LIBS:SquantorWinbond
+LIBS:LM317_supply_test-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM317 U1
+U 1 1 59DBAC0A
+P 5000 2300
+F 0 "U1" H 5000 2550 60  0000 C CNN
+F 1 "LM317" H 5000 2450 60  0000 C CNN
+F 2 "SquantorIC:TO-263-D2PAK-3-3-viapad" H 5000 2300 60  0001 C CNN
+F 3 "" H 5000 2300 60  0001 C CNN
+	1    5000 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2550 4900 2500
+Wire Wire Line
+	5000 2500 5000 2550
+Wire Wire Line
+	5100 2500 5100 3000
+Wire Wire Line
+	5050 2950 5550 2950
+$Comp
+L C C2
+U 1 1 59DBADC8
+P 4700 2750
+F 0 "C2" H 4725 2850 50  0000 L CNN
+F 1 "C" H 4725 2650 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 4738 2600 50  0001 C CNN
+F 3 "" H 4700 2750 50  0001 C CNN
+	1    4700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 59DBADF9
+P 4400 2750
+F 0 "C1" H 4425 2850 50  0000 L CNN
+F 1 "CP" H 4425 2650 50  0000 L CNN
+F 2 "SquantorRcl:CPOL-05-06" H 4438 2600 50  0001 C CNN
+F 3 "" H 4400 2750 50  0001 C CNN
+	1    4400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 59DBAE30
+P 4400 2950
+F 0 "#PWR01" H 4400 2700 50  0001 C CNN
+F 1 "GND" H 4400 2800 50  0000 C CNN
+F 2 "" H 4400 2950 50  0001 C CNN
+F 3 "" H 4400 2950 50  0001 C CNN
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 59DBAE5E
+P 4700 2950
+F 0 "#PWR02" H 4700 2700 50  0001 C CNN
+F 1 "GND" H 4700 2800 50  0000 C CNN
+F 2 "" H 4700 2950 50  0001 C CNN
+F 3 "" H 4700 2950 50  0001 C CNN
+	1    4700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2400 4700 2600
+Connection ~ 4700 2550
+Wire Wire Line
+	4400 1850 4400 2600
+Connection ~ 4400 2550
+Wire Wire Line
+	4700 2950 4700 2900
+Wire Wire Line
+	4400 2900 4400 2950
+$Comp
+L R R2
+U 1 1 59DBAF75
+P 5300 2750
+F 0 "R2" V 5380 2750 50  0000 C CNN
+F 1 "220" V 5300 2750 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 5230 2750 50  0001 C CNN
+F 3 "" H 5300 2750 50  0001 C CNN
+	1    5300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2400 5300 2600
+Connection ~ 5300 2550
+Wire Wire Line
+	5300 2900 5300 3000
+$Comp
+L R R1
+U 1 1 59DBB021
+P 5100 3150
+F 0 "R1" V 5180 3150 50  0000 C CNN
+F 1 "R" V 5100 3150 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 5030 3150 50  0001 C CNN
+F 3 "" H 5100 3150 50  0001 C CNN
+	1    5100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 59DBB07D
+P 5300 3150
+F 0 "R3" V 5380 3150 50  0000 C CNN
+F 1 "R" V 5300 3150 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 5230 3150 50  0001 C CNN
+F 3 "" H 5300 3150 50  0001 C CNN
+	1    5300 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 2950
+Connection ~ 5300 2950
+$Comp
+L GND #PWR03
+U 1 1 59DBB0FD
+P 5100 3350
+F 0 "#PWR03" H 5100 3100 50  0001 C CNN
+F 1 "GND" H 5100 3200 50  0000 C CNN
+F 2 "" H 5100 3350 50  0001 C CNN
+F 3 "" H 5100 3350 50  0001 C CNN
+	1    5100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 59DBB11A
+P 5300 3350
+F 0 "#PWR04" H 5300 3100 50  0001 C CNN
+F 1 "GND" H 5300 3200 50  0000 C CNN
+F 2 "" H 5300 3350 50  0001 C CNN
+F 3 "" H 5300 3350 50  0001 C CNN
+	1    5300 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3350 5300 3300
+Wire Wire Line
+	5100 3350 5100 3300
+$Comp
+L C C3
+U 1 1 59DBB16A
+P 5550 3150
+F 0 "C3" H 5575 3250 50  0000 L CNN
+F 1 "C" H 5575 3050 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 5588 3000 50  0001 C CNN
+F 3 "" H 5550 3150 50  0001 C CNN
+	1    5550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2900 5550 3000
+$Comp
+L GND #PWR05
+U 1 1 59DBB1DC
+P 5550 3350
+F 0 "#PWR05" H 5550 3100 50  0001 C CNN
+F 1 "GND" H 5550 3200 50  0000 C CNN
+F 2 "" H 5550 3350 50  0001 C CNN
+F 3 "" H 5550 3350 50  0001 C CNN
+	1    5550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3350 5550 3300
+$Comp
+L C C4
+U 1 1 59DBB3BF
+P 5800 2750
+F 0 "C4" H 5825 2850 50  0000 L CNN
+F 1 "C" H 5825 2650 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 5838 2600 50  0001 C CNN
+F 3 "" H 5800 2750 50  0001 C CNN
+	1    5800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C5
+U 1 1 59DBB41E
+P 6000 2750
+F 0 "C5" H 6025 2850 50  0000 L CNN
+F 1 "CP" H 6025 2650 50  0000 L CNN
+F 2 "SquantorRcl:CPOL-05-06" H 6038 2600 50  0001 C CNN
+F 3 "" H 6000 2750 50  0001 C CNN
+	1    6000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 59DBB482
+P 5800 2950
+F 0 "#PWR06" H 5800 2700 50  0001 C CNN
+F 1 "GND" H 5800 2800 50  0000 C CNN
+F 2 "" H 5800 2950 50  0001 C CNN
+F 3 "" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 59DBB4A8
+P 6000 2950
+F 0 "#PWR07" H 6000 2700 50  0001 C CNN
+F 1 "GND" H 6000 2800 50  0000 C CNN
+F 2 "" H 6000 2950 50  0001 C CNN
+F 3 "" H 6000 2950 50  0001 C CNN
+	1    6000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2550 5800 2600
+Connection ~ 5800 2550
+Wire Wire Line
+	6000 2550 6000 2600
+Wire Wire Line
+	5800 2950 5800 2900
+Wire Wire Line
+	6000 2950 6000 2900
+Text GLabel 5050 2950 0    60   Input ~ 0
+ADJ
+Text GLabel 4700 2400 1    60   Input ~ 0
+IN
+Text GLabel 5300 2400 1    60   Input ~ 0
+OUT
+$Comp
+L D D2
+U 1 1 59DBBA28
+P 5550 2750
+F 0 "D2" H 5550 2850 50  0000 C CNN
+F 1 "D" H 5550 2650 50  0000 C CNN
+F 2 "SquantorDiodes:MELF_D_0207" H 5550 2750 50  0001 C CNN
+F 3 "" H 5550 2750 50  0001 C CNN
+	1    5550 2750
+	0    1    1    0   
+$EndComp
+Connection ~ 5550 2950
+Wire Wire Line
+	5550 1850 5550 2600
+Connection ~ 5550 2550
+$Comp
+L D D1
+U 1 1 59DBBCD2
+P 5000 1850
+F 0 "D1" H 5000 1950 50  0000 C CNN
+F 1 "D" H 5000 1750 50  0000 C CNN
+F 2 "SquantorDiodes:MELF_D_0207" H 5000 1850 50  0001 C CNN
+F 3 "" H 5000 1850 50  0001 C CNN
+	1    5000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1850 5150 1850
+Wire Wire Line
+	4850 1850 4400 1850
+$Comp
+L PINS_1X02 J1
+U 1 1 59DBBE19
+P 3700 2200
+F 0 "J1" H 3650 2400 60  0000 C CNN
+F 1 "PINS_1X02" H 3700 2000 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X02-H010" H 3700 2250 60  0001 C CNN
+F 3 "" H 3700 2250 60  0001 C CNN
+	1    3700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X02 J2
+U 1 1 59DBBEF8
+P 3700 2700
+F 0 "J2" H 3650 2900 60  0000 C CNN
+F 1 "PINS_1X02" H 3700 2500 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X02-H010" H 3700 2750 60  0001 C CNN
+F 3 "" H 3700 2750 60  0001 C CNN
+	1    3700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 59DBBFA2
+P 3950 2800
+F 0 "#PWR08" H 3950 2550 50  0001 C CNN
+F 1 "GND" H 3950 2650 50  0000 C CNN
+F 2 "" H 3950 2800 50  0001 C CNN
+F 3 "" H 3950 2800 50  0001 C CNN
+	1    3950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 59DBBFEA
+P 3950 2300
+F 0 "#PWR09" H 3950 2050 50  0001 C CNN
+F 1 "GND" H 3950 2150 50  0000 C CNN
+F 2 "" H 3950 2300 50  0001 C CNN
+F 3 "" H 3950 2300 50  0001 C CNN
+	1    3950 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2250 3950 2250
+Wire Wire Line
+	3950 2250 3950 2300
+Wire Wire Line
+	3900 2750 3950 2750
+Wire Wire Line
+	3950 2750 3950 2800
+Wire Wire Line
+	4400 2550 4900 2550
+Wire Wire Line
+	5000 2550 6000 2550
+Text GLabel 3950 2150 2    60   Input ~ 0
+IN
+Text GLabel 3950 2650 2    60   Input ~ 0
+IN
+Wire Wire Line
+	3900 2650 3950 2650
+Wire Wire Line
+	3900 2150 3950 2150
+$Comp
+L PINS_1X02 J3
+U 1 1 59DBC497
+P 6750 2250
+F 0 "J3" H 6700 2450 60  0000 C CNN
+F 1 "PINS_1X02" H 6750 2050 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X02-H010" H 6750 2300 60  0001 C CNN
+F 3 "" H 6750 2300 60  0001 C CNN
+	1    6750 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PINS_1X02 J4
+U 1 1 59DBC50E
+P 6750 2750
+F 0 "J4" H 6700 2950 60  0000 C CNN
+F 1 "PINS_1X02" H 6750 2550 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X02-H010" H 6750 2800 60  0001 C CNN
+F 3 "" H 6750 2800 60  0001 C CNN
+	1    6750 2750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6500 2200 0    60   Input ~ 0
+OUT
+Text GLabel 6500 2700 0    60   Input ~ 0
+OUT
+Wire Wire Line
+	6500 2200 6550 2200
+Wire Wire Line
+	6500 2700 6550 2700
+$Comp
+L GND #PWR010
+U 1 1 59DBC7FB
+P 6500 2850
+F 0 "#PWR010" H 6500 2600 50  0001 C CNN
+F 1 "GND" H 6500 2700 50  0000 C CNN
+F 2 "" H 6500 2850 50  0001 C CNN
+F 3 "" H 6500 2850 50  0001 C CNN
+	1    6500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 59DBC833
+P 6500 2350
+F 0 "#PWR011" H 6500 2100 50  0001 C CNN
+F 1 "GND" H 6500 2200 50  0000 C CNN
+F 2 "" H 6500 2350 50  0001 C CNN
+F 3 "" H 6500 2350 50  0001 C CNN
+	1    6500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2350 6500 2300
+Wire Wire Line
+	6500 2300 6550 2300
+Wire Wire Line
+	6550 2800 6500 2800
+Wire Wire Line
+	6500 2800 6500 2850
+$Comp
+L VYYYYMMDD N3
+U 1 1 59DBC5A7
+P 1250 4500
+F 0 "N3" H 1250 4600 60  0000 C CNN
+F 1 "V20171011" H 1250 4500 60  0000 C CNN
+F 2 "SquantorLabels:Label_version" H 1250 4500 60  0001 C CNN
+F 3 "" H 1250 4500 60  0001 C CNN
+	1    1250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OHWLOGO N2
+U 1 1 59DBC620
+P 1250 4150
+F 0 "N2" H 1250 4300 60  0000 C CNN
+F 1 "OHWLOGO" H 1250 4000 60  0000 C CNN
+F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 1250 4150 60  0001 C CNN
+F 3 "" H 1250 4150 60  0001 C CNN
+	1    1250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Label N1
+U 1 1 59DBC6A7
+P 1250 3800
+F 0 "N1" H 1250 3850 60  0000 C CNN
+F 1 "V" H 1250 3750 60  0000 C CNN
+F 2 "SquantorLabels:Label_Note_small" H 1250 3800 60  0001 C CNN
+F 3 "" H 1250 3800 60  0001 C CNN
+	1    1250 3800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
