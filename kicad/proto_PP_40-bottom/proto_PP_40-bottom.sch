@@ -1,0 +1,511 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorButtons
+LIBS:SquantorConnectors
+LIBS:SquantorLabels
+LIBS:SquantorPCBOutline
+LIBS:SquantorProto
+LIBS:proto_PP_40-bottom-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VYYYYMMDD N2
+U 1 1 5A1357A5
+P 850 7700
+F 0 "N2" H 850 7800 60  0000 C CNN
+F 1 "V20171120" H 850 7700 60  0000 C CNN
+F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
+F 3 "" H 850 7700 60  0001 C CNN
+	1    850  7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OHWLOGO N1
+U 1 1 5A135869
+P 850 7350
+F 0 "N1" H 850 7500 60  0000 C CNN
+F 1 "OHWLOGO" H 850 7200 60  0000 C CNN
+F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 850 7350 60  0001 C CNN
+F 3 "" H 850 7350 60  0001 C CNN
+	1    850  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drill_Hole_no_metal H1
+U 1 1 5A135980
+P 1600 7450
+F 0 "H1" H 1600 7200 60  0000 C CNN
+F 1 "Drill_Hole_no_metal" H 1600 7700 60  0000 C CNN
+F 2 "SquantorPcbOutline:MountingHole_3.2mm_no_metal" H 1600 7450 60  0001 C CNN
+F 3 "" H 1600 7450 60  0001 C CNN
+	1    1600 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drill_Hole_no_metal H2
+U 1 1 5A1359C7
+P 2500 7450
+F 0 "H2" H 2500 7200 60  0000 C CNN
+F 1 "Drill_Hole_no_metal" H 2500 7700 60  0000 C CNN
+F 2 "SquantorPcbOutline:MountingHole_3.2mm_no_metal" H 2500 7450 60  0001 C CNN
+F 3 "" H 2500 7450 60  0001 C CNN
+	1    2500 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drill_Hole_no_metal H3
+U 1 1 5A135A0C
+P 3400 7450
+F 0 "H3" H 3400 7200 60  0000 C CNN
+F 1 "Drill_Hole_no_metal" H 3400 7700 60  0000 C CNN
+F 2 "SquantorPcbOutline:MountingHole_2.2mm_no_metal" H 3400 7450 60  0001 C CNN
+F 3 "" H 3400 7450 60  0001 C CNN
+	1    3400 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X12 J1
+U 1 1 5A135BF8
+P 1000 5550
+F 0 "J1" H 950 6250 60  0000 C CNN
+F 1 "PINS_1X12" H 1000 4850 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X12-H015" H 1000 6100 60  0001 C CNN
+F 3 "" H 1000 6100 60  0001 C CNN
+	1    1000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X12 J2
+U 1 1 5A135C4B
+P 3600 5550
+F 0 "J2" H 3550 6250 60  0000 C CNN
+F 1 "PINS_1X12" H 3600 4850 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X12-H015" H 3600 6100 60  0001 C CNN
+F 3 "" H 3600 6100 60  0001 C CNN
+	1    3600 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Proto J3
+U 1 1 5A15EE95
+P 4850 6900
+F 0 "J3" H 4850 7000 60  0000 C CNN
+F 1 "Proto" H 4850 6800 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X04-P010SQ-H008" H 4850 6900 60  0001 C CNN
+F 3 "" H 4850 6900 60  0001 C CNN
+	1    4850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J4
+U 1 1 5A15EF38
+P 5150 6900
+F 0 "J4" H 5150 7000 60  0000 C CNN
+F 1 "Proto" H 5150 6800 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X04-P010SQ-H008" H 5150 6900 60  0001 C CNN
+F 3 "" H 5150 6900 60  0001 C CNN
+	1    5150 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J5
+U 1 1 5A15EF77
+P 5450 6900
+F 0 "J5" H 5450 7000 60  0000 C CNN
+F 1 "Proto" H 5450 6800 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X04-P010SQ-H008" H 5450 6900 60  0001 C CNN
+F 3 "" H 5450 6900 60  0001 C CNN
+	1    5450 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto J6
+U 1 1 5A15EFB1
+P 5750 6900
+F 0 "J6" H 5750 7000 60  0000 C CNN
+F 1 "Proto" H 5750 6800 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X04-P010SQ-H008" H 5750 6900 60  0001 C CNN
+F 3 "" H 5750 6900 60  0001 C CNN
+	1    5750 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto_4pins J7
+U 1 1 5A15F15D
+P 1550 5050
+F 0 "J7" H 1550 5250 60  0000 C CNN
+F 1 "Proto_4pins" H 1550 4650 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X01-P010SQ-H008" H 1650 5050 60  0001 C CNN
+F 3 "" H 1650 5050 60  0001 C CNN
+	1    1550 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5000 1400 5000
+Wire Wire Line
+	1400 5100 1200 5100
+Wire Wire Line
+	1200 5200 1400 5200
+Wire Wire Line
+	1200 5300 1400 5300
+Wire Wire Line
+	1200 5400 1800 5400
+Wire Wire Line
+	1800 5500 1200 5500
+Wire Wire Line
+	1200 5600 1800 5600
+Wire Wire Line
+	1800 5700 1200 5700
+Wire Wire Line
+	1200 5800 1400 5800
+Wire Wire Line
+	1400 5900 1200 5900
+Wire Wire Line
+	1200 6000 1400 6000
+Wire Wire Line
+	1400 6100 1200 6100
+Wire Wire Line
+	3200 6100 3400 6100
+Wire Wire Line
+	3400 6000 3200 6000
+Wire Wire Line
+	3200 5900 3400 5900
+Wire Wire Line
+	3400 5800 3200 5800
+Wire Wire Line
+	3400 5700 2700 5700
+Wire Wire Line
+	2700 5600 3400 5600
+Wire Wire Line
+	3400 5500 2700 5500
+Wire Wire Line
+	2700 5400 3400 5400
+Wire Wire Line
+	3400 5300 3200 5300
+Wire Wire Line
+	3400 5200 3200 5200
+Wire Wire Line
+	3400 5100 3200 5100
+Wire Wire Line
+	3400 5000 3200 5000
+$Comp
+L GND #PWR4
+U 1 1 5A1601E9
+P 1150 4500
+F 0 "#PWR4" H 1150 4250 50  0001 C CNN
+F 1 "GND" H 1150 4350 50  0000 C CNN
+F 2 "" H 1150 4500 50  0001 C CNN
+F 3 "" H 1150 4500 50  0001 C CNN
+	1    1150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR8
+U 1 1 5A160241
+P 1700 4500
+F 0 "#PWR8" H 1700 4250 50  0001 C CNN
+F 1 "GNDA" H 1700 4350 50  0000 C CNN
+F 2 "" H 1700 4500 50  0001 C CNN
+F 3 "" H 1700 4500 50  0001 C CNN
+	1    1700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR3
+U 1 1 5A1602B4
+P 1150 4100
+F 0 "#PWR3" H 1150 3950 50  0001 C CNN
+F 1 "VDD" H 1150 4250 50  0000 C CNN
+F 2 "" H 1150 4100 50  0001 C CNN
+F 3 "" H 1150 4100 50  0001 C CNN
+	1    1150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDDA #PWR7
+U 1 1 5A1602EA
+P 1700 4100
+F 0 "#PWR7" H 1700 3950 50  0001 C CNN
+F 1 "VDDA" H 1700 4250 50  0000 C CNN
+F 2 "" H 1700 4100 50  0001 C CNN
+F 3 "" H 1700 4100 50  0001 C CNN
+	1    1700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 5A160645
+P 950 4500
+F 0 "#PWR2" H 950 4250 50  0001 C CNN
+F 1 "GND" H 950 4350 50  0000 C CNN
+F 2 "" H 950 4500 50  0001 C CNN
+F 3 "" H 950 4500 50  0001 C CNN
+	1    950  4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR1
+U 1 1 5A16064B
+P 950 4100
+F 0 "#PWR1" H 950 3950 50  0001 C CNN
+F 1 "VDD" H 950 4250 50  0000 C CNN
+F 2 "" H 950 4100 50  0001 C CNN
+F 3 "" H 950 4100 50  0001 C CNN
+	1    950  4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5A160651
+P 950 4300
+F 0 "C1" H 975 4400 50  0000 L CNN
+F 1 "C" H 975 4200 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 988 4150 50  0001 C CNN
+F 3 "" H 950 4300 50  0001 C CNN
+	1    950  4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 5A1606B5
+P 1350 4500
+F 0 "#PWR6" H 1350 4250 50  0001 C CNN
+F 1 "GND" H 1350 4350 50  0000 C CNN
+F 2 "" H 1350 4500 50  0001 C CNN
+F 3 "" H 1350 4500 50  0001 C CNN
+	1    1350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR5
+U 1 1 5A1606BB
+P 1350 4100
+F 0 "#PWR5" H 1350 3950 50  0001 C CNN
+F 1 "VDD" H 1350 4250 50  0000 C CNN
+F 2 "" H 1350 4100 50  0001 C CNN
+F 3 "" H 1350 4100 50  0001 C CNN
+	1    1350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR10
+U 1 1 5A16077C
+P 1900 4500
+F 0 "#PWR10" H 1900 4250 50  0001 C CNN
+F 1 "GNDA" H 1900 4350 50  0000 C CNN
+F 2 "" H 1900 4500 50  0001 C CNN
+F 3 "" H 1900 4500 50  0001 C CNN
+	1    1900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDDA #PWR9
+U 1 1 5A160782
+P 1900 4100
+F 0 "#PWR9" H 1900 3950 50  0001 C CNN
+F 1 "VDDA" H 1900 4250 50  0000 C CNN
+F 2 "" H 1900 4100 50  0001 C CNN
+F 3 "" H 1900 4100 50  0001 C CNN
+	1    1900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR12
+U 1 1 5A1607F8
+P 2100 4500
+F 0 "#PWR12" H 2100 4250 50  0001 C CNN
+F 1 "GNDA" H 2100 4350 50  0000 C CNN
+F 2 "" H 2100 4500 50  0001 C CNN
+F 3 "" H 2100 4500 50  0001 C CNN
+	1    2100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDDA #PWR11
+U 1 1 5A1607FE
+P 2100 4100
+F 0 "#PWR11" H 2100 3950 50  0001 C CNN
+F 1 "VDDA" H 2100 4250 50  0000 C CNN
+F 2 "" H 2100 4100 50  0001 C CNN
+F 3 "" H 2100 4100 50  0001 C CNN
+	1    2100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  4150 950  4100
+Wire Wire Line
+	950  4450 950  4500
+Wire Wire Line
+	1150 4450 1150 4500
+Wire Wire Line
+	1150 4150 1150 4100
+Wire Wire Line
+	1350 4100 1350 4150
+Wire Wire Line
+	1350 4450 1350 4500
+Wire Wire Line
+	1700 4500 1700 4450
+Wire Wire Line
+	1700 4150 1700 4100
+Wire Wire Line
+	1900 4100 1900 4150
+Wire Wire Line
+	1900 4450 1900 4500
+Wire Wire Line
+	2100 4500 2100 4450
+Wire Wire Line
+	2100 4150 2100 4100
+$Comp
+L C C2
+U 1 1 5A160D31
+P 1150 4300
+F 0 "C2" H 1175 4400 50  0000 L CNN
+F 1 "C" H 1175 4200 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 1188 4150 50  0001 C CNN
+F 3 "" H 1150 4300 50  0001 C CNN
+	1    1150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5A160D7E
+P 1350 4300
+F 0 "C3" H 1375 4400 50  0000 L CNN
+F 1 "C" H 1375 4200 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 1388 4150 50  0001 C CNN
+F 3 "" H 1350 4300 50  0001 C CNN
+	1    1350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5A160DCE
+P 1700 4300
+F 0 "C4" H 1725 4400 50  0000 L CNN
+F 1 "C" H 1725 4200 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 1738 4150 50  0001 C CNN
+F 3 "" H 1700 4300 50  0001 C CNN
+	1    1700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5A160E27
+P 1900 4300
+F 0 "C5" H 1925 4400 50  0000 L CNN
+F 1 "C" H 1925 4200 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 1938 4150 50  0001 C CNN
+F 3 "" H 1900 4300 50  0001 C CNN
+	1    1900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5A160E7D
+P 2100 4300
+F 0 "C6" H 2125 4400 50  0000 L CNN
+F 1 "C" H 2125 4200 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 2138 4150 50  0001 C CNN
+F 3 "" H 2100 4300 50  0001 C CNN
+	1    2100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto_4pins J?
+U 1 1 5A1610EC
+P 1950 5450
+F 0 "J?" H 1950 5650 60  0000 C CNN
+F 1 "Proto_4pins" H 1950 5050 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X01-P010SQ-H008" H 2050 5450 60  0001 C CNN
+F 3 "" H 2050 5450 60  0001 C CNN
+	1    1950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto_4pins J?
+U 1 1 5A161151
+P 1550 5850
+F 0 "J?" H 1550 6050 60  0000 C CNN
+F 1 "Proto_4pins" H 1550 5450 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X01-P010SQ-H008" H 1650 5850 60  0001 C CNN
+F 3 "" H 1650 5850 60  0001 C CNN
+	1    1550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proto_4pins J?
+U 1 1 5A1611BF
+P 3050 5050
+F 0 "J?" H 3050 5250 60  0000 C CNN
+F 1 "Proto_4pins" H 3050 4650 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X01-P010SQ-H008" H 3150 5050 60  0001 C CNN
+F 3 "" H 3150 5050 60  0001 C CNN
+	1    3050 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Proto_4pins J?
+U 1 1 5A161461
+P 2550 5450
+F 0 "J?" H 2550 5650 60  0000 C CNN
+F 1 "Proto_4pins" H 2550 5050 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X01-P010SQ-H008" H 2650 5450 60  0001 C CNN
+F 3 "" H 2650 5450 60  0001 C CNN
+	1    2550 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Proto_4pins J?
+U 1 1 5A1614CF
+P 3050 5850
+F 0 "J?" H 3050 6050 60  0000 C CNN
+F 1 "Proto_4pins" H 3050 5450 60  0000 C CNN
+F 2 "SquantorProto:proto-TH-0254-04X01-P010SQ-H008" H 3150 5850 60  0001 C CNN
+F 3 "" H 3150 5850 60  0001 C CNN
+	1    3050 5850
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
