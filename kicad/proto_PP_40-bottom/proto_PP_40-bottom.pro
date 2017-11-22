@@ -1,4 +1,4 @@
-update=wo 22 nov 2017 22:42:21 CET
+update=wo 22 nov 2017 23:13:23 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,5 @@ LibName34=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/Squanto
 LibName35=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorLabels
 LibName36=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorPCBOutline
 LibName37=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad/SquantorProto
+LibName38=SquantorUsb
+LibName39=SquantorRCL
