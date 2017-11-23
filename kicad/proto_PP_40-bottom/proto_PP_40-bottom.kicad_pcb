@@ -3,7 +3,7 @@
   (general
     (links 41)
     (no_connects 0)
-    (area 123.124999 85.024999 168.775001 117.175001)
+    (area 119.056646 83.11576 168.910001 118.0624)
     (thickness 1.6)
     (drawings 8)
     (tracks 115)
@@ -238,7 +238,7 @@
     (tags "PIN HEADER")
     (path /5A135BF8)
     (attr virtual)
-    (fp_text reference J1 (at -16.45 0 180) (layer F.SilkS)
+    (fp_text reference J1 (at -15.7665 -2.33934 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.127)))
     )
     (fp_text value PINS_1X12 (at 0 2.9 180) (layer F.Fab) hide
@@ -361,7 +361,7 @@
     (tags "PIN HEADER")
     (path /5A135C4B)
     (attr virtual)
-    (fp_text reference J2 (at -16.44928 0 180) (layer F.SilkS)
+    (fp_text reference J2 (at -15.82928 2.67716 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.127)))
     )
     (fp_text value PINS_1X12 (at 0 2.9 180) (layer F.Fab) hide
@@ -598,13 +598,13 @@
     )
   )
 
-  (module SquantorRcl:C_0805 (layer F.Cu) (tedit 5A15F7E8) (tstamp 5A160904)
+  (module SquantorRcl:C_0805 (layer F.Cu) (tedit 5A1741C7) (tstamp 5A160904)
     (at 165.735 114.935)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A160DCE)
     (attr smd)
-    (fp_text reference C4 (at 0 -2.1) (layer F.SilkS)
+    (fp_text reference C4 (at 0 -1.651) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value C (at 0 2.1) (layer F.Fab) hide
@@ -637,7 +637,7 @@
     (tags "capacitor 0805")
     (path /5A160E27)
     (attr smd)
-    (fp_text reference C5 (at 0 2.159) (layer F.SilkS)
+    (fp_text reference C5 (at 0 1.7145) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value C (at 0 2.1) (layer F.Fab) hide
