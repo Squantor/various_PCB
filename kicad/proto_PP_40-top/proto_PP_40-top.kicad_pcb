@@ -2,8 +2,8 @@
 
   (general
     (links 46)
-    (no_connects 1)
-    (area 123.124999 85.024999 168.775001 117.175001)
+    (no_connects 0)
+    (area 119.056646 83.11576 168.910001 118.6774)
     (thickness 1.6)
     (drawings 8)
     (tracks 90)
@@ -198,7 +198,7 @@
   )
 
   (module SquantorLabels:Label_version (layer B.Cu) (tedit 5A17404C) (tstamp 5A135138)
-    (at 125.984 105.3465 270)
+    (at 132.207 105.9815 270)
     (path /5A1357A5)
     (fp_text reference N2 (at 0 -2 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
