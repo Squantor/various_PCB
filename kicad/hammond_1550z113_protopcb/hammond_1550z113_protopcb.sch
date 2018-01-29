@@ -36,7 +36,7 @@ LIBS:SquantorConnectors
 LIBS:SquantorLabels
 LIBS:SquantorPCBOutline
 LIBS:SquantorProto
-LIBS:Hammond_1550Z113-cache
+LIBS:hammond_1550z113_protopcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -143,4 +143,15 @@ Connection ~ 2150 6150
 Wire Wire Line
 	2100 6750 2150 6750
 Connection ~ 2150 6750
+$Comp
+L Proto J?
+U 1 1 5A6F8F2E
+P 3050 7250
+F 0 "J?" H 3050 7350 60  0000 C CNN
+F 1 "Proto" H 3050 7150 60  0000 C CNN
+F 2 "" H 3050 7250 60  0001 C CNN
+F 3 "" H 3050 7250 60  0001 C CNN
+	1    3050 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
