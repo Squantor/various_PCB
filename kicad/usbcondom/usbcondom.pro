@@ -1,4 +1,4 @@
-update=do 28 jun 2018 22:56:17 CEST
+update=do 28 jun 2018 23:00:28 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../squantorPcbLibrary/
@@ -64,5 +66,25 @@ LibName34=/home/abilos/projects/public/squantorPcbLibrary/SquantorConnectors
 LibName35=/home/abilos/projects/public/squantorPcbLibrary/SquantorLabels
 LibName36=/home/abilos/projects/public/squantorPcbLibrary/SquantorPCBOutline
 LibName37=/home/abilos/projects/public/squantorPcbLibrary/SquantorProto
-[general]
-version=1
+LibName38=/home/abilos/projects/public/squantorPcbLibrary/ohw-logo
+LibName39=/home/abilos/projects/public/squantorPcbLibrary/SparkFun-Connectors
+LibName40=/home/abilos/projects/public/squantorPcbLibrary/SquantorAtmel
+LibName41=/home/abilos/projects/public/squantorPcbLibrary/SquantorCrystal
+LibName42=/home/abilos/projects/public/squantorPcbLibrary/SquantorDevice
+LibName43=/home/abilos/projects/public/squantorPcbLibrary/SquantorDiodes
+LibName44=/home/abilos/projects/public/squantorPcbLibrary/SquantorGenericAnalog
+LibName45=/home/abilos/projects/public/squantorPcbLibrary/SquantorIC
+LibName46=/home/abilos/projects/public/squantorPcbLibrary/SquantorLinearTechnology
+LibName47=/home/abilos/projects/public/squantorPcbLibrary/SquantorLogic
+LibName48=/home/abilos/projects/public/squantorPcbLibrary/SquantorMaxim
+LibName49=/home/abilos/projects/public/squantorPcbLibrary/SquantorMicrochip
+LibName50=/home/abilos/projects/public/squantorPcbLibrary/SquantorModules
+LibName51=/home/abilos/projects/public/squantorPcbLibrary/SquantorNxp
+LibName52=/home/abilos/projects/public/squantorPcbLibrary/SquantorOnSemi
+LibName53=/home/abilos/projects/public/squantorPcbLibrary/SquantorOpto
+LibName54=/home/abilos/projects/public/squantorPcbLibrary/SquantorRCL
+LibName55=/home/abilos/projects/public/squantorPcbLibrary/SquantorST
+LibName56=/home/abilos/projects/public/squantorPcbLibrary/SquantorTexasInstruments
+LibName57=/home/abilos/projects/public/squantorPcbLibrary/SquantorTransformer
+LibName58=/home/abilos/projects/public/squantorPcbLibrary/SquantorUsb
+LibName59=/home/abilos/projects/public/squantorPcbLibrary/SquantorWinbond
