@@ -2,7 +2,7 @@
 
   (general
     (links 6)
-    (no_connects 6)
+    (no_connects 0)
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 4)
@@ -76,7 +76,7 @@
     (mod_text_width 0.15)
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
-    (pad_to_mask_clearance 0.2)
+    (pad_to_mask_clearance 0.1)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
