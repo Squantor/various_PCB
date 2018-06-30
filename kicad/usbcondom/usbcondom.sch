@@ -36,7 +36,29 @@ LIBS:SquantorConnectors
 LIBS:SquantorLabels
 LIBS:SquantorPCBOutline
 LIBS:SquantorProto
-LIBS:Hammond_1551G_OSH4layer_central-cache
+LIBS:ohw-logo
+LIBS:SparkFun-Connectors
+LIBS:SquantorAtmel
+LIBS:SquantorCrystal
+LIBS:SquantorDevice
+LIBS:SquantorDiodes
+LIBS:SquantorGenericAnalog
+LIBS:SquantorIC
+LIBS:SquantorLinearTechnology
+LIBS:SquantorLogic
+LIBS:SquantorMaxim
+LIBS:SquantorMicrochip
+LIBS:SquantorModules
+LIBS:SquantorNxp
+LIBS:SquantorOnSemi
+LIBS:SquantorOpto
+LIBS:SquantorRCL
+LIBS:SquantorST
+LIBS:SquantorTexasInstruments
+LIBS:SquantorTransformer
+LIBS:SquantorUsb
+LIBS:SquantorWinbond
+LIBS:usbcondom-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -150,14 +172,6 @@ F 3 "" H 1100 750 50  0001 C CNN
 	1    1100 750 
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1100 750  1150 750 
-Wire Wire Line
-	1150 850  950  850 
-Wire Wire Line
-	1650 750  1700 750 
-Wire Wire Line
-	1650 850  1850 850 
 $Comp
 L VDD #PWR05
 U 1 1 5B1D0E6A
@@ -180,14 +194,6 @@ F 3 "" H 1100 1950 50  0001 C CNN
 	1    1100 1950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1650 1950 1700 1950
-Wire Wire Line
-	1150 1950 1100 1950
-Wire Wire Line
-	1800 2050 1650 2050
-Wire Wire Line
-	1150 2050 950  2050
 $Comp
 L VSS #PWR07
 U 1 1 5B1D15B4
@@ -221,40 +227,8 @@ F 3 "" H 1350 2350 50  0001 C CNN
 	1    1350 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1150 950  1100 950 
 Text Label 1100 950  2    60   ~ 0
 ANALOG_00
-Wire Wire Line
-	1150 1050 1100 1050
-Wire Wire Line
-	1150 1150 1100 1150
-Wire Wire Line
-	1150 1250 1100 1250
-Wire Wire Line
-	1150 1350 1100 1350
-Wire Wire Line
-	1150 1450 1100 1450
-Wire Wire Line
-	1150 1550 1100 1550
-Wire Wire Line
-	1150 1650 1100 1650
-Wire Wire Line
-	1650 950  1700 950 
-Wire Wire Line
-	1650 1050 1700 1050
-Wire Wire Line
-	1650 1150 1700 1150
-Wire Wire Line
-	1650 1250 1700 1250
-Wire Wire Line
-	1650 1350 1700 1350
-Wire Wire Line
-	1650 1450 1700 1450
-Wire Wire Line
-	1650 1550 1700 1550
-Wire Wire Line
-	1650 1650 1700 1650
 Text Label 1100 1050 2    60   ~ 0
 ANALOG_02
 Text Label 1100 1150 2    60   ~ 0
@@ -285,38 +259,6 @@ Text Label 1700 1550 0    60   ~ 0
 ANALOG_13
 Text Label 1700 1650 0    60   ~ 0
 ANALOG_15
-Wire Wire Line
-	1150 2150 1100 2150
-Wire Wire Line
-	1150 2250 1100 2250
-Wire Wire Line
-	1150 2350 1100 2350
-Wire Wire Line
-	1150 2450 1100 2450
-Wire Wire Line
-	1150 2550 1100 2550
-Wire Wire Line
-	1150 2650 1100 2650
-Wire Wire Line
-	1150 2750 1100 2750
-Wire Wire Line
-	1150 2850 1100 2850
-Wire Wire Line
-	1650 2150 1700 2150
-Wire Wire Line
-	1650 2250 1700 2250
-Wire Wire Line
-	1650 2350 1700 2350
-Wire Wire Line
-	1650 2450 1700 2450
-Wire Wire Line
-	1650 2550 1700 2550
-Wire Wire Line
-	1650 2650 1700 2650
-Wire Wire Line
-	1650 2750 1700 2750
-Wire Wire Line
-	1650 2850 1700 2850
 Text Label 1100 2150 2    60   ~ 0
 DIGITAL_00
 Text Label 1100 2250 2    60   ~ 0
@@ -349,4 +291,208 @@ Text Label 1700 2750 0    60   ~ 0
 DIGITAL_13
 Text Label 1700 2850 0    60   ~ 0
 DIGITAL_15
+$Comp
+L USB J?
+U 1 1 5B37B510
+P 3400 4650
+F 0 "J?" H 3250 4900 60  0000 C CNN
+F 1 "USB" H 3300 4400 60  0000 C CNN
+F 2 "Connectors:USB_A" H 3550 4700 60  0001 C CNN
+F 3 "" H 3550 4700 60  0001 C CNN
+	1    3400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB-ID J?
+U 1 1 5B37B57F
+P 1450 4600
+F 0 "J?" H 1300 4900 60  0000 C CNN
+F 1 "USB-ID" H 1450 4300 60  0000 C CNN
+F 2 "SquantorUsb:SquantorUsb-USB-UB-SMD4H" H 1600 4650 60  0001 C CNN
+F 3 "" H 1600 4650 60  0001 C CNN
+	1    1450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 750  1150 750 
+Wire Wire Line
+	1150 850  950  850 
+Wire Wire Line
+	1650 750  1700 750 
+Wire Wire Line
+	1650 850  1850 850 
+Wire Wire Line
+	1650 1950 1700 1950
+Wire Wire Line
+	1150 1950 1100 1950
+Wire Wire Line
+	1800 2050 1650 2050
+Wire Wire Line
+	1150 2050 950  2050
+Wire Wire Line
+	1150 950  1100 950 
+Wire Wire Line
+	1150 1050 1100 1050
+Wire Wire Line
+	1150 1150 1100 1150
+Wire Wire Line
+	1150 1250 1100 1250
+Wire Wire Line
+	1150 1350 1100 1350
+Wire Wire Line
+	1150 1450 1100 1450
+Wire Wire Line
+	1150 1550 1100 1550
+Wire Wire Line
+	1150 1650 1100 1650
+Wire Wire Line
+	1650 950  1700 950 
+Wire Wire Line
+	1650 1050 1700 1050
+Wire Wire Line
+	1650 1150 1700 1150
+Wire Wire Line
+	1650 1250 1700 1250
+Wire Wire Line
+	1650 1350 1700 1350
+Wire Wire Line
+	1650 1450 1700 1450
+Wire Wire Line
+	1650 1550 1700 1550
+Wire Wire Line
+	1650 1650 1700 1650
+Wire Wire Line
+	1150 2150 1100 2150
+Wire Wire Line
+	1150 2250 1100 2250
+Wire Wire Line
+	1150 2350 1100 2350
+Wire Wire Line
+	1150 2450 1100 2450
+Wire Wire Line
+	1150 2550 1100 2550
+Wire Wire Line
+	1150 2650 1100 2650
+Wire Wire Line
+	1150 2750 1100 2750
+Wire Wire Line
+	1150 2850 1100 2850
+Wire Wire Line
+	1650 2150 1700 2150
+Wire Wire Line
+	1650 2250 1700 2250
+Wire Wire Line
+	1650 2350 1700 2350
+Wire Wire Line
+	1650 2450 1700 2450
+Wire Wire Line
+	1650 2550 1700 2550
+Wire Wire Line
+	1650 2650 1700 2650
+Wire Wire Line
+	1650 2750 1700 2750
+Wire Wire Line
+	1650 2850 1700 2850
+$Comp
+L R R?
+U 1 1 5B37B767
+P 3800 4300
+F 0 "R?" V 3880 4300 50  0000 C CNN
+F 1 "R" V 3800 4300 50  0000 C CNN
+F 2 "SquantorRcl:R_0805" V 3730 4300 50  0001 C CNN
+F 3 "" H 3800 4300 50  0001 C CNN
+	1    3800 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 4800 1850 4800
+Wire Wire Line
+	1850 4800 1850 4850
+Wire Wire Line
+	3750 4800 3800 4800
+Wire Wire Line
+	3800 4800 3800 4850
+Wire Wire Line
+	3750 4500 3800 4500
+Wire Wire Line
+	3800 4500 3800 4450
+$Comp
+L R R?
+U 1 1 5B37BA90
+P 1850 4200
+F 0 "R?" V 1930 4200 50  0000 C CNN
+F 1 "R" V 1850 4200 50  0000 C CNN
+F 2 "" V 1780 4200 50  0001 C CNN
+F 3 "" H 1850 4200 50  0001 C CNN
+	1    1850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4400 1850 4400
+Wire Wire Line
+	1850 4400 1850 4350
+Wire Wire Line
+	1850 4050 1850 4000
+$Comp
+L VDD #PWR?
+U 1 1 5B37BC61
+P 1850 4000
+F 0 "#PWR?" H 1850 3850 50  0001 C CNN
+F 1 "VDD" H 1850 4150 50  0000 C CNN
+F 2 "" H 1850 4000 50  0001 C CNN
+F 3 "" H 1850 4000 50  0001 C CNN
+	1    1850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 5B37BCC6
+P 1850 4850
+F 0 "#PWR?" H 1850 4700 50  0001 C CNN
+F 1 "VSS" H 1850 5000 50  0000 C CNN
+F 2 "" H 1850 4850 50  0001 C CNN
+F 3 "" H 1850 4850 50  0001 C CNN
+	1    1850 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 5B37BD0D
+P 3800 4850
+F 0 "#PWR?" H 3800 4700 50  0001 C CNN
+F 1 "VSS" H 3800 5000 50  0000 C CNN
+F 2 "" H 3800 4850 50  0001 C CNN
+F 3 "" H 3800 4850 50  0001 C CNN
+	1    3800 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 5B37BD54
+P 3800 4100
+F 0 "#PWR?" H 3800 3950 50  0001 C CNN
+F 1 "VDD" H 3800 4250 50  0000 C CNN
+F 2 "" H 3800 4100 50  0001 C CNN
+F 3 "" H 3800 4100 50  0001 C CNN
+	1    3800 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4100 3800 4150
+Wire Wire Line
+	1800 4500 1950 4500
+Wire Wire Line
+	1800 4600 1950 4600
+Text Label 1950 4500 0    60   ~ 0
+USB_IN_D-
+Text Label 1950 4600 0    60   ~ 0
+USB_IN_D+
+Wire Wire Line
+	3750 4600 3950 4600
+Wire Wire Line
+	3750 4700 3950 4700
+Text Label 3950 4600 0    60   ~ 0
+USB_OUT_D-
+Text Label 3950 4700 0    60   ~ 0
+USB_OUT_D+
 $EndSCHEMATC
