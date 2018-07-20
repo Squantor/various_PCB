@@ -1,0 +1,596 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorButtons
+LIBS:SquantorConnectors
+LIBS:SquantorLabels
+LIBS:SquantorPCBOutline
+LIBS:SquantorProto
+LIBS:SquantorAtmel
+LIBS:SquantorCrystal
+LIBS:SquantorDevice
+LIBS:SquantorDiodes
+LIBS:SquantorGenericAnalog
+LIBS:SquantorIC
+LIBS:SquantorLinearTechnology
+LIBS:SquantorLogic
+LIBS:SquantorMaxim
+LIBS:SquantorMicrochip
+LIBS:SquantorModules
+LIBS:SquantorNxp
+LIBS:SquantorOnSemi
+LIBS:SquantorOpto
+LIBS:SquantorRCL
+LIBS:SquantorST
+LIBS:SquantorTexasInstruments
+LIBS:SquantorTransformer
+LIBS:SquantorUsb
+LIBS:SquantorWinbond
+LIBS:3phase_stepper_driver-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VYYYYMMDD N2
+U 1 1 5A1357A5
+P 850 7700
+F 0 "N2" H 850 7800 60  0000 C CNN
+F 1 "V20180719" H 850 7700 60  0000 C CNN
+F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
+F 3 "" H 850 7700 60  0001 C CNN
+	1    850  7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OHWLOGO N1
+U 1 1 5A135869
+P 850 7350
+F 0 "N1" H 850 7500 60  0000 C CNN
+F 1 "OHWLOGO" H 850 7200 60  0000 C CNN
+F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 850 7350 60  0001 C CNN
+F 3 "" H 850 7350 60  0001 C CNN
+	1    850  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drill_Hole_no_metal H1
+U 1 1 5B50D036
+P 1550 7400
+F 0 "H1" H 1550 7150 60  0000 C CNN
+F 1 "Drill_Hole_no_metal" H 1550 7650 60  0000 C CNN
+F 2 "SquantorPcbOutline:MountingHole_3.2mm_no_metal" H 1550 7400 60  0001 C CNN
+F 3 "" H 1550 7400 60  0001 C CNN
+	1    1550 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drill_Hole_no_metal H2
+U 1 1 5B50D091
+P 1950 7400
+F 0 "H2" H 1950 7150 60  0000 C CNN
+F 1 "Drill_Hole_no_metal" H 1950 7650 60  0000 C CNN
+F 2 "SquantorPcbOutline:MountingHole_3.2mm_no_metal" H 1950 7400 60  0001 C CNN
+F 3 "" H 1950 7400 60  0001 C CNN
+	1    1950 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drill_Hole_no_metal H3
+U 1 1 5B50D0D9
+P 2350 7400
+F 0 "H3" H 2350 7150 60  0000 C CNN
+F 1 "Drill_Hole_no_metal" H 2350 7650 60  0000 C CNN
+F 2 "SquantorPcbOutline:MountingHole_3.2mm_no_metal" H 2350 7400 60  0001 C CNN
+F 3 "" H 2350 7400 60  0001 C CNN
+	1    2350 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drill_Hole_no_metal H4
+U 1 1 5B50D104
+P 2750 7400
+F 0 "H4" H 2750 7150 60  0000 C CNN
+F 1 "Drill_Hole_no_metal" H 2750 7650 60  0000 C CNN
+F 2 "SquantorPcbOutline:MountingHole_3.2mm_no_metal" H 2750 7400 60  0001 C CNN
+F 3 "" H 2750 7400 60  0001 C CNN
+	1    2750 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRV8313 U?
+U 1 1 5B524978
+P 9750 2300
+F 0 "U?" H 9750 3200 60  0000 C CNN
+F 1 "DRV8313" H 9750 1400 60  0000 C CNN
+F 2 "" H 9600 2450 60  0001 C CNN
+F 3 "" H 9600 2450 60  0001 C CNN
+	1    9750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B5249F5
+P 8450 2050
+F 0 "#PWR?" H 8450 1850 50  0001 C CNN
+F 1 "GNDPWR" H 8450 1920 50  0000 C CNN
+F 2 "" H 8450 2000 50  0001 C CNN
+F 3 "" H 8450 2000 50  0001 C CNN
+	1    8450 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5B524CB0
+P 9100 1550
+F 0 "C?" H 9125 1650 50  0000 L CNN
+F 1 "10n" H 9125 1450 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 9138 1400 50  0001 C CNN
+F 3 "" H 9100 1550 50  0001 C CNN
+	1    9100 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5B524FF6
+P 8650 2050
+F 0 "R?" V 8730 2050 50  0000 C CNN
+F 1 "0.1" V 8650 2050 50  0000 C CNN
+F 2 "" V 8580 2050 50  0001 C CNN
+F 3 "" H 8650 2050 50  0001 C CNN
+	1    8650 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 2050 9200 2050
+Wire Wire Line
+	9200 2050 9300 2050
+Wire Wire Line
+	9300 2150 9200 2150
+Wire Wire Line
+	9200 2050 9200 2150
+Wire Wire Line
+	9200 2150 9200 2450
+Connection ~ 9200 2050
+Wire Wire Line
+	9200 2450 9300 2450
+Connection ~ 9200 2150
+Wire Wire Line
+	9300 2250 8900 2250
+Wire Wire Line
+	9300 2350 8900 2350
+Text Label 8900 2250 2    60   ~ 0
+PHASE_V
+Text Label 8900 2350 2    60   ~ 0
+PHASE_W
+Wire Wire Line
+	8900 1950 9300 1950
+Text Label 8900 1950 2    60   ~ 0
+PHASE_U
+Wire Wire Line
+	8500 2050 8450 2050
+Text Label 9150 2050 2    60   ~ 0
+SENSE_I
+$Comp
+L VCC #PWR?
+U 1 1 5B5253B1
+P 9200 2550
+F 0 "#PWR?" H 9200 2400 50  0001 C CNN
+F 1 "VCC" H 9200 2700 50  0000 C CNN
+F 2 "" H 9200 2550 50  0001 C CNN
+F 3 "" H 9200 2550 50  0001 C CNN
+	1    9200 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 2550 9200 2550
+$Comp
+L VCC #PWR?
+U 1 1 5B5253F9
+P 8550 1850
+F 0 "#PWR?" H 8550 1700 50  0001 C CNN
+F 1 "VCC" H 8550 2000 50  0000 C CNN
+F 2 "" H 8550 1850 50  0001 C CNN
+F 3 "" H 8550 1850 50  0001 C CNN
+	1    8550 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 1850 8900 1850
+Wire Wire Line
+	8900 1850 9300 1850
+$Comp
+L C C?
+U 1 1 5B525593
+P 9100 1750
+F 0 "C?" H 9125 1850 50  0000 L CNN
+F 1 "100n" H 9125 1650 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 9138 1600 50  0001 C CNN
+F 3 "" H 9100 1750 50  0001 C CNN
+	1    9100 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 1750 8900 1750
+Wire Wire Line
+	8900 1750 8900 1850
+Connection ~ 8900 1850
+Wire Wire Line
+	9300 1750 9250 1750
+Wire Wire Line
+	9300 1550 9250 1550
+Wire Wire Line
+	8950 1550 8900 1550
+Wire Wire Line
+	8900 1550 8900 1650
+Wire Wire Line
+	8900 1650 9300 1650
+Wire Wire Line
+	9300 2650 8900 2650
+Text Label 8900 2650 2    60   ~ 0
+SENSE_I
+Wire Wire Line
+	9300 2750 8900 2750
+Text Label 8900 2750 2    60   ~ 0
+SENSE_REF
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B525A45
+P 9200 2850
+F 0 "#PWR?" H 9200 2650 50  0001 C CNN
+F 1 "GNDPWR" H 9200 2720 50  0000 C CNN
+F 2 "" H 9200 2800 50  0001 C CNN
+F 3 "" H 9200 2800 50  0001 C CNN
+	1    9200 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 3050 9250 3050
+Wire Wire Line
+	9250 3050 9250 2850
+Wire Wire Line
+	9200 2850 9250 2850
+Wire Wire Line
+	9250 2850 9300 2850
+Connection ~ 9250 2850
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B525B1C
+P 10250 1550
+F 0 "#PWR?" H 10250 1350 50  0001 C CNN
+F 1 "GNDPWR" H 10250 1420 50  0000 C CNN
+F 2 "" H 10250 1500 50  0001 C CNN
+F 3 "" H 10250 1500 50  0001 C CNN
+	1    10250 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10250 1550 10200 1550
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B525BB1
+P 10250 2350
+F 0 "#PWR?" H 10250 2150 50  0001 C CNN
+F 1 "GNDPWR" H 10250 2220 50  0000 C CNN
+F 2 "" H 10250 2300 50  0001 C CNN
+F 3 "" H 10250 2300 50  0001 C CNN
+	1    10250 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10250 2350 10200 2350
+$Comp
+L C C?
+U 1 1 5B525CE7
+P 10400 2850
+F 0 "C?" H 10425 2950 50  0000 L CNN
+F 1 "470n" H 10425 2750 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 10438 2700 50  0001 C CNN
+F 3 "" H 10400 2850 50  0001 C CNN
+	1    10400 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B525DF2
+P 10600 2850
+F 0 "#PWR?" H 10600 2650 50  0001 C CNN
+F 1 "GNDPWR" H 10600 2720 50  0000 C CNN
+F 2 "" H 10600 2800 50  0001 C CNN
+F 3 "" H 10600 2800 50  0001 C CNN
+	1    10600 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 2850 10250 2850
+Wire Wire Line
+	10200 2750 10500 2750
+Text Label 10500 2750 0    60   ~ 0
+DRV_RESET
+Wire Wire Line
+	10200 2650 10500 2650
+Text Label 10500 2650 0    60   ~ 0
+DRV_SLEEP
+Wire Wire Line
+	10200 2550 10500 2550
+Wire Wire Line
+	10200 2450 10500 2450
+Text Label 10500 2550 0    60   ~ 0
+DRV_FAULT
+Text Label 10500 2450 0    60   ~ 0
+DRV_COMPO
+Wire Wire Line
+	10200 2150 10500 2150
+Wire Wire Line
+	10200 2050 10500 2050
+Wire Wire Line
+	10200 1950 10500 1950
+Wire Wire Line
+	10200 1850 10500 1850
+Wire Wire Line
+	10200 1750 10500 1750
+Wire Wire Line
+	10200 1650 10500 1650
+$Comp
+L C C?
+U 1 1 5B5262CA
+P 9950 1000
+F 0 "C?" H 9975 1100 50  0000 L CNN
+F 1 "100n" H 9975 900 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 9988 850 50  0001 C CNN
+F 3 "" H 9950 1000 50  0001 C CNN
+	1    9950 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B526328
+P 9750 1000
+F 0 "C?" H 9775 1100 50  0000 L CNN
+F 1 "100n" H 9775 900 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 9788 850 50  0001 C CNN
+F 3 "" H 9750 1000 50  0001 C CNN
+	1    9750 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B5263FB
+P 9550 1000
+F 0 "C?" H 9575 1100 50  0000 L CNN
+F 1 "10u" H 9575 900 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 9588 850 50  0001 C CNN
+F 3 "" H 9550 1000 50  0001 C CNN
+	1    9550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B526439
+P 9950 1200
+F 0 "#PWR?" H 9950 1000 50  0001 C CNN
+F 1 "GNDPWR" H 9950 1070 50  0000 C CNN
+F 2 "" H 9950 1150 50  0001 C CNN
+F 3 "" H 9950 1150 50  0001 C CNN
+	1    9950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B52646E
+P 9750 1200
+F 0 "#PWR?" H 9750 1000 50  0001 C CNN
+F 1 "GNDPWR" H 9750 1070 50  0000 C CNN
+F 2 "" H 9750 1150 50  0001 C CNN
+F 3 "" H 9750 1150 50  0001 C CNN
+	1    9750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B5264A3
+P 9550 1200
+F 0 "#PWR?" H 9550 1000 50  0001 C CNN
+F 1 "GNDPWR" H 9550 1070 50  0000 C CNN
+F 2 "" H 9550 1150 50  0001 C CNN
+F 3 "" H 9550 1150 50  0001 C CNN
+	1    9550 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1150 9550 1200
+Wire Wire Line
+	9750 1150 9750 1200
+Wire Wire Line
+	9950 1150 9950 1200
+$Comp
+L VCC #PWR?
+U 1 1 5B526682
+P 9950 800
+F 0 "#PWR?" H 9950 650 50  0001 C CNN
+F 1 "VCC" H 9950 950 50  0000 C CNN
+F 2 "" H 9950 800 50  0001 C CNN
+F 3 "" H 9950 800 50  0001 C CNN
+	1    9950 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B5266EF
+P 9750 800
+F 0 "#PWR?" H 9750 650 50  0001 C CNN
+F 1 "VCC" H 9750 950 50  0000 C CNN
+F 2 "" H 9750 800 50  0001 C CNN
+F 3 "" H 9750 800 50  0001 C CNN
+	1    9750 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B526740
+P 9550 800
+F 0 "#PWR?" H 9550 650 50  0001 C CNN
+F 1 "VCC" H 9550 950 50  0000 C CNN
+F 2 "" H 9550 800 50  0001 C CNN
+F 3 "" H 9550 800 50  0001 C CNN
+	1    9550 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 800  9550 850 
+Wire Wire Line
+	9750 850  9750 800 
+Wire Wire Line
+	9950 800  9950 850 
+Text Label 10500 2150 0    60   ~ 0
+EN_W
+Text Label 10500 2050 0    60   ~ 0
+IN_W
+Text Label 10500 1950 0    60   ~ 0
+EN_V
+Text Label 10500 1850 0    60   ~ 0
+IN_V
+Text Label 10500 1650 0    60   ~ 0
+IN_U
+Text Label 10500 1750 0    60   ~ 0
+EN_U
+Wire Wire Line
+	10600 2850 10550 2850
+$Comp
+L CP C?
+U 1 1 5B526F94
+P 10250 1000
+F 0 "C?" H 10275 1100 50  0000 L CNN
+F 1 "330u" H 10275 900 50  0000 L CNN
+F 2 "" H 10288 850 50  0001 C CNN
+F 3 "" H 10250 1000 50  0001 C CNN
+	1    10250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B52701E
+P 10250 800
+F 0 "#PWR?" H 10250 650 50  0001 C CNN
+F 1 "VCC" H 10250 950 50  0000 C CNN
+F 2 "" H 10250 800 50  0001 C CNN
+F 3 "" H 10250 800 50  0001 C CNN
+	1    10250 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B527056
+P 10250 1200
+F 0 "#PWR?" H 10250 1000 50  0001 C CNN
+F 1 "GNDPWR" H 10250 1070 50  0000 C CNN
+F 2 "" H 10250 1150 50  0001 C CNN
+F 3 "" H 10250 1150 50  0001 C CNN
+	1    10250 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 1200 10250 1150
+Wire Wire Line
+	10250 850  10250 800 
+$Comp
+L Conn_01x03 J?
+U 1 1 5B5275DC
+P 8250 1250
+F 0 "J?" H 8250 1450 50  0000 C CNN
+F 1 "Conn_01x03" H 8250 1050 50  0000 C CNN
+F 2 "" H 8250 1250 50  0001 C CNN
+F 3 "" H 8250 1250 50  0001 C CNN
+	1    8250 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x02 J?
+U 1 1 5B5276E4
+P 8250 800
+F 0 "J?" H 8250 900 50  0000 C CNN
+F 1 "Conn_01x02" H 8250 600 50  0000 C CNN
+F 2 "" H 8250 800 50  0001 C CNN
+F 3 "" H 8250 800 50  0001 C CNN
+	1    8250 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B52784C
+P 8500 800
+F 0 "#PWR?" H 8500 600 50  0001 C CNN
+F 1 "GNDPWR" H 8500 670 50  0000 C CNN
+F 2 "" H 8500 750 50  0001 C CNN
+F 3 "" H 8500 750 50  0001 C CNN
+	1    8500 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B52788A
+P 8700 700
+F 0 "#PWR?" H 8700 550 50  0001 C CNN
+F 1 "VCC" H 8700 850 50  0000 C CNN
+F 2 "" H 8700 700 50  0001 C CNN
+F 3 "" H 8700 700 50  0001 C CNN
+	1    8700 700 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 800  8450 800 
+Wire Wire Line
+	8450 700  8700 700 
+Wire Wire Line
+	8450 1150 8500 1150
+Wire Wire Line
+	8500 1250 8450 1250
+Wire Wire Line
+	8450 1350 8500 1350
+Text Label 8500 1350 0    60   ~ 0
+PHASE_U
+Text Label 8500 1250 0    60   ~ 0
+PHASE_V
+Text Label 8500 1150 0    60   ~ 0
+PHASE_W
+$EndSCHEMATC
