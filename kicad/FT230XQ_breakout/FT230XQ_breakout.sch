@@ -1,0 +1,140 @@
+EESchema Schematic File Version 4
+LIBS:FT230XQ_breakout-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SquantorLabels:VYYYYMMDD N2
+U 1 1 5A1357A5
+P 850 7700
+F 0 "N2" H 850 7800 60  0000 C CNN
+F 1 "V20180909" H 850 7700 60  0000 C CNN
+F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
+F 3 "" H 850 7700 60  0001 C CNN
+	1    850  7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorLabels:OHWLOGO N1
+U 1 1 5A135869
+P 850 7350
+F 0 "N1" H 850 7500 60  0000 C CNN
+F 1 "OHWLOGO" H 850 7200 60  0000 C CNN
+F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 850 7350 60  0001 C CNN
+F 3 "" H 850 7350 60  0001 C CNN
+	1    850  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorUsb:USB-ID J1
+U 1 1 5B95FC83
+P 1350 3500
+F 0 "J1" H 1375 3947 60  0000 C CNN
+F 1 "USB-ID" H 1375 3841 60  0000 C CNN
+F 2 "SquantorUsb:USB-muB-SMD_TH" H 1500 3550 60  0001 C CNN
+F 3 "" H 1500 3550 60  0001 C CNN
+	1    1350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorFtdi:FT230XQ U1
+U 1 1 5B95FE0B
+P 4500 3300
+F 0 "U1" H 4500 3815 50  0000 C CNN
+F 1 "FT230XQ" H 4500 3724 50  0000 C CNN
+F 2 "" H 4350 3300 50  0001 C CNN
+F 3 "" H 4350 3300 50  0001 C CNN
+	1    4500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5B95FEC6
+P 1750 3750
+F 0 "#PWR0101" H 1750 3500 50  0001 C CNN
+F 1 "GND" H 1755 3577 50  0000 C CNN
+F 2 "" H 1750 3750 50  0001 C CNN
+F 3 "" H 1750 3750 50  0001 C CNN
+	1    1750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3700 1750 3700
+Wire Wire Line
+	1750 3700 1750 3750
+$Comp
+L SquantorConnectors:FTDI_PINS_1X06 J2
+U 1 1 5B96027C
+P 8500 2500
+F 0 "J2" H 8323 2447 60  0000 R CNN
+F 1 "FTDI_PINS_1X06" H 8323 2553 60  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 8500 2750 60  0001 C CNN
+F 3 "" H 8500 2750 60  0001 C CNN
+	1    8500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5B960357
+P 8250 2800
+F 0 "#PWR0103" H 8250 2550 50  0001 C CNN
+F 1 "GND" H 8255 2627 50  0000 C CNN
+F 2 "" H 8250 2800 50  0001 C CNN
+F 3 "" H 8250 2800 50  0001 C CNN
+	1    8250 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2750 8250 2750
+Wire Wire Line
+	8250 2750 8250 2800
+$Comp
+L SquantorConnectors:PINS_1X04 J3
+U 1 1 5B97CCA7
+P 8500 3250
+F 0 "J3" H 8372 3197 60  0000 R CNN
+F 1 "PINS_1X04" H 8372 3303 60  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 8500 3400 60  0001 C CNN
+F 3 "" H 8500 3400 60  0001 C CNN
+	1    8500 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5B97CD86
+P 8250 3450
+F 0 "#PWR0102" H 8250 3200 50  0001 C CNN
+F 1 "GND" H 8255 3277 50  0000 C CNN
+F 2 "" H 8250 3450 50  0001 C CNN
+F 3 "" H 8250 3450 50  0001 C CNN
+	1    8250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3400 8250 3400
+Wire Wire Line
+	8250 3400 8250 3450
+Wire Wire Line
+	8300 3300 8250 3300
+Wire Wire Line
+	8300 3200 8250 3200
+Wire Wire Line
+	8300 3100 8250 3100
+Text Label 8250 3300 0    50   ~ 0
+rx
+Text Label 8250 3200 0    50   ~ 0
+tx
+Text Label 8250 3100 0    50   ~ 0
+vdd
+$EndSCHEMATC
