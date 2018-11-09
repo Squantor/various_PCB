@@ -3,4 +3,6 @@ rescue-backup
 *.net
 *.kicad_pcb-bak
 *.bak
+# ignore plot zipfiles
+*.zip
 
