@@ -6,7 +6,7 @@ Still some things need to be done:
 * schematic entry (Done)
 * PCB layout (Done)
 * Review with one night in between (In progress)
-* Produce at [OSHPARK](https://oshpark.com/shared_projects/rrwZ0mgR)
+* Produce at [OSHPARK](https://oshpark.com/shared_projects/GjYQN0kY)
 * Assemble
 * Test 
 * update Readme.md with pictures and BOM
