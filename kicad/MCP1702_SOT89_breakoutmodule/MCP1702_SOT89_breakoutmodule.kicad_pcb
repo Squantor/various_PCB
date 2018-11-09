@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.6)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
@@ -78,8 +78,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010f0_ffffffff)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -101,9 +101,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "MCP1702_SOT89_breakoutmodule_plots"))
   )
 
   (net 0 "")
@@ -228,7 +228,7 @@
     (fp_text reference N2 (at 0 -1.4 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 20181108 (at -0.022254 0.35183 270) (layer B.SilkS)
+    (fp_text value 20181110 (at -0.022254 0.35183 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user V: (at 4.5 0.35183 270) (layer B.SilkS)
@@ -618,7 +618,7 @@
   (segment (start 140.63 76.2) (end 139.53 75.1) (width 0.6) (layer B.Cu) (net 3))
   (segment (start 140.97 76.2) (end 140.63 76.2) (width 0.6) (layer B.Cu) (net 3))
 
-  (zone (net 1) (net_name +12V) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name +12V) (layer B.Cu) (tstamp 5BE54D65) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -660,7 +660,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5BE54D62) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
