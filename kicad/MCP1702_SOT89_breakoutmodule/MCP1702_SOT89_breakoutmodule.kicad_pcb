@@ -411,7 +411,7 @@
     )
   )
 
-  (module Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal (layer F.Cu) (tedit 5B78AD89) (tstamp 5BFD040E)
+  (module Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal (layer F.Cu) (tedit 5BE6B500) (tstamp 5BFD040E)
     (at 135.89 69.215 180)
     (descr "Molex PicoBlade series connector, 53261-0271 (http://www.molex.com/pdm_docs/sd/532610271_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex PicoBlade top entry")
@@ -420,7 +420,7 @@
     (fp_text reference J3 (at 3.39 -2.385 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x02 (at 0 3.8 180) (layer F.Fab)
+    (fp_text value Conn_01x02 (at 0 3.8 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.125 -1.6) (end 2.125 -1.6) (layer F.Fab) (width 0.1))
