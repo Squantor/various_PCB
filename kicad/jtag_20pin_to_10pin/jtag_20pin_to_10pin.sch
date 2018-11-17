@@ -356,10 +356,10 @@ Wire Wire Line
 Wire Wire Line
 	4000 4550 4000 4600
 $Comp
-L SquantorButtons:2pin_tact_switch S?
+L SquantorButtons:2pin_tact_switch S2
 U 1 1 5BF0EE78
 P 2600 4800
-F 0 "S?" H 2600 5137 60  0000 C CNN
+F 0 "S2" H 2600 5137 60  0000 C CNN
 F 1 "2pin_tact_switch" H 2600 5031 60  0000 C CNN
 F 2 "SquantorButtons:TD-85XU" H 2600 4800 60  0001 C CNN
 F 3 "" H 2600 4800 60  0001 C CNN
@@ -367,10 +367,10 @@ F 3 "" H 2600 4800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5BF0EE7E
 P 2900 4800
-F 0 "#PWR?" H 2900 4550 50  0001 C CNN
+F 0 "#PWR0111" H 2900 4550 50  0001 C CNN
 F 1 "GND" H 2905 4627 50  0000 C CNN
 F 2 "" H 2900 4800 50  0001 C CNN
 F 3 "" H 2900 4800 50  0001 C CNN

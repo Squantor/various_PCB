@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 36)
     (zones 0)
     (modules 10)
@@ -593,6 +593,9 @@
       (net 4 GND))
   )
 
+  (gr_text RESET (at 138.35 88.95) (layer B.SilkS) (tstamp 5BFD21E3)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text TMS (at 137.4 78.7) (layer B.SilkS) (tstamp 5BFD21DC)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
