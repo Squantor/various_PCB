@@ -131,11 +131,11 @@ Wire Wire Line
 	8300 3200 8250 3200
 Wire Wire Line
 	8300 3100 8250 3100
-Text Label 8250 3300 0    50   ~ 0
+Text Label 8250 3300 2    50   ~ 0
 rx
-Text Label 8250 3200 0    50   ~ 0
+Text Label 8250 3200 2    50   ~ 0
 tx
-Text Label 8250 3100 0    50   ~ 0
+Text Label 8250 3100 2    50   ~ 0
 vdd
 $Comp
 L power:GND #PWR0104

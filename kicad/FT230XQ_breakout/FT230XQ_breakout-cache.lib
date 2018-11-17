@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -36,11 +36,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SquantorConnectors:FTDI_PINS_1X06
+# SquantorConnectors_FTDI_PINS_1X06
 #
-DEF SquantorConnectors:FTDI_PINS_1X06 J 0 40 Y Y 1 F N
+DEF SquantorConnectors_FTDI_PINS_1X06 J 0 40 Y Y 1 F N
 F0 "J" -50 400 60 H V C CNN
-F1 "SquantorConnectors:FTDI_PINS_1X06" 0 -400 60 H V C CNN
+F1 "SquantorConnectors_FTDI_PINS_1X06" 0 -400 60 H V C CNN
 F2 "" 0 250 60 H I C CNN
 F3 "" 0 250 60 H I C CNN
 DRAW
@@ -54,11 +54,11 @@ X /RTS 6 200 -250 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# SquantorConnectors:PINS_1X04
+# SquantorConnectors_PINS_1X04
 #
-DEF SquantorConnectors:PINS_1X04 J 0 40 Y Y 1 F N
+DEF SquantorConnectors_PINS_1X04 J 0 40 Y Y 1 F N
 F0 "J" -50 300 60 H V C CNN
-F1 "SquantorConnectors:PINS_1X04" 0 -300 60 H V C CNN
+F1 "SquantorConnectors_PINS_1X04" 0 -300 60 H V C CNN
 F2 "" 0 150 60 H I C CNN
 F3 "" 0 150 60 H I C CNN
 DRAW
@@ -70,11 +70,11 @@ X 4 4 200 -150 100 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
-# SquantorFtdi:FT230XQ
+# SquantorFtdi_FT230XQ
 #
-DEF SquantorFtdi:FT230XQ U 0 40 Y Y 1 F N
+DEF SquantorFtdi_FT230XQ U 0 40 Y Y 1 F N
 F0 "U" 0 400 50 H V C CNN
-F1 "SquantorFtdi:FT230XQ" 0 -700 50 H V C CNN
+F1 "SquantorFtdi_FT230XQ" 0 -700 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
@@ -99,11 +99,11 @@ X RESET# 9 -450 -550 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# SquantorLabels:OHWLOGO
+# SquantorLabels_OHWLOGO
 #
-DEF SquantorLabels:OHWLOGO N 0 40 Y Y 1 F N
+DEF SquantorLabels_OHWLOGO N 0 40 Y Y 1 F N
 F0 "N" 0 150 60 H V C CNN
-F1 "SquantorLabels:OHWLOGO" 0 -150 60 H V C CNN
+F1 "SquantorLabels_OHWLOGO" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -112,11 +112,11 @@ C 0 0 100 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# SquantorLabels:VYYYYMMDD
+# SquantorLabels_VYYYYMMDD
 #
-DEF SquantorLabels:VYYYYMMDD N 0 40 Y Y 1 F N
+DEF SquantorLabels_VYYYYMMDD N 0 40 Y Y 1 F N
 F0 "N" 0 100 60 H V C CNN
-F1 "SquantorLabels:VYYYYMMDD" 0 0 60 H V C CNN
+F1 "SquantorLabels_VYYYYMMDD" 0 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -124,11 +124,11 @@ S 300 -50 -300 150 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# SquantorUsb:USB-ID
+# SquantorUsb_USB-ID
 #
-DEF SquantorUsb:USB-ID J 0 40 Y Y 1 F N
+DEF SquantorUsb_USB-ID J 0 40 Y Y 1 F N
 F0 "J" -150 300 60 H V C CNN
-F1 "SquantorUsb:USB-ID" 0 -300 60 H V C CNN
+F1 "SquantorUsb_USB-ID" 0 -300 60 H V C CNN
 F2 "" 150 50 60 H I C CNN
 F3 "" 150 50 60 H I C CNN
 DRAW
@@ -142,11 +142,11 @@ X Shield S -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -155,11 +155,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:VCC
+# power_VCC
 #
-DEF power:VCC #PWR 0 0 Y Y 1 F P
+DEF power_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VCC" 0 150 50 H V C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
