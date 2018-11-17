@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:MCP1702_SOT89_breakoutmodule-cache
+LIBS:MCP1702_SOT89_breakoutmodule_JST-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -289,7 +289,7 @@ U 1 1 5BE4C9F1
 P 4650 1950
 F 0 "J3" V 4500 2050 50  0000 L CNN
 F 1 "Conn_01x02" V 4400 2050 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 4650 1950 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 4650 1950 50  0001 C CNN
 F 3 "~" H 4650 1950 50  0001 C CNN
 	1    4650 1950
 	0    1    1    0   
@@ -300,7 +300,7 @@ U 1 1 5BE4D037
 P 4550 2250
 F 0 "J2" V 4400 2050 50  0000 R CNN
 F 1 "Conn_01x02" V 4300 2050 50  0000 R CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 4550 2250 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 4550 2250 50  0001 C CNN
 F 3 "~" H 4550 2250 50  0001 C CNN
 	1    4550 2250
 	0    -1   -1   0   
