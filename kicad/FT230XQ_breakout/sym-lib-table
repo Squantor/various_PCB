@@ -11,4 +11,5 @@
   (lib (name SquantorIC)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorIC.lib)(options "")(descr ""))
   (lib (name SquantorRCL)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorRCL.lib)(options "")(descr ""))
   (lib (name SquantorUsb)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorUsb.lib)(options "")(descr ""))
+  (lib (name SquantorMicrochip)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorMicrochip.lib)(options "")(descr ""))
 )
