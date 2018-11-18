@@ -1040,17 +1040,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 2650 4650 2650
 $Comp
-L power:VCC #PWR0135
-U 1 1 5BF1ACF2
-P 3250 1100
-F 0 "#PWR0135" H 3250 950 50  0001 C CNN
-F 1 "VCC" V 3250 1300 50  0000 C CNN
-F 2 "" H 3250 1100 50  0001 C CNN
-F 3 "" H 3250 1100 50  0001 C CNN
-	1    3250 1100
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R13
 U 1 1 5BF1AD47
 P 3050 1100
@@ -1067,17 +1056,6 @@ Wire Wire Line
 	3200 1100 3250 1100
 Text Label 2850 1100 2    50   ~ 0
 RXD
-$Comp
-L power:VCC #PWR0136
-U 1 1 5BF22A7B
-P 3250 1200
-F 0 "#PWR0136" H 3250 1050 50  0001 C CNN
-F 1 "VCC" V 3250 1400 50  0000 C CNN
-F 2 "" H 3250 1200 50  0001 C CNN
-F 3 "" H 3250 1200 50  0001 C CNN
-	1    3250 1200
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R14
 U 1 1 5BF22A81
@@ -1096,17 +1074,6 @@ Wire Wire Line
 Text Label 2850 1200 2    50   ~ 0
 TXD
 $Comp
-L power:VCC #PWR0137
-U 1 1 5BF26C83
-P 3250 1300
-F 0 "#PWR0137" H 3250 1150 50  0001 C CNN
-F 1 "VCC" V 3250 1500 50  0000 C CNN
-F 2 "" H 3250 1300 50  0001 C CNN
-F 3 "" H 3250 1300 50  0001 C CNN
-	1    3250 1300
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R15
 U 1 1 5BF26C89
 P 3050 1300
@@ -1123,17 +1090,6 @@ Wire Wire Line
 	3200 1300 3250 1300
 Text Label 2850 1300 2    50   ~ 0
 RTS
-$Comp
-L power:VCC #PWR0138
-U 1 1 5BF26C92
-P 3250 1400
-F 0 "#PWR0138" H 3250 1250 50  0001 C CNN
-F 1 "VCC" V 3250 1600 50  0000 C CNN
-F 2 "" H 3250 1400 50  0001 C CNN
-F 3 "" H 3250 1400 50  0001 C CNN
-	1    3250 1400
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R16
 U 1 1 5BF26C98
@@ -1183,4 +1139,47 @@ Wire Wire Line
 	1000 3500 1000 3550
 Wire Wire Line
 	1000 3850 1000 3900
+$Comp
+L power:+3.3V #PWR0135
+U 1 1 5BF22DA4
+P 3550 950
+F 0 "#PWR0135" H 3550 800 50  0001 C CNN
+F 1 "+3.3V" V 3565 1078 50  0000 L CNN
+F 2 "" H 3550 950 50  0001 C CNN
+F 3 "" H 3550 950 50  0001 C CNN
+	1    3550 950 
+	1    0    0    -1  
+$EndComp
+Text Label 3600 1550 0    50   ~ 0
+3v3int
+$Comp
+L SquantorSpecial:SolderJumper_3way_1conn SJ1
+U 1 1 5BF233EE
+P 3550 1250
+F 0 "SJ1" V 3596 1172 50  0000 R CNN
+F 1 "SolderJumper_3way_1conn" V 3505 1172 50  0000 R CNN
+F 2 "SquantorSpecial:solder_jumper_3way_12conn" H 3550 1250 50  0001 C CNN
+F 3 "" H 3550 1250 50  0001 C CNN
+	1    3550 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 1550 3550 1550
+Wire Wire Line
+	3550 1550 3550 1500
+Wire Wire Line
+	3550 1000 3550 950 
+Wire Wire Line
+	3250 1100 3250 1200
+Wire Wire Line
+	3250 1200 3250 1250
+Connection ~ 3250 1200
+Wire Wire Line
+	3250 1300 3250 1400
+Connection ~ 3250 1300
+Wire Wire Line
+	3400 1250 3250 1250
+Connection ~ 3250 1250
+Wire Wire Line
+	3250 1250 3250 1300
 $EndSCHEMATC
