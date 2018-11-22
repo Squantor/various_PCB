@@ -4,8 +4,8 @@ Simple breakout board for the FT230XQ USB to serial converter. The pinout matche
 Still some things need to be done:
 * schematic entry (done)
 * PCB layout (done)
-* Review with one night in between (In progress)
-* Produce at [OSHPARK](https://oshpark.com/) (TODO)
+* Review with one night in between (done)
+* Produce at [OSHPARK](https://oshpark.com/) (WIP)
 * Assemble (TODO)
 * Test & characterise (TODO)
 * update Readme.md with pictures and BOM (TODO)
