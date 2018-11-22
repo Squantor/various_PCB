@@ -1,0 +1,31 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.1-33cea8e~68~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2018-11-22T22:47:37+01:00*
+G04 #@! TF.ProjectId,jtag_20pin_to_10pin,6A7461675F323070696E5F746F5F3130,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.0.1-33cea8e~68~ubuntu18.04.1) date do 22 nov 2018 22:47:37 CET*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,0.900000X0.700000*%
+%ADD11R,0.900000X1.400000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,D1*
+X144700000Y-93150000D03*
+X144700000Y-91450000D03*
+G04 #@! TD*
+G04 #@! TO.C,R1*
+X143100000Y-91450000D03*
+X143100000Y-93150000D03*
+G04 #@! TD*
+D11*
+G04 #@! TO.C,S2*
+X138800000Y-72700000D03*
+X143800000Y-72700000D03*
+G04 #@! TD*
+M02*
