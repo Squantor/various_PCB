@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 13)
+    (drawings 15)
     (tracks 36)
     (zones 0)
     (modules 10)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.4)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
@@ -240,7 +240,7 @@
     (fp_text reference N2 (at 0 1.4 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20181118 (at -0.4 -0.1 90) (layer F.SilkS)
+    (fp_text value 20181122 (at -0.4 -0.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user V: (at -4.9 -0.1 90) (layer F.SilkS)
@@ -549,14 +549,14 @@
     )
   )
 
-  (module SquantorButtons:TD-85XU (layer B.Cu) (tedit 5BF0207E) (tstamp 5BFD150D)
+  (module SquantorButtons:TD-85XU (layer B.Cu) (tedit 5BF72284) (tstamp 5BFD150D)
     (at 141.3 72.7)
     (path /5BF0A48C)
     (attr smd)
     (fp_text reference S1 (at 0 2.3) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value RESET (at 0 -2.3 180) (layer B.SilkS)
+    (fp_text value 2pin_tact_switch (at 0 -2.3 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.99898 1.4986) (end -1.99898 0.99822) (layer B.SilkS) (width 0.15))
@@ -571,14 +571,14 @@
       (net 4 GND))
   )
 
-  (module SquantorButtons:TD-85XU (layer F.Cu) (tedit 5BF02073) (tstamp 5BFD1A55)
+  (module SquantorButtons:TD-85XU (layer F.Cu) (tedit 5BF72287) (tstamp 5BFD1A55)
     (at 141.3 72.7)
     (path /5BF0EE78)
     (attr smd)
     (fp_text reference S2 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value RESET (at 0 -2.3 180) (layer F.SilkS)
+    (fp_text value 2pin_tact_switch (at 0 -2.3 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.99898 -1.4986) (end -1.99898 -0.99822) (layer F.SilkS) (width 0.15))
@@ -593,6 +593,12 @@
       (net 4 GND))
   )
 
+  (gr_text Reset (at 141.4 70.4) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text Reset (at 141.3 70.4) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text RESET (at 138.35 88.95) (layer B.SilkS) (tstamp 5BFD21E3)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
