@@ -3,3 +3,4 @@ rescue-backup
 *.net
 *.kicad_pcb-bak
 *.bak
+*.zip
