@@ -5,8 +5,8 @@ This is a breakout for the MCP1702 LDO, it is breadboard friendly but two JST PH
 Still some things need to be done:
 * schematic entry (Done)
 * PCB layout (Done)
-* Review with one night in between (done)
-* Produce at [OSHPARK](https://oshpark.com/shared_projects/dYTNK2Tc) (In progress)
+* Review with one night in between (Done)
+* Produce at [OSHPARK](https://oshpark.com/shared_projects/lMCTJqCs) (WIP)
 * Assemble
 * Test 
 * update Readme.md with pictures and BOM

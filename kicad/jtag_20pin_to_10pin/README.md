@@ -5,7 +5,7 @@ Still some things need to be done:
 * schematic entry (Done)
 * PCB layout (Done)
 * Review with one night in between (Done)
-* Produce at [OSHPARK](https://oshpark.com/) (Wip)
+* Produce at [OSHPARK](https://oshpark.com/shared_projects/sNI7cM5I) (WIP)
 * Assemble (TODO)
 * Test & characterise (TODO)
 * update Readme.md with pictures and BOM (TODO)
