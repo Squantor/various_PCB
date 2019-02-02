@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SquantorConnectors_PINS_1X10
+#
+DEF SquantorConnectors_PINS_1X10 J 0 40 Y Y 1 F N
+F0 "J" -50 600 60 H V C CNN
+F1 "SquantorConnectors_PINS_1X10" 0 -600 60 H V C CNN
+F2 "" 0 450 60 H I C CNN
+F3 "" 0 450 60 H I C CNN
+DRAW
+S -100 550 100 -550 0 1 0 N
+X 1 1 200 450 100 L 50 50 1 1 U
+X 10 10 200 -450 100 L 50 50 1 1 U
+X 2 2 200 350 100 L 50 50 1 1 U
+X 3 3 200 250 100 L 50 50 1 1 U
+X 4 4 200 150 100 L 50 50 1 1 U
+X 5 5 200 50 100 L 50 50 1 1 U
+X 6 6 200 -50 100 L 50 50 1 1 U
+X 7 7 200 -150 100 L 50 50 1 1 U
+X 8 8 200 -250 100 L 50 50 1 1 U
+X 9 9 200 -350 100 L 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+# SquantorProto_Proto
+#
+DEF SquantorProto_Proto J 0 40 Y Y 1 F N
+F0 "J" 0 100 60 H V C CNN
+F1 "SquantorProto_Proto" 0 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 5 0 1 0 -150 150 150 150 150 -150 -150 -150 -150 150 N
+ENDDRAW
+ENDDEF
+#
+#End Library
