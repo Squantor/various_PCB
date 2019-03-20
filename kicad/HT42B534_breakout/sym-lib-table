@@ -26,4 +26,6 @@
   (lib (name SquantorTransformer)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTransformer.lib)(options "")(descr ""))
   (lib (name SquantorUsb)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorUsb.lib)(options "")(descr ""))
   (lib (name SquantorWinbond)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorWinbond.lib)(options "")(descr ""))
+  (lib (name SquantorHoltek)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorHoltek.lib)(options "")(descr ""))
+  (lib (name SquantorWCH)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorWCH.lib)(options "")(descr ""))
 )
