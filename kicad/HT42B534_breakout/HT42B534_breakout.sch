@@ -430,4 +430,56 @@ Wire Wire Line
 Connection ~ 5200 1200
 Wire Wire Line
 	5200 1200 5400 1200
+Text Label 4800 1500 0    50   ~ 0
+RXI
+Text Label 4000 1600 2    50   ~ 0
+TXO
+Text Label 4000 1500 2    50   ~ 0
+CTSI
+Text Label 4800 1400 0    50   ~ 0
+RTSO
+$Comp
+L power:GND #PWR?
+U 1 1 5C9977C0
+P 7400 1700
+F 0 "#PWR?" H 7400 1450 50  0001 C CNN
+F 1 "GND" V 7405 1572 50  0000 R CNN
+F 2 "" H 7400 1700 50  0001 C CNN
+F 3 "" H 7400 1700 50  0001 C CNN
+	1    7400 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1650 7400 1650
+Wire Wire Line
+	7400 1650 7400 1700
+Wire Wire Line
+	7400 1550 7450 1550
+Wire Wire Line
+	7400 1450 7450 1450
+Wire Wire Line
+	7400 1350 7450 1350
+Wire Wire Line
+	7400 1250 7450 1250
+Wire Wire Line
+	7400 1150 7450 1150
+Text Label 7400 1550 2    50   ~ 0
+CTSI
+Text Label 7400 1350 2    50   ~ 0
+TXO
+Text Label 7400 1250 2    50   ~ 0
+RXI
+Text Label 7400 1150 2    50   ~ 0
+RTSO
+$Comp
+L SquantorConnectors:FTDI_PINS_1X06_input J?
+U 1 1 5C99F5E1
+P 7700 1400
+F 0 "J?" H 7522 1347 60  0000 R CNN
+F 1 "FTDI_PINS_1X06_input" H 7522 1453 60  0000 R CNN
+F 2 "" H 7750 1650 60  0001 C CNN
+F 3 "" H 7750 1650 60  0001 C CNN
+	1    7700 1400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
