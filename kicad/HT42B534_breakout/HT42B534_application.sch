@@ -209,4 +209,25 @@ F 3 "~" H 2800 3200 50  0001 C CNN
 	1    2800 3200
 	0    1    1    0   
 $EndComp
+Text HLabel 3600 2800 0    50   Input ~ 0
+VDDIO
+$Comp
+L Device:R_Small R?
+U 1 1 5C9AB245
+P 3750 2800
+AR Path="/5C9AB245" Ref="R?"  Part="1" 
+AR Path="/5C9B7479/5C9AB245" Ref="R?"  Part="1" 
+F 0 "R?" V 3854 2800 50  0000 C CNN
+F 1 "10K" V 3945 2800 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" H 3750 2800 50  0001 C CNN
+F 3 "~" H 3750 2800 50  0001 C CNN
+	1    3750 2800
+	0    1    1    0   
+$EndComp
+Text HLabel 3900 2800 2    50   Output ~ 0
+TXO
+Wire Wire Line
+	3600 2800 3650 2800
+Wire Wire Line
+	3850 2800 3900 2800
 $EndSCHEMATC
