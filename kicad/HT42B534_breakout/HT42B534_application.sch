@@ -216,8 +216,8 @@ L Device:R_Small R?
 U 1 1 5C9AB245
 P 3750 2800
 AR Path="/5C9AB245" Ref="R?"  Part="1" 
-AR Path="/5C9B7479/5C9AB245" Ref="R?"  Part="1" 
-F 0 "R?" V 3854 2800 50  0000 C CNN
+AR Path="/5C9B7479/5C9AB245" Ref="R8"  Part="1" 
+F 0 "R8" V 3854 2800 50  0000 C CNN
 F 1 "10K" V 3945 2800 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" H 3750 2800 50  0001 C CNN
 F 3 "~" H 3750 2800 50  0001 C CNN
@@ -230,4 +230,23 @@ Wire Wire Line
 	3600 2800 3650 2800
 Wire Wire Line
 	3850 2800 3900 2800
+Text HLabel 3550 2600 0    50   Input ~ 0
+VDDIO
+Text HLabel 3950 2600 2    50   Input ~ 0
+VDD
+$Comp
+L Device:D_Schottky D?
+U 1 1 5C9D33D2
+P 3750 2600
+F 0 "D?" H 3750 2384 50  0000 C CNN
+F 1 "D_Schottky" H 3750 2475 50  0000 C CNN
+F 2 "" H 3750 2600 50  0001 C CNN
+F 3 "~" H 3750 2600 50  0001 C CNN
+	1    3750 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 2600 3600 2600
+Wire Wire Line
+	3900 2600 3950 2600
 $EndSCHEMATC
