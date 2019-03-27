@@ -302,7 +302,7 @@ $EndComp
 Text Label 2250 1450 2    50   ~ 0
 VSS
 Text Label 2550 1450 0    50   ~ 0
-VDDIO
+VDDCONN
 Wire Wire Line
 	2250 1450 2300 1450
 Wire Wire Line
@@ -376,7 +376,7 @@ L SquantorSpecial:SolderJumper_2way_1conn SJ3
 U 1 1 5C9C8600
 P 5750 1650
 F 0 "SJ3" H 5750 1875 50  0000 C CNN
-F 1 "SolderJumper_2way_1conn" H 5750 1784 50  0000 C CNN
+F 1 "vddio to 3.3v internal" H 5750 1784 50  0000 C CNN
 F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5750 1650 50  0001 C CNN
 F 3 "" H 5750 1650 50  0001 C CNN
 	1    5750 1650
@@ -391,7 +391,7 @@ L SquantorSpecial:SolderJumper_2way_1conn SJ2
 U 1 1 5C9E2540
 P 5750 1350
 F 0 "SJ2" H 5750 1575 50  0000 C CNN
-F 1 "SolderJumper_2way_1conn" H 5750 1484 50  0000 C CNN
+F 1 "connpwr to vdd" H 5750 1484 50  0000 C CNN
 F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5750 1350 50  0001 C CNN
 F 3 "" H 5750 1350 50  0001 C CNN
 	1    5750 1350
@@ -410,7 +410,7 @@ L SquantorSpecial:SolderJumper_2way_0conn SJ1
 U 1 1 5C9C5D1D
 P 5750 1000
 F 0 "SJ1" H 5750 1225 50  0000 C CNN
-F 1 "SolderJumper_2way_0conn" H 5750 1134 50  0000 C CNN
+F 1 "connpwr to vddio" H 5750 1134 50  0000 C CNN
 F 2 "SquantorSpecial:solder_jumper_2way_noconn" H 5750 1000 50  0001 C CNN
 F 3 "" H 5750 1000 50  0001 C CNN
 	1    5750 1000
