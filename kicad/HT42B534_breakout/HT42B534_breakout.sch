@@ -143,30 +143,30 @@ Connection ~ 2900 1900
 Wire Wire Line
 	2900 2150 2900 2200
 Wire Wire Line
-	3750 3150 3800 3150
+	3800 3200 3850 3200
 Wire Wire Line
-	3750 2950 3800 2950
+	3800 3000 3850 3000
 Wire Wire Line
-	3750 2850 3800 2850
+	3800 2900 3850 2900
 Wire Wire Line
-	3750 2750 3800 2750
-Text Label 3750 3150 2    50   ~ 0
+	3800 2800 3850 2800
+Text Label 3800 3200 2    50   ~ 0
 CTSI
-Text Label 3750 2950 2    50   ~ 0
+Text Label 3800 3000 2    50   ~ 0
 TXO
-Text Label 3750 2850 2    50   ~ 0
+Text Label 3800 2900 2    50   ~ 0
 RXI
-Text Label 3750 2750 2    50   ~ 0
+Text Label 3800 2800 2    50   ~ 0
 RTSO
 $Comp
 L SquantorConnectors:FTDI_PINS_1X06_input J2
 U 1 1 5C99F5E1
-P 4050 3000
-F 0 "J2" H 3872 2947 60  0000 R CNN
-F 1 "FTDI_PINS_1X06_input" H 3872 3053 60  0000 R CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 4100 3250 60  0001 C CNN
-F 3 "" H 4100 3250 60  0001 C CNN
-	1    4050 3000
+P 4100 3050
+F 0 "J2" H 3922 2997 60  0000 R CNN
+F 1 "FTDI_PINS_1X06_input" H 3922 3103 60  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 4150 3300 60  0001 C CNN
+F 3 "" H 4150 3300 60  0001 C CNN
+	1    4100 3050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -181,20 +181,9 @@ F 3 "" H 2400 1100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 2000 3900 2000
+	5550 1350 5500 1350
 Wire Wire Line
-	4200 2000 4150 2000
-$Comp
-L Device:R_Small R2
-U 1 1 5C95BE4E
-P 4050 2000
-F 0 "R2" V 3900 2150 50  0000 C CNN
-F 1 "0" V 3900 1850 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" H 4050 2000 50  0001 C CNN
-F 3 "~" H 4050 2000 50  0001 C CNN
-	1    4050 2000
-	0    1    1    0   
-$EndComp
+	6000 1350 5950 1350
 Wire Wire Line
 	2900 3250 2750 3250
 Wire Wire Line
@@ -261,7 +250,7 @@ Text Label 2350 2200 3    50   ~ 0
 VSS
 Text Label 2900 2200 3    50   ~ 0
 VSS
-Text Label 3750 3250 2    50   ~ 0
+Text Label 3800 3300 2    50   ~ 0
 VSS
 Text Label 3550 1400 2    50   ~ 0
 VDD
@@ -271,25 +260,10 @@ Wire Wire Line
 	3550 1400 3600 1400
 Wire Wire Line
 	3600 1500 3550 1500
-Text Label 3900 2000 2    50   ~ 0
-VDDIO
-Text Label 4200 2000 0    50   ~ 0
+Text Label 5500 1350 2    50   ~ 0
+VDDCONN
+Text Label 6000 1350 0    50   ~ 0
 VDD
-Wire Wire Line
-	3950 2250 3900 2250
-Wire Wire Line
-	4200 2250 4150 2250
-$Comp
-L Device:R_Small R3
-U 1 1 5CA03C6E
-P 4050 2250
-F 0 "R3" V 3950 2400 50  0000 C CNN
-F 1 "0" V 3950 2150 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" H 4050 2250 50  0001 C CNN
-F 3 "~" H 4050 2250 50  0001 C CNN
-	1    4050 2250
-	0    1    1    0   
-$EndComp
 Text Label 3550 1300 2    50   ~ 0
 VDDIO
 Wire Wire Line
@@ -298,14 +272,14 @@ Text Label 3550 1200 2    50   ~ 0
 VDD_33V
 Wire Wire Line
 	3600 1200 3550 1200
-Text Label 4200 2250 0    50   ~ 0
+Text Label 6000 1650 0    50   ~ 0
 VDD_33V
-Text Label 3900 2250 2    50   ~ 0
+Text Label 5500 1650 2    50   ~ 0
 VDDIO
 Text Label 2700 1100 0    50   ~ 0
 VDD
 Text Label 2100 1200 2    50   ~ 0
-VDDIO
+VDDCONN
 Text Label 2100 1000 2    50   ~ 0
 VSS
 Wire Wire Line
@@ -333,12 +307,12 @@ Wire Wire Line
 	2250 1450 2300 1450
 Wire Wire Line
 	2550 1450 2500 1450
-Text Label 3750 3050 2    50   ~ 0
-VDDIO
+Text Label 3800 3100 2    50   ~ 0
+VDDCONN
 Wire Wire Line
-	3750 3050 3800 3050
+	3800 3100 3850 3100
 Wire Wire Line
-	3750 3250 3800 3250
+	3800 3300 3850 3300
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CA4026D
@@ -355,35 +329,35 @@ Wire Wire Line
 $Comp
 L Device:R_Small R6
 U 1 1 5CA52544
-P 4050 2400
-F 0 "R6" V 4000 2550 50  0000 C CNN
-F 1 "1K" V 4100 2250 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" H 4050 2400 50  0001 C CNN
-F 3 "~" H 4050 2400 50  0001 C CNN
-	1    4050 2400
+P 3950 2550
+F 0 "R6" V 3900 2700 50  0000 C CNN
+F 1 "1K" V 4000 2400 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" H 3950 2550 50  0001 C CNN
+F 3 "~" H 3950 2550 50  0001 C CNN
+	1    3950 2550
 	0    1    1    0   
 $EndComp
-Text Label 3900 2400 2    50   ~ 0
+Text Label 3800 2550 2    50   ~ 0
 VDD
 $Comp
 L Device:LED D1
 U 1 1 5CA5351F
-P 4350 2400
-F 0 "D1" H 4200 2500 50  0000 C CNN
-F 1 "RED" H 4450 2500 50  0000 C CNN
-F 2 "SquantorRcl:R_0603_hand" H 4350 2400 50  0001 C CNN
-F 3 "~" H 4350 2400 50  0001 C CNN
-	1    4350 2400
+P 4250 2550
+F 0 "D1" H 4100 2650 50  0000 C CNN
+F 1 "RED" H 4350 2650 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" H 4250 2550 50  0001 C CNN
+F 3 "~" H 4250 2550 50  0001 C CNN
+	1    4250 2550
 	-1   0    0    1   
 $EndComp
-Text Label 4550 2400 0    50   ~ 0
+Text Label 4450 2550 0    50   ~ 0
 VSS
 Wire Wire Line
-	3900 2400 3950 2400
+	3800 2550 3850 2550
 Wire Wire Line
-	4150 2400 4200 2400
+	4050 2550 4100 2550
 Wire Wire Line
-	4500 2400 4550 2400
+	4400 2550 4450 2550
 $Comp
 L Device:R_Small R7
 U 1 1 5C9C65BC
@@ -397,4 +371,49 @@ F 3 "~" H 2500 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2650 1900 2600 1900
+$Comp
+L SquantorSpecial:SolderJumper_2way_1conn SJ3
+U 1 1 5C9C8600
+P 5750 1650
+F 0 "SJ3" H 5750 1875 50  0000 C CNN
+F 1 "SolderJumper_2way_1conn" H 5750 1784 50  0000 C CNN
+F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5750 1650 50  0001 C CNN
+F 3 "" H 5750 1650 50  0001 C CNN
+	1    5750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1650 6000 1650
+Wire Wire Line
+	5550 1650 5500 1650
+$Comp
+L SquantorSpecial:SolderJumper_2way_1conn SJ2
+U 1 1 5C9E2540
+P 5750 1350
+F 0 "SJ2" H 5750 1575 50  0000 C CNN
+F 1 "SolderJumper_2way_1conn" H 5750 1484 50  0000 C CNN
+F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5750 1350 50  0001 C CNN
+F 3 "" H 5750 1350 50  0001 C CNN
+	1    5750 1350
+	1    0    0    -1  
+$EndComp
+Text Label 5500 1000 2    50   ~ 0
+VDDCONN
+Text Label 6000 1000 0    50   ~ 0
+VDDIO
+Wire Wire Line
+	5550 1000 5500 1000
+Wire Wire Line
+	5950 1000 6000 1000
+$Comp
+L SquantorSpecial:SolderJumper_2way_0conn SJ1
+U 1 1 5C9C5D1D
+P 5750 1000
+F 0 "SJ1" H 5750 1225 50  0000 C CNN
+F 1 "SolderJumper_2way_0conn" H 5750 1134 50  0000 C CNN
+F 2 "SquantorSpecial:solder_jumper_2way_noconn" H 5750 1000 50  0001 C CNN
+F 3 "" H 5750 1000 50  0001 C CNN
+	1    5750 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

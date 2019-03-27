@@ -232,8 +232,6 @@ Wire Wire Line
 	3850 2800 3900 2800
 Text HLabel 3550 2600 0    50   Input ~ 0
 VDDIO
-Text HLabel 3950 2600 2    50   Input ~ 0
-VDD
 $Comp
 L Device:D_Schottky D2
 U 1 1 5C9D33D2
@@ -246,7 +244,9 @@ F 3 "~" H 3750 2600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3550 2600 3600 2600
+	3600 2600 3550 2600
+Text HLabel 3950 2600 2    50   Input ~ 0
+VDD
 Wire Wire Line
-	3900 2600 3950 2600
+	3950 2600 3900 2600
 $EndSCHEMATC
