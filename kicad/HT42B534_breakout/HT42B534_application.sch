@@ -235,12 +235,12 @@ VDDIO
 Text HLabel 3950 2600 2    50   Input ~ 0
 VDD
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D2
 U 1 1 5C9D33D2
 P 3750 2600
-F 0 "D?" H 3750 2384 50  0000 C CNN
+F 0 "D2" H 3750 2384 50  0000 C CNN
 F 1 "D_Schottky" H 3750 2475 50  0000 C CNN
-F 2 "" H 3750 2600 50  0001 C CNN
+F 2 "SquantorDiodes:SOD-523" H 3750 2600 50  0001 C CNN
 F 3 "~" H 3750 2600 50  0001 C CNN
 	1    3750 2600
 	-1   0    0    1   
