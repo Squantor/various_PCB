@@ -392,7 +392,7 @@ U 1 1 5C9E2540
 P 5750 1350
 F 0 "SJ2" H 5750 1575 50  0000 C CNN
 F 1 "vddconn=vdd" H 5750 1484 50  0000 C CNN
-F 2 "SquantorSpecial:solder_jumper_2way_conn_no_crtyd" H 5750 1350 50  0001 C CNN
+F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5750 1350 50  0001 C CNN
 F 3 "" H 5750 1350 50  0001 C CNN
 	1    5750 1350
 	1    0    0    -1  
@@ -416,4 +416,19 @@ F 3 "" H 5750 1000 50  0001 C CNN
 	1    5750 1000
 	1    0    0    -1  
 $EndComp
+Text Label 5500 1900 2    50   ~ 0
+VDDIO
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5CA218DD
+P 5550 1900
+F 0 "#FLG0102" H 5550 1975 50  0001 C CNN
+F 1 "PWR_FLAG" V 5550 2028 50  0000 L CNN
+F 2 "" H 5550 1900 50  0001 C CNN
+F 3 "~" H 5550 1900 50  0001 C CNN
+	1    5550 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 1900 5550 1900
 $EndSCHEMATC
