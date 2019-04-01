@@ -19,7 +19,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20190325" H 850 7700 60  0000 C CNN
+F 1 "20190401" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -376,7 +376,7 @@ L SquantorSpecial:SolderJumper_2way_1conn SJ3
 U 1 1 5C9C8600
 P 5750 1650
 F 0 "SJ3" H 5750 1875 50  0000 C CNN
-F 1 "vddio to 3.3v internal" H 5750 1784 50  0000 C CNN
+F 1 "vddio=3.3v" H 5750 1784 50  0000 C CNN
 F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5750 1650 50  0001 C CNN
 F 3 "" H 5750 1650 50  0001 C CNN
 	1    5750 1650
@@ -391,7 +391,7 @@ L SquantorSpecial:SolderJumper_2way_1conn SJ2
 U 1 1 5C9E2540
 P 5750 1350
 F 0 "SJ2" H 5750 1575 50  0000 C CNN
-F 1 "connpwr to vdd" H 5750 1484 50  0000 C CNN
+F 1 "vddconn=vdd" H 5750 1484 50  0000 C CNN
 F 2 "SquantorSpecial:solder_jumper_2way_conn_no_crtyd" H 5750 1350 50  0001 C CNN
 F 3 "" H 5750 1350 50  0001 C CNN
 	1    5750 1350
@@ -410,7 +410,7 @@ L SquantorSpecial:SolderJumper_2way_0conn SJ1
 U 1 1 5C9C5D1D
 P 5750 1000
 F 0 "SJ1" H 5750 1225 50  0000 C CNN
-F 1 "connpwr to vddio" H 5750 1134 50  0000 C CNN
+F 1 "vddio=vddconn" H 5750 1134 50  0000 C CNN
 F 2 "SquantorSpecial:solder_jumper_2way_noconn" H 5750 1000 50  0001 C CNN
 F 3 "" H 5750 1000 50  0001 C CNN
 	1    5750 1000
