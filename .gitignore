@@ -4,3 +4,4 @@ rescue-backup
 *.kicad_pcb-bak
 *.bak
 *.zip
+fp-info-cache
