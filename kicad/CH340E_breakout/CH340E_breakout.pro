@@ -1,4 +1,4 @@
-update=ma 01 apr 2019 10:42:54 CEST
+update=ma 01 apr 2019 12:14:20 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -12,7 +12,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=HT42B534_breakout.net
+LastNetListRead=CH340E_breakout.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
