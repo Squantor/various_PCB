@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:Hammond_1551M_OSH2layer-cache
-EELAYER 26 0
+LIBS:usb_armor-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -19,7 +19,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20190307" H 850 7700 60  0000 C CNN
+F 1 "20190401" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -58,4 +58,64 @@ F 3 "" H 1500 7150 60  0001 C CNN
 	1    1500 7150
 	1    0    0    -1  
 $EndComp
+$Comp
+L SquantorUsb:USB J1
+U 1 1 5CA209B1
+P 1700 1600
+F 0 "J1" H 1725 1997 60  0000 C CNN
+F 1 "USB" H 1725 1891 60  0000 C CNN
+F 2 "SquantorUsb:USB_A-Plug-generic" H 1850 1650 60  0001 C CNN
+F 3 "" H 1850 1650 60  0001 C CNN
+	1    1700 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1600 1350 1600
+$Comp
+L SquantorUsb:USB J2
+U 1 1 5CA22628
+P 1700 2300
+F 0 "J2" H 1725 2697 60  0000 C CNN
+F 1 "USB" H 1725 2591 60  0000 C CNN
+F 2 "SquantorUsb:USB-A-TH" H 1850 2350 60  0001 C CNN
+F 3 "" H 1850 2350 60  0001 C CNN
+	1    1700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1550 2100 1550
+Wire Wire Line
+	2050 1650 2100 1650
+Wire Wire Line
+	2050 1750 2100 1750
+Wire Wire Line
+	2050 1450 2100 1450
+Wire Wire Line
+	2050 2150 2100 2150
+Wire Wire Line
+	2050 2250 2100 2250
+Wire Wire Line
+	2050 2350 2100 2350
+Wire Wire Line
+	2050 2450 2100 2450
+Text Label 2100 2450 0    50   ~ 0
+GND
+Text Label 2100 1650 0    50   ~ 0
+IN_USB-DP
+Text Label 2100 1750 0    50   ~ 0
+GND
+Text Label 1350 1600 2    50   ~ 0
+Shield
+Text Label 1400 2300 2    50   ~ 0
+Shield
+Text Label 2100 2150 0    50   ~ 0
+VBUS
+Text Label 2100 1450 0    50   ~ 0
+VBUS
+Text Label 2100 2250 0    50   ~ 0
+OUT_USB-DM
+Text Label 2100 2350 0    50   ~ 0
+OUT_USB-DP
+Text Label 2100 1550 0    50   ~ 0
+IN_USB-DM
 $EndSCHEMATC
