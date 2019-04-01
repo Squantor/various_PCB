@@ -106,7 +106,7 @@ Text Label 2100 1750 0    50   ~ 0
 GND
 Text Label 1350 1600 2    50   ~ 0
 Shield
-Text Label 1400 2300 2    50   ~ 0
+Text Label 1350 2300 2    50   ~ 0
 Shield
 Text Label 2100 2150 0    50   ~ 0
 VBUS
@@ -324,4 +324,76 @@ Wire Wire Line
 	4050 1600 4100 1600
 Wire Wire Line
 	4050 1150 4050 1600
+$Comp
+L Device:R_Small R11
+U 1 1 5CA47FD8
+P 3550 2700
+F 0 "R11" H 3609 2654 50  0000 L CNN
+F 1 "1K" H 3609 2745 50  0000 L CNN
+F 2 "SquantorRcl:R_0603_hand" H 3550 2700 50  0001 C CNN
+F 3 "~" H 3550 2700 50  0001 C CNN
+	1    3550 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5CA493DE
+P 3850 2700
+F 0 "D1" H 3843 2445 50  0000 C CNN
+F 1 "LED" H 3843 2536 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3850 2700 50  0001 C CNN
+F 3 "~" H 3850 2700 50  0001 C CNN
+	1    3850 2700
+	-1   0    0    1   
+$EndComp
+Text Label 4050 2700 0    50   ~ 0
+GND
+Text Label 3400 2700 2    50   ~ 0
+VBUS
+Wire Wire Line
+	3400 2700 3450 2700
+Wire Wire Line
+	3650 2700 3700 2700
+Wire Wire Line
+	4000 2700 4050 2700
+Text Label 3550 3050 2    50   ~ 0
+VBUS
+$Comp
+L Device:C_Small C1
+U 1 1 5CA52070
+P 3700 3050
+F 0 "C1" V 3471 3050 50  0000 C CNN
+F 1 "1u" V 3562 3050 50  0000 C CNN
+F 2 "SquantorRcl:C_0805" H 3700 3050 50  0001 C CNN
+F 3 "~" H 3700 3050 50  0001 C CNN
+	1    3700 3050
+	0    1    1    0   
+$EndComp
+Text Label 3850 3050 0    50   ~ 0
+GND
+Wire Wire Line
+	3550 3050 3600 3050
+Wire Wire Line
+	3800 3050 3850 3050
+$Comp
+L Device:C_Small C2
+U 1 1 5CA5667C
+P 3700 3250
+F 0 "C2" V 3837 3250 50  0000 C CNN
+F 1 "100n" V 3928 3250 50  0000 C CNN
+F 2 "SquantorRcl:C_0805" H 3700 3250 50  0001 C CNN
+F 3 "~" H 3700 3250 50  0001 C CNN
+	1    3700 3250
+	0    1    1    0   
+$EndComp
+Text Label 3850 3250 0    50   ~ 0
+GND
+Text Label 3550 3250 2    50   ~ 0
+Shield
+Wire Wire Line
+	1400 2300 1350 2300
+Wire Wire Line
+	3550 3250 3600 3250
+Wire Wire Line
+	3800 3250 3850 3250
 $EndSCHEMATC
