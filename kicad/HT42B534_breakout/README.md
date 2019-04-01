@@ -2,8 +2,8 @@
 Breakout board for the [HT42B534-1](https://www.holtek.com/productdetail/-/vg/42B534-x) USB to serial converter. Advantage of the HT42B534 is that it enumerates as a USB CDC device, has programmable EEPROM on board and available in a few tiny packages.
 ## TODO's
 Still some things need to be done:
-* schematic entry (TODO)
-* PCB layout (TODO)
+* schematic entry
+* PCB layout
 * Review with one night in between (TODO)
 * Produce at [OSHPARK](https://oshpark.com/) (TODO)
 * Assemble (TODO)
