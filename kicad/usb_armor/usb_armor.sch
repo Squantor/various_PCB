@@ -101,7 +101,7 @@ Wire Wire Line
 Text Label 2100 2450 0    50   ~ 0
 GND
 Text Label 2100 1650 0    50   ~ 0
-IN_USB-DP
+IN_USB-D+
 Text Label 2100 1750 0    50   ~ 0
 GND
 Text Label 1350 1600 2    50   ~ 0
@@ -113,9 +113,215 @@ VBUS
 Text Label 2100 1450 0    50   ~ 0
 VBUS
 Text Label 2100 2250 0    50   ~ 0
-OUT_USB-DM
+OUT_USB-D-
 Text Label 2100 2350 0    50   ~ 0
-OUT_USB-DP
+OUT_USB-D+
 Text Label 2100 1550 0    50   ~ 0
-IN_USB-DM
+IN_USB-D-
+$Comp
+L Device:R_Small R1
+U 1 1 5CA24444
+P 3700 1450
+F 0 "R1" V 3504 1450 50  0000 C CNN
+F 1 "TBD" V 3595 1450 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" H 3700 1450 50  0001 C CNN
+F 3 "~" H 3700 1450 50  0001 C CNN
+	1    3700 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5CA24F12
+P 3700 1600
+F 0 "R2" V 3804 1600 50  0000 C CNN
+F 1 "TBD" V 3895 1600 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" H 3700 1600 50  0001 C CNN
+F 3 "~" H 3700 1600 50  0001 C CNN
+	1    3700 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 1450 3350 1450
+Wire Wire Line
+	3600 1600 3550 1600
+Wire Wire Line
+	3800 1450 3850 1450
+Text Label 3300 1450 2    50   ~ 0
+IN_USB-D-
+Text Label 4100 1450 0    50   ~ 0
+OUT_USB-D-
+Text Label 4100 1600 0    50   ~ 0
+OUT_USB-D+
+Text Label 3300 1600 2    50   ~ 0
+IN_USB-D+
+$Comp
+L Device:R_Small R3
+U 1 1 5CA28D99
+P 3350 1050
+F 0 "R3" H 3409 1004 50  0000 L CNN
+F 1 "TBD" H 3409 1095 50  0000 L CNN
+F 2 "SquantorRcl:R_0603_hand" H 3350 1050 50  0001 C CNN
+F 3 "~" H 3350 1050 50  0001 C CNN
+	1    3350 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5CA2A5AB
+P 3550 1050
+F 0 "R5" H 3491 1004 50  0000 R CNN
+F 1 "TBD" H 3491 1095 50  0000 R CNN
+F 2 "SquantorRcl:R_0603_hand" H 3550 1050 50  0001 C CNN
+F 3 "~" H 3550 1050 50  0001 C CNN
+	1    3550 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5CA2BF4E
+P 3850 1050
+F 0 "R7" H 3791 1004 50  0000 R CNN
+F 1 "TBD" H 3791 1095 50  0000 R CNN
+F 2 "SquantorRcl:R_0603_hand" H 3850 1050 50  0001 C CNN
+F 3 "~" H 3850 1050 50  0001 C CNN
+	1    3850 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 5CA2CD8C
+P 4050 1050
+F 0 "R9" H 3991 1004 50  0000 R CNN
+F 1 "TBD" H 3991 1095 50  0000 R CNN
+F 2 "SquantorRcl:R_0603_hand" H 4050 1050 50  0001 C CNN
+F 3 "~" H 4050 1050 50  0001 C CNN
+	1    4050 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5CA2F8BD
+P 3850 2000
+F 0 "R8" H 3791 1954 50  0000 R CNN
+F 1 "TBD" H 3791 2045 50  0000 R CNN
+F 2 "SquantorRcl:R_0603_hand" H 3850 2000 50  0001 C CNN
+F 3 "~" H 3850 2000 50  0001 C CNN
+	1    3850 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 5CA2F8C7
+P 4050 2000
+F 0 "R10" H 3991 1954 50  0000 R CNN
+F 1 "TBD" H 3991 2045 50  0000 R CNN
+F 2 "SquantorRcl:R_0603_hand" H 4050 2000 50  0001 C CNN
+F 3 "~" H 4050 2000 50  0001 C CNN
+	1    4050 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5CA3483C
+P 3350 2000
+F 0 "R4" H 3409 1954 50  0000 L CNN
+F 1 "TBD" H 3409 2045 50  0000 L CNN
+F 2 "SquantorRcl:R_0603_hand" H 3350 2000 50  0001 C CNN
+F 3 "~" H 3350 2000 50  0001 C CNN
+	1    3350 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5CA34846
+P 3550 2000
+F 0 "R6" H 3491 1954 50  0000 R CNN
+F 1 "TBD" H 3491 2045 50  0000 R CNN
+F 2 "SquantorRcl:R_0603_hand" H 3550 2000 50  0001 C CNN
+F 3 "~" H 3550 2000 50  0001 C CNN
+	1    3550 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 2100 3350 2150
+Wire Wire Line
+	3550 2100 3550 2150
+Wire Wire Line
+	3550 2150 3350 2150
+Connection ~ 3350 2150
+Wire Wire Line
+	3850 2100 3850 2150
+Wire Wire Line
+	3850 2150 4050 2150
+Wire Wire Line
+	4050 2150 4050 2100
+Wire Wire Line
+	4050 2250 4000 2250
+Wire Wire Line
+	3350 950  3350 900 
+Wire Wire Line
+	3350 850  3400 850 
+Wire Wire Line
+	3550 950  3550 900 
+Wire Wire Line
+	3550 900  3350 900 
+Connection ~ 3350 900 
+Wire Wire Line
+	3350 900  3350 850 
+Wire Wire Line
+	3850 950  3850 900 
+Wire Wire Line
+	3850 900  4050 900 
+Wire Wire Line
+	4050 900  4050 950 
+Wire Wire Line
+	4050 900  4050 850 
+Wire Wire Line
+	4050 850  4000 850 
+Connection ~ 4050 900 
+Text Label 3400 850  0    50   ~ 0
+VBUS
+Text Label 4000 850  2    50   ~ 0
+VBUS
+Text Label 3400 2250 0    50   ~ 0
+GND
+Text Label 4000 2250 2    50   ~ 0
+GND
+Wire Wire Line
+	4050 2150 4050 2250
+Connection ~ 4050 2150
+Wire Wire Line
+	3350 2250 3400 2250
+Wire Wire Line
+	3350 2150 3350 2250
+Wire Wire Line
+	3350 1900 3350 1450
+Connection ~ 3350 1450
+Wire Wire Line
+	3350 1450 3300 1450
+Wire Wire Line
+	3350 1150 3350 1450
+Wire Wire Line
+	3550 1900 3550 1600
+Connection ~ 3550 1600
+Wire Wire Line
+	3550 1600 3300 1600
+Wire Wire Line
+	3550 1150 3550 1600
+Wire Wire Line
+	3800 1600 4050 1600
+Wire Wire Line
+	3850 1900 3850 1450
+Connection ~ 3850 1450
+Wire Wire Line
+	3850 1450 4100 1450
+Wire Wire Line
+	3850 1150 3850 1450
+Wire Wire Line
+	4050 1900 4050 1600
+Connection ~ 4050 1600
+Wire Wire Line
+	4050 1600 4100 1600
+Wire Wire Line
+	4050 1150 4050 1600
 $EndSCHEMATC
