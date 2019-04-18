@@ -13,4 +13,5 @@
   (lib (name SquantorUsb)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorUsb.lib)(options "")(descr ""))
   (lib (name SquantorMicrochip)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorMicrochip.lib)(options "")(descr ""))
   (lib (name SquantorSpecial)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorSpecial.lib)(options "")(descr ""))
+  (lib (name FT230XQ_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/FT230XQ_breakout-rescue.lib)(options "")(descr ""))
 )

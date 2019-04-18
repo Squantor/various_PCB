@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FT230XQ_breakout-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -37,7 +37,7 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorUsb:USB-ID J1
+L FT230XQ_breakout-rescue:USB-ID-SquantorUsb J1
 U 1 1 5B95FC83
 P 1350 3500
 F 0 "J1" H 1375 3947 60  0000 C CNN
