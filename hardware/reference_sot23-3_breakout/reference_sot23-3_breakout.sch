@@ -128,4 +128,27 @@ Wire Wire Line
 	1600 2550 1600 2500
 Wire Wire Line
 	1600 2300 1600 2250
+$Comp
+L SquantorGenericAnalog:reference3pin U?
+U 1 1 5CCA74B5
+P 1450 3050
+F 0 "U?" H 1450 3415 50  0000 C CNN
+F 1 "reference3pin" H 1450 3324 50  0000 C CNN
+F 2 "" H 1450 3050 50  0001 C CNN
+F 3 "" H 1450 3050 50  0001 C CNN
+	1    1450 3050
+	1    0    0    -1  
+$EndComp
+Text Label 1150 2950 2    50   ~ 0
+VIN
+Text Label 1750 3050 0    50   ~ 0
+VSS
+Text Label 1150 3150 2    50   ~ 0
+VOUT
+Wire Wire Line
+	1150 2950 1200 2950
+Wire Wire Line
+	1200 3150 1150 3150
+Wire Wire Line
+	1700 3050 1750 3050
 $EndSCHEMATC
