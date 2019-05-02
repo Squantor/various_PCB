@@ -135,7 +135,7 @@ U 1 1 5CCB5C8E
 P 800 1700
 F 0 "J2" H 742 1285 50  0000 C CNN
 F 1 "reference_input" H 742 1376 50  0000 C CNN
-F 2 "" H 800 1700 50  0001 C CNN
+F 2 "SquantorConnectorsNamed:reference_input" H 800 1700 50  0001 C CNN
 F 3 "" H 800 1700 50  0001 C CNN
 	1    800  1700
 	-1   0    0    1   
@@ -146,7 +146,7 @@ U 1 1 5CCB6325
 P 750 950
 F 0 "J1" H 692 535 50  0000 C CNN
 F 1 "reference_output" H 692 626 50  0000 C CNN
-F 2 "" H 650 950 50  0001 C CNN
+F 2 "SquantorConnectorsNamed:reference_output" H 650 950 50  0001 C CNN
 F 3 "" H 650 950 50  0001 C CNN
 	1    750  950 
 	-1   0    0    1   
