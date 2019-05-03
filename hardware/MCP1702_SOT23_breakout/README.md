@@ -2,8 +2,7 @@
 Simple breakout for the SOT23 packaged MCP1702
 ## TODO's
 Still some things need to be done:
-* schematic entry (WIP)
-* PCB layout (TODO)
+* PCB layout (WIP)
 * Review with one night in between (TODO)
 * Produce at [OSHPARK](https://oshpark.com/) (TODO)
 * Assemble (TODO)

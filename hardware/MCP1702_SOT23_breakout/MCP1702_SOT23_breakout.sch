@@ -37,23 +37,23 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorConnectorsNamed:reference_input J?
+L SquantorConnectorsNamed:reference_input J1
 U 1 1 5CCC9F6B
 P 750 1000
-F 0 "J?" H 692 585 50  0000 C CNN
+F 0 "J1" H 692 585 50  0000 C CNN
 F 1 "reference_input" H 692 676 50  0000 C CNN
-F 2 "" H 750 1000 50  0001 C CNN
+F 2 "SquantorConnectorsNamed:reference_input" H 750 1000 50  0001 C CNN
 F 3 "" H 750 1000 50  0001 C CNN
 	1    750  1000
 	-1   0    0    1   
 $EndComp
 $Comp
-L SquantorConnectorsNamed:reference_output J?
+L SquantorConnectorsNamed:reference_output J2
 U 1 1 5CCCA968
 P 800 1750
-F 0 "J?" H 742 1335 50  0000 C CNN
+F 0 "J2" H 742 1335 50  0000 C CNN
 F 1 "reference_output" H 742 1426 50  0000 C CNN
-F 2 "" H 700 1750 50  0001 C CNN
+F 2 "SquantorConnectorsNamed:reference_output" H 700 1750 50  0001 C CNN
 F 3 "" H 700 1750 50  0001 C CNN
 	1    800  1750
 	-1   0    0    1   
@@ -90,4 +90,65 @@ Text Label 1100 1650 0    50   ~ 0
 VOUT
 Text Label 1100 1850 0    50   ~ 0
 VSS
+$Comp
+L Device:C_Small C1
+U 1 1 5CCCBCD0
+P 1350 1000
+F 0 "C1" H 1442 1046 50  0000 L CNN
+F 1 "TBD" H 1442 955 50  0000 L CNN
+F 2 "SquantorRcl:C_0805+0603" H 1350 1000 50  0001 C CNN
+F 3 "~" H 1350 1000 50  0001 C CNN
+	1    1350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5CCCC415
+P 1350 1750
+F 0 "C2" H 1442 1796 50  0000 L CNN
+F 1 "TBD" H 1442 1705 50  0000 L CNN
+F 2 "SquantorRcl:C_0805+0603" H 1350 1750 50  0001 C CNN
+F 3 "~" H 1350 1750 50  0001 C CNN
+	1    1350 1750
+	1    0    0    -1  
+$EndComp
+Text Label 1350 1600 0    50   ~ 0
+VOUT
+Text Label 1350 1900 0    50   ~ 0
+VSS
+Text Label 1350 1150 0    50   ~ 0
+VIN
+Text Label 1350 850  0    50   ~ 0
+VSS
+Wire Wire Line
+	1350 850  1350 900 
+Wire Wire Line
+	1350 1100 1350 1150
+Wire Wire Line
+	1350 1600 1350 1650
+Wire Wire Line
+	1350 1900 1350 1850
+$Comp
+L SquantorMicrochip:MCP1702-CB U1
+U 1 1 5CCCD32F
+P 2250 1400
+F 0 "U1" H 2250 1787 60  0000 C CNN
+F 1 "MCP1702-CB" H 2250 1681 60  0000 C CNN
+F 2 "SquantorIC:SOT23-3-Microchip-CB" H 2250 1400 60  0001 C CNN
+F 3 "" H 2250 1400 60  0001 C CNN
+	1    2250 1400
+	1    0    0    -1  
+$EndComp
+Text Label 1950 1300 2    50   ~ 0
+VSS
+Text Label 1950 1500 2    50   ~ 0
+VOUT
+Text Label 2550 1400 0    50   ~ 0
+VIN
+Wire Wire Line
+	1950 1300 2000 1300
+Wire Wire Line
+	2000 1500 1950 1500
+Wire Wire Line
+	2500 1400 2550 1400
 $EndSCHEMATC
