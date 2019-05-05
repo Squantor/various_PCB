@@ -2,7 +2,7 @@
 Most SOT23 references have the same pinout, this breakout accomodates these references. These include the MCP1525 and various linear reference chips.
 ## TODO's
 Still some things need to be done:
-* Produce at [OSHPARK](https://oshpark.com/) (WIP)
+* Produce at [OSHPARK](https://oshpark.com/shared_projects/Y7oW3KIf) (WIP)
 * Assemble (TODO)
 * Test & characterise (TODO)
 * update Readme.md with pictures and BOM (TODO)

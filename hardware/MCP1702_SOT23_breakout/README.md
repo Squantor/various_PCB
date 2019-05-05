@@ -2,7 +2,7 @@
 Simple breakout for the SOT23 packaged MCP1702
 ## TODO's
 Still some things need to be done:
-* Produce at [OSHPARK](https://oshpark.com/) (WIP)
+* Produce at [OSHPARK](https://oshpark.com/shared_projects/U77scmmd) (WIP)
 * Assemble (TODO)
 * Test & characterise (TODO)
 * update Readme.md with pictures and BOM (TODO)
