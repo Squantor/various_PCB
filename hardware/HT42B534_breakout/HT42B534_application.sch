@@ -249,4 +249,46 @@ Text HLabel 3950 2600 2    50   Input ~ 0
 VDD
 Wire Wire Line
 	3950 2600 3900 2600
+Text HLabel 3600 3100 0    50   Input ~ 0
+VDDIO
+$Comp
+L Device:R_Small R?
+U 1 1 5CDA0AD2
+P 3750 3100
+AR Path="/5CDA0AD2" Ref="R?"  Part="1" 
+AR Path="/5C9B7479/5CDA0AD2" Ref="R2"  Part="1" 
+F 0 "R2" V 3854 3100 50  0000 C CNN
+F 1 "10K" V 3945 3100 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" H 3750 3100 50  0001 C CNN
+F 3 "~" H 3750 3100 50  0001 C CNN
+	1    3750 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3100 3650 3100
+Wire Wire Line
+	3850 3100 3900 3100
+Text HLabel 3900 3100 2    50   Input ~ 0
+RXDI
+Text HLabel 3600 3400 0    50   Input ~ 0
+VDDIO
+$Comp
+L Device:R_Small R?
+U 1 1 5CDA34F4
+P 3750 3400
+AR Path="/5CDA34F4" Ref="R?"  Part="1" 
+AR Path="/5C9B7479/5CDA34F4" Ref="R?"  Part="1" 
+F 0 "R?" V 3854 3400 50  0000 C CNN
+F 1 "10K" V 3945 3400 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" H 3750 3400 50  0001 C CNN
+F 3 "~" H 3750 3400 50  0001 C CNN
+	1    3750 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3400 3650 3400
+Wire Wire Line
+	3850 3400 3900 3400
+Text HLabel 3900 3400 2    50   Input ~ 0
+CTSI
 $EndSCHEMATC
