@@ -37,10 +37,10 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorConnectors:PINS_1X03 J?
+L SquantorConnectors:PINS_1X03 J1
 U 1 1 5D189E10
 P 1400 1850
-F 0 "J?" H 1458 2237 60  0000 C CNN
+F 0 "J1" H 1458 2237 60  0000 C CNN
 F 1 "PINS_1X03" H 1458 2131 60  0000 C CNN
 F 2 "SquantorConnectors:Header-0254-1X03-H010" H 1400 1950 60  0001 C CNN
 F 3 "" H 1400 1950 60  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "" H 1400 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorDevice:Generic_SOT23-3 U?
+L SquantorDevice:Generic_SOT23-3 U1
 U 1 1 5D18A449
 P 2550 1850
-F 0 "U?" H 2550 2215 50  0000 C CNN
+F 0 "U1" H 2550 2215 50  0000 C CNN
 F 1 "Generic_SOT23-3" H 2550 2124 50  0000 C CNN
 F 2 "SquantorIC:SOT23-3-Microchip-CB" H 2550 1850 50  0001 C CNN
 F 3 "" H 2550 1850 50  0001 C CNN
