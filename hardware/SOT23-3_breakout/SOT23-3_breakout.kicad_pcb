@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 19)
     (zones 0)
     (modules 4)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.6)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
@@ -306,6 +306,7 @@
     )
   )
 
+  (gr_poly (pts (xy 147.7 81.3) (xy 155.7 81.3) (xy 155.7 87.6) (xy 147.7 87.6)) (layer B.SilkS) (width 0.1))
   (gr_line (start 147.6 81.2) (end 147.6 91.6) (layer Edge.Cuts) (width 0.15) (tstamp 5D18A062))
   (gr_line (start 155.8 81.2) (end 147.6 81.2) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 155.8 91.6) (end 155.8 81.2) (layer Edge.Cuts) (width 0.15))
