@@ -19,7 +19,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20190705" H 850 7700 60  0000 C CNN
+F 1 "20190707" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -218,7 +218,7 @@ F 1 "D_Schottky_x2_KCom_AAK" V 1995 3379 50  0000 L CNN
 F 2 "SquantorIC:SOT23-3" H 1950 3300 50  0001 C CNN
 F 3 "~" H 1950 3300 50  0001 C CNN
 	1    1950 3300
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	2350 2950 2350 3450
@@ -265,6 +265,68 @@ Text Label 1100 3650 2    50   ~ 0
 POWER_EN
 Wire Wire Line
 	1150 3650 1100 3650
-Text Notes 1550 1950 0    50   ~ 0
-Add power leds for both sides
+$Comp
+L Device:LED D2
+U 1 1 5D220861
+P 2000 1550
+F 0 "D2" H 1993 1295 50  0000 C CNN
+F 1 "LED" H 1993 1386 50  0000 C CNN
+F 2 "SquantorDiodes:D_0603_hand" H 2000 1550 50  0001 C CNN
+F 3 "~" H 2000 1550 50  0001 C CNN
+	1    2000 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5D2224FE
+P 2000 1700
+F 0 "D3" H 1993 1823 50  0000 C CNN
+F 1 "LED" H 1993 1914 50  0000 C CNN
+F 2 "SquantorDiodes:D_0603_hand" H 2000 1700 50  0001 C CNN
+F 3 "~" H 2000 1700 50  0001 C CNN
+	1    2000 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D222DD8
+P 2350 1550
+F 0 "R4" V 2143 1550 50  0000 C CNN
+F 1 "1K" V 2234 1550 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 2280 1550 50  0001 C CNN
+F 3 "~" H 2350 1550 50  0001 C CNN
+	1    2350 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D223D28
+P 2350 1700
+F 0 "R5" V 2465 1700 50  0000 C CNN
+F 1 "1K" V 2556 1700 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 2280 1700 50  0001 C CNN
+F 3 "~" H 2350 1700 50  0001 C CNN
+	1    2350 1700
+	0    1    1    0   
+$EndComp
+Text Label 2550 1550 0    50   ~ 0
+VSS
+Text Label 2550 1700 0    50   ~ 0
+VSS
+Text Label 1800 1550 2    50   ~ 0
+VDD
+Text Label 1800 1700 2    50   ~ 0
+VDD_OUT
+Wire Wire Line
+	1800 1550 1850 1550
+Wire Wire Line
+	1850 1700 1800 1700
+Wire Wire Line
+	2150 1550 2200 1550
+Wire Wire Line
+	2200 1700 2150 1700
+Wire Wire Line
+	2500 1550 2550 1550
+Wire Wire Line
+	2550 1700 2500 1700
 $EndSCHEMATC
