@@ -676,7 +676,7 @@
     (fp_text reference N2 (at 0 1.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20190401 (at -0.4 -0.1) (layer F.SilkS)
+    (fp_text value 20190709 (at -0.4 -0.1) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user V: (at -4.9 -0.1) (layer F.SilkS)
