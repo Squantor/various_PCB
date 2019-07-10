@@ -1,3 +1,6 @@
 [submodule "kicad/squantorPcbLibrary"]
 	path = hardware/squantorPcbLibrary
 	url = https://github.com/Squantor/squantorPcbLibrary.git
+[submodule "hardware/various_schematics"]
+	path = hardware/various_schematics
+	url = https://github.com/Squantor/various_schematics.git
