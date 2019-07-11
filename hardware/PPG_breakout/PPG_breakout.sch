@@ -26,21 +26,10 @@ F 3 "" H 850 7700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorLabels:OHWLOGO N1
-U 1 1 5A135869
-P 850 7350
-F 0 "N1" H 850 7500 60  0000 C CNN
-F 1 "OHWLOGO" H 850 7200 60  0000 C CNN
-F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 850 7350 60  0001 C CNN
-F 3 "" H 850 7350 60  0001 C CNN
-	1    850  7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5D277621
 P 1050 1650
-F 0 "J?" H 968 1967 50  0000 C CNN
+F 0 "J1" H 968 1967 50  0000 C CNN
 F 1 "Conn_01x04" H 968 1876 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1050 1650 50  0001 C CNN
 F 3 "~" H 1050 1650 50  0001 C CNN
@@ -48,10 +37,10 @@ F 3 "~" H 1050 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5D277F89
 P 2150 1750
-F 0 "J?" H 2068 1325 50  0000 C CNN
+F 0 "J2" H 2068 1325 50  0000 C CNN
 F 1 "Conn_01x04" H 2068 1416 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2150 1750 50  0001 C CNN
 F 3 "~" H 2150 1750 50  0001 C CNN
@@ -79,10 +68,10 @@ PD_A
 Text Label 1900 1650 2    50   ~ 0
 PD_C
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 5D279E87
 P 1600 2950
-F 0 "D?" H 1593 3166 50  0000 C CNN
+F 0 "D2" H 1593 3166 50  0000 C CNN
 F 1 "LED" H 1593 3075 50  0000 C CNN
 F 2 "SquantorDiodes:KPTR-3216" H 1600 2950 50  0001 C CNN
 F 3 "~" H 1600 2950 50  0001 C CNN
@@ -90,10 +79,10 @@ F 3 "~" H 1600 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Photo D?
+L Device:D_Photo D3
 U 1 1 5D27B9AE
 P 1650 2600
-F 0 "D?" H 1600 2895 50  0000 C CNN
+F 0 "D3" H 1600 2895 50  0000 C CNN
 F 1 "D_Photo" H 1600 2804 50  0000 C CNN
 F 2 "SquantorDiodes:SFH2440_reverse" H 1600 2600 50  0001 C CNN
 F 3 "~" H 1600 2600 50  0001 C CNN
@@ -137,10 +126,10 @@ Wire Wire Line
 Wire Wire Line
 	1900 1750 1950 1750
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 5D279473
 P 1600 2200
-F 0 "D?" H 1593 2416 50  0000 C CNN
+F 0 "D1" H 1593 2416 50  0000 C CNN
 F 1 "LED" H 1593 2325 50  0000 C CNN
 F 2 "SquantorDiodes:KPTR-3216" H 1600 2200 50  0001 C CNN
 F 3 "~" H 1600 2200 50  0001 C CNN
