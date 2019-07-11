@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:OSH_Park_2_layer-cache
+LIBS:PPG_breakout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +19,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20190704" H 850 7700 60  0000 C CNN
+F 1 "20190711" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -36,4 +36,103 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    850  7350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D277621
+P 1050 1650
+F 0 "J?" H 968 1967 50  0000 C CNN
+F 1 "Conn_01x04" H 968 1876 50  0000 C CNN
+F 2 "" H 1050 1650 50  0001 C CNN
+F 3 "~" H 1050 1650 50  0001 C CNN
+	1    1050 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D277F89
+P 2150 1750
+F 0 "J?" H 2068 1325 50  0000 C CNN
+F 1 "Conn_01x04" H 2068 1416 50  0000 C CNN
+F 2 "" H 2150 1750 50  0001 C CNN
+F 3 "~" H 2150 1750 50  0001 C CNN
+	1    2150 1750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1250 1850 1300 1850
+Wire Wire Line
+	1950 1850 1900 1850
+Text Label 1300 1850 0    50   ~ 0
+VSS
+Text Label 1900 1850 2    50   ~ 0
+VSS
+Text Label 1300 1550 0    50   ~ 0
+LED1_A
+Text Label 1900 1550 2    50   ~ 0
+LED1_C
+Text Label 1300 1750 0    50   ~ 0
+LED2_A
+Text Label 1900 1750 2    50   ~ 0
+LED2_C
+Text Label 1300 1650 0    50   ~ 0
+PD_A
+Text Label 1900 1650 2    50   ~ 0
+PD_C
+$Comp
+L Device:LED D?
+U 1 1 5D279473
+P 1600 2200
+F 0 "D?" V 1639 2083 50  0000 R CNN
+F 1 "LED" V 1548 2083 50  0000 R CNN
+F 2 "" H 1600 2200 50  0001 C CNN
+F 3 "~" H 1600 2200 50  0001 C CNN
+	1    1600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D279E87
+P 1600 2950
+F 0 "D?" V 1639 2833 50  0000 R CNN
+F 1 "LED" V 1548 2833 50  0000 R CNN
+F 2 "" H 1600 2950 50  0001 C CNN
+F 3 "~" H 1600 2950 50  0001 C CNN
+	1    1600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Photo D?
+U 1 1 5D27B9AE
+P 1650 2600
+F 0 "D?" V 1646 2522 50  0000 R CNN
+F 1 "D_Photo" V 1555 2522 50  0000 R CNN
+F 2 "" H 1600 2600 50  0001 C CNN
+F 3 "~" H 1600 2600 50  0001 C CNN
+	1    1650 2600
+	1    0    0    -1  
+$EndComp
+Text Label 1800 2200 0    50   ~ 0
+LED1_A
+Text Label 1400 2200 2    50   ~ 0
+LED1_C
+Text Label 1800 2600 0    50   ~ 0
+PD_A
+Text Label 1400 2600 2    50   ~ 0
+PD_C
+Text Label 1800 2950 0    50   ~ 0
+LED2_A
+Text Label 1400 2950 2    50   ~ 0
+LED2_C
+Wire Wire Line
+	1400 2200 1450 2200
+Wire Wire Line
+	1750 2200 1800 2200
+Wire Wire Line
+	1800 2600 1750 2600
+Wire Wire Line
+	1450 2600 1400 2600
+Wire Wire Line
+	1400 2950 1450 2950
+Wire Wire Line
+	1750 2950 1800 2950
 $EndSCHEMATC
