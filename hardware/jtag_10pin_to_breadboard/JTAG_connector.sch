@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -89,59 +89,21 @@ RESET
 $Comp
 L Device:R R?
 U 1 1 5D285A27
-P 2700 2100
-F 0 "R?" V 2650 1950 50  0000 C CNN
-F 1 "100k" V 2700 2100 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 2630 2100 50  0001 C CNN
-F 3 "~" H 2700 2100 50  0001 C CNN
-	1    2700 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D285A2D
-P 2700 2000
-F 0 "R?" V 2650 1850 50  0000 C CNN
-F 1 "100k" V 2700 2000 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 2630 2000 50  0001 C CNN
-F 3 "~" H 2700 2000 50  0001 C CNN
-	1    2700 2000
+P 2700 1700
+F 0 "R?" V 2650 1550 50  0000 C CNN
+F 1 "100k" V 2700 1700 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2630 1700 50  0001 C CNN
+F 3 "~" H 2700 1700 50  0001 C CNN
+	1    2700 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2900 2100 2850 2100
+	2900 1700 2850 1700
+Text Label 2450 1700 2    50   ~ 0
+TCK
 Wire Wire Line
-	2850 2000 2900 2000
-Text Label 2450 2100 2    50   ~ 0
-SWDCLK
-Text Label 2450 2000 2    50   ~ 0
-SWDIO
-Wire Wire Line
-	2550 2100 2450 2100
-Wire Wire Line
-	2550 2000 2450 2000
-$Comp
-L Device:R R?
-U 1 1 5D285A39
-P 2700 1900
-F 0 "R?" V 2650 1750 50  0000 C CNN
-F 1 "100K" V 2700 1900 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 2630 1900 50  0001 C CNN
-F 3 "~" H 2700 1900 50  0001 C CNN
-	1    2700 1900
-	0    1    1    0   
-$EndComp
-Text Label 2450 1900 2    50   ~ 0
-RESET
-Wire Wire Line
-	2450 1900 2550 1900
-Wire Wire Line
-	2850 1900 2900 1900
-Text Label 2900 1900 0    50   ~ 0
-VDD
-Text Label 2900 2000 0    50   ~ 0
-VDD
-Text Label 2900 2100 0    50   ~ 0
+	2550 1700 2450 1700
+Text Label 2900 1700 0    50   ~ 0
 VSS
 Text Label 3900 2200 2    50   ~ 0
 VDD
@@ -155,30 +117,10 @@ Wire Wire Line
 	3900 2950 3950 2950
 Wire Wire Line
 	3950 2750 3950 2950
-NoConn ~ 2900 2650
-NoConn ~ 2900 2550
 Text Label 2450 2350 2    50   ~ 0
-SWDIO
+TMS
 Text Label 2450 2450 2    50   ~ 0
-SWDCLK
-Text HLabel 1650 2250 0    50   Output ~ 0
-RESET
-Text Label 1700 2250 0    50   ~ 0
-RESET
-Text HLabel 1650 2350 0    50   BiDi ~ 0
-SWDIO
-Text Label 1700 2350 0    50   ~ 0
-SWDIO
-Text Label 1700 2450 0    50   ~ 0
-SWDCLK
-Text HLabel 1650 2450 0    50   Output ~ 0
-SWDCLK
-Wire Wire Line
-	1650 2250 1700 2250
-Wire Wire Line
-	1700 2350 1650 2350
-Wire Wire Line
-	1650 2450 1700 2450
+TCK
 Text Label 1700 2150 0    50   ~ 0
 VDD
 Text Label 1700 2050 0    50   ~ 0
@@ -191,4 +133,144 @@ Wire Wire Line
 	1650 2150 1700 2150
 Wire Wire Line
 	1700 2050 1650 2050
+$Comp
+L Device:R R?
+U 1 1 5D285AC1
+P 2700 2550
+F 0 "R?" V 2650 2400 50  0000 C CNN
+F 1 "100" V 2700 2550 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2630 2550 50  0001 C CNN
+F 3 "~" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D285D88
+P 2700 2650
+F 0 "R?" V 2650 2500 50  0000 C CNN
+F 1 "100" V 2700 2650 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2630 2650 50  0001 C CNN
+F 3 "~" H 2700 2650 50  0001 C CNN
+	1    2700 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 2550 2850 2550
+Wire Wire Line
+	2900 2650 2850 2650
+Text Label 2450 2550 2    50   ~ 0
+TDO
+Text Label 2450 2650 2    50   ~ 0
+TDI
+Wire Wire Line
+	2550 2550 2450 2550
+Wire Wire Line
+	2550 2650 2450 2650
+Text Label 2900 2000 0    50   ~ 0
+VDD
+Text Label 2900 1900 0    50   ~ 0
+VDD
+Wire Wire Line
+	2850 1900 2900 1900
+Wire Wire Line
+	2450 1900 2550 1900
+Text Label 2450 1900 2    50   ~ 0
+TDI
+$Comp
+L Device:R R?
+U 1 1 5D285A39
+P 2700 1900
+F 0 "R?" V 2650 1750 50  0000 C CNN
+F 1 "100K" V 2700 1900 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2630 1900 50  0001 C CNN
+F 3 "~" H 2700 1900 50  0001 C CNN
+	1    2700 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 2000 2450 2000
+Text Label 2450 2000 2    50   ~ 0
+RESET
+Wire Wire Line
+	2850 2000 2900 2000
+$Comp
+L Device:R R?
+U 1 1 5D285A2D
+P 2700 2000
+F 0 "R?" V 2650 1850 50  0000 C CNN
+F 1 "100k" V 2700 2000 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2630 2000 50  0001 C CNN
+F 3 "~" H 2700 2000 50  0001 C CNN
+	1    2700 2000
+	0    1    1    0   
+$EndComp
+Text Label 2900 1800 0    50   ~ 0
+VDD
+Text Label 2900 1600 0    50   ~ 0
+VDD
+Wire Wire Line
+	2850 1600 2900 1600
+Wire Wire Line
+	2450 1600 2550 1600
+Text Label 2450 1600 2    50   ~ 0
+TMS
+$Comp
+L Device:R R?
+U 1 1 5D295938
+P 2700 1600
+F 0 "R?" V 2650 1450 50  0000 C CNN
+F 1 "100K" V 2700 1600 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2630 1600 50  0001 C CNN
+F 3 "~" H 2700 1600 50  0001 C CNN
+	1    2700 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 1800 2450 1800
+Text Label 2450 1800 2    50   ~ 0
+TDO
+Wire Wire Line
+	2850 1800 2900 1800
+$Comp
+L Device:R R?
+U 1 1 5D295945
+P 2700 1800
+F 0 "R?" V 2650 1650 50  0000 C CNN
+F 1 "100k" V 2700 1800 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2630 1800 50  0001 C CNN
+F 3 "~" H 2700 1800 50  0001 C CNN
+	1    2700 1800
+	0    1    1    0   
+$EndComp
+Text Label 1700 2250 0    50   ~ 0
+TMS
+Text Label 1700 2350 0    50   ~ 0
+TCK
+Text Label 1700 2450 0    50   ~ 0
+TDO
+Text Label 1700 2550 0    50   ~ 0
+TDI
+Text Label 1700 2650 0    50   ~ 0
+RESET
+Text HLabel 1650 2250 0    50   Output ~ 0
+TMS
+Text HLabel 1650 2350 0    50   Output ~ 0
+TCK
+Text HLabel 1650 2450 0    50   Output ~ 0
+TDO
+Text HLabel 1650 2550 0    50   Input ~ 0
+TDI
+Text HLabel 1650 2650 0    50   Output ~ 0
+RESET
+Wire Wire Line
+	1650 2250 1700 2250
+Wire Wire Line
+	1700 2350 1650 2350
+Wire Wire Line
+	1650 2450 1700 2450
+Wire Wire Line
+	1700 2550 1650 2550
+Wire Wire Line
+	1650 2650 1700 2650
 $EndSCHEMATC
