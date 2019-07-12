@@ -154,15 +154,15 @@ Wire Wire Line
 Connection ~ 3500 5250
 Wire Wire Line
 	3500 5250 3500 5150
-Text Label 2950 5050 0    50   ~ 0
+Text Label 2950 5450 0    50   ~ 0
 TMS
-Text Label 2950 5150 0    50   ~ 0
+Text Label 2950 5350 0    50   ~ 0
 TCK
 Text Label 2950 5250 0    50   ~ 0
 TDO
-Text Label 2950 5350 0    50   ~ 0
+Text Label 2950 5150 0    50   ~ 0
 TDI
-Text Label 2950 5450 0    50   ~ 0
+Text Label 2950 5050 0    50   ~ 0
 RESET
 Wire Wire Line
 	2900 5050 2950 5050
@@ -181,10 +181,10 @@ VDD
 Text Label 750  6950 2    50   ~ 0
 VSS
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0101
 U 1 1 5D2A7F1A
 P 800 7050
-F 0 "#FLG?" H 800 7125 50  0001 C CNN
+F 0 "#FLG0101" H 800 7125 50  0001 C CNN
 F 1 "PWR_FLAG" V 800 7178 50  0000 L CNN
 F 2 "" H 800 7050 50  0001 C CNN
 F 3 "~" H 800 7050 50  0001 C CNN
@@ -192,10 +192,10 @@ F 3 "~" H 800 7050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0102
 U 1 1 5D2A8CAA
 P 800 6950
-F 0 "#FLG?" H 800 7025 50  0001 C CNN
+F 0 "#FLG0102" H 800 7025 50  0001 C CNN
 F 1 "PWR_FLAG" V 800 7078 50  0000 L CNN
 F 2 "" H 800 6950 50  0001 C CNN
 F 3 "~" H 800 6950 50  0001 C CNN
