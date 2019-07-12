@@ -19,7 +19,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20190711" H 850 7700 60  0000 C CNN
+F 1 "20190712" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -37,10 +37,10 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5D279BBC
 P 3100 7050
-F 0 "R?" V 3215 7050 50  0000 C CNN
+F 0 "R1" V 3215 7050 50  0000 C CNN
 F 1 "4.7K" V 3306 7050 50  0000 C CNN
 F 2 "SquantorRcl:R_0603_hand" V 3030 7050 50  0001 C CNN
 F 3 "~" H 3100 7050 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "~" H 3100 7050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 5D27A45A
 P 3450 7050
-F 0 "D?" H 3443 7173 50  0000 C CNN
+F 0 "D1" H 3443 7173 50  0000 C CNN
 F 1 "RED" H 3443 7264 50  0000 C CNN
 F 2 "SquantorDiodes:D_0603_hand" H 3450 7050 50  0001 C CNN
 F 3 "~" H 3450 7050 50  0001 C CNN
@@ -108,10 +108,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 6450 2800 6450
 $Comp
-L Connector_Generic:Conn_01x05 J?
+L Connector_Generic:Conn_01x05 J1
 U 1 1 5D2A2B1A
 P 2700 5250
-F 0 "J?" H 2618 5667 50  0000 C CNN
+F 0 "J1" H 2618 5667 50  0000 C CNN
 F 1 "Conn_01x05" H 2618 5576 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2700 5250 50  0001 C CNN
 F 3 "~" H 2700 5250 50  0001 C CNN
@@ -119,10 +119,10 @@ F 3 "~" H 2700 5250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J?
+L Connector_Generic:Conn_01x05 J2
 U 1 1 5D2A33B9
 P 3750 5250
-F 0 "J?" H 3668 4825 50  0000 C CNN
+F 0 "J2" H 3668 4825 50  0000 C CNN
 F 1 "Conn_01x05" H 3668 4916 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3750 5250 50  0001 C CNN
 F 3 "~" H 3750 5250 50  0001 C CNN
@@ -176,4 +176,34 @@ Wire Wire Line
 	2900 5450 2950 5450
 Wire Wire Line
 	3600 7050 3650 7050
+Text Label 750  7050 2    50   ~ 0
+VDD
+Text Label 750  6950 2    50   ~ 0
+VSS
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D2A7F1A
+P 800 7050
+F 0 "#FLG?" H 800 7125 50  0001 C CNN
+F 1 "PWR_FLAG" V 800 7178 50  0000 L CNN
+F 2 "" H 800 7050 50  0001 C CNN
+F 3 "~" H 800 7050 50  0001 C CNN
+	1    800  7050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D2A8CAA
+P 800 6950
+F 0 "#FLG?" H 800 7025 50  0001 C CNN
+F 1 "PWR_FLAG" V 800 7078 50  0000 L CNN
+F 2 "" H 800 6950 50  0001 C CNN
+F 3 "~" H 800 6950 50  0001 C CNN
+	1    800  6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	750  7050 800  7050
+Wire Wire Line
+	800  6950 750  6950
 $EndSCHEMATC
