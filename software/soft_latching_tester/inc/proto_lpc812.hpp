@@ -21,13 +21,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-#ifndef BOARD_HPP
-#define BOARD_HPP
+#ifndef PROTO_LPC812_HPP
+#define PROTO_LPC812_HPP
 
-#if defined(proto_lpc812)
-    #include <proto_lpc812.hpp>
-#else
-    #error "unknown board"
-#endif
+void boardInit(void);
 
 #endif

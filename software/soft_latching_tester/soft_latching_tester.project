@@ -21,6 +21,7 @@
     <File Name="platform/isr_lpc81X.cpp"/>
   </VirtualDirectory>
   <VirtualDirectory Name="inc">
+    <File Name="inc/proto_lpc812.hpp"/>
     <File Name="inc/board.hpp"/>
   </VirtualDirectory>
   <Description/>
