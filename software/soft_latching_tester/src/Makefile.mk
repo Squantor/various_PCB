@@ -2,7 +2,7 @@
 
 # project name
 BIN_NAME = soft_latching_tester
-BOARD = dummy_board
+BOARD = proto_lpc812
 
 #include board specific settings/rules
 include src/$(BOARD).mk
