@@ -4,3 +4,12 @@
 [submodule "hardware/various_schematics"]
 	path = hardware/various_schematics
 	url = https://github.com/Squantor/various_schematics.git
+[submodule "software/lpc_chip_82x"]
+	path = software/lpc_chip_82x
+	url = https://github.com/Squantor/lpc_chip_82x.git
+[submodule "software/squantorLibC"]
+	path = software/squantorLibC
+	url = https://github.com/Squantor/squantorLibC.git
+[submodule "software/squantorLibEmbeddedC"]
+	path = software/squantorLibEmbeddedC
+	url = https://github.com/Squantor/squantorLibEmbeddedC.git

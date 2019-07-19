@@ -6,3 +6,8 @@ rescue-backup
 *.zip
 fp-info-cache
 *-cache.lib
+
+#software related stuff
+*.log
+bin/
+build/
