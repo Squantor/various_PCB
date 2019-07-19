@@ -25,8 +25,20 @@ SOFTWARE.
 #define PROTO_LPC812_HPP
 
 // UART RX/TX pins
+#define UART_TX_PIN (12)
+#define UART_TX_IOCON (IOCON_PIO12)
+#define UART_RX_PIN (13)
+#define UART_RX_IOCON (IOCON_PIO13)
 // power on/off pin
-// led blink pin
+#define ONOFF_SWITCH_PIN (16)
+#define ONOFF_SWITCH_IOCON (IOCON_PIO16)
+// led state pin
+#define STATE_LED_PIN (15)
+#define STATE_LED_IOCON (IOCON_PIO15)
+// led alive pin
+#define ALIVE_LED_PIN (17)
+#define ALIVE_LED_IOCON (IOCON_PIO17)
+
 
 void boardInit(void);
 
