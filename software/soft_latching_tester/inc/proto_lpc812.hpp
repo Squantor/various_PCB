@@ -24,6 +24,10 @@ SOFTWARE.
 #ifndef PROTO_LPC812_HPP
 #define PROTO_LPC812_HPP
 
+// UART RX/TX pins
+// power on/off pin
+// led blink pin
+
 void boardInit(void);
 
 #endif
