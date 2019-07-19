@@ -26,7 +26,7 @@
   </VirtualDirectory>
   <Description/>
   <Dependencies/>
-  <Settings Type="Dynamic Library">
+  <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
         <IncludePath Value="."/>
@@ -50,7 +50,6 @@
       <Debugger IsRemote="yes" RemoteHostName="/dev/ttyBmpGdb0" RemoteHostPort="" DebuggerPath="../../../../../../../usr/bin/arm-none-eabi-gdb" IsExtended="yes">
         <DebuggerSearchPaths/>
         <PostConnectCommands>file bin/debug/soft_latching_tester.elf
-monitor tpwr enable
 shell sleep 1
 monitor swdp_scan
 attach 1
@@ -99,7 +98,6 @@ b main</PostConnectCommands>
       <Debugger IsRemote="yes" RemoteHostName="/dev/ttyBmpGdb0" RemoteHostPort="" DebuggerPath="../../../../../../../usr/bin/arm-none-eabi-gdb" IsExtended="yes">
         <DebuggerSearchPaths/>
         <PostConnectCommands>file bin/release/soft_latching_tester.elf
-monitor tpwr enable
 shell sleep 1
 monitor swdp_scan
 attach 1
