@@ -44,8 +44,6 @@ typedef enum {
 
 extern volatile timeTicks ticks;
 
-void delayTicks(timeTicks ticksToWait);
-
 // initialize the time delay structure
 void timeDelayInit(timeDelay_t *delayData, timeTicks delay);
 // non blocking check if we have a reached a time interval

@@ -34,13 +34,6 @@ extern "C"
     }
 }
 
-void delayTicks(timeTicks ticksToWait)
-{
-    timeTicks ticksMax = ticks + ticksToWait;
-    while(ticks < ticksMax)
-        ;
-}
-
 // initialize a time delay structure/object
 void timeDelayInit(timeDelay_t *delayData, timeTicks delay)
 {
