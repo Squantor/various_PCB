@@ -40,3 +40,26 @@ void delayTicks(timeTicks ticksToWait)
     while(ticks < ticksMax)
         ;
 }
+
+// initialize a time delay structure/object
+void timeDelayInit(timeDelay_t *delayData, timeTicks delay)
+{
+    delayData->timeDelayDuration = delay;
+    delayData->timeDelayTrigger = ticks + delayData->timeDelayDuration;
+}
+
+resultDelay_t timeDelayCheck(timeDelay_t *delayData)
+{
+    if(delayData->timeDelayTrigger > ticks)
+        return delayNotReached;
+    else if(delayData->timeDelayTrigger == ticks)
+    {
+        delayData->timeDelayTrigger = ticks + delayData->timeDelayDuration;
+        return delayReached;
+    }
+    else 
+    {
+        delayData->timeDelayTrigger = ticks + delayData->timeDelayDuration;
+        return delayExceeded;
+    }
+}

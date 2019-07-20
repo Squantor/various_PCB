@@ -32,11 +32,15 @@ volatile int var;
 
 int main()
 {
+    timeDelay_t blinkyDelay;
     boardInit();
     dsPuts(&streamUart, strHello);
+    timeDelayInit(&blinkyDelay, SEC2TICKS(0.5));
     while (1) {
-        delayTicks(SEC2TICKS(0.5));
-        toggleAliveLed();
+        if(timeDelayCheck(&blinkyDelay) != delayNotReached)
+        {
+            toggleAliveLed();
+        }
         __WFI();
     }
 }
