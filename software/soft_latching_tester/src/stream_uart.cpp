@@ -21,21 +21,31 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+/*
+Datastream that points to the user facing UART interface
+*/
 
-#include <board.hpp>
+#include <results.h>
+#include <stream_uart.hpp>
 #include <chip.h>
-#include <systick.hpp>
-#include <strings.hpp>
 
-volatile int var;
+static char streamUartName[] = "uartStream";
+result writeUart(const char *c);
+result readUart(char *c);
+datastreamChar_t streamUart = {writeUart, readUart, streamUartName};
 
-int main()
+result writeUart(const char *c)
 {
-    boardInit();
-    dsPuts(&streamUart, strHello);
-    while (1) {
-        delayTicks(SEC2TICKS(0.5));
-        toggleAliveLed();
-        __WFI();
-    }
+    Chip_UART_SendBlocking(LPC_USART0, c, 1);
+    return noError;
 }
+
+result readUart(char *c)
+{
+    int readChars = Chip_UART_Read(LPC_USART0, c, 1);
+    if(readChars != 1)
+        return streamEmtpy;
+    else
+        return noError;
+}
+

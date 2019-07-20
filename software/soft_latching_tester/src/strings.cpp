@@ -21,21 +21,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+/*
+Common used strings
+*/
 
-#include <board.hpp>
-#include <chip.h>
-#include <systick.hpp>
-#include <strings.hpp>
+#include <strings.h>
 
-volatile int var;
-
-int main()
-{
-    boardInit();
-    dsPuts(&streamUart, strHello);
-    while (1) {
-        delayTicks(SEC2TICKS(0.5));
-        toggleAliveLed();
-        __WFI();
-    }
-}
+char strHello[] = "Soft latching circuit tester\r\n";
+char strCrLf[] = "\r\n";
