@@ -66,5 +66,5 @@ void boardInit(void)
     Chip_UART_Enable(LPC_USART0);
     Chip_UART_TXEnable(LPC_USART0);
     // systick configuration
-    //SysTick_Config(SystemCoreClock / TICKS_PER_S);  
+    SysTick_Config(SystemCoreClock / TICKS_PER_S);  
 }

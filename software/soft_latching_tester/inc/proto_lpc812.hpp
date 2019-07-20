@@ -39,6 +39,8 @@ SOFTWARE.
 #define ALIVE_LED_PIN (17)
 #define ALIVE_LED_IOCON (IOCON_PIO17)
 
+// how many ticks per second
+#define TICKS_PER_S     (2)
 
 void boardInit(void);
 
