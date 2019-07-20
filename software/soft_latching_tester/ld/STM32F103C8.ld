@@ -31,8 +31,8 @@ Based on the unified cortex startup code by Paul Sokolovsky.
 
 MEMORY
 {
-    flash   :   ORIGIN = 0x08000000, LENGTH = 64K
-    sram    :   ORIGIN = 0x20000000, LENGTH = 20K
+    rom   :   ORIGIN = 0x08000000, LENGTH = 64K
+    ram   :   ORIGIN = 0x20000000, LENGTH = 20K
 }
 
 /* Include generic main link script. Note: it will be searched in -L paths. */

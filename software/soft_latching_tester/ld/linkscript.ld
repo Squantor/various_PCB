@@ -53,7 +53,7 @@ SECTIONS {
         /* End C++ */
 
         _end_text = .;
-    } >flash
+    } >rom
 
     /* http://sourceware.org/binutils/docs/ld/Output-Section-LMA.html */
     .data :
@@ -62,7 +62,7 @@ SECTIONS {
         *(.ramfunc*) /* special section for RAM functions */
         *(.data*)
         _end_data = .;
-    } >sram AT >flash
+    } >ram AT >rom
 
     .bss :
     {
@@ -70,13 +70,13 @@ SECTIONS {
         *(.bss*)
         *(COMMON)
         _end_bss = .;
-    } >sram
+    } >ram
 
     . = ALIGN(4);
 
     _start_stack = .;
     /* http://sourceware.org/binutils/docs/ld/MEMORY.html */
-    PROVIDE(_end_stack = ORIGIN(sram) + LENGTH(sram));
+    PROVIDE(_end_stack = ORIGIN(ram) + LENGTH(ram));
     PROVIDE(_data_flash = LOADADDR(.data));
 }
 
