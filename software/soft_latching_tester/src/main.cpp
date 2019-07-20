@@ -26,6 +26,7 @@ SOFTWARE.
 #include <chip.h>
 #include <systick.hpp>
 #include <strings.hpp>
+#include <stream_uart.hpp>
 
 volatile int var;
 
