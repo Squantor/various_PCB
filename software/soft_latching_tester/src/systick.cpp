@@ -24,3 +24,19 @@ SOFTWARE.
 
 #include <systick.hpp>
 
+volatile timeTicks ticks = 0;
+
+extern "C"
+{
+    void SysTick_Handler(void)
+    {
+        ticks++;
+    }
+}
+
+void delayTicks(timeTicks ticksToWait)
+{
+    timeTicks ticksMax = ticks + ticksToWait;
+    while(ticks < ticksMax)
+        ;
+}

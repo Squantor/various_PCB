@@ -40,8 +40,11 @@ SOFTWARE.
 #define ALIVE_LED_IOCON (IOCON_PIO17)
 
 // how many ticks per second
-#define TICKS_PER_S     (2)
+#define TICKS_PER_S     (100)
 
 void boardInit(void);
+
+// board control functions
+void toggleAliveLed(void);
 
 #endif

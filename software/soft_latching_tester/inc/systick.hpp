@@ -24,4 +24,15 @@ SOFTWARE.
 #ifndef SYSTICK_HPP
 #define SYSTICK_HPP
 
+#include <stdint.h>
+#include <board.hpp>
+
+typedef uint32_t timeTicks;
+
+#define SEC2TICKS(sec) ((timeTicks)(sec * TICKS_PER_S))
+
+extern volatile timeTicks ticks;
+
+void delayTicks(timeTicks ticksToWait);
+
 #endif

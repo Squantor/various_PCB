@@ -68,3 +68,8 @@ void boardInit(void)
     // systick configuration
     SysTick_Config(SystemCoreClock / TICKS_PER_S);  
 }
+
+void toggleAliveLed(void)
+{
+    Chip_GPIO_SetPinToggle(LPC_GPIO_PORT, 0, ALIVE_LED_PIN);
+}

@@ -24,6 +24,7 @@ SOFTWARE.
 
 #include <board.hpp>
 #include <chip.h>
+#include <systick.hpp>
 
 volatile int var;
 
@@ -31,7 +32,8 @@ int main()
 {
     boardInit();
     while (1) {
-        var ^= 0x55;
-        __NOP();
+        delayTicks(SEC2TICKS(0.1));
+        toggleAliveLed();
+        __WFI();
     }
 }
