@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:soft_latching_module_V001-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -140,7 +140,7 @@ F 1 "Q_PMOS_GSD" V 2602 2650 50  0000 C CNN
 F 2 "SquantorIC:SOT23-3" H 2550 2750 50  0001 C CNN
 F 3 "~" H 2350 2650 50  0001 C CNN
 	1    2350 2650
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	1900 2550 1950 2550
@@ -155,7 +155,7 @@ Connection ~ 1950 2550
 Wire Wire Line
 	1950 2550 2100 2550
 Wire Wire Line
-	2550 2550 2600 2550
+	2550 2550 2650 2550
 Wire Wire Line
 	1950 2900 1950 2950
 Wire Wire Line
@@ -169,7 +169,7 @@ Wire Wire Line
 	2100 2950 2350 2950
 Text Label 1900 2550 2    50   ~ 0
 VDD
-Text Label 2600 2550 0    50   ~ 0
+Text Label 2700 2550 0    50   ~ 0
 VDD_OUT
 $Comp
 L Device:Q_NMOS_GSD Q1
@@ -329,4 +329,20 @@ Wire Wire Line
 	2500 1550 2550 1550
 Wire Wire Line
 	2550 1700 2500 1700
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D426FB9
+P 2650 2450
+F 0 "#FLG0101" H 2650 2525 50  0001 C CNN
+F 1 "PWR_FLAG" H 2650 2623 50  0000 C CNN
+F 2 "" H 2650 2450 50  0001 C CNN
+F 3 "~" H 2650 2450 50  0001 C CNN
+	1    2650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2450 2650 2550
+Connection ~ 2650 2550
+Wire Wire Line
+	2650 2550 2700 2550
 $EndSCHEMATC
