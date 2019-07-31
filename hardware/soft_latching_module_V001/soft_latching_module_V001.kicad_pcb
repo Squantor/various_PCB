@@ -387,7 +387,7 @@
   (module SquantorIC:SOT23-3 (layer F.Cu) (tedit 5D239D35) (tstamp 5D23B544)
     (at 154.8 101 270)
     (path /5D200444)
-    (fp_text reference Q2 (at -2.7 -1.1 90) (layer F.SilkS)
+    (fp_text reference Q2 (at 2.7 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Q_PMOS_GSD (at 0 2.5 90) (layer F.Fab) hide
