@@ -31,6 +31,7 @@ SOFTWARE.
 typedef enum {
     powerOn,
     shuttingDown,
+    powerOff,
 } onoffFsmStates_t;
 
 typedef enum {
@@ -51,6 +52,20 @@ void onoffFsmSwitchState(onoffFsmStates_t state)
     dsPuts(&streamUart, strCrLf);
     onoffFsmState = state;
 } 
+
+void onoffFsmHandlePowerOff(onoffFsmEvent_t event)
+{
+    switch(event)
+    {
+        // ignore all events, and wait to shut down
+        case buttonPress:
+        case buttonDepress:
+        case stateBlink:
+        case powerOffTimeout:
+        default:
+        break;
+    }
+}
 
 void onoffFsmHandlePowerOn(onoffFsmEvent_t event)
 {
@@ -90,6 +105,9 @@ void onoffFsmHandleShuttingDown(onoffFsmEvent_t event)
         break;
         case powerOffTimeout:
             dsPuts(&streamUart, "poweroff\n\r");
+            offStatusLed();
+            shutdownBoard();
+            onoffFsmSwitchState(powerOff);
         break;
         default:
             // todo assert
@@ -106,6 +124,9 @@ void onoffFsmHandleEvent(onoffFsmEvent_t event)
         break;
         case shuttingDown:
             onoffFsmHandleShuttingDown(event);
+        break;
+        case powerOff:
+            onoffFsmHandlePowerOff(event);
         break;
         default:
         // todo assert
