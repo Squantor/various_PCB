@@ -155,8 +155,6 @@ Connection ~ 1950 2550
 Wire Wire Line
 	1950 2550 2100 2550
 Wire Wire Line
-	2550 2550 2650 2550
-Wire Wire Line
 	1950 2900 1950 2950
 Wire Wire Line
 	1950 2950 2100 2950
@@ -169,7 +167,7 @@ Wire Wire Line
 	2100 2950 2350 2950
 Text Label 1900 2550 2    50   ~ 0
 VDD
-Text Label 2700 2550 0    50   ~ 0
+Text Label 3050 2550 0    50   ~ 0
 VDD_OUT
 $Comp
 L Device:Q_NMOS_GSD Q1
@@ -321,19 +319,14 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5D426FB9
-P 2650 2450
-F 0 "#FLG0101" H 2650 2525 50  0001 C CNN
-F 1 "PWR_FLAG" H 2650 2623 50  0000 C CNN
-F 2 "" H 2650 2450 50  0001 C CNN
-F 3 "~" H 2650 2450 50  0001 C CNN
-	1    2650 2450
+P 3000 2500
+F 0 "#FLG0101" H 3000 2575 50  0001 C CNN
+F 1 "PWR_FLAG" H 3000 2673 50  0000 C CNN
+F 2 "" H 3000 2500 50  0001 C CNN
+F 3 "~" H 3000 2500 50  0001 C CNN
+	1    3000 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 2450 2650 2550
-Connection ~ 2650 2550
-Wire Wire Line
-	2650 2550 2700 2550
 $Comp
 L Device:LED D2
 U 1 1 5D220861
@@ -345,4 +338,33 @@ F 3 "~" H 2350 1550 50  0001 C CNN
 	1    2350 1550
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R R6
+U 1 1 5D44EAAC
+P 2800 2550
+F 0 "R6" V 2700 2550 50  0000 C CNN
+F 1 "FUSE" V 2800 2550 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 2730 2550 50  0001 C CNN
+F 3 "~" H 2800 2550 50  0001 C CNN
+	1    2800 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 2550 3000 2550
+Wire Wire Line
+	3000 2500 3000 2550
+Connection ~ 3000 2550
+Wire Wire Line
+	3000 2550 3050 2550
+Wire Wire Line
+	2550 2550 2600 2550
+Wire Wire Line
+	2600 2550 2600 2700
+Wire Wire Line
+	2600 2700 2700 2700
+Connection ~ 2600 2550
+Wire Wire Line
+	2600 2550 2650 2550
+Text Label 2700 2700 0    50   ~ 0
+VDD_SW
 $EndSCHEMATC
