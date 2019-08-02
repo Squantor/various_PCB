@@ -27,13 +27,13 @@ SOFTWARE.
 #include <systick.hpp>
 #include <strings.hpp>
 #include <stream_uart.hpp>
+#include <onofffsm.hpp>
 
 volatile int var;
 
 int main()
 {
     timeDelay_t blinkyDelay;
-    bool prevButtonState = true;
     boardInit();
     dsPuts(&streamUart, strHello);
     timeDelayInit(&blinkyDelay, SEC2TICKS(0.5));
@@ -41,18 +41,7 @@ int main()
         if(timeDelayCheck(&blinkyDelay) != delayNotReached)
         {
             toggleAliveLed();
-            if(checkButtonState() != prevButtonState)
-            {
-                prevButtonState = checkButtonState();
-                if(prevButtonState)
-                {
-                    dsPuts(&streamUart, "Button True\n");
-                }
-                else
-                {
-                    dsPuts(&streamUart, "Button False\n");
-                }
-            }
         }       
+        onoffFsmRun();
     }
 }

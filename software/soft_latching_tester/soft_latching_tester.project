@@ -6,6 +6,7 @@
     </Plugin>
   </Plugins>
   <VirtualDirectory Name="src">
+    <File Name="src/onofffsm.cpp"/>
     <File Name="src/strings.cpp"/>
     <File Name="src/stream_uart.cpp"/>
     <File Name="src/systick.cpp"/>
@@ -24,6 +25,7 @@
     <File Name="platform/isr_lpc81X.cpp"/>
   </VirtualDirectory>
   <VirtualDirectory Name="inc">
+    <File Name="inc/onofffsm.hpp"/>
     <File Name="inc/strings.hpp"/>
     <File Name="inc/stream_uart.hpp"/>
     <File Name="inc/systick.hpp"/>
