@@ -25,5 +25,6 @@ SOFTWARE.
 #define ONOFFFSM_HPP
 
 void onoffFsmRun(void);
+void onoffFsmInit(void);
 
 #endif

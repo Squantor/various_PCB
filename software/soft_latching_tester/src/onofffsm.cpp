@@ -26,6 +26,7 @@ SOFTWARE.
 #include <stream_uart.hpp>
 #include <print.h>
 #include <strings.hpp>
+#include <systick.hpp>
 
 typedef enum {
     powerOn,
@@ -35,9 +36,13 @@ typedef enum {
 typedef enum {
     buttonDepress,
     buttonPress,
+    stateBlink,
+    powerOffTimeout,
 } onoffFsmEvent_t;
 
 static onoffFsmStates_t onoffFsmState = powerOn;
+static timeDelay_t blinkState;
+static timeDelay_t poweroffTimeout;
 
 void onoffFsmSwitchState(onoffFsmStates_t state)
 {
@@ -52,9 +57,16 @@ void onoffFsmHandlePowerOn(onoffFsmEvent_t event)
     switch(event)
     {
         case buttonPress:
+            // reset both counters
+            timeDelayInit(&blinkState, SEC2TICKS(0.1));
+            timeDelayInit(&poweroffTimeout, SEC2TICKS(3.0));
             onoffFsmSwitchState(shuttingDown);
         break;
         case buttonDepress:
+        break;
+        case stateBlink:
+        case powerOffTimeout:
+            // just ignore these events
         break;
         default:
             // todo assert
@@ -70,7 +82,14 @@ void onoffFsmHandleShuttingDown(onoffFsmEvent_t event)
         case buttonPress:
         break;
         case buttonDepress:
+            offStatusLed();
             onoffFsmSwitchState(powerOn);
+        break;
+        case stateBlink:
+            toggleStatusLed();
+        break;
+        case powerOffTimeout:
+            dsPuts(&streamUart, "poweroff\n\r");
         break;
         default:
             // todo assert
@@ -109,4 +128,18 @@ void onoffFsmRun(void)
             onoffFsmHandleEvent(buttonPress);
         }
     }
+    if(timeDelayCheck(&blinkState) != delayNotReached)
+    {
+        onoffFsmHandleEvent(stateBlink);
+    } 
+    if(timeDelayCheck(&poweroffTimeout) != delayNotReached)
+    {
+        onoffFsmHandleEvent(powerOffTimeout);
+    }
+}
+
+void onoffFsmInit(void)
+{
+    timeDelayInit(&blinkState, SEC2TICKS(0.1));
+    timeDelayInit(&poweroffTimeout, SEC2TICKS(3.0));
 }

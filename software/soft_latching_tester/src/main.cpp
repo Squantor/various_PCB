@@ -35,6 +35,7 @@ int main()
 {
     timeDelay_t blinkyDelay;
     boardInit();
+    onoffFsmInit();
     dsPuts(&streamUart, strHello);
     timeDelayInit(&blinkyDelay, SEC2TICKS(0.5));
     while (1) {
