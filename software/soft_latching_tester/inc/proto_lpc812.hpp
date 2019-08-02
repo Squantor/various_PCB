@@ -47,6 +47,7 @@ void boardInit(void);
 // board control functions
 void toggleAliveLed(void);
 void toggleStatusLed(void);
+void offStatusLed(void);
 bool checkButtonState(void);
 
 #endif
