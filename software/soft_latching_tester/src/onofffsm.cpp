@@ -24,6 +24,8 @@ SOFTWARE.
 #include <onofffsm.hpp>
 #include <board.hpp>
 #include <stream_uart.hpp>
+#include <print.h>
+#include <strings.hpp>
 
 typedef enum {
     powerOn,
@@ -31,19 +33,49 @@ typedef enum {
 } onoffFsmStates_t;
 
 typedef enum {
-    
+    buttonDepress,
+    buttonPress,
 } onoffFsmEvent_t;
 
 static onoffFsmStates_t onoffFsmState = powerOn;
 
+void onoffFsmSwitchState(onoffFsmStates_t state)
+{
+    dsPuts(&streamUart, "state");
+    printDecNzU16(&streamUart, (uint16_t) state);
+    dsPuts(&streamUart, strCrLf);
+    onoffFsmState = state;
+} 
+
 void onoffFsmHandlePowerOn(onoffFsmEvent_t event)
 {
+    switch(event)
+    {
+        case buttonPress:
+            onoffFsmSwitchState(shuttingDown);
+        break;
+        case buttonDepress:
+        break;
+        default:
+            // todo assert
+        break;
+    }
     
 }
 
 void onoffFsmHandleShuttingDown(onoffFsmEvent_t event)
 {
-    
+        switch(event)
+    {
+        case buttonPress:
+        break;
+        case buttonDepress:
+            onoffFsmSwitchState(powerOn);
+        break;
+        default:
+            // todo assert
+        break;
+    }
 }
 
 void onoffFsmHandleEvent(onoffFsmEvent_t event)
@@ -70,11 +102,11 @@ void onoffFsmRun(void)
         prevButtonState = checkButtonState();
         if(prevButtonState)
         {
-            dsPuts(&streamUart, "Button True\n");
+            onoffFsmHandleEvent(buttonDepress);
         }
         else
         {
-            dsPuts(&streamUart, "Button False\n");
+            onoffFsmHandleEvent(buttonPress);
         }
     }
 }
