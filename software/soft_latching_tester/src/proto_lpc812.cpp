@@ -88,3 +88,9 @@ bool checkButtonState(void)
 {
     return Chip_GPIO_GetPinState(LPC_GPIO_PORT, 0, ONOFF_SWITCH_PIN);
 }
+
+void shutdownBoard(void)
+{
+    Chip_GPIO_SetPinState(LPC_GPIO_PORT, 0, ONOFF_SWITCH_PIN, false);
+    Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT, 0, ONOFF_SWITCH_PIN);
+}

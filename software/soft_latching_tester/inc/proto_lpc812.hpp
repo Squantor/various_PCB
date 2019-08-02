@@ -49,5 +49,6 @@ void toggleAliveLed(void);
 void toggleStatusLed(void);
 void offStatusLed(void);
 bool checkButtonState(void);
+void shutdownBoard(void);
 
 #endif
