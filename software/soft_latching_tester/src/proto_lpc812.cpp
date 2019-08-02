@@ -81,5 +81,5 @@ void toggleStatusLed(void)
 
 bool checkButtonState(void)
 {
-    
+    return Chip_GPIO_GetPinState(LPC_GPIO_PORT, 0, ONOFF_SWITCH_PIN);
 }
