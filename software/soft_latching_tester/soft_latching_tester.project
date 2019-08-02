@@ -66,8 +66,7 @@ set mem inaccessible-by-default off
 set {int}0x40048000 = 2
 load bin/debug/soft_latching_tester.elf
 set {int}0x40048000 = 2
-compare-sections
-b main</PostConnectCommands>
+compare-sections</PostConnectCommands>
         <StartupCommands/>
       </Debugger>
       <PreBuild/>
