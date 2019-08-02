@@ -56,6 +56,7 @@
       <Debugger IsRemote="yes" RemoteHostName="/dev/ttyBmpGdb0" RemoteHostPort="" DebuggerPath="../../../../../../../usr/bin/arm-none-eabi-gdb" IsExtended="yes">
         <DebuggerSearchPaths/>
         <PostConnectCommands>file bin/debug/soft_latching_tester.elf
+monitor tpwr enable
 shell sleep 1
 monitor swdp_scan
 attach 1

@@ -41,6 +41,7 @@ int main()
         {
             toggleAliveLed();
         }
-        __WFI();
+        // check button
+        
     }
 }

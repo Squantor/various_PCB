@@ -52,7 +52,7 @@ void boardInit(void)
     // GPIO pins setup
     Chip_GPIO_Init(LPC_GPIO_PORT);
     Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT, 0, STATE_LED_PIN);
-    Chip_GPIO_SetPinState(LPC_GPIO_PORT, 0, STATE_LED_PIN, false);
+    Chip_GPIO_SetPinState(LPC_GPIO_PORT, 0, STATE_LED_PIN, true);
     Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT, 0, ALIVE_LED_PIN);
     Chip_GPIO_SetPinState(LPC_GPIO_PORT, 0, ALIVE_LED_PIN, false);
     Chip_GPIO_SetPinDIRInput(LPC_GPIO_PORT, 0, ONOFF_SWITCH_PIN);
@@ -72,4 +72,14 @@ void boardInit(void)
 void toggleAliveLed(void)
 {
     Chip_GPIO_SetPinToggle(LPC_GPIO_PORT, 0, ALIVE_LED_PIN);
+}
+
+void toggleStatusLed(void)
+{
+    Chip_GPIO_SetPinToggle(LPC_GPIO_PORT, 0, STATE_LED_PIN);
+}
+
+bool checkButtonState(void)
+{
+    
 }
