@@ -29,7 +29,9 @@ const uint32_t ExtRateIn = 0;
 
 void boardInit(void)
 {
-    Chip_Clock_EnablePeriphClock(SYSCTL_CLOCK_SWM);
+    Chip_SYSCTL_SetBODLevels(SYSCTL_BODRSTLVL_3, SYSCTL_BODINTVAL_LVL3);
+    Chip_SYSCTL_EnableBODReset();
+    Chip_Clock_EnablePeriphClock(SYSCTL_CLOCK_SWM);  
     // setup crystal functionality
     Chip_SWM_FixedPinEnable(SWM_FIXED_XTALIN, true);
     Chip_SWM_FixedPinEnable(SWM_FIXED_XTALOUT, true);
