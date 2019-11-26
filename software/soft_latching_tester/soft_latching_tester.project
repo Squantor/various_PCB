@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="soft_latching_tester" Version="10.0.0" InternalType="">
+<CodeLite_Project Name="soft_latching_tester" Version="11000" InternalType="">
   <Plugins>
     <Plugin Name="qmake">
       <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
@@ -58,7 +58,6 @@
       <Debugger IsRemote="yes" RemoteHostName="/dev/ttyBmpGdb0" RemoteHostPort="" DebuggerPath="../../../../../../../usr/bin/arm-none-eabi-gdb" IsExtended="yes">
         <DebuggerSearchPaths/>
         <PostConnectCommands>file bin/debug/soft_latching_tester.elf
-monitor tpwr enable
 shell sleep 1
 monitor swdp_scan
 attach 1
