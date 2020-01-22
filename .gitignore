@@ -2,6 +2,7 @@ rescue-backup
 *rescue.lib
 *.net
 *.kicad_pcb-bak
+*.sch-bak
 *.bak
 *.zip
 fp-info-cache
