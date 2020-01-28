@@ -35,215 +35,489 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    850  7350
 	1    0    0    -1  
 $EndComp
-Text Label 1900 1750 2    50   ~ 0
+Text Label 900  1300 2    50   ~ 0
 CH1_OUT
-Text Label 2400 1750 0    50   ~ 0
+Text Label 1400 1300 0    50   ~ 0
 CH2_OUT
-Text Label 2400 1850 0    50   ~ 0
+Text Label 1400 1400 0    50   ~ 0
 CH4_OUT
-Text Label 2400 1950 0    50   ~ 0
+Text Label 1400 1500 0    50   ~ 0
 CH6_OUT
-Text Label 2400 2050 0    50   ~ 0
+Text Label 1400 1600 0    50   ~ 0
 CH8_OUT
-Text Label 1900 1850 2    50   ~ 0
+Text Label 900  1400 2    50   ~ 0
 CH3_OUT
-Text Label 1900 1950 2    50   ~ 0
+Text Label 900  1500 2    50   ~ 0
 CH5_OUT
-Text Label 1900 2050 2    50   ~ 0
+Text Label 900  1600 2    50   ~ 0
 CH7_OUT
-Text Label 2500 2150 0    50   ~ 0
+Text Label 1500 1700 0    50   ~ 0
 VSS
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 5E28D83D
-P 2150 2650
-F 0 "J2" H 2150 2550 50  0000 C CNN
-F 1 "Conn_01x01" H 2150 2750 50  0000 C CNN
-F 2 "" H 2150 2650 50  0001 C CNN
-F 3 "~" H 2150 2650 50  0001 C CNN
-	1    2150 2650
+P 1050 2400
+F 0 "J2" H 1050 2300 50  0000 C CNN
+F 1 "Conn_01x01" H 1050 2500 50  0000 C CNN
+F 2 "" H 1050 2400 50  0001 C CNN
+F 3 "~" H 1050 2400 50  0001 C CNN
+	1    1050 2400
 	-1   0    0    1   
 $EndComp
-Text Label 2450 2650 0    50   ~ 0
+Text Label 1350 2400 0    50   ~ 0
 VDD_LA
-NoConn ~ 1900 2150
+NoConn ~ 900  1700
 $Comp
 L Device:C C1
 U 1 1 5E28EC6F
-P 2950 2500
-F 0 "C1" V 2900 2350 50  0000 C CNN
-F 1 "10u" V 3000 2650 50  0000 C CNN
-F 2 "SquantorRcl:C_0603" H 2988 2350 50  0001 C CNN
-F 3 "~" H 2950 2500 50  0001 C CNN
-	1    2950 2500
+P 1150 2100
+F 0 "C1" V 1100 1950 50  0000 C CNN
+F 1 "10u" V 1200 2250 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 1188 1950 50  0001 C CNN
+F 3 "~" H 1150 2100 50  0001 C CNN
+	1    1150 2100
 	0    1    1    0   
 $EndComp
-Text Label 3150 2500 0    50   ~ 0
+Text Label 1350 2100 0    50   ~ 0
 VDD_LA
-Text Label 2750 2500 2    50   ~ 0
+Text Label 950  2100 2    50   ~ 0
 VSS
 Wire Wire Line
-	2750 2500 2800 2500
+	950  2100 1000 2100
 Wire Wire Line
-	3100 2500 3150 2500
+	1300 2100 1350 2100
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG02
 U 1 1 5E290824
-P 2400 2350
-F 0 "#FLG?" H 2400 2425 50  0001 C CNN
-F 1 "PWR_FLAG" V 2400 2477 50  0000 L CNN
-F 2 "" H 2400 2350 50  0001 C CNN
-F 3 "~" H 2400 2350 50  0001 C CNN
-	1    2400 2350
+P 1400 1900
+F 0 "#FLG02" H 1400 1975 50  0001 C CNN
+F 1 "PWR_FLAG" V 1400 2027 50  0000 L CNN
+F 2 "" H 1400 1900 50  0001 C CNN
+F 3 "~" H 1400 1900 50  0001 C CNN
+	1    1400 1900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG01
 U 1 1 5E29100F
-P 2350 2850
-F 0 "#FLG?" H 2350 2925 50  0001 C CNN
-F 1 "PWR_FLAG" V 2350 2977 50  0000 L CNN
-F 2 "" H 2350 2850 50  0001 C CNN
-F 3 "~" H 2350 2850 50  0001 C CNN
-	1    2350 2850
+P 1250 2600
+F 0 "#FLG01" H 1250 2675 50  0001 C CNN
+F 1 "PWR_FLAG" V 1250 2727 50  0000 L CNN
+F 2 "" H 1250 2600 50  0001 C CNN
+F 3 "~" H 1250 2600 50  0001 C CNN
+	1    1250 2600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 5E28C6AE
-P 2100 1950
-F 0 "J1" H 2150 2250 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 2150 1650 50  0000 C CNN
-F 2 "" H 2100 1950 50  0001 C CNN
-F 3 "~" H 2100 1950 50  0001 C CNN
-	1    2100 1950
+P 1100 1500
+F 0 "J1" H 1150 1800 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1150 1200 50  0000 C CNN
+F 2 "" H 1100 1500 50  0001 C CNN
+F 3 "~" H 1100 1500 50  0001 C CNN
+	1    1100 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 2150 2450 2150
+	1400 1700 1450 1700
 Wire Wire Line
-	2400 2350 2450 2350
+	1400 1900 1450 1900
 Wire Wire Line
-	2450 2350 2450 2150
-Connection ~ 2450 2150
+	1450 1900 1450 1700
+Connection ~ 1450 1700
 Wire Wire Line
-	2450 2150 2500 2150
+	1450 1700 1500 1700
 Wire Wire Line
-	2350 2850 2400 2850
+	1250 2600 1300 2600
 Wire Wire Line
-	2400 2850 2400 2650
+	1300 2600 1300 2400
 Wire Wire Line
-	2400 2650 2350 2650
+	1300 2400 1250 2400
 Wire Wire Line
-	2400 2650 2450 2650
-Connection ~ 2400 2650
+	1300 2400 1350 2400
+Connection ~ 1300 2400
 $Comp
-L SquantorLogic:74X8T245 U?
+L SquantorLogic:74X8T245 U1
 U 1 1 5E29512E
-P 4500 2000
-F 0 "U?" H 4500 2837 60  0000 C CNN
-F 1 "74X8T245" H 4500 2731 60  0000 C CNN
-F 2 "SquantorIC:SOT355-1-NXP" H 4500 2450 60  0001 C CNN
-F 3 "" H 4500 2450 60  0001 C CNN
-	1    4500 2000
+P 2750 1500
+F 0 "U1" H 2750 2337 60  0000 C CNN
+F 1 "74X8T245" H 2750 2231 60  0000 C CNN
+F 2 "SquantorIC:SOT355-1-NXP" H 2750 1950 60  0001 C CNN
+F 3 "" H 2750 1950 60  0001 C CNN
+	1    2750 1500
 	1    0    0    -1  
 $EndComp
-Text Label 4100 1450 2    50   ~ 0
-VSS_LA
-Text Label 4100 1550 2    50   ~ 0
-VDD
-Text Label 4100 1650 2    50   ~ 0
+Text Label 2350 1150 2    50   ~ 0
 CH1_OUT
-Text Label 4100 1750 2    50   ~ 0
+Text Label 2350 1250 2    50   ~ 0
 CH2_OUT
-Text Label 4100 1850 2    50   ~ 0
+Text Label 2350 1350 2    50   ~ 0
 CH3_OUT
-Text Label 4100 1950 2    50   ~ 0
+Text Label 2350 1450 2    50   ~ 0
 CH4_OUT
-Text Label 4100 2050 2    50   ~ 0
+Text Label 2350 1550 2    50   ~ 0
 CH5_OUT
-Text Label 4100 2150 2    50   ~ 0
+Text Label 2350 1650 2    50   ~ 0
 CH6_OUT
-Text Label 4100 2250 2    50   ~ 0
+Text Label 2350 1750 2    50   ~ 0
 CH7_OUT
-Text Label 4100 2350 2    50   ~ 0
+Text Label 2350 1850 2    50   ~ 0
 CH8_OUT
-Text Label 4100 2450 2    50   ~ 0
+Text Label 2350 1950 2    50   ~ 0
 VSS
-Text Label 4100 2550 2    50   ~ 0
+Text Label 2350 2050 2    50   ~ 0
 VSS
-Text Label 4900 2550 0    50   ~ 0
+Text Label 3150 2050 0    50   ~ 0
 VSS
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5E2977EC
-P 4500 2800
-F 0 "C?" V 4450 2650 50  0000 C CNN
-F 1 "1u" V 4550 2950 50  0000 C CNN
-F 2 "SquantorRcl:C_0402" H 4538 2650 50  0001 C CNN
-F 3 "~" H 4500 2800 50  0001 C CNN
-	1    4500 2800
+P 2750 2300
+F 0 "C2" V 2700 2150 50  0000 C CNN
+F 1 "1u" V 2800 2450 50  0000 C CNN
+F 2 "SquantorRcl:C_0402" H 2788 2150 50  0001 C CNN
+F 3 "~" H 2750 2300 50  0001 C CNN
+	1    2750 2300
 	0    1    1    0   
 $EndComp
-Text Label 4300 2800 2    50   ~ 0
+Text Label 2550 2300 2    50   ~ 0
 VSS
-Text Label 4700 2800 0    50   ~ 0
+Text Label 2950 2300 0    50   ~ 0
 VDD_LA
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 5E29807A
-P 4500 3000
-F 0 "C?" V 4450 2850 50  0000 C CNN
-F 1 "1u" V 4550 3150 50  0000 C CNN
-F 2 "SquantorRcl:C_0402" H 4538 2850 50  0001 C CNN
-F 3 "~" H 4500 3000 50  0001 C CNN
-	1    4500 3000
+P 2750 2500
+F 0 "C3" V 2700 2350 50  0000 C CNN
+F 1 "1u" V 2800 2650 50  0000 C CNN
+F 2 "SquantorRcl:C_0402" H 2788 2350 50  0001 C CNN
+F 3 "~" H 2750 2500 50  0001 C CNN
+	1    2750 2500
 	0    1    1    0   
 $EndComp
-Text Label 4300 3000 2    50   ~ 0
+Text Label 2550 2500 2    50   ~ 0
 VSS
-Text Label 4700 3000 0    50   ~ 0
+Text Label 2950 2500 0    50   ~ 0
 VDD_TARGET
-Text Label 4900 1450 0    50   ~ 0
+Text Label 3150 950  0    50   ~ 0
 VDD_TARGET
-Text Label 4900 1550 0    50   ~ 0
+Text Label 3150 1050 0    50   ~ 0
 VDD_TARGET
 Wire Wire Line
-	4100 1450 4150 1450
+	2350 950  2400 950 
 Wire Wire Line
-	4150 1550 4100 1550
+	2400 1050 2350 1050
 Wire Wire Line
-	4100 1650 4150 1650
+	2350 1150 2400 1150
 Wire Wire Line
-	4150 1750 4100 1750
+	2400 1250 2350 1250
 Wire Wire Line
-	4100 1850 4150 1850
+	2350 1350 2400 1350
 Wire Wire Line
-	4150 1950 4100 1950
+	2400 1450 2350 1450
 Wire Wire Line
-	4150 2050 4100 2050
+	2400 1550 2350 1550
 Wire Wire Line
-	4100 2150 4150 2150
+	2350 1650 2400 1650
 Wire Wire Line
-	4150 2250 4100 2250
+	2400 1750 2350 1750
 Wire Wire Line
-	4100 2350 4150 2350
+	2350 1850 2400 1850
 Wire Wire Line
-	4150 2450 4100 2450
+	2400 1950 2350 1950
 Wire Wire Line
-	4100 2550 4150 2550
+	2350 2050 2400 2050
 Wire Wire Line
-	4900 2550 4850 2550
+	3150 2050 3100 2050
 Wire Wire Line
-	4850 1550 4900 1550
+	3100 1050 3150 1050
 Wire Wire Line
-	4900 1450 4850 1450
+	3150 950  3100 950 
 Wire Wire Line
-	4300 2800 4350 2800
+	2550 2300 2600 2300
 Wire Wire Line
-	4350 3000 4300 3000
+	2600 2500 2550 2500
 Wire Wire Line
-	4650 3000 4700 3000
+	2900 2500 2950 2500
 Wire Wire Line
-	4700 2800 4650 2800
+	2950 2300 2900 2300
+Text Label 3150 1250 0    50   ~ 0
+CH1_IN
+Text Label 3150 1350 0    50   ~ 0
+CH2_IN
+Text Label 3150 1450 0    50   ~ 0
+CH3_IN
+Text Label 3150 1550 0    50   ~ 0
+CH4_IN
+Text Label 3150 1650 0    50   ~ 0
+CH5_IN
+Text Label 3150 1750 0    50   ~ 0
+CH6_IN
+Text Label 3150 1850 0    50   ~ 0
+CH7_IN
+Text Label 3150 1950 0    50   ~ 0
+CH8_IN
+Text Label 3150 1150 0    50   ~ 0
+VSS
+Wire Wire Line
+	3100 1150 3150 1150
+Wire Wire Line
+	3150 1250 3100 1250
+Wire Wire Line
+	3100 1350 3150 1350
+Wire Wire Line
+	3150 1450 3100 1450
+Wire Wire Line
+	3100 1550 3150 1550
+Wire Wire Line
+	3150 1650 3100 1650
+Wire Wire Line
+	3100 1750 3150 1750
+Wire Wire Line
+	3150 1850 3100 1850
+Wire Wire Line
+	3100 1950 3150 1950
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 5E3111F5
+P 5450 1650
+F 0 "J3" H 5500 1950 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5500 1350 50  0000 C CNN
+F 2 "" H 5450 1650 50  0001 C CNN
+F 3 "~" H 5450 1650 50  0001 C CNN
+	1    5450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 5E313D56
+P 4150 1400
+F 0 "RN1" V 3850 1400 50  0000 C CNN
+F 1 "100" V 4350 1400 50  0000 C CNN
+F 2 "" V 4425 1400 50  0001 C CNN
+F 3 "~" H 4150 1400 50  0001 C CNN
+	1    4150 1400
+	0    1    1    0   
+$EndComp
+Text Label 3900 1200 2    50   ~ 0
+CH1_IN
+Text Label 3900 1300 2    50   ~ 0
+CH2_IN
+Text Label 3900 1400 2    50   ~ 0
+CH3_IN
+Text Label 3900 1500 2    50   ~ 0
+CH4_IN
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 5E3165D5
+P 4150 2000
+F 0 "RN2" V 3850 2000 50  0000 C CNN
+F 1 "100" V 4350 2000 50  0000 C CNN
+F 2 "" V 4425 2000 50  0001 C CNN
+F 3 "~" H 4150 2000 50  0001 C CNN
+	1    4150 2000
+	0    1    1    0   
+$EndComp
+Text Label 3900 1800 2    50   ~ 0
+CH5_IN
+Text Label 3900 1900 2    50   ~ 0
+CH6_IN
+Text Label 3900 2000 2    50   ~ 0
+CH7_IN
+Text Label 3900 2100 2    50   ~ 0
+CH8_IN
+Text Label 4400 1200 0    50   ~ 0
+CH1
+Text Label 4400 1300 0    50   ~ 0
+CH2
+Text Label 4400 1400 0    50   ~ 0
+CH3
+Text Label 4400 1500 0    50   ~ 0
+CH4
+Text Label 4400 1800 0    50   ~ 0
+CH5
+Text Label 4400 1900 0    50   ~ 0
+CH6
+Text Label 4400 2000 0    50   ~ 0
+CH7
+Text Label 4400 2100 0    50   ~ 0
+CH8
+Text Label 5200 1450 2    50   ~ 0
+CH1
+Text Label 5800 1450 0    50   ~ 0
+CH2
+Text Label 5200 1550 2    50   ~ 0
+CH3
+Text Label 5800 1550 0    50   ~ 0
+CH4
+Text Label 5200 1650 2    50   ~ 0
+CH5
+Text Label 5800 1650 0    50   ~ 0
+CH6
+Text Label 5200 1750 2    50   ~ 0
+CH7
+Text Label 5800 1750 0    50   ~ 0
+CH8
+Text Label 5800 1850 0    50   ~ 0
+VSS
+Text Label 5150 1850 2    50   ~ 0
+VDD_TARGET
+$Comp
+L Device:C C4
+U 1 1 5E320936
+P 5500 2250
+F 0 "C4" V 5450 2100 50  0000 C CNN
+F 1 "10u" V 5550 2400 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 5538 2100 50  0001 C CNN
+F 3 "~" H 5500 2250 50  0001 C CNN
+	1    5500 2250
+	0    1    1    0   
+$EndComp
+Text Label 5300 2250 2    50   ~ 0
+VSS
+Wire Wire Line
+	5300 2250 5350 2250
+Wire Wire Line
+	5650 2250 5700 2250
+Text Label 5700 2250 0    50   ~ 0
+VDD_TARGET
+Wire Wire Line
+	3900 1200 3950 1200
+Wire Wire Line
+	3950 1300 3900 1300
+Wire Wire Line
+	3900 1400 3950 1400
+Wire Wire Line
+	3950 1500 3900 1500
+Wire Wire Line
+	4350 1500 4400 1500
+Wire Wire Line
+	4400 1400 4350 1400
+Wire Wire Line
+	4350 1300 4400 1300
+Wire Wire Line
+	4400 1200 4350 1200
+Wire Wire Line
+	3900 1800 3950 1800
+Wire Wire Line
+	3950 1900 3900 1900
+Wire Wire Line
+	3900 2000 3950 2000
+Wire Wire Line
+	3950 2100 3900 2100
+Wire Wire Line
+	4350 2100 4400 2100
+Wire Wire Line
+	4400 2000 4350 2000
+Wire Wire Line
+	4350 1900 4400 1900
+Wire Wire Line
+	4400 1800 4350 1800
+Wire Wire Line
+	5200 1450 5250 1450
+Wire Wire Line
+	5250 1550 5200 1550
+Wire Wire Line
+	5200 1650 5250 1650
+Wire Wire Line
+	5250 1750 5200 1750
+Wire Wire Line
+	5150 1850 5200 1850
+Wire Wire Line
+	5750 1850 5800 1850
+Wire Wire Line
+	5800 1750 5750 1750
+Wire Wire Line
+	5750 1650 5800 1650
+Wire Wire Line
+	5800 1550 5750 1550
+Wire Wire Line
+	5750 1450 5800 1450
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E351425
+P 5450 2050
+F 0 "#FLG0101" H 5450 2125 50  0001 C CNN
+F 1 "PWR_FLAG" V 5450 2177 50  0000 L CNN
+F 2 "" H 5450 2050 50  0001 C CNN
+F 3 "~" H 5450 2050 50  0001 C CNN
+	1    5450 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 2050 5200 2050
+Wire Wire Line
+	5200 2050 5200 1850
+Connection ~ 5200 1850
+Wire Wire Line
+	5200 1850 5250 1850
+Text Label 2350 1050 2    50   ~ 0
+VSS
+Text Label 2350 950  2    50   ~ 0
+VDD_LA
+$Comp
+L Device:R R?
+U 1 1 5E38DE6E
+P 5500 2600
+F 0 "R?" V 5450 2450 50  0000 C CNN
+F 1 "1K" V 5500 2600 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 5430 2600 50  0001 C CNN
+F 3 "~" H 5500 2600 50  0001 C CNN
+	1    5500 2600
+	0    1    1    0   
+$EndComp
+Text Label 5700 2600 0    50   ~ 0
+VDD_TARGET
+Text Label 4950 2600 2    50   ~ 0
+VSS
+$Comp
+L Device:LED D?
+U 1 1 5E38F0D7
+P 5150 2600
+F 0 "D?" H 5150 2700 50  0000 C CNN
+F 1 "RED" H 5150 2500 50  0000 C CNN
+F 2 "SquantorDiodes:LED_0603_hand" H 5150 2600 50  0001 C CNN
+F 3 "~" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2600 5000 2600
+Wire Wire Line
+	5300 2600 5350 2600
+Wire Wire Line
+	5700 2600 5650 2600
+$Comp
+L Device:R R?
+U 1 1 5E39775A
+P 1350 2800
+F 0 "R?" V 1300 2650 50  0000 C CNN
+F 1 "1K" V 1350 2800 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1280 2800 50  0001 C CNN
+F 3 "~" H 1350 2800 50  0001 C CNN
+	1    1350 2800
+	0    1    1    0   
+$EndComp
+Text Label 1550 2800 0    50   ~ 0
+VDD_TARGET
+Text Label 800  2800 2    50   ~ 0
+VSS
+$Comp
+L Device:LED D?
+U 1 1 5E397766
+P 1000 2800
+F 0 "D?" H 1000 2900 50  0000 C CNN
+F 1 "GREEN" H 1000 2700 50  0000 C CNN
+F 2 "SquantorDiodes:LED_0603_hand" H 1000 2800 50  0001 C CNN
+F 3 "~" H 1000 2800 50  0001 C CNN
+	1    1000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  2800 850  2800
+Wire Wire Line
+	1150 2800 1200 2800
+Wire Wire Line
+	1550 2800 1500 2800
 $EndSCHEMATC
