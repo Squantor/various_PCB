@@ -499,8 +499,6 @@ F 3 "~" H 1350 2800 50  0001 C CNN
 	1    1350 2800
 	0    1    1    0   
 $EndComp
-Text Label 1550 2800 0    50   ~ 0
-VDD_TARGET
 Text Label 800  2800 2    50   ~ 0
 VSS
 $Comp
@@ -520,4 +518,6 @@ Wire Wire Line
 	1150 2800 1200 2800
 Wire Wire Line
 	1550 2800 1500 2800
+Text Label 1550 2800 0    50   ~ 0
+VDD_LA
 $EndSCHEMATC
