@@ -35,108 +35,108 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    850  7350
 	1    0    0    -1  
 $EndComp
-Text Label 5500 900  2    50   ~ 0
+Text Label 5300 900  2    50   ~ 0
 CH1_OUT
-Text Label 6000 900  0    50   ~ 0
+Text Label 5800 900  0    50   ~ 0
 CH2_OUT
-Text Label 6000 1000 0    50   ~ 0
+Text Label 5800 1000 0    50   ~ 0
 CH4_OUT
-Text Label 6000 1100 0    50   ~ 0
+Text Label 5800 1100 0    50   ~ 0
 CH6_OUT
-Text Label 6000 1200 0    50   ~ 0
+Text Label 5800 1200 0    50   ~ 0
 CH8_OUT
-Text Label 5500 1000 2    50   ~ 0
+Text Label 5300 1000 2    50   ~ 0
 CH3_OUT
-Text Label 5500 1100 2    50   ~ 0
+Text Label 5300 1100 2    50   ~ 0
 CH5_OUT
-Text Label 5500 1200 2    50   ~ 0
+Text Label 5300 1200 2    50   ~ 0
 CH7_OUT
-Text Label 6100 1300 0    50   ~ 0
+Text Label 5900 1300 0    50   ~ 0
 VSS
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 5E28D83D
-P 5650 2000
-F 0 "J2" H 5650 1900 50  0000 C CNN
-F 1 "Conn_01x01" H 5650 2100 50  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-1X01-H010" H 5650 2000 50  0001 C CNN
-F 3 "~" H 5650 2000 50  0001 C CNN
-	1    5650 2000
+P 5450 2000
+F 0 "J2" H 5450 1900 50  0000 C CNN
+F 1 "Conn_01x01" H 5450 2100 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X01-H010" H 5450 2000 50  0001 C CNN
+F 3 "~" H 5450 2000 50  0001 C CNN
+	1    5450 2000
 	-1   0    0    1   
 $EndComp
-Text Label 5950 2000 0    50   ~ 0
+Text Label 5750 2000 0    50   ~ 0
 VDD_LA
-NoConn ~ 5500 1300
+NoConn ~ 5300 1300
 $Comp
 L Device:C C1
 U 1 1 5E28EC6F
-P 5750 1700
-F 0 "C1" V 5700 1550 50  0000 C CNN
-F 1 "10u" V 5800 1850 50  0000 C CNN
-F 2 "SquantorRcl:C_0603" H 5788 1550 50  0001 C CNN
-F 3 "~" H 5750 1700 50  0001 C CNN
-	1    5750 1700
+P 5550 1700
+F 0 "C1" V 5500 1550 50  0000 C CNN
+F 1 "10u" V 5600 1850 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 5588 1550 50  0001 C CNN
+F 3 "~" H 5550 1700 50  0001 C CNN
+	1    5550 1700
 	0    1    1    0   
 $EndComp
-Text Label 5950 1700 0    50   ~ 0
+Text Label 5750 1700 0    50   ~ 0
 VDD_LA
-Text Label 5550 1700 2    50   ~ 0
+Text Label 5350 1700 2    50   ~ 0
 VSS
 Wire Wire Line
-	5550 1700 5600 1700
+	5350 1700 5400 1700
 Wire Wire Line
-	5900 1700 5950 1700
+	5700 1700 5750 1700
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5E290824
-P 6000 1500
-F 0 "#FLG02" H 6000 1575 50  0001 C CNN
-F 1 "PWR_FLAG" V 6000 1627 50  0000 L CNN
-F 2 "" H 6000 1500 50  0001 C CNN
-F 3 "~" H 6000 1500 50  0001 C CNN
-	1    6000 1500
+P 5800 1500
+F 0 "#FLG02" H 5800 1575 50  0001 C CNN
+F 1 "PWR_FLAG" V 5800 1627 50  0000 L CNN
+F 2 "" H 5800 1500 50  0001 C CNN
+F 3 "~" H 5800 1500 50  0001 C CNN
+	1    5800 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5E29100F
-P 5850 2200
-F 0 "#FLG01" H 5850 2275 50  0001 C CNN
-F 1 "PWR_FLAG" V 5850 2327 50  0000 L CNN
-F 2 "" H 5850 2200 50  0001 C CNN
-F 3 "~" H 5850 2200 50  0001 C CNN
-	1    5850 2200
+P 5650 2200
+F 0 "#FLG01" H 5650 2275 50  0001 C CNN
+F 1 "PWR_FLAG" V 5650 2327 50  0000 L CNN
+F 2 "" H 5650 2200 50  0001 C CNN
+F 3 "~" H 5650 2200 50  0001 C CNN
+	1    5650 2200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 5E28C6AE
-P 5700 1100
-F 0 "J1" H 5750 1400 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 5750 800 50  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-2X05-SMD-Edge" H 5700 1100 50  0001 C CNN
-F 3 "~" H 5700 1100 50  0001 C CNN
-	1    5700 1100
+P 5500 1100
+F 0 "J1" H 5550 1400 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5550 800 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-2X05-SMD-Edge" H 5500 1100 50  0001 C CNN
+F 3 "~" H 5500 1100 50  0001 C CNN
+	1    5500 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 1300 6050 1300
+	5800 1300 5850 1300
 Wire Wire Line
-	6000 1500 6050 1500
+	5800 1500 5850 1500
 Wire Wire Line
-	6050 1500 6050 1300
-Connection ~ 6050 1300
+	5850 1500 5850 1300
+Connection ~ 5850 1300
 Wire Wire Line
-	6050 1300 6100 1300
+	5850 1300 5900 1300
 Wire Wire Line
-	5850 2200 5900 2200
+	5650 2200 5700 2200
 Wire Wire Line
-	5900 2200 5900 2000
+	5700 2200 5700 2000
 Wire Wire Line
-	5900 2000 5850 2000
+	5700 2000 5650 2000
 Wire Wire Line
-	5900 2000 5950 2000
-Connection ~ 5900 2000
+	5700 2000 5750 2000
+Connection ~ 5700 2000
 $Comp
 L SquantorLogic:74X8T245 U1
 U 1 1 5E29512E
@@ -148,21 +148,21 @@ F 3 "" H 4000 1900 60  0001 C CNN
 	1    4000 1450
 	1    0    0    -1  
 $EndComp
-Text Label 4400 1200 0    50   ~ 0
-CH1_OUT
-Text Label 4400 1300 0    50   ~ 0
-CH2_OUT
-Text Label 4400 1400 0    50   ~ 0
-CH3_OUT
-Text Label 4400 1500 0    50   ~ 0
-CH4_OUT
-Text Label 4400 1600 0    50   ~ 0
-CH5_OUT
-Text Label 4400 1700 0    50   ~ 0
-CH6_OUT
-Text Label 4400 1800 0    50   ~ 0
-CH7_OUT
 Text Label 4400 1900 0    50   ~ 0
+CH1_OUT
+Text Label 4400 1800 0    50   ~ 0
+CH2_OUT
+Text Label 4400 1700 0    50   ~ 0
+CH3_OUT
+Text Label 4400 1600 0    50   ~ 0
+CH4_OUT
+Text Label 4400 1500 0    50   ~ 0
+CH5_OUT
+Text Label 4400 1400 0    50   ~ 0
+CH6_OUT
+Text Label 4400 1300 0    50   ~ 0
+CH7_OUT
+Text Label 4400 1200 0    50   ~ 0
 CH8_OUT
 Text Label 3600 1900 2    50   ~ 0
 VSS
@@ -200,9 +200,7 @@ Text Label 3800 2450 2    50   ~ 0
 VSS
 Text Label 4200 2450 0    50   ~ 0
 VDD_TARGET
-Text Label 4400 900  0    50   ~ 0
-VDD_TARGET
-Text Label 4400 1000 0    50   ~ 0
+Text Label 3600 900  2    50   ~ 0
 VDD_TARGET
 Wire Wire Line
 	3600 900  3650 900 
@@ -242,21 +240,21 @@ Wire Wire Line
 	4150 2450 4200 2450
 Wire Wire Line
 	4200 2250 4150 2250
-Text Label 3600 1100 2    50   ~ 0
-CH1_IN
-Text Label 3600 1200 2    50   ~ 0
-CH2_IN
-Text Label 3600 1300 2    50   ~ 0
-CH3_IN
-Text Label 3600 1400 2    50   ~ 0
-CH4_IN
-Text Label 3600 1500 2    50   ~ 0
-CH5_IN
-Text Label 3600 1600 2    50   ~ 0
-CH6_IN
-Text Label 3600 1700 2    50   ~ 0
-CH7_IN
 Text Label 3600 1800 2    50   ~ 0
+CH1_IN
+Text Label 3600 1700 2    50   ~ 0
+CH2_IN
+Text Label 3600 1600 2    50   ~ 0
+CH3_IN
+Text Label 3600 1500 2    50   ~ 0
+CH4_IN
+Text Label 3600 1400 2    50   ~ 0
+CH5_IN
+Text Label 3600 1300 2    50   ~ 0
+CH6_IN
+Text Label 3600 1200 2    50   ~ 0
+CH7_IN
+Text Label 3600 1100 2    50   ~ 0
 CH8_IN
 Text Label 4400 1100 0    50   ~ 0
 VSS
@@ -454,7 +452,7 @@ Wire Wire Line
 	1100 1350 1150 1350
 Text Label 3600 1000 2    50   ~ 0
 VSS
-Text Label 3600 900  2    50   ~ 0
+Text Label 4450 900  0    50   ~ 0
 VDD_LA
 $Comp
 L Device:R R2
@@ -491,33 +489,38 @@ Wire Wire Line
 $Comp
 L Device:R R1
 U 1 1 5E39775A
-P 5950 2400
-F 0 "R1" V 5900 2250 50  0000 C CNN
-F 1 "1K" V 5950 2400 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 5880 2400 50  0001 C CNN
-F 3 "~" H 5950 2400 50  0001 C CNN
-	1    5950 2400
+P 5750 2400
+F 0 "R1" V 5700 2250 50  0000 C CNN
+F 1 "1K" V 5750 2400 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 5680 2400 50  0001 C CNN
+F 3 "~" H 5750 2400 50  0001 C CNN
+	1    5750 2400
 	0    1    1    0   
 $EndComp
-Text Label 5400 2400 2    50   ~ 0
+Text Label 5200 2400 2    50   ~ 0
 VSS
 $Comp
 L Device:LED D1
 U 1 1 5E397766
-P 5600 2400
-F 0 "D1" H 5600 2500 50  0000 C CNN
-F 1 "GREEN" H 5600 2300 50  0000 C CNN
-F 2 "SquantorDiodes:LED_0603_hand" H 5600 2400 50  0001 C CNN
-F 3 "~" H 5600 2400 50  0001 C CNN
-	1    5600 2400
+P 5400 2400
+F 0 "D1" H 5400 2500 50  0000 C CNN
+F 1 "GREEN" H 5400 2300 50  0000 C CNN
+F 2 "SquantorDiodes:LED_0603_hand" H 5400 2400 50  0001 C CNN
+F 3 "~" H 5400 2400 50  0001 C CNN
+	1    5400 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 2400 5450 2400
+	5200 2400 5250 2400
 Wire Wire Line
-	5750 2400 5800 2400
+	5550 2400 5600 2400
 Wire Wire Line
-	6150 2400 6100 2400
-Text Label 6150 2400 0    50   ~ 0
+	5950 2400 5900 2400
+Text Label 5950 2400 0    50   ~ 0
 VDD_LA
+Wire Wire Line
+	4400 1000 4400 900 
+Wire Wire Line
+	4400 900  4450 900 
+Connection ~ 4400 900 
 $EndSCHEMATC
