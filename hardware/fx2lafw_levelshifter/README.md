@@ -2,9 +2,9 @@
 Level shifter for the cheap FX2 based logic analyzers. Connects to the input port of the LA and requires a 5V supply from the analyzer.
 ## TODO's
 Still some things need to be done:
-* schematic entry (TODO)
-* PCB layout (TODO)
-* Review with one night in between (TODO)
+* schematic entry (Done)
+* PCB layout (Done)
+* Review with one night in between (Done)
 * Produce at [OSHPARK](https://oshpark.com/) (TODO)
 * Assemble (TODO)
 * Test & characterise (TODO)
