@@ -431,8 +431,6 @@ Wire Wire Line
 Connection ~ 1100 1350
 Wire Wire Line
 	1100 1350 1150 1350
-Text Label 3600 1000 2    50   ~ 0
-VSS
 Text Label 4450 900  0    50   ~ 0
 VDD_LA
 $Comp
@@ -504,4 +502,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 900  4450 900 
 Connection ~ 4400 900 
+Text Label 3600 1000 2    50   ~ 0
+VDD_TARGET
 $EndSCHEMATC
