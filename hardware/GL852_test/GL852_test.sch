@@ -102,12 +102,12 @@ Wire Wire Line
 $Comp
 L Device:Crystal Y?
 U 1 1 5E3F40B1
-P 3550 2850
-F 0 "Y?" H 3550 2582 50  0000 C CNN
-F 1 "12MHz" H 3550 2673 50  0000 C CNN
-F 2 "" H 3550 2850 50  0001 C CNN
-F 3 "~" H 3550 2850 50  0001 C CNN
-	1    3550 2850
+P 2900 2500
+F 0 "Y?" H 2900 2232 50  0000 C CNN
+F 1 "12MHz" H 2900 2323 50  0000 C CNN
+F 2 "SquantorCrystal:Crystal_5032_2" H 2900 2500 50  0001 C CNN
+F 3 "~" H 2900 2500 50  0001 C CNN
+	1    2900 2500
 	-1   0    0    1   
 $EndComp
 Text Label 4200 3400 2    50   ~ 0
@@ -177,18 +177,18 @@ Text Label 4200 2700 2    50   ~ 0
 X1
 Text Label 4200 2800 2    50   ~ 0
 X2
-Text Label 3350 2850 2    50   ~ 0
+Text Label 2700 2500 2    50   ~ 0
 X1
-Text Label 3750 2850 0    50   ~ 0
+Text Label 3100 2500 0    50   ~ 0
 X2
 Wire Wire Line
 	4250 2700 4200 2700
 Wire Wire Line
 	4200 2800 4250 2800
 Wire Wire Line
-	3750 2850 3700 2850
+	3100 2500 3050 2500
 Wire Wire Line
-	3400 2850 3350 2850
+	2750 2500 2700 2500
 Text Label 4200 2900 2    50   ~ 0
 DM3_IN
 Text Label 4200 3000 2    50   ~ 0
@@ -299,13 +299,13 @@ Wire Wire Line
 Wire Wire Line
 	4950 4350 4900 4350
 Text Label 5300 2200 0    50   ~ 0
-DP1_IN
+DP1
 Text Label 5300 2500 0    50   ~ 0
-DM0_IN
+DM0
 Text Label 5300 2400 0    50   ~ 0
-DP0_IN
+DP0
 Text Label 5300 2300 0    50   ~ 0
-DM1_IN
+DM1
 Wire Wire Line
 	5250 2200 5300 2200
 Wire Wire Line
@@ -360,9 +360,9 @@ Wire Wire Line
 	6650 3550 6600 3550
 Text Label 6250 3500 2    50   ~ 0
 PGANG
-Text Label 6650 3750 0    50   ~ 0
+Text Label 7000 3750 0    50   ~ 0
 VDD
-Text Label 6650 4050 0    50   ~ 0
+Text Label 7000 4050 0    50   ~ 0
 VSS
 Wire Wire Line
 	6300 4050 6250 4050
@@ -436,4 +436,184 @@ F 3 "~" H 6450 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6250 3750 6250 4050
+$Comp
+L SquantorUsb:USB-ID J?
+U 1 1 5E451BA6
+P 1250 1150
+F 0 "J?" H 1250 1450 60  0000 C CNN
+F 1 "USB-IN" H 1250 850 60  0000 C CNN
+F 2 "SquantorUsb:USB-muB-SMD_TH" H 1400 1200 60  0001 C CNN
+F 3 "" H 1400 1200 60  0001 C CNN
+	1    1250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorUsb:USB J?
+U 1 1 5E452C21
+P 1250 1800
+F 0 "J?" H 1250 2050 60  0000 C CNN
+F 1 "USB_0" H 1250 1550 60  0000 C CNN
+F 2 "SquantorUsb:USB-A-TH" H 1400 1850 60  0001 C CNN
+F 3 "" H 1400 1850 60  0001 C CNN
+	1    1250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorUsb:USB J?
+U 1 1 5E4540B9
+P 1250 2400
+F 0 "J?" H 1250 2650 60  0000 C CNN
+F 1 "USB_1" H 1250 2150 60  0000 C CNN
+F 2 "SquantorUsb:USB-A-TH" H 1400 2450 60  0001 C CNN
+F 3 "" H 1400 2450 60  0001 C CNN
+	1    1250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorUsb:USB J?
+U 1 1 5E4548B5
+P 1250 3000
+F 0 "J?" H 1250 3250 60  0000 C CNN
+F 1 "USB_2" H 1250 2750 60  0000 C CNN
+F 2 "SquantorUsb:USB-A-TH" H 1400 3050 60  0001 C CNN
+F 3 "" H 1400 3050 60  0001 C CNN
+	1    1250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorUsb:USB J?
+U 1 1 5E454C48
+P 1250 3600
+F 0 "J?" H 1250 3850 60  0000 C CNN
+F 1 "USB_3" H 1250 3350 60  0000 C CNN
+F 2 "SquantorUsb:USB-A-TH" H 1400 3650 60  0001 C CNN
+F 3 "" H 1400 3650 60  0001 C CNN
+	1    1250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E457D45
+P 2900 2700
+F 0 "C?" V 2850 2550 50  0000 C CNN
+F 1 "22p" V 2950 2800 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 2938 2550 50  0001 C CNN
+F 3 "~" H 2900 2700 50  0001 C CNN
+	1    2900 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E45CD2C
+P 2900 2900
+F 0 "C?" V 2850 2750 50  0000 C CNN
+F 1 "22p" V 2950 3000 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 2938 2750 50  0001 C CNN
+F 3 "~" H 2900 2900 50  0001 C CNN
+	1    2900 2900
+	0    1    1    0   
+$EndComp
+Text Label 2700 2700 2    50   ~ 0
+X1
+Text Label 2700 2900 2    50   ~ 0
+X2
+Text Label 3100 2700 0    50   ~ 0
+VSS
+Text Label 3100 2900 0    50   ~ 0
+VSS
+Wire Wire Line
+	2700 2700 2750 2700
+Wire Wire Line
+	2750 2900 2700 2900
+Wire Wire Line
+	3050 2900 3100 2900
+Wire Wire Line
+	3100 2700 3050 2700
+$Comp
+L Device:R R?
+U 1 1 5E466AAD
+P 6800 3750
+F 0 "R?" V 6750 3600 50  0000 C CNN
+F 1 "470" V 6800 3750 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 6730 3750 50  0001 C CNN
+F 3 "~" H 6800 3750 50  0001 C CNN
+	1    6800 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E466E6B
+P 6800 4050
+F 0 "R?" V 6750 3900 50  0000 C CNN
+F 1 "470" V 6800 4050 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 6730 4050 50  0001 C CNN
+F 3 "~" H 6800 4050 50  0001 C CNN
+	1    6800 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 3750 7000 3750
+Wire Wire Line
+	7000 4050 6950 4050
+Text Label 1650 1150 0    50   ~ 0
+DP0
+Text Label 1650 1050 0    50   ~ 0
+DM0
+Text Label 1650 1350 0    50   ~ 0
+VSS
+Text Label 900  1150 2    50   ~ 0
+VSS
+Wire Wire Line
+	900  1150 950  1150
+Wire Wire Line
+	1600 1350 1650 1350
+Wire Wire Line
+	1650 1050 1600 1050
+Wire Wire Line
+	1600 1150 1650 1150
+Text Label 2050 950  0    50   ~ 0
+VBUS_IN
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5E47B847
+P 1900 950
+F 0 "FB?" V 1663 950 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 1754 950 50  0000 C CNN
+F 2 "SquantorRcl:L_0603" V 1830 950 50  0001 C CNN
+F 3 "~" H 1900 950 50  0001 C CNN
+	1    1900 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 950  1800 950 
+Text Label 3300 950  0    50   ~ 0
+VSS
+$Comp
+L Device:C C?
+U 1 1 5E47F7D7
+P 3100 950
+F 0 "C?" V 3050 800 50  0000 C CNN
+F 1 "10u" V 3150 1050 50  0000 C CNN
+F 2 "SquantorRcl:C_0805" H 3138 800 50  0001 C CNN
+F 3 "~" H 3100 950 50  0001 C CNN
+	1    3100 950 
+	0    -1   -1   0   
+$EndComp
+Text Label 2900 950  2    50   ~ 0
+VBUS_IN
+Wire Wire Line
+	2000 950  2050 950 
+Wire Wire Line
+	2900 950  2950 950 
+Wire Wire Line
+	3250 950  3300 950 
+NoConn ~ 1600 1250
+Text Label 900  1800 2    50   ~ 0
+VSS
+Text Label 900  2400 2    50   ~ 0
+VSS
+Text Label 900  3000 2    50   ~ 0
+VSS
+Text Label 900  3600 2    50   ~ 0
+VSS
 $EndSCHEMATC
