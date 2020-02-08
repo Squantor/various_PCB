@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:jlcpcb_4_layer-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -19,8 +18,8 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "V20180726" H 850 7700 60  0000 C CNN
-F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
+F 1 "V20200208" H 850 7700 60  0000 C CNN
+F 2 "SquantorLabels:Label_Generic" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
 	1    0    0    -1  
@@ -36,4 +35,405 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    850  7350
 	1    0    0    -1  
 $EndComp
+$Comp
+L SquantorGenesysLogic:GL852G-HH U?
+U 1 1 5E3F018D
+P 4750 2850
+F 0 "U?" H 4750 3765 50  0000 C CNN
+F 1 "GL852G-HH" H 4750 3674 50  0000 C CNN
+F 2 "" H 4600 3300 50  0001 C CNN
+F 3 "" H 4600 3300 50  0001 C CNN
+	1    4750 2850
+	1    0    0    -1  
+$EndComp
+Text Label 4200 2200 2    50   ~ 0
+VDD
+Text Label 4200 2600 2    50   ~ 0
+VDD
+Text Label 4200 3100 2    50   ~ 0
+VDD
+Text Label 5300 3500 0    50   ~ 0
+VSS
+Text Label 5300 3400 0    50   ~ 0
+VDD
+Text Label 5300 2700 0    50   ~ 0
+5V
+Text Label 5300 2600 0    50   ~ 0
+V33
+Wire Wire Line
+	4200 2200 4250 2200
+Wire Wire Line
+	4200 2600 4250 2600
+Wire Wire Line
+	4200 3100 4250 3100
+Wire Wire Line
+	5250 3500 5300 3500
+Wire Wire Line
+	5250 3400 5300 3400
+Wire Wire Line
+	5250 2600 5300 2600
+Wire Wire Line
+	5300 2700 5250 2700
+Text Label 4200 2300 2    50   ~ 0
+DM2_IN
+Text Label 4200 2400 2    50   ~ 0
+DP2_IN
+$Comp
+L Device:R R?
+U 1 1 5E3F265E
+P 3950 2500
+F 0 "R?" V 3900 2350 50  0000 C CNN
+F 1 "680" V 3950 2500 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 3880 2500 50  0001 C CNN
+F 3 "~" H 3950 2500 50  0001 C CNN
+	1    3950 2500
+	0    1    1    0   
+$EndComp
+Text Label 3750 2500 2    50   ~ 0
+VDD
+Wire Wire Line
+	3750 2500 3800 2500
+Wire Wire Line
+	4100 2500 4250 2500
+Wire Wire Line
+	4250 2400 4200 2400
+Wire Wire Line
+	4200 2300 4250 2300
+$Comp
+L Device:Crystal Y?
+U 1 1 5E3F40B1
+P 3550 2850
+F 0 "Y?" H 3550 2582 50  0000 C CNN
+F 1 "12MHz" H 3550 2673 50  0000 C CNN
+F 2 "" H 3550 2850 50  0001 C CNN
+F 3 "~" H 3550 2850 50  0001 C CNN
+	1    3550 2850
+	-1   0    0    1   
+$EndComp
+Text Label 4200 3400 2    50   ~ 0
+RESET
+Wire Wire Line
+	4200 3400 4250 3400
+Text Label 2150 3700 2    50   ~ 0
+VBUS_IN
+$Comp
+L Device:R R?
+U 1 1 5E3F7090
+P 2350 3700
+F 0 "R?" V 2300 3550 50  0000 C CNN
+F 1 "4.7K" V 2350 3700 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 2280 3700 50  0001 C CNN
+F 3 "~" H 2350 3700 50  0001 C CNN
+	1    2350 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E3F74EA
+P 3000 3700
+F 0 "R?" V 2950 3550 50  0000 C CNN
+F 1 "10K" V 3000 3700 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 2930 3700 50  0001 C CNN
+F 3 "~" H 3000 3700 50  0001 C CNN
+	1    3000 3700
+	0    1    1    0   
+$EndComp
+Text Label 2550 3700 0    50   ~ 0
+RESET
+$Comp
+L Device:C C?
+U 1 1 5E3F8C5E
+P 3000 3900
+F 0 "C?" V 2950 3750 50  0000 C CNN
+F 1 "1u" V 3050 4000 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 3038 3750 50  0001 C CNN
+F 3 "~" H 3000 3900 50  0001 C CNN
+	1    3000 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 3700 2200 3700
+Wire Wire Line
+	2500 3700 2650 3700
+Wire Wire Line
+	3150 3700 3200 3700
+Wire Wire Line
+	2850 3900 2650 3900
+Wire Wire Line
+	2650 3900 2650 3700
+Connection ~ 2650 3700
+Wire Wire Line
+	2650 3700 2850 3700
+Text Label 3250 3700 0    50   ~ 0
+VDD
+Wire Wire Line
+	3150 3900 3200 3900
+Wire Wire Line
+	3200 3900 3200 3700
+Wire Wire Line
+	3250 3700 3200 3700
+Connection ~ 3200 3700
+Text Label 4200 2700 2    50   ~ 0
+X1
+Text Label 4200 2800 2    50   ~ 0
+X2
+Text Label 3350 2850 2    50   ~ 0
+X1
+Text Label 3750 2850 0    50   ~ 0
+X2
+Wire Wire Line
+	4250 2700 4200 2700
+Wire Wire Line
+	4200 2800 4250 2800
+Wire Wire Line
+	3750 2850 3700 2850
+Wire Wire Line
+	3400 2850 3350 2850
+Text Label 4200 2900 2    50   ~ 0
+DM3_IN
+Text Label 4200 3000 2    50   ~ 0
+DP3_IN
+Wire Wire Line
+	4250 2900 4200 2900
+Wire Wire Line
+	4200 3000 4250 3000
+Text Label 4200 3200 2    50   ~ 0
+DM3_IN
+Text Label 4200 3300 2    50   ~ 0
+DP3_IN
+Wire Wire Line
+	4200 3200 4250 3200
+Wire Wire Line
+	4250 3300 4200 3300
+$Comp
+L Device:R R?
+U 1 1 5E404FCB
+P 4050 3500
+F 0 "R?" V 4000 3350 50  0000 C CNN
+F 1 "2.2K" V 4050 3500 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 3980 3500 50  0001 C CNN
+F 3 "~" H 4050 3500 50  0001 C CNN
+	1    4050 3500
+	0    1    1    0   
+$EndComp
+Text Label 3850 3500 2    50   ~ 0
+VDD
+Wire Wire Line
+	3850 3500 3900 3500
+Wire Wire Line
+	4200 3500 4250 3500
+$Comp
+L Device:C C?
+U 1 1 5E407F5D
+P 4750 3750
+F 0 "C?" V 4700 3600 50  0000 C CNN
+F 1 "1u" V 4800 3850 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 4788 3600 50  0001 C CNN
+F 3 "~" H 4750 3750 50  0001 C CNN
+	1    4750 3750
+	0    1    1    0   
+$EndComp
+Text Label 4950 3750 0    50   ~ 0
+GND
+Text Label 4550 3750 2    50   ~ 0
+VDD
+Wire Wire Line
+	4550 3750 4600 3750
+Wire Wire Line
+	4950 3750 4900 3750
+$Comp
+L Device:C C?
+U 1 1 5E40B65D
+P 4750 3950
+F 0 "C?" V 4700 3800 50  0000 C CNN
+F 1 "1u" V 4800 4050 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 4788 3800 50  0001 C CNN
+F 3 "~" H 4750 3950 50  0001 C CNN
+	1    4750 3950
+	0    1    1    0   
+$EndComp
+Text Label 4950 3950 0    50   ~ 0
+GND
+Text Label 4550 3950 2    50   ~ 0
+VDD
+Wire Wire Line
+	4550 3950 4600 3950
+Wire Wire Line
+	4950 3950 4900 3950
+$Comp
+L Device:C C?
+U 1 1 5E40DA46
+P 4750 4150
+F 0 "C?" V 4700 4000 50  0000 C CNN
+F 1 "1u" V 4800 4250 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 4788 4000 50  0001 C CNN
+F 3 "~" H 4750 4150 50  0001 C CNN
+	1    4750 4150
+	0    1    1    0   
+$EndComp
+Text Label 4950 4150 0    50   ~ 0
+GND
+Text Label 4550 4150 2    50   ~ 0
+VDD
+Wire Wire Line
+	4550 4150 4600 4150
+Wire Wire Line
+	4950 4150 4900 4150
+$Comp
+L Device:C C?
+U 1 1 5E40DA54
+P 4750 4350
+F 0 "C?" V 4700 4200 50  0000 C CNN
+F 1 "1u" V 4800 4450 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 4788 4200 50  0001 C CNN
+F 3 "~" H 4750 4350 50  0001 C CNN
+	1    4750 4350
+	0    1    1    0   
+$EndComp
+Text Label 4950 4350 0    50   ~ 0
+GND
+Text Label 4550 4350 2    50   ~ 0
+VDD
+Wire Wire Line
+	4550 4350 4600 4350
+Wire Wire Line
+	4950 4350 4900 4350
+Text Label 5300 2200 0    50   ~ 0
+DP1_IN
+Text Label 5300 2500 0    50   ~ 0
+DM0_IN
+Text Label 5300 2400 0    50   ~ 0
+DP0_IN
+Text Label 5300 2300 0    50   ~ 0
+DM1_IN
+Wire Wire Line
+	5250 2200 5300 2200
+Wire Wire Line
+	5300 2300 5250 2300
+Wire Wire Line
+	5250 2400 5300 2400
+Wire Wire Line
+	5300 2500 5250 2500
+Text Label 5300 3300 0    50   ~ 0
+PSELF
+Wire Wire Line
+	5250 3300 5300 3300
+Text Label 5300 3200 0    50   ~ 0
+PGANG
+Wire Wire Line
+	5250 3200 5300 3200
+$Comp
+L Device:R R?
+U 1 1 5E41FE0F
+P 6450 3550
+F 0 "R?" V 6400 3400 50  0000 C CNN
+F 1 "100K" V 6450 3550 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 6380 3550 50  0001 C CNN
+F 3 "~" H 6450 3550 50  0001 C CNN
+	1    6450 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E41FE19
+P 6450 3450
+F 0 "R?" V 6400 3300 50  0000 C CNN
+F 1 "100K" V 6450 3450 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 6380 3450 50  0001 C CNN
+F 3 "~" H 6450 3450 50  0001 C CNN
+	1    6450 3450
+	0    1    1    0   
+$EndComp
+Text Label 6650 3450 0    50   ~ 0
+VDD
+Text Label 6650 3550 0    50   ~ 0
+VSS
+Wire Wire Line
+	6300 3550 6250 3550
+Wire Wire Line
+	6300 3450 6250 3450
+Wire Wire Line
+	6250 3450 6250 3550
+Wire Wire Line
+	6600 3450 6650 3450
+Wire Wire Line
+	6650 3550 6600 3550
+Text Label 6250 3500 2    50   ~ 0
+PGANG
+Text Label 6650 3750 0    50   ~ 0
+VDD
+Text Label 6650 4050 0    50   ~ 0
+VSS
+Wire Wire Line
+	6300 4050 6250 4050
+Wire Wire Line
+	6300 3750 6250 3750
+Wire Wire Line
+	6600 3750 6650 3750
+Wire Wire Line
+	6650 4050 6600 4050
+Text Label 6250 3900 2    50   ~ 0
+PGANG
+Wire Wire Line
+	6650 3250 6600 3250
+Wire Wire Line
+	6600 3150 6650 3150
+Wire Wire Line
+	6250 3150 6250 3250
+Wire Wire Line
+	6300 3150 6250 3150
+Wire Wire Line
+	6300 3250 6250 3250
+Text Label 6250 3200 2    50   ~ 0
+PSELF
+Text Label 6650 3250 0    50   ~ 0
+VSS
+Text Label 6650 3150 0    50   ~ 0
+VDD
+$Comp
+L Device:R R?
+U 1 1 5E417144
+P 6450 3150
+F 0 "R?" V 6400 3000 50  0000 C CNN
+F 1 "10K" V 6450 3150 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 6380 3150 50  0001 C CNN
+F 3 "~" H 6450 3150 50  0001 C CNN
+	1    6450 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E416606
+P 6450 3250
+F 0 "R?" V 6400 3100 50  0000 C CNN
+F 1 "10K" V 6450 3250 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 6380 3250 50  0001 C CNN
+F 3 "~" H 6450 3250 50  0001 C CNN
+	1    6450 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E42EA47
+P 6450 3750
+F 0 "D?" H 6300 3800 50  0000 C CNN
+F 1 "LED" H 6600 3700 50  0000 C CNN
+F 2 "" H 6450 3750 50  0001 C CNN
+F 3 "~" H 6450 3750 50  0001 C CNN
+	1    6450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E42F10D
+P 6450 4050
+F 0 "D?" H 6600 4000 50  0000 C CNN
+F 1 "LED" H 6300 4100 50  0000 C CNN
+F 2 "" H 6450 4050 50  0001 C CNN
+F 3 "~" H 6450 4050 50  0001 C CNN
+	1    6450 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 3750 6250 4050
 $EndSCHEMATC
