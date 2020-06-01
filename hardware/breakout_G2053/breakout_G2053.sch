@@ -35,4 +35,211 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    850  7350
 	1    0    0    -1  
 $EndComp
+$Comp
+L SquantorGmt:G2053 U?
+U 1 1 5ED52BF7
+P 3850 2400
+F 0 "U?" H 3850 3115 50  0000 C CNN
+F 1 "G2053" H 3850 3024 50  0000 C CNN
+F 2 "" H 3850 2400 50  0001 C CNN
+F 3 "" H 3850 2400 50  0001 C CNN
+	1    3850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J?
+U 1 1 5ED5359D
+P 1350 2450
+F 0 "J?" H 1400 2867 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 1400 2776 50  0000 C CNN
+F 2 "" H 1350 2450 50  0001 C CNN
+F 3 "~" H 1350 2450 50  0001 C CNN
+	1    1350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2250 1100 2250
+Text Label 1100 2250 2    50   ~ 0
+MOTOR_VDD
+Text Label 1700 2250 0    50   ~ 0
+MOTOR_VDD
+Text Label 1100 2750 2    50   ~ 0
+VSS
+Text Label 1700 2750 0    50   ~ 0
+VSS
+Text Label 1100 2350 2    50   ~ 0
+OUT1
+Text Label 1100 2450 2    50   ~ 0
+OUT2
+Text Label 1100 2550 2    50   ~ 0
+OUT3
+Text Label 1100 2650 2    50   ~ 0
+OUT4
+Text Label 1700 2350 0    50   ~ 0
+OUT1
+Text Label 1700 2450 0    50   ~ 0
+OUT2
+Text Label 1700 2550 0    50   ~ 0
+OUT3
+Text Label 1700 2650 0    50   ~ 0
+OUT4
+Wire Wire Line
+	1150 2350 1100 2350
+Wire Wire Line
+	1100 2450 1150 2450
+Wire Wire Line
+	1150 2550 1100 2550
+Wire Wire Line
+	1100 2650 1150 2650
+Wire Wire Line
+	1150 2750 1100 2750
+Wire Wire Line
+	1650 2750 1700 2750
+Wire Wire Line
+	1700 2650 1650 2650
+Wire Wire Line
+	1650 2550 1700 2550
+Wire Wire Line
+	1700 2450 1650 2450
+Wire Wire Line
+	1650 2350 1700 2350
+Wire Wire Line
+	1700 2250 1650 2250
+$Comp
+L Device:C_Small C?
+U 1 1 5ED569B5
+P 4450 2250
+F 0 "C?" V 4400 2150 50  0000 C CNN
+F 1 "2.2u" V 4500 2350 50  0000 C CNN
+F 2 "SquantorRcl:C_0805" H 4450 2250 50  0001 C CNN
+F 3 "~" H 4450 2250 50  0001 C CNN
+	1    4450 2250
+	0    1    1    0   
+$EndComp
+Text Label 4650 2250 0    50   ~ 0
+VSS
+Wire Wire Line
+	4300 2250 4350 2250
+Wire Wire Line
+	4550 2250 4650 2250
+Text Label 4650 1950 0    50   ~ 0
+VSS
+Text Label 4650 2350 0    50   ~ 0
+VSS
+Wire Wire Line
+	4300 1950 4650 1950
+Wire Wire Line
+	4650 2350 4300 2350
+Text Label 4650 2450 0    50   ~ 0
+MOTOR_VDD
+Wire Wire Line
+	4300 2450 4650 2450
+$Comp
+L Device:R R?
+U 1 1 5ED5D245
+P 2950 2200
+F 0 "R?" V 2900 2050 50  0000 C CNN
+F 1 "TBD" V 2950 2200 50  0000 C CNN
+F 2 "SquantorRcl:R_1206" V 2880 2200 50  0001 C CNN
+F 3 "~" H 2950 2200 50  0001 C CNN
+	1    2950 2200
+	0    1    1    0   
+$EndComp
+Text Label 3350 2150 2    50   ~ 0
+OUT1
+Text Label 3350 2350 2    50   ~ 0
+OUT2
+Text Label 3350 2450 2    50   ~ 0
+OUT3
+Text Label 3350 2650 2    50   ~ 0
+OUT4
+$Comp
+L Device:R R?
+U 1 1 5ED5EEDE
+P 2950 2300
+F 0 "R?" V 2900 2150 50  0000 C CNN
+F 1 "TBD" V 2950 2300 50  0000 C CNN
+F 2 "SquantorRcl:R_1206" V 2880 2300 50  0001 C CNN
+F 3 "~" H 2950 2300 50  0001 C CNN
+	1    2950 2300
+	0    1    1    0   
+$EndComp
+Text Label 2700 2250 2    50   ~ 0
+VSS
+Wire Wire Line
+	2800 2200 2750 2200
+Wire Wire Line
+	2750 2200 2750 2250
+Wire Wire Line
+	2750 2300 2800 2300
+Wire Wire Line
+	3100 2200 3150 2200
+Wire Wire Line
+	3150 2200 3150 2250
+Wire Wire Line
+	3150 2300 3100 2300
+Wire Wire Line
+	3150 2250 3400 2250
+Connection ~ 3150 2250
+Wire Wire Line
+	3150 2250 3150 2300
+Wire Wire Line
+	2750 2250 2700 2250
+Connection ~ 2750 2250
+Wire Wire Line
+	2750 2250 2750 2300
+$Comp
+L Device:R R?
+U 1 1 5ED6177F
+P 2950 2500
+F 0 "R?" V 2900 2350 50  0000 C CNN
+F 1 "TBD" V 2950 2500 50  0000 C CNN
+F 2 "SquantorRcl:R_1206" V 2880 2500 50  0001 C CNN
+F 3 "~" H 2950 2500 50  0001 C CNN
+	1    2950 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED61789
+P 2950 2600
+F 0 "R?" V 2900 2450 50  0000 C CNN
+F 1 "TBD" V 2950 2600 50  0000 C CNN
+F 2 "SquantorRcl:R_1206" V 2880 2600 50  0001 C CNN
+F 3 "~" H 2950 2600 50  0001 C CNN
+	1    2950 2600
+	0    1    1    0   
+$EndComp
+Text Label 2700 2550 2    50   ~ 0
+VSS
+Wire Wire Line
+	2800 2500 2750 2500
+Wire Wire Line
+	2750 2500 2750 2550
+Wire Wire Line
+	2750 2600 2800 2600
+Wire Wire Line
+	3100 2500 3150 2500
+Wire Wire Line
+	3150 2500 3150 2550
+Wire Wire Line
+	3150 2600 3100 2600
+Wire Wire Line
+	3150 2550 3400 2550
+Connection ~ 3150 2550
+Wire Wire Line
+	3150 2550 3150 2600
+Wire Wire Line
+	2750 2550 2700 2550
+Connection ~ 2750 2550
+Wire Wire Line
+	2750 2550 2750 2600
+Wire Wire Line
+	3400 2150 3350 2150
+Wire Wire Line
+	3350 2350 3400 2350
+Wire Wire Line
+	3400 2450 3350 2450
+Wire Wire Line
+	3350 2650 3400 2650
 $EndSCHEMATC
