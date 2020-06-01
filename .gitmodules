@@ -13,3 +13,6 @@
 [submodule "software/squantorLibEmbeddedC"]
 	path = software/squantorLibEmbeddedC
 	url = https://github.com/Squantor/squantorLibEmbeddedC.git
+[submodule "hardware/MX_Alps_Hybrid"]
+	path = hardware/MX_Alps_Hybrid
+	url = https://github.com/Squantor/MX_Alps_Hybrid.git
