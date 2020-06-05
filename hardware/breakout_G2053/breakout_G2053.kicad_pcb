@@ -596,7 +596,7 @@
   )
 
   (module SquantorLabels:Label_Generic (layer B.Cu) (tedit 5D8A7D4C) (tstamp 5B96DD88)
-    (at 167.6 100.1 180)
+    (at 177.5 121.7 180)
     (descr "Label for general purpose use")
     (tags Label)
     (path /5A1357A5)
@@ -767,7 +767,7 @@
   )
 
   (module Symbols:OSHW-Symbol_6.7x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5A135134)
-    (at 167 96.2 180)
+    (at 176.9 117.8 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (path /5A135869)
