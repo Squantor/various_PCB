@@ -50,8 +50,8 @@ $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J1
 U 1 1 5ED5359D
 P 1350 2450
-F 0 "J1" H 1400 2867 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 1400 2776 50  0000 C CNN
+F 0 "J1" H 1350 2750 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 1350 2050 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 1350 2450 50  0001 C CNN
 F 3 "~" H 1350 2450 50  0001 C CNN
 	1    1350 2450
@@ -67,22 +67,6 @@ Text Label 1100 2750 2    50   ~ 0
 VSS
 Text Label 1700 2750 0    50   ~ 0
 VSS
-Text Label 1100 2350 2    50   ~ 0
-OUT1
-Text Label 1100 2450 2    50   ~ 0
-OUT2
-Text Label 1100 2550 2    50   ~ 0
-OUT3
-Text Label 1100 2650 2    50   ~ 0
-OUT4
-Text Label 1700 2350 0    50   ~ 0
-OUT1
-Text Label 1700 2450 0    50   ~ 0
-OUT2
-Text Label 1700 2550 0    50   ~ 0
-OUT3
-Text Label 1700 2650 0    50   ~ 0
-OUT4
 Wire Wire Line
 	1150 2350 1100 2350
 Wire Wire Line
@@ -362,4 +346,78 @@ Wire Wire Line
 	1300 1550 1350 1550
 Wire Wire Line
 	1550 1550 1600 1550
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 5EE01BD6
+P 1400 3500
+F 0 "J2" H 1400 3900 50  0000 C CNN
+F 1 "Conn_01x08" H 1400 3000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1400 3500 50  0001 C CNN
+F 3 "~" H 1400 3500 50  0001 C CNN
+	1    1400 3500
+	-1   0    0    -1  
+$EndComp
+Text Label 1650 3200 0    50   ~ 0
+VDD
+Text Label 1650 3900 0    50   ~ 0
+VSS
+Text Label 1650 3800 0    50   ~ 0
+nFAULT
+Text Label 1650 3700 0    50   ~ 0
+BIN1
+Text Label 1650 3600 0    50   ~ 0
+BIN2
+Text Label 1650 3500 0    50   ~ 0
+AIN2
+Text Label 1650 3400 0    50   ~ 0
+AIN1
+Text Label 1650 3300 0    50   ~ 0
+nSLEEP
+Wire Wire Line
+	1600 3200 1650 3200
+Wire Wire Line
+	1650 3300 1600 3300
+Wire Wire Line
+	1600 3400 1650 3400
+Wire Wire Line
+	1650 3500 1600 3500
+Wire Wire Line
+	1600 3600 1650 3600
+Wire Wire Line
+	1650 3700 1600 3700
+Wire Wire Line
+	1600 3800 1650 3800
+Wire Wire Line
+	1650 3900 1600 3900
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EE18E15
+P 1400 3050
+F 0 "#FLG0101" H 1400 3125 50  0001 C CNN
+F 1 "PWR_FLAG" V 1400 3177 50  0000 L CNN
+F 2 "" H 1400 3050 50  0001 C CNN
+F 3 "~" H 1400 3050 50  0001 C CNN
+	1    1400 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 1450 3050 0    50   ~ 0
+VDD
+Wire Wire Line
+	1400 3050 1450 3050
+Text Label 1700 2350 0    50   ~ 0
+AOUT1
+Text Label 1700 2450 0    50   ~ 0
+AOUT2
+Text Label 1700 2550 0    50   ~ 0
+BOUT2
+Text Label 1700 2650 0    50   ~ 0
+BOUT1
+Text Label 1100 2350 2    50   ~ 0
+AOUT1
+Text Label 1100 2450 2    50   ~ 0
+AOUT2
+Text Label 1100 2550 2    50   ~ 0
+BOUT2
+Text Label 1100 2650 2    50   ~ 0
+BOUT1
 $EndSCHEMATC
