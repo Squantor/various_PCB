@@ -420,4 +420,69 @@ Text Label 1100 2550 2    50   ~ 0
 BOUT2
 Text Label 1100 2650 2    50   ~ 0
 BOUT1
+$Comp
+L Device:R R?
+U 1 1 5EE24C63
+P 3150 3000
+F 0 "R?" V 3100 2850 50  0000 C CNN
+F 1 "2.2K" V 3150 3000 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 3080 3000 50  0001 C CNN
+F 3 "~" H 3150 3000 50  0001 C CNN
+	1    3150 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EE258E7
+P 3500 3000
+F 0 "D?" H 3400 3050 50  0000 C CNN
+F 1 "RED" H 3650 2950 50  0000 C CNN
+F 2 "SquantorDiodes:LED_0603_hand" H 3500 3000 50  0001 C CNN
+F 3 "~" H 3500 3000 50  0001 C CNN
+	1    3500 3000
+	1    0    0    -1  
+$EndComp
+Text Label 3700 3000 0    50   ~ 0
+VDD
+Wire Wire Line
+	2950 2850 2950 3000
+Wire Wire Line
+	2950 3000 3000 3000
+Connection ~ 2950 2850
+Wire Wire Line
+	3300 3000 3350 3000
+Wire Wire Line
+	3650 3000 3700 3000
+$Comp
+L Device:R R?
+U 1 1 5EE2D78F
+P 1150 1250
+F 0 "R?" V 1100 1100 50  0000 C CNN
+F 1 "2.2K" V 1150 1250 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 1080 1250 50  0001 C CNN
+F 3 "~" H 1150 1250 50  0001 C CNN
+	1    1150 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EE2E712
+P 1500 1250
+F 0 "D?" H 1400 1300 50  0000 C CNN
+F 1 "ORN" H 1650 1200 50  0000 C CNN
+F 2 "SquantorDiodes:LED_0603_hand" H 1500 1250 50  0001 C CNN
+F 3 "~" H 1500 1250 50  0001 C CNN
+	1    1500 1250
+	1    0    0    -1  
+$EndComp
+Text Label 1700 1250 0    50   ~ 0
+MOTOR_VDD
+Text Label 950  1250 2    50   ~ 0
+VSS
+Wire Wire Line
+	1650 1250 1700 1250
+Wire Wire Line
+	1350 1250 1300 1250
+Wire Wire Line
+	1000 1250 950  1250
 $EndSCHEMATC
