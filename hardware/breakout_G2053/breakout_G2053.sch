@@ -59,13 +59,13 @@ F 3 "~" H 1350 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 2250 1100 2250
-Text Label 1100 2250 2    50   ~ 0
-MOTOR_VDD
-Text Label 1700 2250 0    50   ~ 0
-MOTOR_VDD
 Text Label 1100 2750 2    50   ~ 0
-VSS
+MOTOR_VDD
 Text Label 1700 2750 0    50   ~ 0
+MOTOR_VDD
+Text Label 1100 2250 2    50   ~ 0
+VSS
+Text Label 1700 2250 0    50   ~ 0
 VSS
 Wire Wire Line
 	1150 2350 1100 2350
