@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -49,7 +49,7 @@ U 1 1 5C92C64E
 P 2900 3100
 F 0 "R1" H 2959 3146 50  0000 L CNN
 F 1 "0" H 2959 3055 50  0000 L CNN
-F 2 "SquantorRcl:R_0402_hand" H 2900 3100 50  0001 C CNN
+F 2 "SquantorRcl:R_0603_hand" H 2900 3100 50  0001 C CNN
 F 3 "~" H 2900 3100 50  0001 C CNN
 	1    2900 3100
 	1    0    0    -1  
@@ -172,17 +172,13 @@ $Comp
 L SquantorMicrochip:MCP1702-CB U1
 U 1 1 5C9A30EE
 P 2400 1100
-F 0 "U1" H 2400 1487 60  0000 C CNN
-F 1 "MCP1702-CB" H 2400 1381 60  0000 C CNN
+F 0 "U1" H 2400 1350 60  0000 C CNN
+F 1 "MCP1702-CB" H 2400 850 60  0000 C CNN
 F 2 "SquantorIC:SOT23-3-Microchip-TT" H 2400 1100 60  0001 C CNN
 F 3 "" H 2400 1100 60  0001 C CNN
 	1    2400 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 1350 5500 1350
-Wire Wire Line
-	6000 1350 5950 1350
 Wire Wire Line
 	2900 3250 2750 3250
 Wire Wire Line
@@ -197,30 +193,6 @@ Wire Wire Line
 Connection ~ 2750 3250
 Wire Wire Line
 	2750 3250 2350 3250
-Text Label 3550 900  2    50   ~ 0
-USB_DM
-Text Label 3550 1000 2    50   ~ 0
-USB_DP
-Text Label 4450 900  0    50   ~ 0
-RXI
-Text Label 4450 1000 0    50   ~ 0
-TXO
-Text Label 4450 1100 0    50   ~ 0
-CTSI
-Text Label 4450 1200 0    50   ~ 0
-RTSO
-Wire Wire Line
-	3550 900  3600 900 
-Wire Wire Line
-	3600 1000 3550 1000
-Wire Wire Line
-	4400 900  4450 900 
-Wire Wire Line
-	4450 1000 4400 1000
-Wire Wire Line
-	4400 1100 4450 1100
-Wire Wire Line
-	4450 1200 4400 1200
 Text Label 2750 2650 0    50   ~ 0
 VBUS
 Text Label 2350 3350 3    50   ~ 0
@@ -235,26 +207,8 @@ Text Label 2900 2200 3    50   ~ 0
 VSS
 Text Label 3800 3300 2    50   ~ 0
 VSS
-Text Label 3550 1400 2    50   ~ 0
-VDD
-Text Label 3550 1500 2    50   ~ 0
-VSS
-Wire Wire Line
-	3550 1400 3600 1400
-Wire Wire Line
-	3600 1500 3550 1500
-Text Label 5500 1350 2    50   ~ 0
-VDDCONN
-Text Label 6000 1350 0    50   ~ 0
-VDD
-Text Label 3550 1200 2    50   ~ 0
-VDD_33V
-Wire Wire Line
-	3600 1200 3550 1200
 Text Label 2700 1100 0    50   ~ 0
 VDD
-Text Label 2100 1200 2    50   ~ 0
-VDDCONN
 Text Label 2100 1000 2    50   ~ 0
 VSS
 Wire Wire Line
@@ -266,24 +220,20 @@ Wire Wire Line
 $Comp
 L Device:C_Small C4
 U 1 1 5CA0EAEE
-P 2400 1450
-F 0 "C4" V 2300 1550 50  0000 C CNN
-F 1 "1u" V 2300 1300 50  0000 C CNN
-F 2 "SquantorRcl:C_0603" H 2400 1450 50  0001 C CNN
-F 3 "~" H 2400 1450 50  0001 C CNN
-	1    2400 1450
+P 2400 1500
+F 0 "C4" V 2350 1400 50  0000 C CNN
+F 1 "1u" V 2450 1600 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 2400 1500 50  0001 C CNN
+F 3 "~" H 2400 1500 50  0001 C CNN
+	1    2400 1500
 	0    1    1    0   
 $EndComp
-Text Label 2250 1450 2    50   ~ 0
+Text Label 2250 1500 2    50   ~ 0
 VSS
-Text Label 2550 1450 0    50   ~ 0
-VDDCONN
 Wire Wire Line
-	2250 1450 2300 1450
+	2250 1500 2300 1500
 Wire Wire Line
-	2550 1450 2500 1450
-Text Label 3800 3100 2    50   ~ 0
-VDDCONN
+	2550 1500 2500 1500
 Wire Wire Line
 	3800 3100 3850 3100
 Wire Wire Line
@@ -302,24 +252,24 @@ $EndComp
 Wire Wire Line
 	2950 1900 2900 1900
 $Comp
-L Device:R_Small R6
+L Device:R R6
 U 1 1 5CA52544
-P 3900 2050
-F 0 "R6" V 3850 2200 50  0000 C CNN
-F 1 "1K" V 3950 1900 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" H 3900 2050 50  0001 C CNN
-F 3 "~" H 3900 2050 50  0001 C CNN
-	1    3900 2050
+P 3850 2050
+F 0 "R6" V 3800 1900 50  0000 C CNN
+F 1 "1K" V 3900 2200 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" H 3850 2050 50  0001 C CNN
+F 3 "~" H 3850 2050 50  0001 C CNN
+	1    3850 2050
 	0    1    1    0   
 $EndComp
-Text Label 3750 2050 2    50   ~ 0
+Text Label 3650 2050 2    50   ~ 0
 VDD
 $Comp
 L Device:LED D1
 U 1 1 5CA5351F
 P 4200 2050
-F 0 "D1" H 4050 2150 50  0000 C CNN
-F 1 "RED" H 4300 2150 50  0000 C CNN
+F 0 "D1" H 4300 2000 50  0000 C CNN
+F 1 "GRN" H 4050 2100 50  0000 C CNN
 F 2 "SquantorDiodes:D_0603_hand" H 4200 2050 50  0001 C CNN
 F 3 "~" H 4200 2050 50  0001 C CNN
 	1    4200 2050
@@ -327,10 +277,6 @@ F 3 "~" H 4200 2050 50  0001 C CNN
 $EndComp
 Text Label 4400 2050 0    50   ~ 0
 VSS
-Wire Wire Line
-	3750 2050 3800 2050
-Wire Wire Line
-	4000 2050 4050 2050
 Wire Wire Line
 	4350 2050 4400 2050
 $Comp
@@ -347,33 +293,22 @@ $EndComp
 Wire Wire Line
 	2650 1900 2600 1900
 $Comp
-L CH340E_breakout-rescue:SolderJumper_2way_1conn-SquantorSpecial SJ2
-U 1 1 5C9E2540
-P 5750 1350
-F 0 "SJ2" H 5750 1575 50  0000 C CNN
-F 1 "vddconn=vdd" H 5750 1484 50  0000 C CNN
-F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5750 1350 50  0001 C CNN
-F 3 "" H 5750 1350 50  0001 C CNN
-	1    5750 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R2
+L Device:R R2
 U 1 1 5CA5FAB5
-P 3900 1800
-F 0 "R2" V 3850 1950 50  0000 C CNN
-F 1 "1K" V 3950 1650 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" H 3900 1800 50  0001 C CNN
-F 3 "~" H 3900 1800 50  0001 C CNN
-	1    3900 1800
+P 3850 1800
+F 0 "R2" V 3800 1650 50  0000 C CNN
+F 1 "1K" V 3900 1950 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" H 3850 1800 50  0001 C CNN
+F 3 "~" H 3850 1800 50  0001 C CNN
+	1    3850 1800
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED D2
 U 1 1 5CA5FABC
 P 4200 1800
-F 0 "D2" H 4050 1900 50  0000 C CNN
-F 1 "RED" H 4300 1900 50  0000 C CNN
+F 0 "D2" H 4300 1750 50  0000 C CNN
+F 1 "RED" H 4050 1850 50  0000 C CNN
 F 2 "SquantorDiodes:D_0603_hand" H 4200 1800 50  0001 C CNN
 F 3 "~" H 4200 1800 50  0001 C CNN
 	1    4200 1800
@@ -382,31 +317,96 @@ $EndComp
 Text Label 4400 1800 0    50   ~ 0
 VSS
 Wire Wire Line
-	3750 1800 3800 1800
-Wire Wire Line
-	4000 1800 4050 1800
-Wire Wire Line
 	4350 1800 4400 1800
-Text Label 4450 1300 0    50   ~ 0
+Text Label 3650 1800 2    50   ~ 0
 ACT
-$Sheet
-S 3600 800  800  800 
-U 5C9B7479
-F0 "CH340E 10MSOP application" 50
-F1 "CH340E_application.sch" 50
-F2 "VSS" I L 3600 1500 50 
-F3 "VDD" I L 3600 1400 50 
-F4 "V33O" O L 3600 1200 50 
-F5 "USB_DM" B L 3600 900 50 
-F6 "USB_DP" B L 3600 1000 50 
-F7 "RXDI" I R 4400 900 50 
-F8 "RTSO" O R 4400 1200 50 
-F9 "TXO" O R 4400 1000 50 
-F10 "CTSI" I R 4400 1100 50 
-F11 "ACT" O R 4400 1300 50 
-$EndSheet
+$Comp
+L Device:C_Small C?
+U 1 1 5EDDAB73
+P 6700 2100
+AR Path="/5EDDAB73" Ref="C?"  Part="1" 
+AR Path="/5C9B7479/5EDDAB73" Ref="C?"  Part="1" 
+F 0 "C?" V 6650 2000 50  0000 C CNN
+F 1 "1u" V 6750 2200 50  0000 C CNN
+F 2 "SquantorRcl:C_0603" H 6700 2100 50  0001 C CNN
+F 3 "~" H 6700 2100 50  0001 C CNN
+	1    6700 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L SquantorWCH:CH340E U?
+U 1 1 5EDDAB79
+P 6150 2300
+F 0 "U?" H 6150 2650 50  0000 C CNN
+F 1 "CH340E" H 6150 1950 50  0000 C CNN
+F 2 "SquantorIC:MSOP-10" H 6150 2200 50  0001 C CNN
+F 3 "" H 6150 2200 50  0001 C CNN
+	1    6150 2300
+	1    0    0    -1  
+$EndComp
+Text Label 5750 2100 2    50   ~ 0
+USB_DP
+Text Label 5750 2200 2    50   ~ 0
+USB_DM
+Text Label 5750 2500 2    50   ~ 0
+CTSI
+Text Label 6550 2300 0    50   ~ 0
+TXO
+Text Label 6550 2200 0    50   ~ 0
+RXI
+Text Label 5750 2300 2    50   ~ 0
+VSS
+Text Label 6850 2100 0    50   ~ 0
+VSS
 Wire Wire Line
-	4450 1300 4400 1300
-Text Label 3750 1800 2    50   ~ 0
+	6500 2100 6550 2100
+Wire Wire Line
+	6800 2100 6850 2100
+Wire Wire Line
+	5800 2300 5750 2300
+Text Label 6700 1950 0    50   ~ 0
+V3
+Wire Wire Line
+	6550 2100 6550 1950
+Wire Wire Line
+	6550 1950 6700 1950
+Connection ~ 6550 2100
+Wire Wire Line
+	6550 2100 6600 2100
+Text Label 5750 2400 2    50   ~ 0
+RTSO
+Text Label 6550 2500 0    50   ~ 0
 ACT
+Wire Wire Line
+	5750 2100 5800 2100
+Wire Wire Line
+	5800 2200 5750 2200
+Wire Wire Line
+	5750 2400 5800 2400
+Wire Wire Line
+	5800 2500 5750 2500
+Wire Wire Line
+	6500 2300 6550 2300
+Wire Wire Line
+	6550 2200 6500 2200
+Wire Wire Line
+	6500 2500 6550 2500
+Text Label 3800 3100 2    50   ~ 0
+VDD
+Text Label 6550 2400 0    50   ~ 0
+V3
+Wire Wire Line
+	6500 2400 6550 2400
+Text Label 2100 1200 2    50   ~ 0
+V3
+Text Label 2550 1500 0    50   ~ 0
+V3
+Wire Wire Line
+	3650 1800 3700 1800
+Wire Wire Line
+	3700 2050 3650 2050
+Wire Wire Line
+	4050 2050 4000 2050
+Wire Wire Line
+	4050 1800 4000 1800
 $EndSCHEMATC

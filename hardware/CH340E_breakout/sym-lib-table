@@ -28,4 +28,5 @@
   (lib (name SquantorHoltek)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorHoltek.lib)(options "")(descr ""))
   (lib (name SquantorWCH)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorWCH.lib)(options "")(descr ""))
   (lib (name CH340E_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/CH340E_breakout-rescue.lib)(options "")(descr ""))
+  (lib (name SquantorConnectorsNamed)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectorsNamed.lib)(options "")(descr ""))
 )
