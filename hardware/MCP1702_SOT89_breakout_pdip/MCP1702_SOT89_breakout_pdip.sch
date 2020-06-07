@@ -18,8 +18,8 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20190202" H 850 7700 60  0000 C CNN
-F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
+F 1 "V20190202" H 850 7700 60  0000 C CNN
+F 2 "SquantorLabels:Label_Generic" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5A135869
 P 850 7350
 F 0 "N1" H 850 7500 60  0000 C CNN
 F 1 "OHWLOGO" H 850 7200 60  0000 C CNN
-F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 850 7350 60  0001 C CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 850 7350 60  0001 C CNN
 F 3 "" H 850 7350 60  0001 C CNN
 	1    850  7350
 	1    0    0    -1  
@@ -90,7 +90,7 @@ U 1 1 5BE4B042
 P 1100 900
 F 0 "J1" H 1050 1100 50  0000 L CNN
 F 1 "Conn_01x04" H 850 600 50  0000 L CNN
-F 2 "SquantorConnectors:Header-0254-1X04-H010" H 1100 900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1100 900 50  0001 C CNN
 F 3 "~" H 1100 900 50  0001 C CNN
 	1    1100 900 
 	1    0    0    -1  
@@ -101,7 +101,7 @@ U 1 1 5BE4B50D
 P 1600 900
 F 0 "J4" H 1600 600 50  0000 C CNN
 F 1 "Conn_01x04" H 1600 1100 50  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-1X04-H010" H 1600 900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1600 900 50  0001 C CNN
 F 3 "~" H 1600 900 50  0001 C CNN
 	1    1600 900 
 	-1   0    0    1   
