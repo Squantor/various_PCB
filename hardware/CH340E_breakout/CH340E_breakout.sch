@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:CH340E_breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -159,7 +158,7 @@ RXI
 Text Label 3800 2800 2    50   ~ 0
 RTSO
 $Comp
-L SquantorConnectors:FTDI_PINS_1X06_input J2
+L CH340E_breakout-rescue:FTDI_PINS_1X06_input-SquantorConnectors J2
 U 1 1 5C99F5E1
 P 4100 3050
 F 0 "J2" H 3922 2997 60  0000 R CNN
@@ -348,7 +347,7 @@ $EndComp
 Wire Wire Line
 	2650 1900 2600 1900
 $Comp
-L SquantorSpecial:SolderJumper_2way_1conn SJ2
+L CH340E_breakout-rescue:SolderJumper_2way_1conn-SquantorSpecial SJ2
 U 1 1 5C9E2540
 P 5750 1350
 F 0 "SJ2" H 5750 1575 50  0000 C CNN
