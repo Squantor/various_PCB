@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20200607" H 850 7700 60  0000 C CNN
+F 1 "20200608" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_Generic" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -96,7 +96,7 @@ U 1 1 5C931872
 P 1000 1000
 F 0 "C2" H 850 900 50  0000 L CNN
 F 1 "100n" H 1050 900 50  0000 L CNN
-F 2 "SquantorRcl:C_0402" H 1000 1000 50  0001 C CNN
+F 2 "SquantorRcl:C_0603" H 1000 1000 50  0001 C CNN
 F 3 "~" H 1000 1000 50  0001 C CNN
 	1    1000 1000
 	1    0    0    -1  
@@ -142,40 +142,40 @@ Connection ~ 1550 850
 Wire Wire Line
 	1550 1100 1550 1150
 Wire Wire Line
-	3050 4050 3100 4050
+	900  3750 950  3750
 Wire Wire Line
-	3050 3850 3100 3850
+	900  3550 950  3550
 Wire Wire Line
-	3050 3750 3100 3750
+	900  3450 950  3450
 Wire Wire Line
-	3050 3650 3100 3650
-Text Label 3050 4050 2    50   ~ 0
+	900  3350 950  3350
+Text Label 900  3750 2    50   ~ 0
 CTSI
-Text Label 3050 3850 2    50   ~ 0
+Text Label 900  3550 2    50   ~ 0
 TXO
-Text Label 3050 3750 2    50   ~ 0
+Text Label 900  3450 2    50   ~ 0
 RXI
-Text Label 3050 3650 2    50   ~ 0
+Text Label 900  3350 2    50   ~ 0
 RTSO
 $Comp
 L SquantorConnectorsNamed:FTDI_PINS_1X06_input J2
 U 1 1 5C99F5E1
-P 3350 3900
-F 0 "J2" H 3400 3500 60  0000 R CNN
-F 1 "FTDI_PINS_1X06_input" H 3850 4300 60  0000 R CNN
-F 2 "SquantorConnectorsNamed:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical_FTDI_UART" H 3400 4150 60  0001 C CNN
-F 3 "" H 3400 4150 60  0001 C CNN
-	1    3350 3900
+P 1200 3600
+F 0 "J2" H 1250 3200 60  0000 R CNN
+F 1 "FTDI_PINS_1X06_input" H 1700 4000 60  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1250 3850 60  0001 C CNN
+F 3 "" H 1250 3850 60  0001 C CNN
+	1    1200 3600
 	-1   0    0    1   
 $EndComp
 $Comp
 L SquantorMicrochip:MCP1702-CB U1
 U 1 1 5C9A30EE
 P 2800 900
-F 0 "U1" H 2800 1150 60  0000 C CNN
-F 1 "MCP1702-CB" H 2800 650 60  0000 C CNN
-F 2 "SquantorIC:SOT23-3-Microchip-TT" H 2800 900 60  0001 C CNN
-F 3 "" H 2800 900 60  0001 C CNN
+F 0 "U1" H 2800 1150 50  0000 C CNN
+F 1 "MCP1702-CB" H 2800 650 50  0000 C CNN
+F 2 "SquantorIC:SOT23-3-Microchip-TT" H 2800 900 50  0001 C CNN
+F 3 "" H 2800 900 50  0001 C CNN
 	1    2800 900 
 	1    0    0    -1  
 $EndComp
@@ -198,7 +198,7 @@ Text Label 1000 1150 3    50   ~ 0
 VSS
 Text Label 1550 1150 3    50   ~ 0
 VSS
-Text Label 3050 4150 2    50   ~ 0
+Text Label 900  3850 2    50   ~ 0
 VSS
 Text Label 3100 900  0    50   ~ 0
 VDD
@@ -210,27 +210,10 @@ Wire Wire Line
 	2500 1000 2550 1000
 Wire Wire Line
 	3050 900  3100 900 
-$Comp
-L Device:C_Small C4
-U 1 1 5CA0EAEE
-P 2800 1350
-F 0 "C4" V 2750 1250 50  0000 C CNN
-F 1 "1u" V 2850 1450 50  0000 C CNN
-F 2 "SquantorRcl:C_0603" H 2800 1350 50  0001 C CNN
-F 3 "~" H 2800 1350 50  0001 C CNN
-	1    2800 1350
-	0    1    1    0   
-$EndComp
-Text Label 2650 1350 2    50   ~ 0
-VSS
 Wire Wire Line
-	2650 1350 2700 1350
+	900  3650 950  3650
 Wire Wire Line
-	2950 1350 2900 1350
-Wire Wire Line
-	3050 3950 3100 3950
-Wire Wire Line
-	3050 4150 3100 4150
+	900  3850 950  3850
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CA4026D
@@ -277,7 +260,7 @@ L Device:R_Small R7
 U 1 1 5C9C65BC
 P 1150 850
 F 0 "R7" V 1100 750 50  0000 C CNN
-F 1 "Fuse" V 1150 850 50  0000 C CNN
+F 1 "Fuse" V 1250 850 50  0000 C CNN
 F 2 "SquantorRcl:R_0603_hand" H 1150 850 50  0001 C CNN
 F 3 "~" H 1150 850 50  0001 C CNN
 	1    1150 850 
@@ -375,15 +358,13 @@ Wire Wire Line
 	3400 2050 3350 2050
 Wire Wire Line
 	3350 2350 3400 2350
-Text Label 3050 3950 2    50   ~ 0
+Text Label 900  3650 2    50   ~ 0
 VDD
 Text Label 3400 2250 0    50   ~ 0
 V3
 Wire Wire Line
 	3350 2250 3400 2250
 Text Label 2500 1000 2    50   ~ 0
-V3
-Text Label 2950 1350 0    50   ~ 0
 V3
 Wire Wire Line
 	850  2500 900  2500
@@ -462,4 +443,18 @@ Wire Notes Line
 	2250 2500 2950 2500
 Wire Notes Line
 	2950 2500 2950 2750
+Text Notes 750  4200 0    50   ~ 0
+FTDI style output
+Wire Notes Line
+	650  3100 1700 3100
+Wire Notes Line
+	1700 3100 1700 4250
+Wire Notes Line
+	1700 4250 650  4250
+Wire Notes Line
+	650  4250 650  3100
+Wire Notes Line
+	650  4100 1450 4100
+Wire Notes Line
+	1450 4100 1450 4250
 $EndSCHEMATC
