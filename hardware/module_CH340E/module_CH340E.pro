@@ -1,4 +1,4 @@
-update=di 09 jun 2020 21:30:30 CEST
+update=di 09 jun 2020 21:55:46 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -78,7 +78,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.09999999999999999
 SolderMaskMinWidth=0.05
 SolderPasteClearance=0
-SolderPasteRatio=-0.15
+SolderPasteRatio=-0.1
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
