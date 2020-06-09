@@ -1,6 +1,5 @@
 (fp_lib_table
   (lib (name SquantorAtmel)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorAtmel.pretty)(options "")(descr ""))
-  (lib (name SquantorButtons)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorButtons.pretty)(options "")(descr ""))
   (lib (name SquantorConnectors)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectors.pretty)(options "")(descr ""))
   (lib (name SquantorCrystal)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorCrystal.pretty)(options "")(descr ""))
   (lib (name SquantorDiodes)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorDiodes.pretty)(options "")(descr ""))
@@ -9,7 +8,6 @@
   (lib (name SquantorLinearTechnology)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorLinearTechnology.pretty)(options "")(descr ""))
   (lib (name SquantorMicrochip)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorMicrochip.pretty)(options "")(descr ""))
   (lib (name SquantorModules)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorModules.pretty)(options "")(descr ""))
-  (lib (name SquantorNxp)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorNxp.pretty)(options "")(descr ""))
   (lib (name SquantorOHW_logo)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorOHW_logo.pretty)(options "")(descr ""))
   (lib (name SquantorOnSemi)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorOnSemi.pretty)(options "")(descr ""))
   (lib (name SquantorOpto)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorOpto.pretty)(options "")(descr ""))
