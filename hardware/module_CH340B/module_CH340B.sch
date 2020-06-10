@@ -215,10 +215,10 @@ Wire Notes Line
 Wire Notes Line
 	1250 2400 1250 2550
 $Comp
-L SquantorWCH:CH340B U?
+L SquantorWCH:CH340B U2
 U 1 1 5EE21C28
 P 1350 4000
-F 0 "U?" H 1350 4500 50  0000 C CNN
+F 0 "U2" H 1350 4500 50  0000 C CNN
 F 1 "CH340B" H 1350 3500 50  0000 C CNN
 F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 1350 4000 50  0001 C CNN
 F 3 "" H 1350 4000 50  0001 C CNN
@@ -232,10 +232,10 @@ VDD3.3
 Text Label 950  3950 2    50   ~ 0
 VDD3.3
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 5EE25876
 P 1350 3350
-F 0 "C?" V 1300 3400 50  0000 L CNN
+F 0 "C4" V 1300 3400 50  0000 L CNN
 F 1 "1u" V 1400 3200 50  0000 L CNN
 F 2 "SquantorRcl:C_0603" H 1388 3200 50  0001 C CNN
 F 3 "~" H 1350 3350 50  0001 C CNN
@@ -257,10 +257,10 @@ Wire Wire Line
 Wire Wire Line
 	1700 3650 1750 3650
 $Comp
-L SquantorGenericAnalog:regulator_sot23 U?
+L SquantorGenericAnalog:regulator_sot23 U1
 U 1 1 5EE2E2C4
 P 1350 2950
-F 0 "U?" H 1350 3200 50  0000 C CNN
+F 0 "U1" H 1350 3200 50  0000 C CNN
 F 1 "HX6206P332MR" H 1350 2700 50  0000 C CNN
 F 2 "SquantorIC:SOT23-3" H 1350 2950 50  0001 C CNN
 F 3 "" H 1350 2950 50  0001 C CNN
@@ -273,7 +273,7 @@ Text Label 1050 3050 2    50   ~ 0
 VDD3.3
 Text Label 1650 2950 0    50   ~ 0
 VDD
-Text Notes 700  4650 0    50   ~ 0
+Text Notes 650  4900 0    50   ~ 0
 USB to UART converter
 Wire Wire Line
 	1050 2850 1100 2850
