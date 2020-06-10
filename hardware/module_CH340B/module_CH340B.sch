@@ -128,4 +128,90 @@ Wire Notes Line
 	600  1400 1350 1400
 Wire Notes Line
 	1350 1400 1350 1550
+$Comp
+L Device:C C?
+U 1 1 5EE197E8
+P 950 2000
+F 0 "C?" H 800 2100 50  0000 L CNN
+F 1 "1u" H 950 1900 50  0000 L CNN
+F 2 "SquantorRcl:C_0603" H 988 1850 50  0001 C CNN
+F 3 "~" H 950 2000 50  0001 C CNN
+	1    950  2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5EE19F35
+P 1150 1800
+F 0 "F?" V 1100 1650 50  0000 C CNN
+F 1 "500mA" V 1250 1800 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 1080 1800 50  0001 C CNN
+F 3 "~" H 1150 1800 50  0001 C CNN
+	1    1150 1800
+	0    1    1    0   
+$EndComp
+Text Label 950  2200 3    50   ~ 0
+VSS
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5EE1ABAE
+P 1450 1800
+F 0 "FB?" V 1400 1700 50  0000 C CNN
+F 1 "470" V 1400 1950 50  0000 C CNN
+F 2 "SquantorRcl:L_0603" V 1380 1800 50  0001 C CNN
+F 3 "~" H 1450 1800 50  0001 C CNN
+	1    1450 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE1B7FD
+P 1600 2000
+F 0 "C?" H 1450 2100 50  0000 L CNN
+F 1 "1u" H 1600 1900 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 1638 1850 50  0001 C CNN
+F 3 "~" H 1600 2000 50  0001 C CNN
+	1    1600 2000
+	1    0    0    -1  
+$EndComp
+Text Label 1600 2200 3    50   ~ 0
+VSS
+Text Label 900  1800 2    50   ~ 0
+VBUS
+Wire Wire Line
+	900  1800 950  1800
+Wire Wire Line
+	1300 1800 1350 1800
+Text Label 1700 1800 0    50   ~ 0
+VDD
+Wire Wire Line
+	1550 1800 1600 1800
+Wire Wire Line
+	1600 1850 1600 1800
+Connection ~ 1600 1800
+Wire Wire Line
+	1600 1800 1700 1800
+Wire Wire Line
+	950  2150 950  2200
+Wire Wire Line
+	1600 2200 1600 2150
+Wire Wire Line
+	950  1850 950  1800
+Connection ~ 950  1800
+Wire Wire Line
+	950  1800 1000 1800
+Text Notes 700  2500 0    50   ~ 0
+Input filtering
+Wire Notes Line
+	600  1650 1950 1650
+Wire Notes Line
+	1950 1650 1950 2550
+Wire Notes Line
+	1950 2550 600  2550
+Wire Notes Line
+	600  2550 600  1650
+Wire Notes Line
+	600  2400 1250 2400
+Wire Notes Line
+	1250 2400 1250 2550
 $EndSCHEMATC
