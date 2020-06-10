@@ -217,43 +217,116 @@ Wire Notes Line
 $Comp
 L SquantorWCH:CH340B U?
 U 1 1 5EE21C28
-P 3300 1800
-F 0 "U?" H 3300 2300 50  0000 C CNN
-F 1 "CH340B" H 3300 1300 50  0000 C CNN
-F 2 "" H 3300 1800 50  0001 C CNN
-F 3 "" H 3300 1800 50  0001 C CNN
-	1    3300 1800
+P 1350 4000
+F 0 "U?" H 1350 4500 50  0000 C CNN
+F 1 "CH340B" H 1350 3500 50  0000 C CNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 1350 4000 50  0001 C CNN
+F 3 "" H 1350 4000 50  0001 C CNN
+	1    1350 4000
 	1    0    0    -1  
 $EndComp
-Text Label 2900 1450 2    50   ~ 0
+Text Label 950  3650 2    50   ~ 0
 VSS
-Text Label 3700 1450 0    50   ~ 0
+Text Label 1750 3650 0    50   ~ 0
 VDD3.3
-Text Label 2900 1750 2    50   ~ 0
+Text Label 950  3950 2    50   ~ 0
 VDD3.3
 $Comp
 L Device:C C?
 U 1 1 5EE25876
-P 3300 1150
-F 0 "C?" V 3250 1200 50  0000 L CNN
-F 1 "1u" V 3350 1000 50  0000 L CNN
-F 2 "SquantorRcl:C_0603" H 3338 1000 50  0001 C CNN
-F 3 "~" H 3300 1150 50  0001 C CNN
-	1    3300 1150
+P 1350 3350
+F 0 "C?" V 1300 3400 50  0000 L CNN
+F 1 "1u" V 1400 3200 50  0000 L CNN
+F 2 "SquantorRcl:C_0603" H 1388 3200 50  0001 C CNN
+F 3 "~" H 1350 3350 50  0001 C CNN
+	1    1350 3350
 	0    1    1    0   
 $EndComp
-Text Label 3100 1150 2    50   ~ 0
+Text Label 1150 3350 2    50   ~ 0
 VSS
-Text Label 3500 1150 0    50   ~ 0
+Text Label 1550 3350 0    50   ~ 0
 VDD3.3
 Wire Wire Line
-	2900 1450 2950 1450
+	950  3650 1000 3650
 Wire Wire Line
-	2900 1750 2950 1750
+	950  3950 1000 3950
 Wire Wire Line
-	3100 1150 3150 1150
+	1150 3350 1200 3350
 Wire Wire Line
-	3450 1150 3500 1150
+	1500 3350 1550 3350
 Wire Wire Line
-	3650 1450 3700 1450
+	1700 3650 1750 3650
+$Comp
+L SquantorGenericAnalog:regulator_sot23 U?
+U 1 1 5EE2E2C4
+P 1350 2950
+F 0 "U?" H 1350 3200 50  0000 C CNN
+F 1 "HX6206P332MR" H 1350 2700 50  0000 C CNN
+F 2 "SquantorIC:SOT23-3" H 1350 2950 50  0001 C CNN
+F 3 "" H 1350 2950 50  0001 C CNN
+	1    1350 2950
+	1    0    0    -1  
+$EndComp
+Text Label 1050 2850 2    50   ~ 0
+VSS
+Text Label 1050 3050 2    50   ~ 0
+VDD3.3
+Text Label 1650 2950 0    50   ~ 0
+VDD
+Text Notes 700  4650 0    50   ~ 0
+USB to UART converter
+Wire Wire Line
+	1050 2850 1100 2850
+Wire Wire Line
+	1100 3050 1050 3050
+Wire Wire Line
+	1650 2950 1600 2950
+Text Label 950  3750 2    50   ~ 0
+TXD
+Text Label 950  3850 2    50   ~ 0
+RXD
+Text Label 950  4150 2    50   ~ 0
+USB_DM
+Text Label 950  4050 2    50   ~ 0
+USB_DP
+Text Label 950  4250 2    50   ~ 0
+RST
+Text Label 1750 4350 0    50   ~ 0
+CTS
+Text Label 1750 4250 0    50   ~ 0
+DSR
+Text Label 1750 4150 0    50   ~ 0
+RI
+Text Label 1750 4050 0    50   ~ 0
+DCD
+Text Label 1750 3950 0    50   ~ 0
+DTR
+Text Label 1750 3850 0    50   ~ 0
+RTS
+Text Label 1750 3750 0    50   ~ 0
+TNOW
+Wire Wire Line
+	950  3750 1000 3750
+Wire Wire Line
+	1000 3850 950  3850
+Wire Wire Line
+	950  4050 1000 4050
+Wire Wire Line
+	1000 4150 950  4150
+Wire Wire Line
+	950  4250 1000 4250
+Wire Wire Line
+	1700 4350 1750 4350
+Wire Wire Line
+	1750 4250 1700 4250
+Wire Wire Line
+	1700 4150 1750 4150
+Wire Wire Line
+	1750 4050 1700 4050
+Wire Wire Line
+	1700 3950 1750 3950
+Wire Wire Line
+	1750 3850 1700 3850
+Wire Wire Line
+	1700 3750 1750 3750
 $EndSCHEMATC
