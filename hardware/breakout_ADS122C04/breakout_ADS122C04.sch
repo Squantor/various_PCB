@@ -128,7 +128,7 @@ Wire Wire Line
 	2050 1200 2000 1200
 Text Label 1400 2500 2    50   ~ 0
 AVSS
-Text Label 1800 2500 0    50   ~ 0
+Text Label 1400 2700 2    50   ~ 0
 AVDD
 $Comp
 L Device:C C1
@@ -148,22 +148,22 @@ Wire Wire Line
 $Comp
 L Device:C C2
 U 1 1 5EF5AAE4
-P 1600 2700
-F 0 "C2" V 1550 2600 50  0000 C CNN
-F 1 "1u" V 1650 2800 50  0000 C CNN
-F 2 "SquantorRcl:C_0402" H 1638 2550 50  0001 C CNN
-F 3 "~" H 1600 2700 50  0001 C CNN
-	1    1600 2700
+P 1600 2900
+F 0 "C2" V 1550 2800 50  0000 C CNN
+F 1 "1u" V 1650 3000 50  0000 C CNN
+F 2 "SquantorRcl:C_0402" H 1638 2750 50  0001 C CNN
+F 3 "~" H 1600 2900 50  0001 C CNN
+	1    1600 2900
 	0    1    1    0   
 $EndComp
-Text Label 1400 2700 2    50   ~ 0
+Text Label 1800 2900 0    50   ~ 0
 DGND
-Text Label 1800 2700 0    50   ~ 0
+Text Label 1400 2900 2    50   ~ 0
 DVDD
 Wire Wire Line
-	1400 2700 1450 2700
+	1800 2900 1750 2900
 Wire Wire Line
-	1750 2700 1800 2700
+	1450 2900 1400 2900
 Text Label 1550 950  0    50   ~ 0
 A1
 $Comp
@@ -661,4 +661,23 @@ Wire Wire Line
 	4650 900  4650 950 
 Wire Wire Line
 	5750 900  5750 950 
+Text Label 1800 2700 0    50   ~ 0
+AGND
+$Comp
+L Device:C C?
+U 1 1 5EF8514A
+P 1600 2700
+F 0 "C?" V 1550 2600 50  0000 C CNN
+F 1 "1u" V 1650 2800 50  0000 C CNN
+F 2 "SquantorRcl:C_0402" H 1638 2550 50  0001 C CNN
+F 3 "~" H 1600 2700 50  0001 C CNN
+	1    1600 2700
+	0    1    1    0   
+$EndComp
+Text Label 1800 2500 0    50   ~ 0
+AGND
+Wire Wire Line
+	1400 2700 1450 2700
+Wire Wire Line
+	1750 2700 1800 2700
 $EndSCHEMATC
