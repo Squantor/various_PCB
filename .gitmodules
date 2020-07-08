@@ -1,8 +1,8 @@
 [submodule "kicad/squantorPcbLibrary"]
-	path = hardware/squantorPcbLibrary
+	path = electronics/squantorPcbLibrary
 	url = https://github.com/Squantor/squantorPcbLibrary.git
 [submodule "hardware/various_schematics"]
-	path = hardware/various_schematics
+	path = electronics/various_schematics
 	url = https://github.com/Squantor/various_schematics.git
 [submodule "software/lpc_chip_82x"]
 	path = software/lpc_chip_82x
@@ -14,5 +14,5 @@
 	path = software/squantorLibEmbeddedC
 	url = https://github.com/Squantor/squantorLibEmbeddedC.git
 [submodule "hardware/MX_Alps_Hybrid"]
-	path = hardware/MX_Alps_Hybrid
+	path = electronics/MX_Alps_Hybrid
 	url = https://github.com/Squantor/MX_Alps_Hybrid.git
