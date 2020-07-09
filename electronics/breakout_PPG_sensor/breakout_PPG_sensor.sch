@@ -38,13 +38,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 5D277F89
-P 2150 1750
-F 0 "J2" H 2150 1450 50  0000 C CNN
-F 1 "Conn_01x04" H 2150 1950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2150 1750 50  0001 C CNN
-F 3 "~" H 2150 1750 50  0001 C CNN
-	1    2150 1750
-	1    0    0    1   
+P 2150 1650
+F 0 "J2" H 2150 1350 50  0000 C CNN
+F 1 "Conn_01x04" H 2150 1850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2150 1650 50  0001 C CNN
+F 3 "~" H 2150 1650 50  0001 C CNN
+	1    2150 1650
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1250 1850 1300 1850
@@ -54,13 +54,13 @@ Text Label 1300 1850 0    50   ~ 0
 VSS
 Text Label 1900 1850 2    50   ~ 0
 VSS
-Text Label 1300 1550 0    50   ~ 0
-LED1_A
-Text Label 1900 1550 2    50   ~ 0
-LED1_C
 Text Label 1300 1750 0    50   ~ 0
-LED2_A
+LED1_A
 Text Label 1900 1750 2    50   ~ 0
+LED1_C
+Text Label 1300 1550 0    50   ~ 0
+LED2_A
+Text Label 1900 1550 2    50   ~ 0
 LED2_C
 Text Label 1300 1650 0    50   ~ 0
 PD_A
@@ -96,7 +96,7 @@ U 1 1 5F07B38F
 P 1600 2350
 F 0 "U1" H 1600 2600 50  0000 C CNN
 F 1 "PPG_sensor" H 1600 2100 50  0000 C CNN
-F 2 "" H 1600 2300 50  0001 C CNN
+F 2 "SquantorOpto:PPG_sensor_reverse" H 1600 2300 50  0001 C CNN
 F 3 "" H 1600 2300 50  0001 C CNN
 	1    1600 2350
 	1    0    0    -1  
