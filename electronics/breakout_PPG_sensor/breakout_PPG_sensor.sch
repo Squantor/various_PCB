@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:PPG_breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -19,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20190711" H 850 7700 60  0000 C CNN
+F 1 "20200709" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -67,52 +66,18 @@ Text Label 1300 1650 0    50   ~ 0
 PD_A
 Text Label 1900 1650 2    50   ~ 0
 PD_C
-$Comp
-L Device:LED D2
-U 1 1 5D279E87
-P 1600 2950
-F 0 "D2" H 1593 3166 50  0000 C CNN
-F 1 "LED" H 1593 3075 50  0000 C CNN
-F 2 "SquantorDiodes:KPTR-3216" H 1600 2950 50  0001 C CNN
-F 3 "~" H 1600 2950 50  0001 C CNN
-	1    1600 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Photo D3
-U 1 1 5D27B9AE
-P 1650 2600
-F 0 "D3" H 1600 2895 50  0000 C CNN
-F 1 "D_Photo" H 1600 2804 50  0000 C CNN
-F 2 "SquantorDiodes:SFH2440_reverse" H 1600 2600 50  0001 C CNN
-F 3 "~" H 1600 2600 50  0001 C CNN
-	1    1650 2600
-	1    0    0    -1  
-$EndComp
-Text Label 1800 2200 0    50   ~ 0
+Text Label 1300 2250 2    50   ~ 0
 LED1_A
-Text Label 1400 2200 2    50   ~ 0
+Text Label 1900 2250 0    50   ~ 0
 LED1_C
-Text Label 1800 2600 0    50   ~ 0
+Text Label 1300 2350 2    50   ~ 0
 PD_A
-Text Label 1400 2600 2    50   ~ 0
+Text Label 1900 2350 0    50   ~ 0
 PD_C
-Text Label 1800 2950 0    50   ~ 0
+Text Label 1300 2450 2    50   ~ 0
 LED2_A
-Text Label 1400 2950 2    50   ~ 0
+Text Label 1900 2450 0    50   ~ 0
 LED2_C
-Wire Wire Line
-	1400 2200 1450 2200
-Wire Wire Line
-	1750 2200 1800 2200
-Wire Wire Line
-	1800 2600 1750 2600
-Wire Wire Line
-	1450 2600 1400 2600
-Wire Wire Line
-	1400 2950 1450 2950
-Wire Wire Line
-	1750 2950 1800 2950
 Wire Wire Line
 	1250 1550 1300 1550
 Wire Wire Line
@@ -126,14 +91,26 @@ Wire Wire Line
 Wire Wire Line
 	1900 1750 1950 1750
 $Comp
-L Device:LED D1
-U 1 1 5D279473
-P 1600 2200
-F 0 "D1" H 1593 2416 50  0000 C CNN
-F 1 "LED" H 1593 2325 50  0000 C CNN
-F 2 "SquantorDiodes:KPTR-3216" H 1600 2200 50  0001 C CNN
-F 3 "~" H 1600 2200 50  0001 C CNN
-	1    1600 2200
+L SquantorOpto:PPG_sensor U?
+U 1 1 5F07B38F
+P 1600 2350
+F 0 "U?" H 1600 2715 50  0000 C CNN
+F 1 "PPG_sensor" H 1600 2624 50  0000 C CNN
+F 2 "" H 1600 2300 50  0001 C CNN
+F 3 "" H 1600 2300 50  0001 C CNN
+	1    1600 2350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1300 2250 1350 2250
+Wire Wire Line
+	1350 2350 1300 2350
+Wire Wire Line
+	1300 2450 1350 2450
+Wire Wire Line
+	1850 2250 1900 2250
+Wire Wire Line
+	1900 2350 1850 2350
+Wire Wire Line
+	1850 2450 1900 2450
 $EndSCHEMATC
