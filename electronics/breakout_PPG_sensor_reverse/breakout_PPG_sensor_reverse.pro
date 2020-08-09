@@ -1,4 +1,4 @@
-update=vr 10 jul 2020 00:41:05 CEST
+update=zo 09 aug 2020 12:20:27 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -67,7 +67,7 @@ CopperTextSizeH=1.5
 CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
-EdgeCutLineWidth=0.508
+EdgeCutLineWidth=0.09999999999999999
 CourtyardLineWidth=0.05
 OthersLineWidth=0.15
 OthersTextSizeV=1

@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20200709" H 850 7700 60  0000 C CNN
+F 1 "20200809" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -91,12 +91,12 @@ Wire Wire Line
 Wire Wire Line
 	1900 1750 1950 1750
 $Comp
-L SquantorOpto:PPG_sensor U1
+L SquantorOpto:PPG_sensor_PD_straight U1
 U 1 1 5F07B38F
 P 1600 2350
 F 0 "U1" H 1600 2600 50  0000 C CNN
 F 1 "PPG_sensor" H 1600 2100 50  0000 C CNN
-F 2 "SquantorOpto:PPG_sensor_reverse" H 1600 2300 50  0001 C CNN
+F 2 "SquantorOpto:PPG_sensor_reverse_PD_parallel" H 1600 2300 50  0001 C CNN
 F 3 "" H 1600 2300 50  0001 C CNN
 	1    1600 2350
 	1    0    0    -1  
