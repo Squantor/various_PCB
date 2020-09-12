@@ -158,4 +158,12 @@ Wire Wire Line
 Wire Wire Line
 	2500 2250 2500 2150
 Connection ~ 2500 2150
+Text Label 1800 1550 0    50   ~ 0
+ZenerC
+Text Label 1800 2250 0    50   ~ 0
+ZenerA
+Text Label 2500 1550 2    50   ~ 0
+Heater-
+Text Label 2500 2250 2    50   ~ 0
+Heater+
 $EndSCHEMATC
