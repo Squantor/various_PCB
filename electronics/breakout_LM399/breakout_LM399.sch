@@ -50,120 +50,163 @@ Wire Notes Line
 $Comp
 L SquantorLinearTechnology:LM399 U1
 U 1 1 5F5D5976
-P 2150 1900
-F 0 "U1" H 2150 2315 50  0000 C CNN
-F 1 "LM399" H 2150 2224 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-46-4" H 2150 1900 50  0001 C CNN
-F 3 "" H 2150 1900 50  0001 C CNN
-	1    2150 1900
+P 1400 1050
+F 0 "U1" H 1400 1465 50  0000 C CNN
+F 1 "LM399" H 1400 1374 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-46-4" H 1400 1050 50  0001 C CNN
+F 3 "" H 1400 1050 50  0001 C CNN
+	1    1400 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J1
 U 1 1 5F5D5BCA
-P 1550 1650
-F 0 "J1" H 1550 1450 50  0000 C CNN
-F 1 "Conn_01x03" H 1550 1850 50  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-1X03-H010" H 1550 1650 50  0001 C CNN
-F 3 "~" H 1550 1650 50  0001 C CNN
-	1    1550 1650
+P 800 800
+F 0 "J1" H 800 600 50  0000 C CNN
+F 1 "Conn_01x03" H 650 1000 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X03-H010" H 800 800 50  0001 C CNN
+F 3 "~" H 800 800 50  0001 C CNN
+	1    800  800 
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J2
 U 1 1 5F5D7C9F
-P 1550 2150
-F 0 "J2" H 1550 1950 50  0000 C CNN
-F 1 "Conn_01x03" H 1550 2350 50  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-1X03-H010" H 1550 2150 50  0001 C CNN
-F 3 "~" H 1550 2150 50  0001 C CNN
-	1    1550 2150
+P 800 1300
+F 0 "J2" H 800 1100 50  0000 C CNN
+F 1 "Conn_01x03" H 650 1500 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X03-H010" H 800 1300 50  0001 C CNN
+F 3 "~" H 800 1300 50  0001 C CNN
+	1    800  1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J4
 U 1 1 5F5D8F6A
-P 2750 2150
-F 0 "J4" H 2750 2350 50  0000 C CNN
-F 1 "Conn_01x03" H 2750 1950 50  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-1X03-H010" H 2750 2150 50  0001 C CNN
-F 3 "~" H 2750 2150 50  0001 C CNN
-	1    2750 2150
+P 2000 1300
+F 0 "J4" H 2000 1500 50  0000 C CNN
+F 1 "Conn_01x03" H 1850 1100 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X03-H010" H 2000 1300 50  0001 C CNN
+F 3 "~" H 2000 1300 50  0001 C CNN
+	1    2000 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J3
 U 1 1 5F5D9BE4
-P 2750 1650
-F 0 "J3" H 2750 1850 50  0000 C CNN
-F 1 "Conn_01x03" H 2750 1450 50  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-1X03-H010" H 2750 1650 50  0001 C CNN
-F 3 "~" H 2750 1650 50  0001 C CNN
-	1    2750 1650
+P 2000 800
+F 0 "J3" H 2000 1000 50  0000 C CNN
+F 1 "Conn_01x03" H 1850 600 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X03-H010" H 2000 800 50  0001 C CNN
+F 3 "~" H 2000 800 50  0001 C CNN
+	1    2000 800 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 1550 1800 1550
+	1000 700  1050 700 
 Wire Wire Line
-	1800 1550 1800 1650
+	1050 700  1050 800 
 Wire Wire Line
-	1800 1750 1850 1750
+	1050 900  1100 900 
 Wire Wire Line
-	1800 1750 1750 1750
-Connection ~ 1800 1750
+	1050 900  1000 900 
+Connection ~ 1050 900 
 Wire Wire Line
-	1750 1650 1800 1650
-Connection ~ 1800 1650
+	1000 800  1050 800 
+Connection ~ 1050 800 
 Wire Wire Line
-	1800 1650 1800 1750
+	1050 800  1050 900 
 Wire Wire Line
-	1850 2050 1800 2050
+	1100 1200 1050 1200
 Wire Wire Line
-	1750 2250 1800 2250
+	1000 1400 1050 1400
 Wire Wire Line
-	1800 2250 1800 2150
-Connection ~ 1800 2050
+	1050 1400 1050 1300
+Connection ~ 1050 1200
 Wire Wire Line
-	1800 2050 1750 2050
+	1050 1200 1000 1200
 Wire Wire Line
-	1750 2150 1800 2150
-Connection ~ 1800 2150
+	1000 1300 1050 1300
+Connection ~ 1050 1300
 Wire Wire Line
-	1800 2150 1800 2050
+	1050 1300 1050 1200
 Wire Wire Line
-	2550 2050 2500 2050
+	1800 1200 1750 1200
 Wire Wire Line
-	2450 1750 2500 1750
+	1700 900  1750 900 
 Wire Wire Line
-	2550 1650 2500 1650
+	1800 800  1750 800 
 Wire Wire Line
-	2500 1650 2500 1750
-Connection ~ 2500 1750
+	1750 800  1750 900 
+Connection ~ 1750 900 
 Wire Wire Line
-	2500 1750 2550 1750
+	1750 900  1800 900 
 Wire Wire Line
-	2550 1550 2500 1550
+	1800 700  1750 700 
 Wire Wire Line
-	2500 1550 2500 1650
-Connection ~ 2500 1650
+	1750 700  1750 800 
+Connection ~ 1750 800 
 Wire Wire Line
-	2550 2150 2500 2150
+	1800 1300 1750 1300
 Wire Wire Line
-	2500 2150 2500 2050
-Connection ~ 2500 2050
+	1750 1300 1750 1200
+Connection ~ 1750 1200
 Wire Wire Line
-	2500 2050 2450 2050
+	1750 1200 1700 1200
 Wire Wire Line
-	2550 2250 2500 2250
+	1800 1400 1750 1400
 Wire Wire Line
-	2500 2250 2500 2150
-Connection ~ 2500 2150
-Text Label 1800 1550 0    50   ~ 0
+	1750 1400 1750 1300
+Connection ~ 1750 1300
+Text Label 1050 700  0    50   ~ 0
 ZenerC
-Text Label 1800 2250 0    50   ~ 0
+Text Label 1050 1400 0    50   ~ 0
 ZenerA
-Text Label 2500 1550 2    50   ~ 0
+Text Label 1750 700  2    50   ~ 0
 Heater-
-Text Label 2500 2250 2    50   ~ 0
+Text Label 1750 1400 2    50   ~ 0
 Heater+
+Text Notes 1350 1650 0    50   ~ 0
+Reference breakout
+Wire Notes Line
+	2150 1700 2150 550 
+Wire Notes Line
+	2150 550  650  550 
+Wire Notes Line
+	650  550  650  1700
+Wire Notes Line
+	650  1700 2150 1700
+Wire Notes Line
+	2150 1550 1300 1550
+Wire Notes Line
+	1300 1550 1300 1700
+$Comp
+L SquantorProto:testpad TP?
+U 1 1 5F5E857B
+P 850 2000
+F 0 "TP?" H 850 1900 50  0000 C CNN
+F 1 "testpad" H 850 2100 50  0000 C CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10" H 900 2025 50  0001 C CNN
+F 3 "" H 900 2025 50  0001 C CNN
+	1    850  2000
+	-1   0    0    1   
+$EndComp
+Text Label 1100 2000 0    50   ~ 0
+VSS
+Wire Wire Line
+	950  2000 1100 2000
+Text Notes 1100 2150 0    50   ~ 0
+ground shielding
+Wire Notes Line
+	1800 1800 1800 2200
+Wire Notes Line
+	1800 2200 650  2200
+Wire Notes Line
+	650  2200 650  1800
+Wire Notes Line
+	650  1800 1800 1800
+Wire Notes Line
+	1050 2050 1050 2200
+Wire Notes Line
+	1050 2050 1800 2050
 $EndSCHEMATC
