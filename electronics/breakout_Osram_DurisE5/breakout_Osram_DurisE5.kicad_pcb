@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.6-c6e7f7d~86~ubuntu19.10.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.6-c6e7f7d~87~ubuntu19.10.1)
 
   (general
     (thickness 1.6)
@@ -230,7 +230,7 @@
     (fp_text reference N1 (at 0 1.85) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20200610 (at 0.8 -0.1) (layer F.SilkS)
+    (fp_text value 20200916 (at 0.8 -0.1) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start -0.5 0.6) (end 0.5 0.6) (layer F.SilkS) (width 0.15))
