@@ -48,7 +48,7 @@ Wire Notes Line
 Wire Notes Line
 	600  7550 1400 7550
 $Comp
-L Device:LED D1
+L SquantorDevice:LED_cooled D1
 U 1 1 5F621FD7
 P 1700 1550
 F 0 "D1" H 1600 1600 50  0000 C CNN
@@ -249,4 +249,19 @@ Wire Wire Line
 Wire Wire Line
 	2050 2000 2050 1950
 Connection ~ 2050 1950
+Text Label 1700 1300 0    50   ~ 0
+Cooling
+Wire Wire Line
+	1700 1350 1700 1300
+$Comp
+L SquantorProto:testpad TP1
+U 1 1 5F6441A6
+P 1700 1200
+F 0 "TP1" V 1750 1400 50  0000 R CNN
+F 1 "testpad" V 1600 1500 50  0000 R CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10" H 1750 1225 50  0001 C CNN
+F 3 "" H 1750 1225 50  0001 C CNN
+	1    1700 1200
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
