@@ -48,21 +48,21 @@ Wire Notes Line
 Wire Notes Line
 	600  7550 1400 7550
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 5F621FD7
-P 1600 1550
-F 0 "D?" H 1500 1600 50  0000 C CNN
-F 1 "LED" H 1750 1500 50  0000 C CNN
-F 2 "" H 1600 1550 50  0001 C CNN
-F 3 "~" H 1600 1550 50  0001 C CNN
-	1    1600 1550
+P 1700 1550
+F 0 "D1" H 1600 1600 50  0000 C CNN
+F 1 "LED" H 1850 1500 50  0000 C CNN
+F 2 "" H 1700 1550 50  0001 C CNN
+F 3 "~" H 1700 1550 50  0001 C CNN
+	1    1700 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorConnectors:PINS_1X03 J?
+L SquantorConnectors:PINS_1X03 J1
 U 1 1 5F6222BB
 P 800 1200
-F 0 "J?" H 800 1450 50  0000 C CNN
+F 0 "J1" H 800 1450 50  0000 C CNN
 F 1 "PINS_1X03" H 800 950 50  0000 C CNN
 F 2 "SquantorConnectors:Header-0254-1X03-H010" H 800 1300 50  0001 C CNN
 F 3 "" H 800 1300 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "" H 800 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorConnectors:PINS_1X03 J?
+L SquantorConnectors:PINS_1X03 J2
 U 1 1 5F6224F3
 P 800 1850
-F 0 "J?" H 800 2100 50  0000 C CNN
+F 0 "J2" H 800 2100 50  0000 C CNN
 F 1 "PINS_1X03" H 800 1600 50  0000 C CNN
 F 2 "SquantorConnectors:Header-0254-1X03-H010" H 800 1950 50  0001 C CNN
 F 3 "" H 800 1950 50  0001 C CNN
@@ -87,15 +87,8 @@ Wire Wire Line
 Wire Wire Line
 	1050 1950 1000 1950
 Wire Wire Line
-	1450 1550 1050 1550
-Connection ~ 1050 1550
-Wire Wire Line
-	1050 1550 1050 1750
-Wire Wire Line
 	1000 1300 1050 1300
 Connection ~ 1050 1300
-Wire Wire Line
-	1050 1300 1050 1550
 Wire Wire Line
 	1000 1200 1050 1200
 Connection ~ 1050 1200
@@ -111,15 +104,15 @@ Wire Wire Line
 Connection ~ 1050 1850
 Wire Wire Line
 	1050 1850 1050 1950
-Text Label 1100 1550 0    50   ~ 0
+Text Label 1050 1550 2    50   ~ 0
 Cathode
-Text Label 1800 1550 0    50   ~ 0
+Text Label 2050 1550 0    50   ~ 0
 Anode
 $Comp
-L SquantorConnectors:PINS_1X03 J?
+L SquantorConnectors:PINS_1X03 J3
 U 1 1 5F62349D
 P 2300 1200
-F 0 "J?" H 2300 1450 50  0000 C CNN
+F 0 "J3" H 2300 1450 50  0000 C CNN
 F 1 "PINS_1X03" H 2300 950 50  0000 C CNN
 F 2 "SquantorConnectors:Header-0254-1X03-H010" H 2300 1300 50  0001 C CNN
 F 3 "" H 2300 1300 50  0001 C CNN
@@ -127,10 +120,10 @@ F 3 "" H 2300 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SquantorConnectors:PINS_1X03 J?
+L SquantorConnectors:PINS_1X03 J4
 U 1 1 5F624E4B
 P 2300 1850
-F 0 "J?" H 2300 2100 50  0000 C CNN
+F 0 "J4" H 2300 2100 50  0000 C CNN
 F 1 "PINS_1X03" H 2300 1600 50  0000 C CNN
 F 2 "SquantorConnectors:Header-0254-1X03-H010" H 2300 1950 50  0001 C CNN
 F 3 "" H 2300 1950 50  0001 C CNN
@@ -144,7 +137,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1950 2100 1950
 Wire Wire Line
-	1750 1550 2050 1550
+	1850 1550 2050 1550
 Connection ~ 2050 1550
 Wire Wire Line
 	2050 1550 2050 1750
@@ -168,4 +161,92 @@ Wire Wire Line
 Connection ~ 2050 1200
 Wire Wire Line
 	2050 1200 2050 1300
+$Comp
+L Device:R R2
+U 1 1 5F636AEC
+P 1250 1550
+F 0 "R2" V 1200 1400 50  0000 C CNN
+F 1 "TBD" V 1250 1550 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 1180 1550 50  0001 C CNN
+F 3 "~" H 1250 1550 50  0001 C CNN
+	1    1250 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1050 1300 1050 1450
+$Comp
+L Device:R R3
+U 1 1 5F637C97
+P 1250 1650
+F 0 "R3" V 1200 1500 50  0000 C CNN
+F 1 "TBD" V 1250 1650 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 1180 1650 50  0001 C CNN
+F 3 "~" H 1250 1650 50  0001 C CNN
+	1    1250 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F639E33
+P 1250 1450
+F 0 "R1" V 1200 1300 50  0000 C CNN
+F 1 "TBD" V 1250 1450 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 1180 1450 50  0001 C CNN
+F 3 "~" H 1250 1450 50  0001 C CNN
+	1    1250 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 1450 1050 1450
+Connection ~ 1050 1450
+Wire Wire Line
+	1050 1450 1050 1550
+Wire Wire Line
+	1100 1550 1050 1550
+Connection ~ 1050 1550
+Wire Wire Line
+	1050 1550 1050 1650
+Wire Wire Line
+	1100 1650 1050 1650
+Connection ~ 1050 1650
+Wire Wire Line
+	1050 1650 1050 1750
+Wire Wire Line
+	1400 1450 1450 1450
+Wire Wire Line
+	1450 1450 1450 1550
+Wire Wire Line
+	1450 1550 1550 1550
+Wire Wire Line
+	1400 1650 1450 1650
+Wire Wire Line
+	1450 1650 1450 1550
+Connection ~ 1450 1550
+Wire Wire Line
+	1400 1550 1450 1550
+$Comp
+L SquantorConnectors:PINS_1X02 J5
+U 1 1 5F63DE44
+P 1550 2250
+F 0 "J5" V 1550 2500 50  0000 R CNN
+F 1 "PINS_1X02" V 1563 2072 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal" H 1550 2300 60  0001 C CNN
+F 3 "" H 1550 2300 60  0001 C CNN
+	1    1550 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 1950 1050 2000
+Wire Wire Line
+	1050 2000 1500 2000
+Wire Wire Line
+	1500 2000 1500 2050
+Connection ~ 1050 1950
+Wire Wire Line
+	1600 2050 1600 2000
+Wire Wire Line
+	1600 2000 2050 2000
+Wire Wire Line
+	2050 2000 2050 1950
+Connection ~ 2050 1950
 $EndSCHEMATC
