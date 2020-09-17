@@ -2,8 +2,6 @@
 Simple breakout for the [Osram DURIS E 5](https://www.osram.com/os/products/product-promotions/led-for-general-lighting/duris_e.jsp) light emitting diodes.
 ## TODO's
 Still some things need to be done:
-* schematic entry 
-* PCB layout
 * Review with one night in between
 * Produce at [OSHPARK](https://oshpark.com/)
 * Assemble
