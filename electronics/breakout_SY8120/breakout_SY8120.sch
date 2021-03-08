@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
 P 1050 7450
 F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20210307" H 800 7450 60  0000 L CNN
+F 1 "20210308" H 800 7450 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
 F 3 "" H 1050 7450 60  0001 C CNN
 	1    1050 7450
@@ -50,74 +50,68 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 6044F509
-P 2050 7200
-F 0 "J1" H 2000 7400 50  0000 L CNN
-F 1 "Conn_01x04" H 1650 6900 50  0000 L CNN
-F 2 "SquantorConnectors:Header-0254-1X04-H010" H 2050 7200 50  0001 C CNN
-F 3 "~" H 2050 7200 50  0001 C CNN
-	1    2050 7200
+P 1150 6400
+F 0 "J1" H 1100 6600 50  0000 L CNN
+F 1 "Conn_01x04" H 750 6100 50  0000 L CNN
+F 2 "SquantorConnectors:Header-0254-1X04-H010" H 1150 6400 50  0001 C CNN
+F 3 "~" H 1150 6400 50  0001 C CNN
+	1    1150 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 7100 1850 7100
+	900  6300 950  6300
 Wire Wire Line
-	1850 7200 1800 7200
+	950  6400 900  6400
 Wire Wire Line
-	1800 7300 1850 7300
+	900  6500 950  6500
 Wire Wire Line
-	1850 7400 1800 7400
-Text Label 1800 7100 2    50   ~ 0
+	950  6600 900  6600
+Text Label 900  6300 2    50   ~ 0
 Vin
-Text Label 1800 7200 2    50   ~ 0
+Text Label 900  6400 2    50   ~ 0
 GND
-Text Label 1800 7300 2    50   ~ 0
+Text Label 900  6500 2    50   ~ 0
 Vout
-Text Label 1800 7400 2    50   ~ 0
+Text Label 900  6600 2    50   ~ 0
 Enable
-Text Notes 2250 7650 0    50   ~ 0
+Text Notes 900  6850 0    50   ~ 0
 Connections
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 604567C7
-P 2100 6900
-F 0 "#FLG02" H 2100 6975 50  0001 C CNN
-F 1 "PWR_FLAG" V 2100 7028 50  0000 L CNN
-F 2 "" H 2100 6900 50  0001 C CNN
-F 3 "~" H 2100 6900 50  0001 C CNN
-	1    2100 6900
+P 850 6100
+F 0 "#FLG02" H 850 6175 50  0001 C CNN
+F 1 "PWR_FLAG" V 850 6228 50  0000 L CNN
+F 2 "" H 850 6100 50  0001 C CNN
+F 3 "~" H 850 6100 50  0001 C CNN
+	1    850  6100
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 60458230
-P 2100 6800
-F 0 "#FLG01" H 2100 6875 50  0001 C CNN
-F 1 "PWR_FLAG" V 2100 6928 50  0000 L CNN
-F 2 "" H 2100 6800 50  0001 C CNN
-F 3 "~" H 2100 6800 50  0001 C CNN
-	1    2100 6800
+P 850 6000
+F 0 "#FLG01" H 850 6075 50  0001 C CNN
+F 1 "PWR_FLAG" V 850 6128 50  0000 L CNN
+F 2 "" H 850 6000 50  0001 C CNN
+F 3 "~" H 850 6000 50  0001 C CNN
+	1    850  6000
 	0    1    1    0   
 $EndComp
-Text Label 2050 6800 2    50   ~ 0
+Text Label 800  6000 2    50   ~ 0
 Vin
-Text Label 2050 6900 2    50   ~ 0
+Text Label 800  6100 2    50   ~ 0
 GND
 Wire Wire Line
-	2050 6900 2100 6900
+	800  6100 850  6100
 Wire Wire Line
-	2100 6800 2050 6800
+	850  6000 800  6000
 Wire Notes Line
-	2750 7700 2750 6700
+	1400 5900 600  5900
 Wire Notes Line
-	2750 6700 1500 6700
+	600  5900 600  6900
 Wire Notes Line
-	1500 6700 1500 7700
-Wire Notes Line
-	1500 7700 2750 7700
-Wire Notes Line
-	2750 7550 2200 7550
-Wire Notes Line
-	2200 7550 2200 7700
+	850  6750 850  6900
 $Comp
 L SquantorSilergy:SY8120 U1
 U 1 1 6045A670
@@ -156,19 +150,6 @@ Wire Wire Line
 	4300 6850 4300 7150
 Wire Wire Line
 	4300 7150 4250 7150
-$Comp
-L Device:R R1
-U 1 1 6045FBF2
-P 4100 7600
-F 0 "R1" V 4150 7750 50  0000 C CNN
-F 1 "100" V 4100 7600 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 4030 7600 50  0001 C CNN
-F 3 "~" H 4100 7600 50  0001 C CNN
-	1    4100 7600
-	0    1    1    0   
-$EndComp
-Text Label 3900 7600 2    50   ~ 0
-Enable
 Text Label 4300 7250 0    50   ~ 0
 Vin
 Wire Wire Line
@@ -190,8 +171,6 @@ Wire Wire Line
 	3650 7350 3600 7350
 Text Label 5500 7250 0    50   ~ 0
 GND
-Wire Wire Line
-	4250 7600 4300 7600
 Wire Wire Line
 	4300 7600 4300 7350
 Wire Wire Line
@@ -258,8 +237,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 6850 4300 6850
 Connection ~ 4300 6850
-Wire Wire Line
-	3950 7600 3900 7600
 Text Label 3050 6900 2    50   ~ 0
 Vin
 Text Label 3050 7300 2    50   ~ 0
@@ -387,4 +364,95 @@ Wire Wire Line
 Connection ~ 5450 7250
 Wire Wire Line
 	5450 7250 5500 7250
+Wire Wire Line
+	3400 7500 3350 7500
+Wire Wire Line
+	3750 7600 4300 7600
+Wire Wire Line
+	3750 7500 3750 7600
+Wire Wire Line
+	3750 7500 3700 7500
+Wire Wire Line
+	3350 7600 3400 7600
+Text Label 3350 7600 2    50   ~ 0
+Vin
+Wire Wire Line
+	3750 7600 3700 7600
+Connection ~ 3750 7600
+$Comp
+L Device:R R4
+U 1 1 60469A4C
+P 3550 7600
+F 0 "R4" V 3600 7750 50  0000 C CNN
+F 1 "100k" V 3550 7600 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 3480 7600 50  0001 C CNN
+F 3 "~" H 3550 7600 50  0001 C CNN
+	1    3550 7600
+	0    1    1    0   
+$EndComp
+Text Label 3350 7500 2    50   ~ 0
+Enable
+$Comp
+L Device:R R1
+U 1 1 6045FBF2
+P 3550 7500
+F 0 "R1" V 3600 7650 50  0000 C CNN
+F 1 "100" V 3550 7500 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 3480 7500 50  0001 C CNN
+F 3 "~" H 3550 7500 50  0001 C CNN
+	1    3550 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6048D6B9
+P 1950 7450
+F 0 "R?" V 2000 7600 50  0000 C CNN
+F 1 "4.7K" V 1950 7450 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1880 7450 50  0001 C CNN
+F 3 "~" H 1950 7450 50  0001 C CNN
+	1    1950 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6048E70B
+P 2300 7450
+F 0 "D?" H 2200 7500 50  0000 C CNN
+F 1 "LED" H 2450 7400 50  0000 C CNN
+F 2 "SquantorDiodes:LED_0603_hand" H 2300 7450 50  0001 C CNN
+F 3 "~" H 2300 7450 50  0001 C CNN
+	1    2300 7450
+	-1   0    0    1   
+$EndComp
+Text Label 2500 7450 0    50   ~ 0
+GND
+Text Label 1750 7450 2    50   ~ 0
+Vout
+Wire Wire Line
+	1750 7450 1800 7450
+Wire Wire Line
+	2100 7450 2150 7450
+Wire Wire Line
+	2450 7450 2500 7450
+Text Notes 2400 7650 0    50   ~ 0
+Indicator
+Wire Notes Line
+	2750 7700 2750 7300
+Wire Notes Line
+	2750 7300 1500 7300
+Wire Notes Line
+	1500 7300 1500 7700
+Wire Notes Line
+	1500 7700 2750 7700
+Wire Notes Line
+	2750 7550 2350 7550
+Wire Notes Line
+	2350 7550 2350 7700
+Wire Notes Line
+	1400 6750 850  6750
+Wire Notes Line
+	600  6900 1400 6900
+Wire Notes Line
+	1400 6900 1400 5900
 $EndSCHEMATC
