@@ -50,53 +50,51 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_01x03 J1
 U 1 1 604682E0
-P 1100 6150
-F 0 "J1" H 1050 6350 50  0000 L CNN
-F 1 "Conn_01x03" H 850 5950 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 1100 6150 50  0001 C CNN
-F 3 "~" H 1100 6150 50  0001 C CNN
-	1    1100 6150
+P 1150 6000
+F 0 "J1" H 1100 6200 50  0000 L CNN
+F 1 "Conn_01x03" H 900 5800 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 1150 6000 50  0001 C CNN
+F 3 "~" H 1150 6000 50  0001 C CNN
+	1    1150 6000
 	1    0    0    -1  
 $EndComp
-Text Label 850  6050 2    50   ~ 0
+Text Label 750  5900 2    50   ~ 0
 Vin
-Text Label 850  6150 2    50   ~ 0
+Text Label 750  6000 2    50   ~ 0
 GND
-Text Label 850  6250 2    50   ~ 0
+Text Label 750  6100 2    50   ~ 0
 Ctrl
 Wire Wire Line
-	850  6050 900  6050
+	750  5900 800  5900
 Wire Wire Line
-	900  6150 850  6150
-Wire Wire Line
-	900  6250 850  6250
+	950  6000 800  6000
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 604699EE
-P 1100 6550
-F 0 "J2" H 1050 6650 50  0000 L CNN
-F 1 "Conn_01x02" H 850 6350 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 1100 6550 50  0001 C CNN
-F 3 "~" H 1100 6550 50  0001 C CNN
-	1    1100 6550
+P 1150 6500
+F 0 "J2" H 1100 6600 50  0000 L CNN
+F 1 "Conn_01x02" H 900 6300 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 1150 6500 50  0001 C CNN
+F 3 "~" H 1150 6500 50  0001 C CNN
+	1    1150 6500
 	1    0    0    -1  
 $EndComp
-Text Label 850  6550 2    50   ~ 0
+Text Label 800  6500 2    50   ~ 0
 LED+
-Text Label 850  6650 2    50   ~ 0
+Text Label 800  6600 2    50   ~ 0
 LED-
 Wire Wire Line
-	900  6550 850  6550
+	950  6500 800  6500
 Wire Wire Line
-	900  6650 850  6650
+	950  6600 800  6600
 Text Notes 900  6900 0    50   ~ 0
 Connections
 Wire Notes Line
-	1400 6950 1400 5900
+	1400 6950 1400 5600
 Wire Notes Line
-	1400 5900 600  5900
+	1400 5600 600  5600
 Wire Notes Line
-	600  5900 600  6950
+	600  5600 600  6950
 Wire Notes Line
 	600  6950 1400 6950
 Wire Notes Line
@@ -346,4 +344,42 @@ Wire Notes Line
 	3450 7550 2800 7550
 Wire Notes Line
 	2800 7550 2800 7700
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 604CEF14
+P 850 5700
+F 0 "#FLG0101" H 850 5775 50  0001 C CNN
+F 1 "PWR_FLAG" V 850 5828 50  0000 L CNN
+F 2 "" H 850 5700 50  0001 C CNN
+F 3 "~" H 850 5700 50  0001 C CNN
+	1    850  5700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 604CF5F7
+P 850 6300
+F 0 "#FLG0102" H 850 6375 50  0001 C CNN
+F 1 "PWR_FLAG" V 850 6428 50  0000 L CNN
+F 2 "" H 850 6300 50  0001 C CNN
+F 3 "~" H 850 6300 50  0001 C CNN
+	1    850  6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  5900 800  5700
+Wire Wire Line
+	800  5700 850  5700
+Connection ~ 800  5900
+Wire Wire Line
+	800  5900 950  5900
+Wire Wire Line
+	800  6300 850  6300
+Wire Wire Line
+	750  6100 950  6100
+Wire Wire Line
+	800  6300 800  6000
+Connection ~ 800  6000
+Wire Wire Line
+	800  6000 750  6000
 $EndSCHEMATC
