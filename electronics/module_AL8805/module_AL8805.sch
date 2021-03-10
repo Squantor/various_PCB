@@ -79,9 +79,9 @@ F 3 "~" H 1150 6500 50  0001 C CNN
 	1    1150 6500
 	1    0    0    -1  
 $EndComp
-Text Label 800  6500 2    50   ~ 0
-LED+
 Text Label 800  6600 2    50   ~ 0
+LED+
+Text Label 800  6500 2    50   ~ 0
 LED-
 Wire Wire Line
 	950  6500 800  6500
@@ -107,7 +107,7 @@ U 1 1 6047CB05
 P 2450 6800
 F 0 "U1" H 2450 7050 50  0000 C CNN
 F 1 "AL8805" H 2450 6550 50  0000 C CNN
-F 2 "SquantorIC:SOT23-6-HAND" H 2450 6800 50  0001 C CNN
+F 2 "SquantorIC:SOT25-diodesinc" H 2450 6800 50  0001 C CNN
 F 3 "" H 2450 6800 50  0001 C CNN
 	1    2450 6800
 	1    0    0    -1  
