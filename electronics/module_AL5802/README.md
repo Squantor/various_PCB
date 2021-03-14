@@ -2,8 +2,6 @@
 Small breakout board for the AL5802 constant current source.
 ## TODO's
 Still some things need to be done:
-* schematic entry 
-* PCB layout
 * Review with one night in between
 * Produce at [OSHPARK](https://oshpark.com/)
 * Assemble

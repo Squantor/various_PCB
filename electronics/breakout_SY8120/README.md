@@ -2,8 +2,6 @@
 Breakout for the [SY8120I](https://datasheet.lcsc.com/szlcsc/2001171834_Silergy-Corp-SY8120IABC_C479076.pdf) step down converter, can also be used as a LM7805 replacement.
 ## TODO's
 Still some things need to be done:
-* schematic entry 
-* PCB layout
 * Review with one night in between
 * Produce at [OSHPARK](https://oshpark.com/)
 * Assemble
