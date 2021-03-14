@@ -58,4 +58,52 @@ F 3 "" H 1000 7350 60  0001 C CNN
 	1    1000 7350
 	1    0    0    -1  
 $EndComp
+$Comp
+L SquantorDiodesInc:AL5802 U?
+U 1 1 604E2245
+P 2050 5800
+F 0 "U?" H 2050 6165 50  0000 C CNN
+F 1 "AL5802" H 2050 6074 50  0000 C CNN
+F 2 "" H 2050 5800 50  0001 C CNN
+F 3 "" H 2050 5800 50  0001 C CNN
+	1    2050 5800
+	1    0    0    -1  
+$EndComp
+Text Label 1650 5800 2    50   ~ 0
+VCC
+Text Label 2900 5900 0    50   ~ 0
+GND
+$Comp
+L Device:R R?
+U 1 1 604E2DEF
+P 2650 5700
+F 0 "R?" V 2600 5850 50  0000 C CNN
+F 1 "FB" V 2650 5700 50  0000 C CNN
+F 2 "" V 2580 5700 50  0001 C CNN
+F 3 "~" H 2650 5700 50  0001 C CNN
+	1    2650 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 5700 2450 5700
+Wire Wire Line
+	2400 5800 2450 5800
+Wire Wire Line
+	2450 5800 2450 5700
+Connection ~ 2450 5700
+Wire Wire Line
+	2450 5700 2400 5700
+Wire Wire Line
+	2900 5900 2850 5900
+Wire Wire Line
+	2800 5700 2850 5700
+Wire Wire Line
+	2850 5700 2850 5900
+Connection ~ 2850 5900
+Wire Wire Line
+	2850 5900 2400 5900
+Text Label 1650 5700 2    50   ~ 0
+LEDI
+Text Label 1650 5900 2    50   ~ 0
+EN
 $EndSCHEMATC
