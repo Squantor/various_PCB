@@ -16,102 +16,102 @@ $EndDescr
 $Comp
 L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
-P 1050 7450
-F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20210308" H 800 7450 60  0000 L CNN
-F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
-F 3 "" H 1050 7450 60  0001 C CNN
-	1    1050 7450
+P 1000 7150
+F 0 "N1" H 950 7250 60  0000 L CNN
+F 1 "20210315" H 750 7150 60  0000 L CNN
+F 2 "SquantorLabels:Label_Generic" H 1000 7150 60  0001 C CNN
+F 3 "" H 1000 7150 60  0001 C CNN
+	1    1000 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorLabels:OHWLOGO N2
 U 1 1 5EE13678
-P 800 7150
-F 0 "N2" H 928 7203 60  0000 L CNN
-F 1 "OHWLOGO" H 928 7097 60  0000 L CNN
-F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 800 7150 60  0001 C CNN
-F 3 "" H 800 7150 60  0001 C CNN
-	1    800  7150
+P 750 6850
+F 0 "N2" H 878 6903 60  0000 L CNN
+F 1 "OHWLOGO" H 878 6797 60  0000 L CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 750 6850 60  0001 C CNN
+F 3 "" H 750 6850 60  0001 C CNN
+	1    750  6850
 	1    0    0    -1  
 $EndComp
 Text Notes 650  7650 0    50   ~ 0
 Logos and version
 Wire Notes Line
-	600  7000 600  7700
+	600  6500 600  7700
 Wire Notes Line
 	600  7700 1400 7700
 Wire Notes Line
-	1400 7700 1400 7000
+	1400 7700 1400 6500
 Wire Notes Line
-	1400 7000 600  7000
+	1400 6500 600  6500
 Wire Notes Line
 	600  7550 1400 7550
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 6044F509
-P 1150 6400
-F 0 "J1" H 1100 6600 50  0000 L CNN
-F 1 "Conn_01x04" H 750 6100 50  0000 L CNN
-F 2 "SquantorConnectors:Header-0254-1X04-H010" H 1150 6400 50  0001 C CNN
-F 3 "~" H 1150 6400 50  0001 C CNN
-	1    1150 6400
+P 1150 5900
+F 0 "J1" H 1100 6100 50  0000 L CNN
+F 1 "Conn_01x04" H 750 5600 50  0000 L CNN
+F 2 "SquantorConnectors:Header-0254-1X04-H010" H 1150 5900 50  0001 C CNN
+F 3 "~" H 1150 5900 50  0001 C CNN
+	1    1150 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  6300 950  6300
+	900  5800 950  5800
 Wire Wire Line
-	950  6400 900  6400
+	950  5900 900  5900
 Wire Wire Line
-	900  6500 950  6500
+	900  6000 950  6000
 Wire Wire Line
-	950  6600 900  6600
-Text Label 900  6300 2    50   ~ 0
+	950  6100 900  6100
+Text Label 900  5800 2    50   ~ 0
 Vin
-Text Label 900  6400 2    50   ~ 0
+Text Label 900  5900 2    50   ~ 0
 GND
-Text Label 900  6500 2    50   ~ 0
+Text Label 900  6000 2    50   ~ 0
 Vout
-Text Label 900  6600 2    50   ~ 0
+Text Label 900  6100 2    50   ~ 0
 Enable
-Text Notes 900  6850 0    50   ~ 0
+Text Notes 900  6350 0    50   ~ 0
 Connections
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 604567C7
-P 850 6100
-F 0 "#FLG02" H 850 6175 50  0001 C CNN
-F 1 "PWR_FLAG" V 850 6228 50  0000 L CNN
-F 2 "" H 850 6100 50  0001 C CNN
-F 3 "~" H 850 6100 50  0001 C CNN
-	1    850  6100
+P 850 5600
+F 0 "#FLG02" H 850 5675 50  0001 C CNN
+F 1 "PWR_FLAG" V 850 5728 50  0000 L CNN
+F 2 "" H 850 5600 50  0001 C CNN
+F 3 "~" H 850 5600 50  0001 C CNN
+	1    850  5600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 60458230
-P 850 6000
-F 0 "#FLG01" H 850 6075 50  0001 C CNN
-F 1 "PWR_FLAG" V 850 6128 50  0000 L CNN
-F 2 "" H 850 6000 50  0001 C CNN
-F 3 "~" H 850 6000 50  0001 C CNN
-	1    850  6000
+P 850 5500
+F 0 "#FLG01" H 850 5575 50  0001 C CNN
+F 1 "PWR_FLAG" V 850 5628 50  0000 L CNN
+F 2 "" H 850 5500 50  0001 C CNN
+F 3 "~" H 850 5500 50  0001 C CNN
+	1    850  5500
 	0    1    1    0   
 $EndComp
-Text Label 800  6000 2    50   ~ 0
+Text Label 800  5500 2    50   ~ 0
 Vin
-Text Label 800  6100 2    50   ~ 0
+Text Label 800  5600 2    50   ~ 0
 GND
 Wire Wire Line
-	800  6100 850  6100
+	800  5600 850  5600
 Wire Wire Line
-	850  6000 800  6000
+	850  5500 800  5500
 Wire Notes Line
-	1400 5900 600  5900
+	1400 5400 600  5400
 Wire Notes Line
-	600  5900 600  6900
+	600  5400 600  6400
 Wire Notes Line
-	850  6750 850  6900
+	850  6250 850  6400
 $Comp
 L SquantorSilergy:SY8120 U1
 U 1 1 6045A670
@@ -450,9 +450,20 @@ Wire Notes Line
 Wire Notes Line
 	2350 7550 2350 7700
 Wire Notes Line
-	1400 6750 850  6750
+	1400 6250 850  6250
 Wire Notes Line
-	600  6900 1400 6900
+	600  6400 1400 6400
 Wire Notes Line
-	1400 6900 1400 5900
+	1400 6400 1400 5400
+$Comp
+L SquantorLabels:Label N3
+U 1 1 6050A750
+P 1000 7400
+F 0 "N3" H 950 7450 60  0000 L CNN
+F 1 "Vout:" H 900 7350 60  0000 L CNN
+F 2 "SquantorLabels:Label_Note_medium" H 1000 7400 60  0001 C CNN
+F 3 "" H 1000 7400 60  0001 C CNN
+	1    1000 7400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
