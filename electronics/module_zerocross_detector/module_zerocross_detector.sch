@@ -47,4 +47,308 @@ Wire Notes Line
 	1400 7000 600  7000
 Wire Notes Line
 	600  7550 1400 7550
+Text Notes 950  6900 0    50   ~ 0
+Line input
+Text Label 1000 6650 0    50   ~ 0
+NEUTRAL
+Text Label 1000 6550 0    50   ~ 0
+PHASE
+Wire Wire Line
+	1000 6650 950  6650
+Wire Notes Line
+	1400 6950 1400 6400
+Wire Notes Line
+	1400 6400 600  6400
+Wire Notes Line
+	600  6400 600  6950
+Wire Notes Line
+	600  6950 1400 6950
+Wire Notes Line
+	1400 6800 900  6800
+Wire Notes Line
+	900  6800 900  6950
+Text Label 1950 6800 2    50   ~ 0
+PHASE
+Text Label 1950 7200 2    50   ~ 0
+NEUTRAL
+$Comp
+L Device:R R1
+U 1 1 605276FE
+P 2150 6800
+F 0 "R1" V 2100 6950 50  0000 C CNN
+F 1 "100K" V 2150 6800 50  0000 C CNN
+F 2 "SquantorRcl:R_1206" V 2080 6800 50  0001 C CNN
+F 3 "~" H 2150 6800 50  0001 C CNN
+	1    2150 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60527FBC
+P 2150 7200
+F 0 "R2" V 2200 7350 50  0000 C CNN
+F 1 "100K" V 2150 7200 50  0000 C CNN
+F 2 "SquantorRcl:R_1206" V 2080 7200 50  0001 C CNN
+F 3 "~" H 2150 7200 50  0001 C CNN
+	1    2150 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60528359
+P 2500 7200
+F 0 "R4" V 2550 7350 50  0000 C CNN
+F 1 "100K" V 2500 7200 50  0000 C CNN
+F 2 "SquantorRcl:R_1206" V 2430 7200 50  0001 C CNN
+F 3 "~" H 2500 7200 50  0001 C CNN
+	1    2500 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 605286B3
+P 2500 6800
+F 0 "R3" V 2450 6950 50  0000 C CNN
+F 1 "100K" V 2500 6800 50  0000 C CNN
+F 2 "SquantorRcl:R_1206" V 2430 6800 50  0001 C CNN
+F 3 "~" H 2500 6800 50  0001 C CNN
+	1    2500 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 6800 2000 6800
+Wire Wire Line
+	2000 7200 1950 7200
+Wire Wire Line
+	2300 7200 2350 7200
+Wire Wire Line
+	2350 6800 2300 6800
+$Comp
+L Device:C C1
+U 1 1 6052929E
+P 2700 7000
+F 0 "C1" H 2700 7100 50  0000 L CNN
+F 1 "1n" H 2700 6900 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 2738 6850 50  0001 C CNN
+F 3 "~" H 2700 7000 50  0001 C CNN
+	1    2700 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 7200 2700 7200
+Wire Wire Line
+	2700 7200 2700 7150
+Wire Wire Line
+	2700 6850 2700 6800
+Wire Wire Line
+	2700 6800 2650 6800
+$Comp
+L Device:D D1
+U 1 1 6052C39B
+P 3100 6400
+F 0 "D1" H 3000 6450 50  0000 C CNN
+F 1 "1N4148" H 3100 6300 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3100 6400 50  0001 C CNN
+F 3 "~" H 3100 6400 50  0001 C CNN
+	1    3100 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 60532769
+P 3100 6800
+F 0 "D2" H 3000 6850 50  0000 C CNN
+F 1 "1N4148" H 3100 6700 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3100 6800 50  0001 C CNN
+F 3 "~" H 3100 6800 50  0001 C CNN
+	1    3100 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 60537712
+P 3100 7200
+F 0 "D3" H 3000 7250 50  0000 C CNN
+F 1 "1N4148" H 3100 7100 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3100 7200 50  0001 C CNN
+F 3 "~" H 3100 7200 50  0001 C CNN
+	1    3100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 6053848A
+P 3100 7600
+F 0 "D4" H 3000 7650 50  0000 C CNN
+F 1 "1N4148" H 3100 7500 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3100 7600 50  0001 C CNN
+F 3 "~" H 3100 7600 50  0001 C CNN
+	1    3100 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 7200 2850 7200
+Connection ~ 2700 7200
+Wire Wire Line
+	2700 6800 2900 6800
+Connection ~ 2700 6800
+Wire Wire Line
+	2850 7200 2850 6400
+Wire Wire Line
+	2850 6400 2950 6400
+Connection ~ 2850 7200
+Wire Wire Line
+	2850 7200 2950 7200
+Wire Wire Line
+	2900 6800 2900 7600
+Wire Wire Line
+	2900 7600 2950 7600
+Connection ~ 2900 6800
+Wire Wire Line
+	2900 6800 2950 6800
+Wire Wire Line
+	3250 6400 3300 6400
+Wire Wire Line
+	3300 6400 3300 6800
+Wire Wire Line
+	3300 6800 3250 6800
+Wire Wire Line
+	3250 7200 3300 7200
+Wire Wire Line
+	3300 7200 3300 7600
+Wire Wire Line
+	3300 7600 3250 7600
+$Comp
+L Device:R R5
+U 1 1 6053C68D
+P 3300 7000
+F 0 "R5" V 3350 7150 50  0000 C CNN
+F 1 "22K" V 3300 7000 50  0000 C CNN
+F 2 "SquantorRcl:R_1206" V 3230 7000 50  0001 C CNN
+F 3 "~" H 3300 7000 50  0001 C CNN
+	1    3300 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 6850 3300 6800
+Connection ~ 3300 6800
+Wire Wire Line
+	3300 7150 3300 7200
+Connection ~ 3300 7200
+$Comp
+L Device:D D5
+U 1 1 6053D898
+P 3500 7200
+F 0 "D5" H 3400 7250 50  0000 C CNN
+F 1 "1N4148" H 3500 7100 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3500 7200 50  0001 C CNN
+F 3 "~" H 3500 7200 50  0001 C CNN
+	1    3500 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 6053E17C
+P 3500 6800
+F 0 "C2" H 3500 6900 50  0000 L CNN
+F 1 "10u" H 3500 6700 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 3538 6650 50  0001 C CNN
+F 3 "~" H 3500 6800 50  0001 C CNN
+	1    3500 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 7350 3500 7600
+Wire Wire Line
+	3500 7600 3300 7600
+Connection ~ 3300 7600
+Wire Wire Line
+	3500 6650 3500 6400
+Wire Wire Line
+	3500 6400 3300 6400
+Connection ~ 3300 6400
+Wire Wire Line
+	3500 6950 3500 7050
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 605434B7
+P 800 5850
+F 0 "H2" V 850 5750 50  0000 C CNN
+F 1 "M3" V 750 5750 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 5850 50  0001 C CNN
+F 3 "~" H 800 5850 50  0001 C CNN
+	1    800  5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 6550 950  6550
+$Comp
+L power:Earth #PWR01
+U 1 1 60551B99
+P 1000 5950
+F 0 "#PWR01" H 1000 5700 50  0001 C CNN
+F 1 "Earth" H 1000 5800 50  0001 C CNN
+F 2 "" H 1000 5950 50  0001 C CNN
+F 3 "~" H 1000 5950 50  0001 C CNN
+	1    1000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 60558151
+P 800 5650
+F 0 "H1" V 850 5550 50  0000 C CNN
+F 1 "M3" V 750 5550 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 5650 50  0001 C CNN
+F 3 "~" H 800 5650 50  0001 C CNN
+	1    800  5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 60558597
+P 1200 5850
+F 0 "H4" V 1250 5750 50  0000 C CNN
+F 1 "M3" V 1150 5750 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1200 5850 50  0001 C CNN
+F 3 "~" H 1200 5850 50  0001 C CNN
+	1    1200 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60559B5D
+P 1200 5650
+F 0 "H3" V 1250 5550 50  0000 C CNN
+F 1 "M3" V 1150 5550 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1200 5650 50  0001 C CNN
+F 3 "~" H 1200 5650 50  0001 C CNN
+	1    1200 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 5950 1000 5850
+Wire Wire Line
+	1000 5650 1100 5650
+Wire Wire Line
+	1000 5650 900  5650
+Connection ~ 1000 5650
+Wire Wire Line
+	900  5850 1000 5850
+Connection ~ 1000 5850
+Wire Wire Line
+	1000 5850 1000 5650
+Wire Wire Line
+	1100 5850 1000 5850
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 60563155
+P 750 6550
+F 0 "J1" H 750 6650 50  0000 C CNN
+F 1 "Conn_01x02" H 600 6350 50  0000 C CNN
+F 2 "SquantorPhoenixContact:MKDS_2conn_508pitch_1711725" H 750 6550 50  0001 C CNN
+F 3 "~" H 750 6550 50  0001 C CNN
+	1    750  6550
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
