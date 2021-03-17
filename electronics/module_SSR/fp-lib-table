@@ -24,4 +24,5 @@
   (lib (name SquantorTransformer)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTransformer.pretty)(options "")(descr ""))
   (lib (name SquantorUsb)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorUsb.pretty)(options "")(descr ""))
   (lib (name SquantorWinbond)(type KiCad)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorWinbond.pretty)(options "")(descr ""))
+  (lib (name SquantorPhoenixContact)(type KiCad)(uri /home/abilos/projects/my_public/various_PCB/electronics/squantorPcbLibrary/SquantorPhoenixContact.pretty)(options "")(descr ""))
 )
