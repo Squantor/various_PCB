@@ -47,26 +47,26 @@ Wire Notes Line
 	1400 7000 600  7000
 Wire Notes Line
 	600  7550 1400 7550
-Text Notes 950  6900 0    50   ~ 0
+Text Notes 950  6850 0    50   ~ 0
 Line input
-Text Label 1000 6650 0    50   ~ 0
+Text Label 950  6600 0    50   ~ 0
 NEUTRAL
-Text Label 1000 6550 0    50   ~ 0
+Text Label 950  6500 0    50   ~ 0
 PHASE
 Wire Wire Line
-	1000 6650 950  6650
+	950  6600 900  6600
 Wire Notes Line
-	1400 6950 1400 6400
+	1400 6900 1400 6350
 Wire Notes Line
-	1400 6400 600  6400
+	1400 6350 600  6350
 Wire Notes Line
-	600  6400 600  6950
+	600  6350 600  6900
 Wire Notes Line
-	600  6950 1400 6950
+	600  6900 1400 6900
 Wire Notes Line
-	1400 6800 900  6800
+	1400 6750 900  6750
 Wire Notes Line
-	900  6800 900  6950
+	900  6750 900  6900
 Text Label 1950 6800 2    50   ~ 0
 PHASE
 Text Label 1950 7200 2    50   ~ 0
@@ -268,87 +268,335 @@ Wire Wire Line
 	3500 6400 3300 6400
 Connection ~ 3300 6400
 Wire Wire Line
-	3500 6950 3500 7050
+	3500 6950 3500 7000
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 605434B7
-P 800 5850
-F 0 "H2" V 850 5750 50  0000 C CNN
-F 1 "M3" V 750 5750 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 5850 50  0001 C CNN
-F 3 "~" H 800 5850 50  0001 C CNN
-	1    800  5850
+P 800 5150
+F 0 "H2" V 850 5050 50  0000 C CNN
+F 1 "M3" V 750 5050 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 5150 50  0001 C CNN
+F 3 "~" H 800 5150 50  0001 C CNN
+	1    800  5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1000 6550 950  6550
+	950  6500 900  6500
 $Comp
 L power:Earth #PWR01
 U 1 1 60551B99
-P 1000 5950
-F 0 "#PWR01" H 1000 5700 50  0001 C CNN
-F 1 "Earth" H 1000 5800 50  0001 C CNN
-F 2 "" H 1000 5950 50  0001 C CNN
-F 3 "~" H 1000 5950 50  0001 C CNN
-	1    1000 5950
+P 1000 5250
+F 0 "#PWR01" H 1000 5000 50  0001 C CNN
+F 1 "Earth" H 1000 5100 50  0001 C CNN
+F 2 "" H 1000 5250 50  0001 C CNN
+F 3 "~" H 1000 5250 50  0001 C CNN
+	1    1000 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 60558151
-P 800 5650
-F 0 "H1" V 850 5550 50  0000 C CNN
-F 1 "M3" V 750 5550 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 5650 50  0001 C CNN
-F 3 "~" H 800 5650 50  0001 C CNN
-	1    800  5650
+P 800 4950
+F 0 "H1" V 850 4850 50  0000 C CNN
+F 1 "M3" V 750 4850 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 4950 50  0001 C CNN
+F 3 "~" H 800 4950 50  0001 C CNN
+	1    800  4950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 60558597
-P 1200 5850
-F 0 "H4" V 1250 5750 50  0000 C CNN
-F 1 "M3" V 1150 5750 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1200 5850 50  0001 C CNN
-F 3 "~" H 1200 5850 50  0001 C CNN
-	1    1200 5850
+P 1200 5150
+F 0 "H4" V 1250 5050 50  0000 C CNN
+F 1 "M3" V 1150 5050 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1200 5150 50  0001 C CNN
+F 3 "~" H 1200 5150 50  0001 C CNN
+	1    1200 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 60559B5D
-P 1200 5650
-F 0 "H3" V 1250 5550 50  0000 C CNN
-F 1 "M3" V 1150 5550 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1200 5650 50  0001 C CNN
-F 3 "~" H 1200 5650 50  0001 C CNN
-	1    1200 5650
+P 1200 4950
+F 0 "H3" V 1250 4850 50  0000 C CNN
+F 1 "M3" V 1150 4850 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1200 4950 50  0001 C CNN
+F 3 "~" H 1200 4950 50  0001 C CNN
+	1    1200 4950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1000 5950 1000 5850
+	1000 5250 1000 5150
 Wire Wire Line
-	1000 5650 1100 5650
+	1000 4950 1100 4950
 Wire Wire Line
-	1000 5650 900  5650
-Connection ~ 1000 5650
+	1000 4950 900  4950
+Connection ~ 1000 4950
 Wire Wire Line
-	900  5850 1000 5850
-Connection ~ 1000 5850
+	900  5150 1000 5150
+Connection ~ 1000 5150
 Wire Wire Line
-	1000 5850 1000 5650
+	1000 5150 1000 4950
 Wire Wire Line
-	1100 5850 1000 5850
+	1100 5150 1000 5150
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 60563155
-P 750 6550
-F 0 "J1" H 750 6650 50  0000 C CNN
-F 1 "Conn_01x02" H 600 6350 50  0000 C CNN
-F 2 "SquantorPhoenixContact:MKDS_2conn_508pitch_1711725" H 750 6550 50  0001 C CNN
-F 3 "~" H 750 6550 50  0001 C CNN
-	1    750  6550
+P 700 6500
+F 0 "J1" H 700 6600 50  0000 C CNN
+F 1 "Conn_01x02" H 550 6300 50  0000 C CNN
+F 2 "SquantorPhoenixContact:MKDS_2conn_508pitch_1711725" H 700 6500 50  0001 C CNN
+F 3 "~" H 700 6500 50  0001 C CNN
+	1    700  6500
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Device:Q_NPN_BEC Q1
+U 1 1 6053B176
+P 3800 7100
+F 0 "Q1" V 3750 7300 50  0000 C CNN
+F 1 "MMBT3904" V 3650 7300 50  0000 C CNN
+F 2 "" H 4000 7200 50  0001 C CNN
+F 3 "~" H 3800 7100 50  0001 C CNN
+	1    3800 7100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3600 7000 3500 7000
+Connection ~ 3500 7000
+Wire Wire Line
+	3500 7000 3500 7050
+Wire Wire Line
+	3800 7300 3800 7600
+Wire Wire Line
+	3800 7600 3500 7600
+Connection ~ 3500 7600
+$Comp
+L Device:R R6
+U 1 1 60540F4E
+P 3800 6400
+F 0 "R6" V 3750 6550 50  0000 C CNN
+F 1 "1K" V 3800 6400 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 3730 6400 50  0001 C CNN
+F 3 "~" H 3800 6400 50  0001 C CNN
+	1    3800 6400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 6400 3500 6400
+Connection ~ 3500 6400
+$Comp
+L Isolator:4N28 U1
+U 1 1 60542DD1
+P 4400 6700
+F 0 "U1" H 4400 6900 50  0000 C CNN
+F 1 "4N28" H 4400 6500 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 4200 6500 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 4400 6700 50  0001 L CNN
+	1    4400 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6400 4050 6400
+Wire Wire Line
+	4050 6400 4050 6600
+Wire Wire Line
+	4050 6600 4100 6600
+Wire Wire Line
+	4000 7000 4050 7000
+Wire Wire Line
+	4050 7000 4050 6800
+Wire Wire Line
+	4050 6800 4100 6800
+$Comp
+L Device:R R9
+U 1 1 6054B0DA
+P 5050 6400
+F 0 "R9" V 5000 6550 50  0000 C CNN
+F 1 "47" V 5050 6400 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 4980 6400 50  0001 C CNN
+F 3 "~" H 5050 6400 50  0001 C CNN
+	1    5050 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60550A49
+P 4850 7050
+F 0 "R8" V 4800 7200 50  0000 C CNN
+F 1 "1K" V 4850 7050 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 4780 7050 50  0001 C CNN
+F 3 "~" H 4850 7050 50  0001 C CNN
+	1    4850 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 605512E6
+P 4850 6400
+F 0 "R7" V 4800 6550 50  0000 C CNN
+F 1 "2.2M" V 4850 6400 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 4780 6400 50  0001 C CNN
+F 3 "~" H 4850 6400 50  0001 C CNN
+	1    4850 6400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 6600 4750 6600
+Wire Wire Line
+	4750 6600 4750 6200
+Wire Wire Line
+	4750 6200 4850 6200
+Wire Wire Line
+	4850 6550 4850 6800
+Connection ~ 4850 6800
+Wire Wire Line
+	4850 6800 4850 6850
+Wire Wire Line
+	4850 6800 4700 6800
+Wire Wire Line
+	5050 6550 5050 6700
+Wire Wire Line
+	5050 6700 4700 6700
+Wire Wire Line
+	5050 6250 5050 6200
+Wire Wire Line
+	5050 6200 5200 6200
+Wire Wire Line
+	4850 7200 5200 7200
+Wire Wire Line
+	5200 7200 5200 7050
+$Comp
+L Device:Q_NPN_BEC Q2
+U 1 1 60548D63
+P 5100 6850
+F 0 "Q2" H 5450 6850 50  0000 C CNN
+F 1 "MMBT3904" H 5450 6950 50  0000 C CNN
+F 2 "" H 5300 6950 50  0001 C CNN
+F 3 "~" H 5100 6850 50  0001 C CNN
+	1    5100 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 6056C3E7
+P 5200 6400
+F 0 "R10" V 5150 6550 50  0000 C CNN
+F 1 "1K" V 5200 6400 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 5130 6400 50  0001 C CNN
+F 3 "~" H 5200 6400 50  0001 C CNN
+	1    5200 6400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 6200 4850 6250
+Wire Wire Line
+	5200 6550 5200 6600
+Wire Wire Line
+	5200 6250 5200 6200
+Wire Notes Line
+	1600 7750 5700 7750
+Wire Notes Line
+	5700 7750 5700 6100
+Wire Notes Line
+	5700 6100 1600 6100
+Wire Notes Line
+	1600 6100 1600 7750
+Text Label 5300 6200 0    50   ~ 0
+VCC
+Text Label 5300 7200 0    50   ~ 0
+GND
+Wire Wire Line
+	5300 6200 5200 6200
+Connection ~ 5200 6200
+Wire Wire Line
+	5300 7200 5200 7200
+Connection ~ 5200 7200
+Wire Wire Line
+	4900 6850 4850 6850
+Connection ~ 4850 6850
+Wire Wire Line
+	4850 6850 4850 6900
+Text Label 5300 6600 0    50   ~ 0
+DETECTOR
+Wire Wire Line
+	5300 6600 5200 6600
+Connection ~ 5200 6600
+Wire Wire Line
+	5200 6600 5200 6650
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 6059F9C4
+P 700 5850
+F 0 "J2" H 700 5650 50  0000 C CNN
+F 1 "Conn_01x03" H 500 6050 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 700 5850 50  0001 C CNN
+F 3 "~" H 700 5850 50  0001 C CNN
+	1    700  5850
+	-1   0    0    1   
+$EndComp
+Text Label 950  5950 0    50   ~ 0
+GND
+Text Label 950  5850 0    50   ~ 0
+VCC
+Text Label 950  5750 0    50   ~ 0
+DETECTOR
+Wire Wire Line
+	950  5750 900  5750
+Wire Wire Line
+	900  5850 950  5850
+Wire Wire Line
+	950  5950 900  5950
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 605AF7EF
+P 1000 4900
+F 0 "#FLG0101" H 1000 4975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1000 5073 50  0000 C CNN
+F 2 "" H 1000 4900 50  0001 C CNN
+F 3 "~" H 1000 4900 50  0001 C CNN
+	1    1000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4900 1000 4950
+Text Notes 750  6200 0    50   ~ 0
+Detector output
+Wire Notes Line
+	1400 5600 600  5600
+Wire Notes Line
+	600  5600 600  6250
+Wire Notes Line
+	600  6250 1400 6250
+Wire Notes Line
+	1400 5600 1400 6250
+Wire Notes Line
+	1400 6100 700  6100
+Wire Notes Line
+	700  6100 700  6250
+Text Notes 1000 5450 0    50   ~ 0
+Mounting
+Wire Notes Line
+	1400 5500 1400 4650
+Wire Notes Line
+	1400 4650 600  4650
+Wire Notes Line
+	600  4650 600  5500
+Wire Notes Line
+	600  5500 1400 5500
+Wire Notes Line
+	4400 6100 4400 7750
+Text Notes 4050 7700 0    50   ~ 0
+Detector
+Wire Notes Line
+	4000 7600 4400 7600
+Wire Notes Line
+	4000 7600 4000 7750
+Text Notes 5000 7700 0    50   ~ 0
+Opto accelerator
+Wire Notes Line
+	5700 7600 4950 7600
+Wire Notes Line
+	4950 7600 4950 7750
 $EndSCHEMATC
