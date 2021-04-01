@@ -10,9 +10,11 @@ The feedback resistor needs to be high ohmic, for me it seems that 10MegOhms is 
 Nexperia has a good test procedure to prevent spurious oscillations by testing the circuit without a crystal and checking of nothing oscillates. This makes sure you have enough gain for oscillation but not for any spurious oscillations to occur.
 ### C1 and C2
 The predominant formula seems to be like this:
+
 ![Cl equation](readme_files/CL_equation.png)
 ### Rs
 Rs is tricky, the datasheets recommend that you compute the impedance of C2 at the oscillation frequency to create a 50% divider with Rs. This seems to work for normal AT cut crystals.
+
 But this does not work well for tuningfork crystals like those of 32.768KHz. Another rule of thumb I have read is to take the ESR and multiply it by 4. I am not sure where I got that one but does seem to do the trick for the tuning fork types.
 ### Example table
 Crystal|Rf|C1 & C2| Rs
@@ -29,6 +31,6 @@ Crystal|Rf|C1 & C2| Rs
 * All other passives 0402
 # Pictures
 ![12MHz oscillator](readme_files/12MHz_osc.jpg)
-![12MHz oscillator](readme_files/scope_output.jpg)
+![12MHz oscillator output](readme_files/scope_output.png)
 
 
