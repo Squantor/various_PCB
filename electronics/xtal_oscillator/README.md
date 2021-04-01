@@ -17,12 +17,12 @@ Rs is tricky, the datasheets recommend that you compute the impedance of C2 at t
 
 But this does not work well for tuningfork crystals like those of 32.768KHz. Another rule of thumb I have read is to take the ESR and multiply it by 4. I am not sure where I got that one but does seem to do the trick for the tuning fork types.
 ### Example table
-Crystal|Rf|C1 & C2| Rs
--------|--|-------|---
-[Q13FC13500004 FC-135 32.768KHZ 12.5PF](http://www.farnell.com/datasheets/2018173.pdf)|10Mohm|15pF|220KOhm(see notes)
-[MCSJK-7U-12.00-12-30-80-B-30](http://www.farnell.com/datasheets/2864166.pdf)|10Mohm|15pF|100Ohm
-[XTY 7216-2500A2010-00 ](https://lcsc.com/product-detail/New-Arrivals_XTY-7216-2500A2010-00_C389792.html)|10MOhm|33pF|300Ohm
-[XRCGB32M000F2P10R0](https://www.murata.com/products/productdata/8801079492638/SPEC-XRCGB32M000F2P10R0.pdf)|10MOhm|4.7pF|1KOhm
+Crystal|Rf|C1 & C2| Rs|Frequency
+-------|--|-------|---|---------
+[Q13FC13500004 FC-135 32.768KHZ 12.5PF](http://www.farnell.com/datasheets/2018173.pdf)|10Mohm|15pF|220KOhm(see notes)|32.768KHz
+[MCSJK-7U-12.00-12-30-80-B-30](http://www.farnell.com/datasheets/2864166.pdf)|10Mohm|15pF|100Ohm|12MHz
+[XTY 7216-2500A2010-00 ](https://lcsc.com/product-detail/New-Arrivals_XTY-7216-2500A2010-00_C389792.html)|10MOhm|33pF|300Ohm|25MHz
+[XRCGB32M000F2P10R0](https://www.murata.com/products/productdata/8801079492638/SPEC-XRCGB32M000F2P10R0.pdf)|10MOhm|4.7pF|1KOhm|32MHz
 
 ## BOM
 * Any crystal in 3225 housing, you can also fit smaller crystals in that same footprint with some positioning
