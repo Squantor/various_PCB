@@ -4,7 +4,7 @@ Small crystal oscillator PCB using the 1GX04 style pierce oscillator and driver 
 All finished!
 ## Usage
 Most of the information here is taken from various datasheets from [Nexperia](https://assets.nexperia.com/documents/data-sheet/74LVC1GX04.pdf) and [Texas instruments](https://www.ti.com/product/SN74LVC1GX04).
-[Basic Pierce oscillator schematic](readme_files/Pierce_Oscillator.png)
+![Basic Pierce oscillator schematic](readme_files/Pierce_Oscillator.png)
 ### Rf
 ### C1 and C2
 ### Rs
