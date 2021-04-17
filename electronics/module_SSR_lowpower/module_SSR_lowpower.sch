@@ -179,7 +179,7 @@ F 1 "MOC3021M" H 3200 7384 50  0000 C CNN
 F 2 "Package_DIP:DIP-6_W7.62mm" H 3000 6950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF" H 3200 7150 50  0001 L CNN
 	1    3200 7150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R2
@@ -260,24 +260,24 @@ Wire Wire Line
 $Comp
 L Device:R R4
 U 1 1 6056E56E
-P 2700 7250
-F 0 "R4" V 2600 7250 50  0000 C CNN
-F 1 "1K" V 2700 7250 50  0000 C CNN
-F 2 "SquantorRcl:R_0603_hand" V 2630 7250 50  0001 C CNN
-F 3 "~" H 2700 7250 50  0001 C CNN
-	1    2700 7250
-	0    1    1    0   
+P 2700 7050
+F 0 "R4" V 2600 7050 50  0000 C CNN
+F 1 "1K" V 2700 7050 50  0000 C CNN
+F 2 "SquantorRcl:R_0603_hand" V 2630 7050 50  0001 C CNN
+F 3 "~" H 2700 7050 50  0001 C CNN
+	1    2700 7050
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	2900 7050 2850 7050
-Text Label 2500 7250 2    50   ~ 0
+	2900 7250 2850 7250
+Text Label 2500 7050 2    50   ~ 0
 LED_C
-Text Label 2850 7050 2    50   ~ 0
+Text Label 2850 7250 2    50   ~ 0
 LED_A
 Wire Wire Line
-	2900 7250 2850 7250
+	2900 7050 2850 7050
 Wire Wire Line
-	2550 7250 2500 7250
+	2550 7050 2500 7050
 $Comp
 L Device:R R1
 U 1 1 60527D06
