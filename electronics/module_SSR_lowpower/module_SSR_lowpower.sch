@@ -396,10 +396,10 @@ Wire Wire Line
 NoConn ~ 1900 7000
 NoConn ~ 1800 7000
 $Comp
-L SquantorLabels:Label N?
+L SquantorLabels:Label N3
 U 1 1 607DC089
 P 1000 7350
-F 0 "N?" H 950 7400 60  0000 L CNN
+F 0 "N3" H 950 7400 60  0000 L CNN
 F 1 "Type:" H 900 7300 60  0000 L CNN
 F 2 "SquantorLabels:Label_Note_medium" H 1000 7350 60  0001 C CNN
 F 3 "" H 1000 7350 60  0001 C CNN
