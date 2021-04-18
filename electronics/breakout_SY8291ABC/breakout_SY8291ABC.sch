@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
-P 1000 7150
-F 0 "N1" H 950 7250 60  0000 L CNN
-F 1 "20210417" H 750 7150 60  0000 L CNN
-F 2 "SquantorLabels:Label_Generic" H 1000 7150 60  0001 C CNN
-F 3 "" H 1000 7150 60  0001 C CNN
-	1    1000 7150
+P 1000 6950
+F 0 "N1" H 950 7050 60  0000 L CNN
+F 1 "20210418" H 750 6950 60  0000 L CNN
+F 2 "SquantorLabels:Label_Generic" H 1000 6950 60  0001 C CNN
+F 3 "" H 1000 6950 60  0001 C CNN
+	1    1000 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorLabels:OHWLOGO N2
 U 1 1 5EE13678
-P 750 6850
-F 0 "N2" H 878 6903 60  0000 L CNN
-F 1 "OHWLOGO" H 878 6797 60  0000 L CNN
-F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 750 6850 60  0001 C CNN
-F 3 "" H 750 6850 60  0001 C CNN
-	1    750  6850
+P 750 6650
+F 0 "N2" H 878 6703 60  0000 L CNN
+F 1 "OHWLOGO" H 878 6597 60  0000 L CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 750 6650 60  0001 C CNN
+F 3 "" H 750 6650 60  0001 C CNN
+	1    750  6650
 	1    0    0    -1  
 $EndComp
 Text Notes 650  7650 0    50   ~ 0
@@ -426,12 +426,12 @@ Wire Notes Line
 $Comp
 L SquantorLabels:Label N3
 U 1 1 6050A750
-P 1000 7400
-F 0 "N3" H 950 7450 60  0000 L CNN
-F 1 "Vout:" H 900 7350 60  0000 L CNN
-F 2 "SquantorLabels:Label_Note_medium" H 1000 7400 60  0001 C CNN
-F 3 "" H 1000 7400 60  0001 C CNN
-	1    1000 7400
+P 1000 7150
+F 0 "N3" H 950 7200 60  0000 L CNN
+F 1 "V:" H 950 7100 60  0000 L CNN
+F 2 "SquantorLabels:Label_Note_medium" H 1000 7150 60  0001 C CNN
+F 3 "" H 1000 7150 60  0001 C CNN
+	1    1000 7150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -443,6 +443,17 @@ F 1 "10u" H 3250 7000 50  0000 L CNN
 F 2 "SquantorRcl:C_1206_0805" H 3288 6950 50  0001 C CNN
 F 3 "~" H 3250 7100 50  0001 C CNN
 	1    3250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorLabels:Label N4
+U 1 1 607C51F1
+P 1000 7400
+F 0 "N4" H 950 7450 60  0000 L CNN
+F 1 "A:" H 950 7350 60  0000 L CNN
+F 2 "SquantorLabels:Label_Note_medium" H 1000 7400 60  0001 C CNN
+F 3 "" H 1000 7400 60  0001 C CNN
+	1    1000 7400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
