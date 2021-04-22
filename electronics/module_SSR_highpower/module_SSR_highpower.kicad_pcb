@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 20)
+    (drawings 22)
     (tracks 68)
     (zones 0)
     (modules 21)
@@ -585,7 +585,7 @@
     (descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-254 vertical")
     (path /60563112)
-    (fp_text reference J2 (at 1.1 -4.7 90) (layer F.SilkS)
+    (fp_text reference J2 (at 5.2 2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x02 (at 1.27 4.08 90) (layer F.Fab)
@@ -988,12 +988,18 @@
     (fp_text reference N1 (at 0 -1.85) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 20210418 (at 0.8 0.1) (layer B.SilkS)
+    (fp_text value 20210422 (at 0.8 0.1) (layer B.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -0.5 -0.6) (end 0.5 -0.6) (layer B.SilkS) (width 0.15))
   )
 
+  (gr_text Cathode (at 170 97.4) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text Anode (at 170.6 100.1) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
   (gr_line (start 155.3 87.4) (end 155.7 87.4) (layer Edge.Cuts) (width 0.05) (tstamp 607AB03B))
   (gr_line (start 155.3 84.9) (end 155.3 87.4) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 154.7 84.9) (end 155.3 84.9) (layer Edge.Cuts) (width 0.05))
