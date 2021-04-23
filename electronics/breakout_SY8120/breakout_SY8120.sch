@@ -446,10 +446,10 @@ F 3 "" H 1000 7150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorLabels:Label N?
+L SquantorLabels:Label N4
 U 1 1 60838A88
 P 1000 7400
-F 0 "N?" H 950 7450 60  0000 L CNN
+F 0 "N4" H 950 7450 60  0000 L CNN
 F 1 "A:" H 950 7350 60  0000 L CNN
 F 2 "SquantorLabels:Label_Note_medium" H 1000 7400 60  0001 C CNN
 F 3 "" H 1000 7400 60  0001 C CNN
