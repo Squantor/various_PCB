@@ -12,3 +12,5 @@ Still some things need to be done:
 ## BOM
 The CH340E is available from various chinese shops but can also be found on [LCSC](https://lcsc.com/).
 * CH340E, [C99652 from LCSC](https://lcsc.com/product-detail/USB_CH340E_C99652.html)
+# Pictures
+![Board Front](readme_files/module_CH340E_V20200609_front.jpg)
