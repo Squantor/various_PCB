@@ -63,7 +63,7 @@ U 1 1 60BE1975
 P 1150 1000
 F 0 "J1" H 1150 1400 50  0000 C CNN
 F 1 "USB-C_PD" H 1150 600 50  0000 C CNN
-F 2 "" H 1250 1000 50  0001 C CNN
+F 2 "SquantorUsb:USB-C-HRO-31-M-17" H 1250 1000 50  0001 C CNN
 F 3 "" H 1250 1000 50  0001 C CNN
 	1    1150 1000
 	1    0    0    -1  
@@ -232,47 +232,99 @@ Text Notes 5600 6700 0    50   ~ 0
 * Breakout connections
 Text Notes 5600 6800 0    50   ~ 0
 * LED indicator
-$Comp
-L SquantorProtekDevices:SRV05-4 U1
-U 1 1 60BF32DB
-P 2600 1700
-F 0 "U1" H 2600 1950 50  0000 C CNN
-F 1 "SRV05-4" H 2600 1450 50  0000 C CNN
-F 2 "" H 2600 1700 50  0001 C CNN
-F 3 "" H 2600 1700 50  0001 C CNN
-	1    2600 1700
-	1    0    0    -1  
-$EndComp
-Text Label 2200 1600 2    50   ~ 0
+Text Label 2300 1650 2    50   ~ 0
 CC1
-Text Label 2200 1800 2    50   ~ 0
+Text Label 2300 1850 2    50   ~ 0
 CC2
-Text Label 2200 1700 2    50   ~ 0
+$Comp
+L Device:R R?
+U 1 1 60BE9556
+P 2500 1500
+F 0 "R?" V 2450 1650 50  0000 C CNN
+F 1 "5.1K" V 2500 1500 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2430 1500 50  0001 C CNN
+F 3 "~" H 2500 1500 50  0001 C CNN
+	1    2500 1500
+	0    1    1    0   
+$EndComp
+Text Label 2750 1750 0    50   ~ 0
 GND
-Text Label 3000 1700 0    50   ~ 0
-VCC
-NoConn ~ 2950 1600
-NoConn ~ 2950 1800
 Wire Wire Line
-	3000 1700 2950 1700
+	2650 1500 2700 1500
 Wire Wire Line
-	2200 1600 2250 1600
+	2700 1650 2650 1650
 Wire Wire Line
-	2250 1700 2200 1700
+	2350 1500 2300 1500
+$Comp
+L Device:C C?
+U 1 1 60BF23C4
+P 2500 1650
+F 0 "C?" V 2550 1550 50  0000 C CNN
+F 1 "470p" V 2550 1800 50  0000 C CNN
+F 2 "SquantorRcl:C_0402" H 2538 1500 50  0001 C CNN
+F 3 "~" H 2500 1650 50  0001 C CNN
+	1    2500 1650
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	2200 1800 2250 1800
-Text Notes 2500 2100 0    50   ~ 0
-Input signal filter
+	2300 1500 2300 1650
+Wire Wire Line
+	2350 1650 2300 1650
+$Comp
+L Device:C C?
+U 1 1 60BF6E43
+P 2500 1850
+F 0 "C?" V 2450 1750 50  0000 C CNN
+F 1 "470p" V 2450 2000 50  0000 C CNN
+F 2 "SquantorRcl:C_0402" H 2538 1700 50  0001 C CNN
+F 3 "~" H 2500 1850 50  0001 C CNN
+	1    2500 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60BFD12A
+P 2500 2000
+F 0 "R?" V 2450 2150 50  0000 C CNN
+F 1 "5.1K" V 2500 2000 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2430 2000 50  0001 C CNN
+F 3 "~" H 2500 2000 50  0001 C CNN
+	1    2500 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 1850 2300 1850
+Wire Wire Line
+	2350 2000 2300 2000
+Wire Wire Line
+	2300 2000 2300 1850
+Wire Wire Line
+	2700 1500 2700 1650
+Wire Wire Line
+	2650 2000 2700 2000
+Wire Wire Line
+	2700 2000 2700 1850
+Connection ~ 2700 1650
+Wire Wire Line
+	2700 1850 2650 1850
+Connection ~ 2700 1850
+Wire Wire Line
+	2700 1850 2700 1750
+Wire Wire Line
+	2750 1750 2700 1750
+Connection ~ 2700 1750
+Wire Wire Line
+	2700 1750 2700 1650
+Text Notes 2000 2150 0    50   ~ 0
+USB PD filtering/resistors
 Wire Notes Line
-	3200 2150 3200 1400
+	3050 2200 3050 1400
 Wire Notes Line
-	3200 1400 2000 1400
+	3050 1400 1950 1400
 Wire Notes Line
-	2000 1400 2000 2150
+	1950 1400 1950 2200
 Wire Notes Line
-	2000 2150 3200 2150
+	1950 2200 3050 2200
 Wire Notes Line
-	3200 2000 2450 2000
-Wire Notes Line
-	2450 2000 2450 2150
+	3050 2050 1950 2050
 $EndSCHEMATC
