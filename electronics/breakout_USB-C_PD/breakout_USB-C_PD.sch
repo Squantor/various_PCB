@@ -179,7 +179,7 @@ U 1 1 60BEC507
 P 2800 700
 F 0 "FB1" V 2750 850 50  0000 C CNN
 F 1 "600" V 2950 700 50  0000 C CNN
-F 2 "" V 2730 700 50  0001 C CNN
+F 2 "SquantorRcl:L_0603" V 2730 700 50  0001 C CNN
 F 3 "~" H 2800 700 50  0001 C CNN
 	1    2800 700 
 	0    1    1    0   
@@ -237,10 +237,10 @@ CC1
 Text Label 2300 1850 2    50   ~ 0
 CC2
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 60BE9556
 P 2500 1500
-F 0 "R?" V 2450 1650 50  0000 C CNN
+F 0 "R1" V 2450 1650 50  0000 C CNN
 F 1 "5.1K" V 2500 1500 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 2430 1500 50  0001 C CNN
 F 3 "~" H 2500 1500 50  0001 C CNN
@@ -256,10 +256,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 1500 2300 1500
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 60BF23C4
 P 2500 1650
-F 0 "C?" V 2550 1550 50  0000 C CNN
+F 0 "C4" V 2550 1550 50  0000 C CNN
 F 1 "470p" V 2550 1800 50  0000 C CNN
 F 2 "SquantorRcl:C_0402" H 2538 1500 50  0001 C CNN
 F 3 "~" H 2500 1650 50  0001 C CNN
@@ -271,10 +271,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 1650 2300 1650
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 60BF6E43
 P 2500 1850
-F 0 "C?" V 2450 1750 50  0000 C CNN
+F 0 "C5" V 2450 1750 50  0000 C CNN
 F 1 "470p" V 2450 2000 50  0000 C CNN
 F 2 "SquantorRcl:C_0402" H 2538 1700 50  0001 C CNN
 F 3 "~" H 2500 1850 50  0001 C CNN
@@ -282,10 +282,10 @@ F 3 "~" H 2500 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 60BFD12A
 P 2500 2000
-F 0 "R?" V 2450 2150 50  0000 C CNN
+F 0 "R2" V 2450 2150 50  0000 C CNN
 F 1 "5.1K" V 2500 2000 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 2430 2000 50  0001 C CNN
 F 3 "~" H 2500 2000 50  0001 C CNN
@@ -327,4 +327,91 @@ Wire Notes Line
 	1950 2200 3050 2200
 Wire Notes Line
 	3050 2050 1950 2050
+$Comp
+L Device:LED D1
+U 1 1 60BFB682
+P 3750 700
+F 0 "D1" H 3850 750 50  0000 C CNN
+F 1 "LED" H 3850 650 50  0000 C CNN
+F 2 "SquantorDiodes:LED_0603_hand" H 3750 700 50  0001 C CNN
+F 3 "~" H 3750 700 50  0001 C CNN
+	1    3750 700 
+	1    0    0    -1  
+$EndComp
+Text Label 3550 700  2    50   ~ 0
+GND
+Wire Wire Line
+	3600 700  3550 700 
+$Comp
+L Device:R R3
+U 1 1 60BFDB94
+P 4100 700
+F 0 "R3" V 4050 850 50  0000 C CNN
+F 1 "1K" V 4100 700 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 4030 700 50  0001 C CNN
+F 3 "~" H 4100 700 50  0001 C CNN
+	1    4100 700 
+	0    1    1    0   
+$EndComp
+Text Label 4300 700  0    50   ~ 0
+VCC
+Wire Wire Line
+	4300 700  4250 700 
+Wire Wire Line
+	3950 700  3900 700 
+Text Notes 4100 850  0    50   ~ 0
+Indicator
+Wire Notes Line
+	4500 900  4500 550 
+Wire Notes Line
+	4500 550  3350 550 
+Wire Notes Line
+	3350 550  3350 900 
+Wire Notes Line
+	3350 900  4500 900 
+Wire Notes Line
+	4500 750  4050 750 
+Wire Notes Line
+	4050 750  4050 900 
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 60C0982A
+P 3650 1400
+F 0 "J2" H 3650 1100 50  0000 C CNN
+F 1 "Conn_01x04" H 3650 1600 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 3650 1400 50  0001 C CNN
+F 3 "~" H 3650 1400 50  0001 C CNN
+	1    3650 1400
+	-1   0    0    1   
+$EndComp
+Text Label 3900 1500 0    50   ~ 0
+GND
+Text Label 3900 1400 0    50   ~ 0
+VCC
+Text Label 3900 1300 0    50   ~ 0
+CC1
+Text Label 3900 1200 0    50   ~ 0
+CC2
+Wire Wire Line
+	3850 1200 3900 1200
+Wire Wire Line
+	3900 1300 3850 1300
+Wire Wire Line
+	3850 1400 3900 1400
+Wire Wire Line
+	3900 1500 3850 1500
+Text Notes 3650 1750 0    50   ~ 0
+Breakout
+Wire Notes Line
+	4100 1800 4100 1000
+Wire Notes Line
+	4100 1000 3350 1000
+Wire Notes Line
+	3350 1000 3350 1800
+Wire Notes Line
+	3350 1800 4100 1800
+Wire Notes Line
+	4100 1650 3600 1650
+Wire Notes Line
+	3600 1650 3600 1800
 $EndSCHEMATC
