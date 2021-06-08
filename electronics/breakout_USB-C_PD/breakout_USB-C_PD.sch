@@ -388,9 +388,9 @@ Text Label 3900 1500 0    50   ~ 0
 GND
 Text Label 3900 1400 0    50   ~ 0
 VCC
-Text Label 3900 1300 0    50   ~ 0
-CC1
 Text Label 3900 1200 0    50   ~ 0
+CC1
+Text Label 3900 1300 0    50   ~ 0
 CC2
 Wire Wire Line
 	3850 1200 3900 1200
