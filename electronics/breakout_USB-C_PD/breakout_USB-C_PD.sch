@@ -330,88 +330,113 @@ Wire Notes Line
 $Comp
 L Device:LED D1
 U 1 1 60BFB682
-P 3750 700
-F 0 "D1" H 3850 750 50  0000 C CNN
-F 1 "LED" H 3850 650 50  0000 C CNN
-F 2 "SquantorDiodes:LED_0603_hand" H 3750 700 50  0001 C CNN
-F 3 "~" H 3750 700 50  0001 C CNN
-	1    3750 700 
+P 3600 1800
+F 0 "D1" H 3700 1850 50  0000 C CNN
+F 1 "LED" H 3700 1750 50  0000 C CNN
+F 2 "SquantorDiodes:LED_0603_hand" H 3600 1800 50  0001 C CNN
+F 3 "~" H 3600 1800 50  0001 C CNN
+	1    3600 1800
 	1    0    0    -1  
 $EndComp
-Text Label 3550 700  2    50   ~ 0
+Text Label 3350 1800 2    50   ~ 0
 GND
 Wire Wire Line
-	3600 700  3550 700 
+	3450 1800 3400 1800
 $Comp
 L Device:R R3
 U 1 1 60BFDB94
-P 4100 700
-F 0 "R3" V 4050 850 50  0000 C CNN
-F 1 "1K" V 4100 700 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 4030 700 50  0001 C CNN
-F 3 "~" H 4100 700 50  0001 C CNN
-	1    4100 700 
+P 4000 1800
+F 0 "R3" V 3950 1950 50  0000 C CNN
+F 1 "1K" V 4000 1800 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 3930 1800 50  0001 C CNN
+F 3 "~" H 4000 1800 50  0001 C CNN
+	1    4000 1800
 	0    1    1    0   
 $EndComp
-Text Label 4300 700  0    50   ~ 0
+Text Label 4200 1800 0    50   ~ 0
 VCC
 Wire Wire Line
-	4300 700  4250 700 
+	4200 1800 4150 1800
 Wire Wire Line
-	3950 700  3900 700 
-Text Notes 4100 850  0    50   ~ 0
+	3850 1800 3800 1800
+Text Notes 4000 2000 0    50   ~ 0
 Indicator
 Wire Notes Line
-	4500 900  4500 550 
+	4400 1900 3950 1900
 Wire Notes Line
-	4500 550  3350 550 
-Wire Notes Line
-	3350 550  3350 900 
-Wire Notes Line
-	3350 900  4500 900 
-Wire Notes Line
-	4500 750  4050 750 
-Wire Notes Line
-	4050 750  4050 900 
+	3950 1900 3950 2050
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 60C0982A
-P 3650 1400
-F 0 "J2" H 3650 1100 50  0000 C CNN
-F 1 "Conn_01x04" H 3650 1600 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 3650 1400 50  0001 C CNN
-F 3 "~" H 3650 1400 50  0001 C CNN
-	1    3650 1400
+P 3650 950
+F 0 "J2" H 3650 650 50  0000 C CNN
+F 1 "Conn_01x04" H 3650 1150 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 3650 950 50  0001 C CNN
+F 3 "~" H 3650 950 50  0001 C CNN
+	1    3650 950 
 	-1   0    0    1   
 $EndComp
-Text Label 3900 1500 0    50   ~ 0
+Text Label 3900 1050 0    50   ~ 0
 GND
-Text Label 3900 1400 0    50   ~ 0
+Text Label 3900 950  0    50   ~ 0
 VCC
-Text Label 3900 1200 0    50   ~ 0
+Text Label 3900 750  0    50   ~ 0
 CC1
-Text Label 3900 1300 0    50   ~ 0
+Text Label 3900 850  0    50   ~ 0
 CC2
 Wire Wire Line
-	3850 1200 3900 1200
+	3850 750  3900 750 
 Wire Wire Line
-	3900 1300 3850 1300
+	3900 850  3850 850 
 Wire Wire Line
-	3850 1400 3900 1400
+	3850 950  3900 950 
 Wire Wire Line
-	3900 1500 3850 1500
-Text Notes 3650 1750 0    50   ~ 0
+	3900 1050 3850 1050
+Text Notes 3650 1300 0    50   ~ 0
 Breakout
 Wire Notes Line
-	4100 1800 4100 1000
+	4100 1350 4100 550 
 Wire Notes Line
-	4100 1000 3350 1000
+	4100 550  3350 550 
 Wire Notes Line
-	3350 1000 3350 1800
+	3350 550  3350 1350
 Wire Notes Line
-	3350 1800 4100 1800
+	3350 1350 4100 1350
 Wire Notes Line
-	4100 1650 3600 1650
+	4100 1200 3600 1200
 Wire Notes Line
-	3600 1650 3600 1800
+	3600 1200 3600 1350
+$Comp
+L Device:LED D?
+U 1 1 60C2E638
+P 3600 1600
+F 0 "D?" H 3700 1650 50  0000 C CNN
+F 1 "LED" H 3700 1550 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 3600 1600 50  0001 C CNN
+F 3 "~" H 3600 1600 50  0001 C CNN
+	1    3600 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1800 3800 1600
+Wire Wire Line
+	3800 1600 3750 1600
+Connection ~ 3800 1800
+Wire Wire Line
+	3800 1800 3750 1800
+Wire Wire Line
+	3450 1600 3400 1600
+Wire Wire Line
+	3400 1600 3400 1800
+Connection ~ 3400 1800
+Wire Wire Line
+	3400 1800 3350 1800
+Wire Notes Line
+	3150 2050 3150 1450
+Wire Notes Line
+	3150 1450 4400 1450
+Wire Notes Line
+	4400 1450 4400 2050
+Wire Notes Line
+	3150 2050 4400 2050
 $EndSCHEMATC
