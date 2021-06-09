@@ -57,20 +57,9 @@ F 3 "" H 1500 7150 60  0001 C CNN
 	1    1500 7150
 	1    0    0    -1  
 $EndComp
-$Comp
-L SquantorUsb:USB-C_PD J1
-U 1 1 60BE1975
-P 1150 1000
-F 0 "J1" H 1150 1400 50  0000 C CNN
-F 1 "USB-C_PD" H 1150 600 50  0000 C CNN
-F 2 "SquantorUsb:USB-C-HRO-31-M-17" H 1250 1000 50  0001 C CNN
-F 3 "" H 1250 1000 50  0001 C CNN
-	1    1150 1000
-	1    0    0    -1  
-$EndComp
-Text Label 1600 1250 0    50   ~ 0
+Text Label 1600 1850 0    50   ~ 0
 GND
-Text Label 1600 1150 0    50   ~ 0
+Text Label 1600 1750 0    50   ~ 0
 VBUS
 Text Label 1600 850  0    50   ~ 0
 VBUS
@@ -81,50 +70,38 @@ Wire Wire Line
 Wire Wire Line
 	1600 850  1550 850 
 Wire Wire Line
-	1550 1150 1600 1150
-Wire Wire Line
 	1600 1250 1550 1250
 $Comp
 L Device:C C1
 U 1 1 60BE31C3
-P 750 1200
-F 0 "C1" H 750 1300 50  0000 L CNN
-F 1 "10n" H 600 1100 50  0000 L CNN
-F 2 "SquantorRcl:C_0805+0603" H 788 1050 50  0001 C CNN
-F 3 "~" H 750 1200 50  0001 C CNN
-	1    750  1200
+P 700 1900
+F 0 "C1" H 700 2000 50  0000 L CNN
+F 1 "10n" H 550 1800 50  0000 L CNN
+F 2 "SquantorRcl:C_0805+0603" H 738 1750 50  0001 C CNN
+F 3 "~" H 700 1900 50  0001 C CNN
+	1    700  1900
 	1    0    0    -1  
 $EndComp
-Text Label 750  1450 0    50   ~ 0
+Text Label 750  2100 0    50   ~ 0
 GND
-Wire Wire Line
-	750  1350 750  1450
-Wire Wire Line
-	750  1050 750  1000
-Wire Wire Line
-	750  1000 800  1000
-Text Label 1600 950  0    50   ~ 0
-CC1
 Text Label 1600 1050 0    50   ~ 0
+CC1
+Text Label 1600 1650 0    50   ~ 0
 CC2
 Wire Wire Line
 	1600 950  1550 950 
 Wire Wire Line
 	1550 1050 1600 1050
-Text Notes 1200 1550 0    50   ~ 0
+Text Notes 1200 2150 0    50   ~ 0
 Input connector
-Wire Notes Line
-	1850 1600 1850 550 
 Wire Notes Line
 	1850 550  550  550 
 Wire Notes Line
-	550  550  550  1600
+	550  2200 1850 2200
 Wire Notes Line
-	550  1600 1850 1600
+	1850 2050 1100 2050
 Wire Notes Line
-	1850 1450 1100 1450
-Wire Notes Line
-	1100 1450 1100 1600
+	1100 2050 1100 2200
 $Comp
 L Device:Fuse F1
 U 1 1 60BE9415
@@ -439,4 +416,56 @@ Wire Notes Line
 	4400 1450 4400 2050
 Wire Notes Line
 	3150 2050 4400 2050
+$Comp
+L SquantorUsb:USB-C_PD_USB J?
+U 1 1 60C183D1
+P 1100 1300
+F 0 "J?" H 1150 2115 50  0000 C CNN
+F 1 "USB-C_PD_USB" H 1150 2024 50  0000 C CNN
+F 2 "SquantorUsb:USB-C-HRO-31-M-13" H 1200 1300 50  0001 C CNN
+F 3 "" H 1200 1300 50  0001 C CNN
+	1    1100 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  1750 700  1300
+Wire Wire Line
+	700  1300 750  1300
+Wire Wire Line
+	750  2100 700  2100
+Wire Wire Line
+	700  2100 700  2050
+Wire Wire Line
+	1600 1650 1550 1650
+Wire Wire Line
+	1600 1750 1550 1750
+Wire Wire Line
+	1600 1850 1550 1850
+Text Label 1600 950  0    50   ~ 0
+SBU2
+Text Label 1600 1550 0    50   ~ 0
+SBU1
+Wire Wire Line
+	1600 1550 1550 1550
+Text Label 1650 1150 0    50   ~ 0
+DN
+Text Label 1650 1450 0    50   ~ 0
+DP
+Wire Wire Line
+	1550 1450 1600 1450
+Wire Wire Line
+	1550 1150 1650 1150
+Wire Wire Line
+	1600 1250 1600 1450
+Connection ~ 1600 1450
+Wire Wire Line
+	1600 1450 1650 1450
+Wire Wire Line
+	1550 1350 1650 1350
+Wire Wire Line
+	1650 1350 1650 1150
+Wire Notes Line
+	1850 550  1850 2200
+Wire Notes Line
+	550  550  550  2200
 $EndSCHEMATC
