@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20210607" H 850 7700 60  0000 C CNN
+F 1 "20210610" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_Generic" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -77,7 +77,7 @@ U 1 1 60BE31C3
 P 700 1900
 F 0 "C1" H 700 2000 50  0000 L CNN
 F 1 "10n" H 550 1800 50  0000 L CNN
-F 2 "SquantorRcl:C_0805+0603" H 738 1750 50  0001 C CNN
+F 2 "SquantorRcl:C_0603" H 738 1750 50  0001 C CNN
 F 3 "~" H 700 1900 50  0001 C CNN
 	1    700  1900
 	1    0    0    -1  
@@ -205,10 +205,6 @@ Wire Notes Line
 	6850 7600 6550 7600
 Wire Notes Line
 	6550 7600 6550 7750
-Text Notes 5600 6700 0    50   ~ 0
-* Breakout connections
-Text Notes 5600 6800 0    50   ~ 0
-* LED indicator
 Text Label 2300 1650 2    50   ~ 0
 CC1
 Text Label 2300 1850 2    50   ~ 0
@@ -343,47 +339,6 @@ Wire Notes Line
 Wire Notes Line
 	3950 1900 3950 2050
 $Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 60C0982A
-P 3650 950
-F 0 "J2" H 3650 650 50  0000 C CNN
-F 1 "Conn_01x04" H 3650 1150 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 3650 950 50  0001 C CNN
-F 3 "~" H 3650 950 50  0001 C CNN
-	1    3650 950 
-	-1   0    0    1   
-$EndComp
-Text Label 3900 1050 0    50   ~ 0
-GND
-Text Label 3900 950  0    50   ~ 0
-VCC
-Text Label 3900 750  0    50   ~ 0
-CC1
-Text Label 3900 850  0    50   ~ 0
-CC2
-Wire Wire Line
-	3850 750  3900 750 
-Wire Wire Line
-	3900 850  3850 850 
-Wire Wire Line
-	3850 950  3900 950 
-Wire Wire Line
-	3900 1050 3850 1050
-Text Notes 3650 1300 0    50   ~ 0
-Breakout
-Wire Notes Line
-	4100 1350 4100 550 
-Wire Notes Line
-	4100 550  3350 550 
-Wire Notes Line
-	3350 550  3350 1350
-Wire Notes Line
-	3350 1350 4100 1350
-Wire Notes Line
-	4100 1200 3600 1200
-Wire Notes Line
-	3600 1200 3600 1350
-$Comp
 L Device:LED D2
 U 1 1 60C2E638
 P 3600 1600
@@ -417,10 +372,10 @@ Wire Notes Line
 Wire Notes Line
 	3150 2050 4400 2050
 $Comp
-L SquantorUsb:USB-C_PD_USB J?
+L SquantorUsb:USB-C_PD_USB J1
 U 1 1 60C183D1
 P 1100 1300
-F 0 "J?" H 1150 2115 50  0000 C CNN
+F 0 "J1" H 1150 2115 50  0000 C CNN
 F 1 "USB-C_PD_USB" H 1150 2024 50  0000 C CNN
 F 2 "SquantorUsb:USB-C-HRO-31-M-13" H 1200 1300 50  0001 C CNN
 F 3 "" H 1200 1300 50  0001 C CNN
@@ -468,4 +423,93 @@ Wire Notes Line
 	1850 550  1850 2200
 Wire Notes Line
 	550  550  550  2200
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 60C2BCEB
+P 1000 2650
+F 0 "J2" H 1000 2950 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1000 2350 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-2X05-H010" H 1000 2650 50  0001 C CNN
+F 3 "~" H 1000 2650 50  0001 C CNN
+	1    1000 2650
+	1    0    0    -1  
+$EndComp
+Text Label 1350 2450 0    50   ~ 0
+VCC
+Text Label 750  2450 2    50   ~ 0
+VCC
+Text Label 1350 2750 0    50   ~ 0
+GND
+NoConn ~ 1300 2850
+NoConn ~ 800  2850
+Text Label 750  2750 2    50   ~ 0
+GND
+Text Label 1350 2550 0    50   ~ 0
+CC1
+Text Label 1350 2650 0    50   ~ 0
+CC2
+Text Label 750  2550 2    50   ~ 0
+DN
+Text Label 750  2650 2    50   ~ 0
+DP
+Wire Wire Line
+	750  2450 800  2450
+Wire Wire Line
+	800  2550 750  2550
+Wire Wire Line
+	750  2650 800  2650
+Wire Wire Line
+	800  2750 750  2750
+Wire Wire Line
+	1300 2750 1350 2750
+Wire Wire Line
+	1350 2650 1300 2650
+Wire Wire Line
+	1350 2550 1300 2550
+Wire Wire Line
+	1350 2450 1300 2450
+Text Label 1000 3100 2    50   ~ 0
+SBU1
+Text Label 1000 3200 2    50   ~ 0
+SBU2
+$Comp
+L SquantorProto:testpad TP1
+U 1 1 60C2A721
+P 1150 3100
+F 0 "TP1" H 1000 3150 50  0000 L CNN
+F 1 "SBU1" H 1250 3100 50  0000 L CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10" H 1200 3125 50  0001 C CNN
+F 3 "" H 1200 3125 50  0001 C CNN
+	1    1150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorProto:testpad TP2
+U 1 1 60C2AF2A
+P 1150 3200
+F 0 "TP2" H 1000 3250 50  0000 L CNN
+F 1 "SBU2" H 1250 3200 50  0000 L CNN
+F 2 "SquantorTestPoints:TestPoint_hole_H05R10" H 1200 3225 50  0001 C CNN
+F 3 "" H 1200 3225 50  0001 C CNN
+	1    1150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3100 1000 3100
+Wire Wire Line
+	1000 3200 1050 3200
+Text Notes 1150 3400 0    50   ~ 0
+Breakout
+Wire Notes Line
+	550  2300 550  3450
+Wire Notes Line
+	550  3450 1550 3450
+Wire Notes Line
+	1550 3450 1550 2300
+Wire Notes Line
+	550  2300 1550 2300
+Wire Notes Line
+	1550 3300 1100 3300
+Wire Notes Line
+	1100 3300 1100 3450
 $EndSCHEMATC
