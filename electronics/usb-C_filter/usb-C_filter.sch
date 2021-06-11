@@ -278,9 +278,9 @@ Wire Wire Line
 Wire Wire Line
 	1600 1550 1550 1550
 Text Label 1650 1150 0    50   ~ 0
-DN_in
+Din-
 Text Label 1650 1450 0    50   ~ 0
-DP_in
+Din+
 Wire Wire Line
 	1550 1450 1600 1450
 Wire Wire Line
@@ -382,7 +382,7 @@ F 3 "~" H 2500 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 2300 2050 2    50   ~ 0
-DN_in
+Din-
 Text Label 2300 2200 2    50   ~ 0
 GND
 $Comp
@@ -438,7 +438,7 @@ F 3 "~" H 2500 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 2300 2500 2    50   ~ 0
-DP_in
+Din+
 Text Label 2300 2650 2    50   ~ 0
 GND
 $Comp
