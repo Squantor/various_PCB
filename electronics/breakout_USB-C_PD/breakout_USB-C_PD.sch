@@ -16,45 +16,45 @@ $EndDescr
 $Comp
 L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
-P 850 7700
-F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20210607" H 850 7700 60  0000 C CNN
-F 2 "SquantorLabels:Label_Generic" H 850 7700 60  0001 C CNN
-F 3 "" H 850 7700 60  0001 C CNN
-	1    850  7700
+P 950 7500
+F 0 "N2" H 950 7600 60  0000 C CNN
+F 1 "20210612" H 950 7500 60  0000 C CNN
+F 2 "SquantorLabels:Label_Generic" H 950 7500 60  0001 C CNN
+F 3 "" H 950 7500 60  0001 C CNN
+	1    950  7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorLabels:OHWLOGO N1
 U 1 1 5A135869
-P 850 7350
-F 0 "N1" H 850 7500 60  0000 C CNN
-F 1 "OHWLOGO" H 850 7200 60  0000 C CNN
-F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 850 7350 60  0001 C CNN
-F 3 "" H 850 7350 60  0001 C CNN
-	1    850  7350
+P 950 7150
+F 0 "N1" H 950 7300 60  0000 C CNN
+F 1 "OHWLOGO" H 950 7000 60  0000 C CNN
+F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 950 7150 60  0001 C CNN
+F 3 "" H 950 7150 60  0001 C CNN
+	1    950  7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorPCBOutline:Drill_Hole_no_metal H2
 U 1 1 5C816C08
-P 1500 7500
-F 0 "H2" H 1678 7553 60  0000 L CNN
-F 1 "Drill_Hole_no_metal" H 1678 7447 60  0000 L CNN
-F 2 "SquantorPcbOutline:MountingHole_2.5mm_no_metal" H 1500 7500 60  0001 C CNN
-F 3 "" H 1500 7500 60  0001 C CNN
-	1    1500 7500
+P 1500 7400
+F 0 "H2" H 1678 7453 60  0000 L CNN
+F 1 "Drill_Hole_no_metal" H 1678 7347 60  0000 L CNN
+F 2 "SquantorPcbOutline:MountingHole_2.5mm_no_metal" H 1500 7400 60  0001 C CNN
+F 3 "" H 1500 7400 60  0001 C CNN
+	1    1500 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorPCBOutline:Drill_Hole_no_metal H1
 U 1 1 5C816D19
-P 1500 7150
-F 0 "H1" H 1678 7203 60  0000 L CNN
-F 1 "Drill_Hole_no_metal" H 1678 7097 60  0000 L CNN
-F 2 "SquantorPcbOutline:MountingHole_2.5mm_no_metal" H 1500 7150 60  0001 C CNN
-F 3 "" H 1500 7150 60  0001 C CNN
-	1    1500 7150
+P 1500 7050
+F 0 "H1" H 1678 7103 60  0000 L CNN
+F 1 "Drill_Hole_no_metal" H 1678 6997 60  0000 L CNN
+F 2 "SquantorPcbOutline:MountingHole_2.5mm_no_metal" H 1500 7050 60  0001 C CNN
+F 3 "" H 1500 7050 60  0001 C CNN
+	1    1500 7050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -228,10 +228,6 @@ Wire Notes Line
 	6850 7600 6550 7600
 Wire Notes Line
 	6550 7600 6550 7750
-Text Notes 5600 6700 0    50   ~ 0
-* Breakout connections
-Text Notes 5600 6800 0    50   ~ 0
-* LED indicator
 Text Label 2300 1650 2    50   ~ 0
 CC1
 Text Label 2300 1850 2    50   ~ 0
@@ -439,4 +435,18 @@ Wire Notes Line
 	4400 1450 4400 2050
 Wire Notes Line
 	3150 2050 4400 2050
+Text Notes 1400 7700 0    50   ~ 0
+Versionnumber and mechanical
+Wire Notes Line
+	2650 6850 550  6850
+Wire Notes Line
+	550  7750 2650 7750
+Wire Notes Line
+	2650 7600 1350 7600
+Wire Notes Line
+	1350 7600 1350 7750
+Wire Notes Line
+	550  6850 550  7750
+Wire Notes Line
+	2650 6850 2650 7750
 $EndSCHEMATC
