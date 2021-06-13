@@ -199,32 +199,32 @@ Wire Notes Line
 	6850 7600 6550 7600
 Wire Notes Line
 	6550 7600 6550 7750
-Text Label 1050 3000 2    50   ~ 0
+Text Label 1200 3000 2    50   ~ 0
 CC1
-Text Label 1050 3100 2    50   ~ 0
+Text Label 1200 3100 2    50   ~ 0
 CC2
 $Comp
 L Device:R R1
 U 1 1 60BE9556
-P 1250 3000
-F 0 "R1" V 1200 3150 50  0000 C CNN
-F 1 "5.1K" V 1250 3000 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 1180 3000 50  0001 C CNN
-F 3 "~" H 1250 3000 50  0001 C CNN
-	1    1250 3000
+P 1400 3000
+F 0 "R1" V 1350 3150 50  0000 C CNN
+F 1 "5.1K" V 1400 3000 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1330 3000 50  0001 C CNN
+F 3 "~" H 1400 3000 50  0001 C CNN
+	1    1400 3000
 	0    1    1    0   
 $EndComp
-Text Label 1500 3050 0    50   ~ 0
+Text Label 1650 3050 0    50   ~ 0
 GND
 $Comp
 L Device:R R2
 U 1 1 60BFD12A
-P 1250 3100
-F 0 "R2" V 1200 3250 50  0000 C CNN
-F 1 "5.1K" V 1250 3100 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 1180 3100 50  0001 C CNN
-F 3 "~" H 1250 3100 50  0001 C CNN
-	1    1250 3100
+P 1400 3100
+F 0 "R2" V 1350 3250 50  0000 C CNN
+F 1 "5.1K" V 1400 3100 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1330 3100 50  0001 C CNN
+F 3 "~" H 1400 3100 50  0001 C CNN
+	1    1400 3100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -308,20 +308,20 @@ NoConn ~ 1550 950
 Wire Wire Line
 	1150 3550 1200 3550
 Wire Wire Line
-	1050 3000 1100 3000
+	1200 3000 1250 3000
 Wire Wire Line
-	1100 3100 1050 3100
+	1250 3100 1200 3100
 Wire Wire Line
-	1400 3000 1450 3000
+	1550 3000 1600 3000
 Wire Wire Line
-	1450 3000 1450 3050
+	1600 3000 1600 3050
 Wire Wire Line
-	1450 3050 1500 3050
+	1600 3050 1650 3050
 Wire Wire Line
-	1400 3100 1450 3100
+	1550 3100 1600 3100
 Wire Wire Line
-	1450 3100 1450 3050
-Connection ~ 1450 3050
+	1600 3100 1600 3050
+Connection ~ 1600 3050
 Wire Notes Line
 	550  2300 550  3350
 Wire Notes Line
@@ -539,17 +539,6 @@ Wire Notes Line
 Text Label 1600 3550 0    50   ~ 0
 +5V
 $Comp
-L SquantorMicrochip:MCP1702-MB U2
-U 1 1 60E42299
-P 2500 2200
-F 0 "U2" H 2550 1950 50  0000 R CNN
-F 1 "MCP1702-MB" H 2750 2450 50  0000 R CNN
-F 2 "SquantorIC:SOT89-SOT23-Dual-NXP" H 2500 2200 60  0001 C CNN
-F 3 "" H 2500 2200 60  0001 C CNN
-	1    2500 2200
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C C4
 U 1 1 60E436BD
 P 2500 1800
@@ -560,22 +549,18 @@ F 3 "~" H 2500 1800 50  0001 C CNN
 	1    2500 1800
 	0    -1   -1   0   
 $EndComp
-Text Label 2850 2300 0    50   ~ 0
+Text Label 2800 2300 0    50   ~ 0
 GND
-Text Label 2850 2200 0    50   ~ 0
-+5V
-Text Label 2150 2200 2    50   ~ 0
+Text Label 2200 2200 2    50   ~ 0
 +5V
 Wire Wire Line
-	2150 2200 2200 2200
+	2200 2200 2250 2200
 Wire Wire Line
-	2850 2200 2800 2200
-Wire Wire Line
-	2800 2300 2850 2300
-Text Label 2850 2100 0    50   ~ 0
+	2750 2300 2800 2300
+Text Label 2800 2100 0    50   ~ 0
 +3.3V
 Wire Wire Line
-	2850 2100 2800 2100
+	2800 2100 2750 2100
 Text Label 2700 1800 0    50   ~ 0
 +3.3V
 Text Label 2300 1800 2    50   ~ 0
@@ -620,4 +605,30 @@ F 3 "~" H 2750 950 50  0001 C CNN
 	1    2750 950 
 	1    0    0    -1  
 $EndComp
+$Comp
+L SquantorGenericAnalog:regulator_sot23 U2
+U 1 1 60C5F7AD
+P 2500 2200
+F 0 "U2" H 2500 1950 50  0000 C CNN
+F 1 "HX6206P332MR" H 2500 2450 50  0000 C CNN
+F 2 "SquantorIC:SOT23-3" H 2500 2200 50  0001 C CNN
+F 3 "" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	-1   0    0    1   
+$EndComp
+Text Label 850  3000 0    50   ~ 0
++5V
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60C7232C
+P 800 3000
+F 0 "#FLG0101" H 800 3075 50  0001 C CNN
+F 1 "PWR_FLAG" V 700 2800 50  0000 L CNN
+F 2 "" H 800 3000 50  0001 C CNN
+F 3 "~" H 800 3000 50  0001 C CNN
+	1    800  3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  3000 850  3000
 $EndSCHEMATC
