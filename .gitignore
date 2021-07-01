@@ -30,3 +30,9 @@ fp-info-cache
 *.log
 bin/
 build/
+
+# freecad backup files
+*.FCStd?
+
+# ignore STL files, you can add them by forcing it
+*.stl
