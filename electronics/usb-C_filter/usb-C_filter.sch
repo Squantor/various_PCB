@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 950 7550
 F 0 "N2" H 950 7650 60  0000 C CNN
-F 1 "20210613" H 950 7550 60  0000 C CNN
+F 1 "20210905" H 950 7550 60  0000 C CNN
 F 2 "SquantorLabels:Label_Generic" H 950 7550 60  0001 C CNN
 F 3 "" H 950 7550 60  0001 C CNN
 	1    950  7550
@@ -334,9 +334,9 @@ Text Notes 1050 3100 0    50   ~ 0
 Output connector
 Text Label 1550 2500 0    50   ~ 0
 VBUS_in
-Text Label 1550 2700 0    50   ~ 0
-DN_out
 Text Label 1550 2600 0    50   ~ 0
+DN_out
+Text Label 1550 2700 0    50   ~ 0
 DP_out
 Wire Notes Line
 	1000 3000 1900 3000
