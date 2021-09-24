@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
 P 1050 7450
 F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20210914" H 800 7450 60  0000 L CNN
+F 1 "20210924" H 800 7450 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
 F 3 "" H 1050 7450 60  0001 C CNN
 	1    1050 7450
@@ -285,28 +285,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 4400 4300 3600
 $Comp
-L Device:D D1
-U 1 1 61410FE6
-P 3000 4600
-F 0 "D1" V 3046 4520 50  0000 R CNN
-F 1 "4148" V 2955 4520 50  0000 R CNN
-F 2 "SquantorDiodes:SOD-523" H 3000 4600 50  0001 C CNN
-F 3 "~" H 3000 4600 50  0001 C CNN
-	1    3000 4600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 61412161
-P 3000 4950
-F 0 "D2" V 3046 4870 50  0000 R CNN
-F 1 "4148" V 2955 4870 50  0000 R CNN
-F 2 "SquantorDiodes:SOD-523" H 3000 4950 50  0001 C CNN
-F 3 "~" H 3000 4950 50  0001 C CNN
-	1    3000 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR03
 U 1 1 61412889
 P 3000 5150
@@ -319,8 +297,6 @@ F 3 "" H 3000 5150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3000 5150 3000 5100
-Wire Wire Line
-	3000 4800 3000 4750
 Wire Wire Line
 	3000 4450 3000 4400
 Connection ~ 3000 4400
@@ -612,4 +588,76 @@ Wire Wire Line
 	4300 5150 4300 4950
 Wire Wire Line
 	4300 4650 4300 4400
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 614E4605
+P 1100 3650
+F 0 "J1" H 1100 4050 50  0000 C CNN
+F 1 "Conn_01x08" H 1100 3150 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X08-H008" H 1100 3650 50  0001 C CNN
+F 3 "~" H 1100 3650 50  0001 C CNN
+	1    1100 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 614E8982
+P 2000 3750
+F 0 "J2" H 2000 3250 50  0000 C CNN
+F 1 "Conn_01x08" H 2000 4150 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X08-H008" H 2000 3750 50  0001 C CNN
+F 3 "~" H 2000 3750 50  0001 C CNN
+	1    2000 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 614E9CAF
+P 1350 4100
+F 0 "#PWR018" H 1350 3850 50  0001 C CNN
+F 1 "GND" V 1350 4000 50  0000 R CNN
+F 2 "" H 1350 4100 50  0001 C CNN
+F 3 "" H 1350 4100 50  0001 C CNN
+	1    1350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR017
+U 1 1 614EA8CB
+P 1350 3300
+F 0 "#PWR017" H 1350 3150 50  0001 C CNN
+F 1 "VCC" H 1365 3473 50  0000 C CNN
+F 2 "" H 1350 3300 50  0001 C CNN
+F 3 "" H 1350 3300 50  0001 C CNN
+	1    1350 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3300 1350 3350
+Wire Wire Line
+	1350 3350 1300 3350
+Wire Wire Line
+	1350 4100 1350 4050
+Wire Wire Line
+	1350 4050 1300 4050
+Text Notes 5500 6700 0    50   ~ 0
+Add connectors
+Text Notes 5500 6800 0    50   ~ 0
+Add stabistor
+Text Label 5600 3250 0    50   ~ 0
+OSC1
+Text Label 4800 4200 2    50   ~ 0
+OSC2
+Wire Wire Line
+	5600 3250 5550 3250
+Wire Wire Line
+	4800 4200 4850 4200
+Text Label 1750 3350 2    50   ~ 0
+OSC1
+Text Label 1750 3950 2    50   ~ 0
+OSC2
+Wire Wire Line
+	1750 3350 1800 3350
+Wire Wire Line
+	1750 3950 1800 3950
 $EndSCHEMATC
