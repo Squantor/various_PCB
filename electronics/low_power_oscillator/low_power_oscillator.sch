@@ -287,18 +287,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR03
 U 1 1 61412889
-P 3000 5150
-F 0 "#PWR03" H 3000 4900 50  0001 C CNN
-F 1 "GND" H 3150 5100 50  0000 C CNN
-F 2 "" H 3000 5150 50  0001 C CNN
-F 3 "" H 3000 5150 50  0001 C CNN
-	1    3000 5150
+P 2900 5150
+F 0 "#PWR03" H 2900 4900 50  0001 C CNN
+F 1 "GND" H 3050 5100 50  0000 C CNN
+F 2 "" H 2900 5150 50  0001 C CNN
+F 3 "" H 2900 5150 50  0001 C CNN
+	1    2900 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 5150 3000 5100
-Wire Wire Line
-	3000 4450 3000 4400
 Connection ~ 3000 4400
 $Comp
 L Device:R R1
@@ -640,10 +636,6 @@ Wire Wire Line
 	1350 4100 1350 4050
 Wire Wire Line
 	1350 4050 1300 4050
-Text Notes 5500 6700 0    50   ~ 0
-Add connectors
-Text Notes 5500 6800 0    50   ~ 0
-Add stabistor
 Text Label 5600 3250 0    50   ~ 0
 OSC1
 Text Label 4800 4200 2    50   ~ 0
@@ -660,4 +652,31 @@ Wire Wire Line
 	1750 3350 1800 3350
 Wire Wire Line
 	1750 3950 1800 3950
+NoConn ~ 1300 3450
+NoConn ~ 1300 3550
+NoConn ~ 1300 3650
+NoConn ~ 1300 3750
+NoConn ~ 1300 3850
+NoConn ~ 1300 3950
+Text Label 1750 4050 2    50   ~ 0
+bias
+Wire Wire Line
+	1750 4050 1800 4050
+Text Notes 5500 6700 0    50   ~ 0
+Crystal footprint
+$Comp
+L SquantorDiodes:BAS17 D1
+U 1 1 614FE7BE
+P 2900 4750
+F 0 "D1" V 3050 4600 50  0000 C CNN
+F 1 "BAS17" V 3050 4900 50  0000 C CNN
+F 2 "SquantorIC:SOT23-3" H 2900 4400 50  0001 C CNN
+F 3 "" H 2900 4750 50  0001 C CNN
+	1    2900 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 4950 2900 5150
+Wire Wire Line
+	3000 4400 3000 4550
 $EndSCHEMATC
