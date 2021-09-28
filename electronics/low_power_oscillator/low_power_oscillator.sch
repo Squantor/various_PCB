@@ -607,22 +607,18 @@ Wire Wire Line
 	4800 4200 4850 4200
 Text Label 1750 3350 2    50   ~ 0
 OSC1
-Text Label 1750 3950 2    50   ~ 0
+Text Label 1750 3650 2    50   ~ 0
 OSC2
 Wire Wire Line
 	1750 3350 1800 3350
-Wire Wire Line
-	1750 3950 1800 3950
 NoConn ~ 1300 3450
 NoConn ~ 1300 3550
 NoConn ~ 1300 3650
 NoConn ~ 1300 3750
 NoConn ~ 1300 3850
 NoConn ~ 1300 3950
-Text Label 1750 4050 2    50   ~ 0
+Text Label 1750 3850 2    50   ~ 0
 bias
-Wire Wire Line
-	1750 4050 1800 4050
 Text Label 3700 3250 2    50   ~ 0
 Collector
 Text Label 3700 3750 2    50   ~ 0
@@ -663,9 +659,7 @@ Wire Wire Line
 Connection ~ 1350 4050
 NoConn ~ 1800 3450
 NoConn ~ 1800 3550
-NoConn ~ 1800 3650
 NoConn ~ 1800 3750
-NoConn ~ 1800 3850
 $Comp
 L Device:C C8
 U 1 1 61585460
@@ -708,10 +702,10 @@ Testpoints
 Text Notes 5500 6800 0    50   ~ 0
 Instead of BAS17, add BAV99
 $Comp
-L SquantorProto:testpad TP?
+L SquantorProto:testpad TP4
 U 1 1 6153CF02
 P 4300 3100
-F 0 "TP?" V 4400 3150 50  0000 R CNN
+F 0 "TP4" V 4400 3150 50  0000 R CNN
 F 1 "signal" V 4300 3050 50  0000 R CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10" H 4350 3125 50  0001 C CNN
 F 3 "" H 4350 3125 50  0001 C CNN
@@ -721,10 +715,10 @@ $EndComp
 Wire Wire Line
 	4300 3200 4300 3250
 $Comp
-L SquantorProto:testpad TP?
+L SquantorProto:testpad TP2
 U 1 1 6154388B
 P 4050 4250
-F 0 "TP?" V 4150 4300 50  0000 R CNN
+F 0 "TP2" V 4150 4300 50  0000 R CNN
 F 1 "bias" V 4050 4200 50  0000 R CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10" H 4100 4275 50  0001 C CNN
 F 3 "" H 4100 4275 50  0001 C CNN
@@ -734,10 +728,10 @@ $EndComp
 Wire Wire Line
 	4050 4350 4050 4400
 $Comp
-L SquantorProto:testpad TP?
+L SquantorProto:testpad TP1
 U 1 1 61546B9F
 P 2450 4750
-F 0 "TP?" V 2550 4800 50  0000 R CNN
+F 0 "TP1" V 2550 4800 50  0000 R CNN
 F 1 "GND" V 2450 4700 50  0000 R CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10" H 2500 4775 50  0001 C CNN
 F 3 "" H 2500 4775 50  0001 C CNN
@@ -745,10 +739,10 @@ F 3 "" H 2500 4775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 615481FA
 P 2450 4900
-F 0 "#PWR?" H 2450 4650 50  0001 C CNN
+F 0 "#PWR0101" H 2450 4650 50  0001 C CNN
 F 1 "GND" H 2600 4850 50  0000 C CNN
 F 2 "" H 2450 4900 50  0001 C CNN
 F 3 "" H 2450 4900 50  0001 C CNN
@@ -775,10 +769,10 @@ F 3 "" H 3450 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorSpecial:generic_5pin_sot U?
+L SquantorSpecial:generic_5pin_sot U1
 U 1 1 6154EB0C
 P 3750 4850
-F 0 "U?" H 3750 5100 50  0000 C CNN
+F 0 "U1" H 3750 5100 50  0000 C CNN
 F 1 "see notes" H 3750 4600 50  0000 C CNN
 F 2 "SquantorIC:SOT25-diodesinc" H 3750 4850 50  0001 C CNN
 F 3 "" H 3750 4850 50  0001 C CNN
@@ -786,10 +780,10 @@ F 3 "" H 3750 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SquantorProto:testpad TP?
+L SquantorProto:testpad TP3
 U 1 1 615608B1
 P 4100 4850
-F 0 "TP?" V 4200 4900 50  0000 R CNN
+F 0 "TP3" V 4200 4900 50  0000 R CNN
 F 1 "sot" V 4100 4800 50  0000 R CNN
 F 2 "SquantorTestPoints:TestPoint_hole_H05R10" H 4150 4875 50  0001 C CNN
 F 3 "" H 4150 4875 50  0001 C CNN
@@ -811,4 +805,10 @@ Text Notes 3800 6700 0    50   ~ 0
 the SOT25 can accomodate a few parts
 Text Notes 3800 6800 0    50   ~ 0
 TS431, BAV99, BAS17
+Wire Wire Line
+	1750 3650 1800 3650
+Wire Wire Line
+	1800 3850 1750 3850
+NoConn ~ 1800 3950
+NoConn ~ 1800 4050
 $EndSCHEMATC
