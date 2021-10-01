@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
 P 1050 7450
 F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20210928" H 800 7450 60  0000 L CNN
+F 1 "20211001" H 800 7450 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
 F 3 "" H 1050 7450 60  0001 C CNN
 	1    1050 7450
@@ -697,10 +697,6 @@ Wire Wire Line
 	2450 4150 2450 4100
 Wire Wire Line
 	2450 3750 2450 3800
-Text Notes 5500 6700 0    50   ~ 0
-Testpoints
-Text Notes 5500 6800 0    50   ~ 0
-Instead of BAS17, add BAV99
 $Comp
 L SquantorProto:testpad TP4
 U 1 1 6153CF02
@@ -774,7 +770,7 @@ U 1 1 6154EB0C
 P 3750 4850
 F 0 "U1" H 3750 5100 50  0000 C CNN
 F 1 "see notes" H 3750 4600 50  0000 C CNN
-F 2 "SquantorIC:SOT25-diodesinc" H 3750 4850 50  0001 C CNN
+F 2 "SquantorIC:SOT23-5-Microchip-OT" H 3750 4850 50  0001 C CNN
 F 3 "" H 3750 4850 50  0001 C CNN
 	1    3750 4850
 	-1   0    0    1   
@@ -835,4 +831,10 @@ F 3 "" H 2800 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2800 4900 2800 4850
+Text Notes 5100 7650 0    50   ~ 0
+Notes
+Wire Notes Line
+	5350 7550 5050 7550
+Wire Notes Line
+	5050 7550 5050 7700
 $EndSCHEMATC
