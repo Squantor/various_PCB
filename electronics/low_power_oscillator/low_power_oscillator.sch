@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
 P 1050 7450
 F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20211001" H 800 7450 60  0000 L CNN
+F 1 "20211012" H 800 7450 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
 F 3 "" H 1050 7450 60  0001 C CNN
 	1    1050 7450
@@ -797,10 +797,6 @@ Wire Notes Line
 	5350 7700 3750 7700
 Wire Notes Line
 	3750 7700 3750 6550
-Text Notes 3800 6700 0    50   ~ 0
-the SOT25 can accomodate a few parts
-Text Notes 3800 6800 0    50   ~ 0
-TS431, BAV99, BAS17
 Wire Wire Line
 	1750 3650 1800 3650
 Wire Wire Line
