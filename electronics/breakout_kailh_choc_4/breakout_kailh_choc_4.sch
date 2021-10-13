@@ -47,4 +47,26 @@ Wire Notes Line
 	1400 7000 600  7000
 Wire Notes Line
 	600  7550 1400 7550
+$Comp
+L Device:LED D?
+U 1 1 61672956
+P 1250 1150
+F 0 "D?" H 1250 1050 50  0000 C CNN
+F 1 "LED" H 1250 1250 50  0000 C CNN
+F 2 "" H 1250 1150 50  0001 C CNN
+F 3 "~" H 1250 1150 50  0001 C CNN
+	1    1250 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L SquantorSwitches:2pin_tact_switch S?
+U 1 1 61674225
+P 1250 900
+F 0 "S?" H 1250 1000 60  0000 C CNN
+F 1 "choc" H 1250 850 60  0000 C CNN
+F 2 "" H 1250 900 60  0001 C CNN
+F 3 "" H 1250 900 60  0001 C CNN
+	1    1250 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
