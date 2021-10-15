@@ -1,12 +1,15 @@
 # 4 button kailh choc breakout
 Simple test breakout for the kailh choc buttons
 # HSI (Hardware Software Interface)
-4 pins of the I2C port expander are button pins, 4 pins are LED pins.
-TODO which pins are connected to what
+6 pin connector:
+1. LED cathodes row 1
+2. LED cathodes row 2
+3. Switch Row 1
+4. Switch Row 2
+5. Column 2
+6. Column 1 
 ## TODO's
 Still some things need to be done:
-* schematic entry 
-* PCB layout
 * Review with one night in between
 * Produce at [OSHPARK](https://oshpark.com/)
 * Assemble
