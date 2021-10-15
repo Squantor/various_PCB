@@ -282,10 +282,10 @@ SWR1
 Text Label 2900 2150 0    50   ~ 0
 SWR2
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 616B513C
 P 2700 1850
-F 0 "R?" V 2650 2000 50  0000 C CNN
+F 0 "R1" V 2650 2000 50  0000 C CNN
 F 1 "1K" V 2700 1850 50  0000 C CNN
 F 2 "SquantorRcl:R_0603_hand" V 2630 1850 50  0001 C CNN
 F 3 "~" H 2700 1850 50  0001 C CNN
@@ -293,10 +293,10 @@ F 3 "~" H 2700 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 616B61C6
 P 2700 2450
-F 0 "R?" V 2650 2600 50  0000 C CNN
+F 0 "R2" V 2650 2600 50  0000 C CNN
 F 1 "1K" V 2700 2450 50  0000 C CNN
 F 2 "SquantorRcl:R_0603_hand" V 2630 2450 50  0001 C CNN
 F 3 "~" H 2700 2450 50  0001 C CNN
@@ -360,27 +360,27 @@ Connection ~ 2500 2450
 Wire Wire Line
 	2500 2450 2550 2450
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J1
 U 1 1 616C9815
 P 4400 2000
-F 0 "J?" H 4480 1992 50  0000 L CNN
+F 0 "J1" H 4480 1992 50  0000 L CNN
 F 1 "Conn_01x06" H 4480 1901 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 4400 2000 50  0001 C CNN
 F 3 "~" H 4400 2000 50  0001 C CNN
 	1    4400 2000
 	1    0    0    -1  
 $EndComp
-Text Label 4150 1800 2    50   ~ 0
-COL1
-Text Label 4150 1900 2    50   ~ 0
-COL2
-Text Label 4150 2000 2    50   ~ 0
-SWR1
-Text Label 4150 2100 2    50   ~ 0
-LEDC1
-Text Label 4150 2200 2    50   ~ 0
-SWR2
 Text Label 4150 2300 2    50   ~ 0
+COL1
+Text Label 4150 2200 2    50   ~ 0
+COL2
+Text Label 4150 1800 2    50   ~ 0
+SWR1
+Text Label 4150 1900 2    50   ~ 0
+LEDC1
+Text Label 4150 2000 2    50   ~ 0
+SWR2
+Text Label 4150 2100 2    50   ~ 0
 LEDC2
 Wire Wire Line
 	4200 1800 4150 1800
