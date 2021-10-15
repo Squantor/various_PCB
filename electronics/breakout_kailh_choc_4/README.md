@@ -16,8 +16,7 @@ Still some things need to be done:
 * Test & characterise
 * update Readme.md with pictures and BOM
 ## BOM
-* PCF style I2C port expander
-* Generic capacitor in 0603 housing with a value
-
-
+* Kailh choc switches
+* any SOD523 diode
+* Any SMD LED from 1208 to 0603
 
