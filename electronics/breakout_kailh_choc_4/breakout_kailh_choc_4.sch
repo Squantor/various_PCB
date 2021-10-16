@@ -70,7 +70,7 @@ L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
 P 1050 7450
 F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20211015" H 800 7450 60  0000 L CNN
+F 1 "20211016" H 800 7450 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
 F 3 "" H 1050 7450 60  0001 C CNN
 	1    1050 7450
@@ -416,13 +416,13 @@ Text Label 4150 2200 2    50   ~ 0
 COL1
 Text Label 4150 2300 2    50   ~ 0
 COL2
-Text Label 4150 2000 2    50   ~ 0
-SWR1
-Text Label 4150 1800 2    50   ~ 0
-LEDC1
 Text Label 4150 2100 2    50   ~ 0
-SWR2
+SWR1
 Text Label 4150 1900 2    50   ~ 0
+LEDC1
+Text Label 4150 2000 2    50   ~ 0
+SWR2
+Text Label 4150 1800 2    50   ~ 0
 LEDC2
 Wire Wire Line
 	4200 1800 4150 1800
