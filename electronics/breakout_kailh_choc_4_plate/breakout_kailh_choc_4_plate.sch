@@ -59,17 +59,6 @@ F 3 "" H 2850 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 61699D38
-P 2650 3050
-F 0 "H1" H 2750 3100 50  0000 L CNN
-F 1 "M3" H 2750 3000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2650 3050 50  0001 C CNN
-F 3 "~" H 2650 3050 50  0001 C CNN
-	1    2650 3050
-	1    0    0    -1  
-$EndComp
-$Comp
 L SquantorSwitches:keycap_1 cap3
 U 1 1 6169ADA5
 P 3050 3250
@@ -100,39 +89,6 @@ F 1 "4" H 3050 3400 50  0000 L CNN
 F 2 "SquantorSwitches:KAILH_choc_plate_1" H 3050 3450 50  0001 C CNN
 F 3 "" H 3050 3450 50  0001 C CNN
 	1    3050 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 6169E247
-P 3250 3050
-F 0 "H3" H 3350 3100 50  0000 L CNN
-F 1 "M3" H 3350 3000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3250 3050 50  0001 C CNN
-F 3 "~" H 3250 3050 50  0001 C CNN
-	1    3250 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 6169EB76
-P 3250 3650
-F 0 "H4" H 3350 3700 50  0000 L CNN
-F 1 "M3" H 3350 3600 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3250 3650 50  0001 C CNN
-F 3 "~" H 3250 3650 50  0001 C CNN
-	1    3250 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 6169F8F7
-P 2650 3650
-F 0 "H2" H 2750 3700 50  0000 L CNN
-F 1 "M3" H 2750 3600 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2650 3650 50  0001 C CNN
-F 3 "~" H 2650 3650 50  0001 C CNN
-	1    2650 3650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
