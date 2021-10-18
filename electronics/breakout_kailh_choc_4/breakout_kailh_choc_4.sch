@@ -26,7 +26,7 @@ L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
 P 1050 7450
 F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20211016" H 800 7450 60  0000 L CNN
+F 1 "20211018" H 800 7450 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
 F 3 "" H 1050 7450 60  0001 C CNN
 	1    1050 7450
@@ -79,28 +79,6 @@ F 3 "" H 2850 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorSwitches:keycap_1 cap6
-U 1 1 616781F9
-P 3050 3250
-F 0 "cap6" H 2950 3300 50  0000 L CNN
-F 1 "2" H 3000 3200 50  0000 L CNN
-F 2 "SquantorSwitches:KAILH_choc_keycap_1" H 3050 3250 50  0001 C CNN
-F 3 "" H 3050 3250 50  0001 C CNN
-	1    3050 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L SquantorSwitches:keycap_1 cap7
-U 1 1 616790C4
-P 2850 3450
-F 0 "cap7" H 2750 3500 50  0000 L CNN
-F 1 "3" H 2800 3400 50  0000 L CNN
-F 2 "SquantorSwitches:KAILH_choc_keycap_1" H 2850 3450 50  0001 C CNN
-F 3 "" H 2850 3450 50  0001 C CNN
-	1    2850 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L SquantorSwitches:keycap_1 cap8
 U 1 1 6167911E
 P 3050 3450
@@ -114,23 +92,23 @@ $EndComp
 $Comp
 L Device:LED D2
 U 1 1 6167B613
-P 1700 2400
-F 0 "D2" H 1700 2300 50  0000 C CNN
-F 1 "LED" H 1700 2500 50  0000 C CNN
-F 2 "SquantorDiodes:LED_1208_0603" H 1700 2400 50  0001 C CNN
-F 3 "~" H 1700 2400 50  0001 C CNN
-	1    1700 2400
+P 2500 1800
+F 0 "D2" H 2500 1700 50  0000 C CNN
+F 1 "LED" H 2500 1900 50  0000 C CNN
+F 2 "SquantorDiodes:LED_1208_0603" H 2500 1800 50  0001 C CNN
+F 3 "~" H 2500 1800 50  0001 C CNN
+	1    2500 1800
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D5
 U 1 1 6167D14F
-P 2500 1800
-F 0 "D5" H 2500 1700 50  0000 C CNN
-F 1 "LED" H 2500 1900 50  0000 C CNN
-F 2 "SquantorDiodes:LED_1208_0603" H 2500 1800 50  0001 C CNN
-F 3 "~" H 2500 1800 50  0001 C CNN
-	1    2500 1800
+P 1700 2400
+F 0 "D5" H 1700 2300 50  0000 C CNN
+F 1 "LED" H 1700 2500 50  0000 C CNN
+F 2 "SquantorDiodes:LED_1208_0603" H 1700 2400 50  0001 C CNN
+F 3 "~" H 1700 2400 50  0001 C CNN
+	1    1700 2400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -155,21 +133,19 @@ F 3 "~" H 1900 1500 50  0001 C CNN
 	1    1900 1500
 	-1   0    0    1   
 $EndComp
-Text Label 3300 1900 0    50   ~ 0
-LEDC1
-Text Label 3300 2500 0    50   ~ 0
+Text Label 2950 2500 0    50   ~ 0
 LEDC2
 Wire Wire Line
 	1700 1500 1750 1500
 $Comp
 L SquantorSwitches:2pin_tact_switch S2
 U 1 1 61689BAE
-P 1550 2100
-F 0 "S2" H 1550 2200 60  0000 C CNN
-F 1 "choc" H 1550 2050 60  0000 C CNN
-F 2 "SquantorSwitches:KAILH_choc_LED" H 1550 2100 60  0001 C CNN
-F 3 "" H 1550 2100 60  0001 C CNN
-	1    1550 2100
+P 2350 1500
+F 0 "S2" H 2350 1600 60  0000 C CNN
+F 1 "choc" H 2350 1450 60  0000 C CNN
+F 2 "SquantorSwitches:KAILH_choc_LED" H 2350 1500 60  0001 C CNN
+F 3 "" H 2350 1500 60  0001 C CNN
+	1    2350 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -188,12 +164,12 @@ Wire Wire Line
 $Comp
 L SquantorSwitches:2pin_tact_switch S3
 U 1 1 6168B6ED
-P 2350 1500
-F 0 "S3" H 2350 1600 60  0000 C CNN
-F 1 "choc" H 2350 1450 60  0000 C CNN
-F 2 "SquantorSwitches:KAILH_choc_LED" H 2350 1500 60  0001 C CNN
-F 3 "" H 2350 1500 60  0001 C CNN
-	1    2350 1500
+P 1550 2100
+F 0 "S3" H 1550 2200 60  0000 C CNN
+F 1 "choc" H 1550 2050 60  0000 C CNN
+F 2 "SquantorSwitches:KAILH_choc_LED" H 1550 2100 60  0001 C CNN
+F 3 "" H 1550 2100 60  0001 C CNN
+	1    1550 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -257,7 +233,7 @@ Wire Wire Line
 	2900 1500 2900 1600
 Connection ~ 2900 1600
 Wire Wire Line
-	2900 1600 3300 1600
+	2900 1600 2950 1600
 Wire Wire Line
 	2050 2100 2100 2100
 Wire Wire Line
@@ -270,41 +246,15 @@ Wire Wire Line
 	2900 2100 2900 2200
 Connection ~ 2900 2200
 Wire Wire Line
-	2900 2200 3300 2200
+	2900 2200 2950 2200
 Text Label 1350 1400 1    50   ~ 0
 COL1
 Text Label 2150 1400 1    50   ~ 0
 COL2
-Text Label 3300 1600 0    50   ~ 0
+Text Label 2950 1600 0    50   ~ 0
 SWR1
-Text Label 3300 2200 0    50   ~ 0
+Text Label 2950 2200 0    50   ~ 0
 SWR2
-$Comp
-L Device:R R1
-U 1 1 616B513C
-P 3100 1900
-F 0 "R1" V 3050 2050 50  0000 C CNN
-F 1 "1K" V 3100 1900 50  0000 C CNN
-F 2 "SquantorRcl:R_0603_hand" V 3030 1900 50  0001 C CNN
-F 3 "~" H 3100 1900 50  0001 C CNN
-	1    3100 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 616B61C6
-P 3100 2500
-F 0 "R2" V 3050 2650 50  0000 C CNN
-F 1 "1K" V 3100 2500 50  0000 C CNN
-F 2 "SquantorRcl:R_0603_hand" V 3030 2500 50  0001 C CNN
-F 3 "~" H 3100 2500 50  0001 C CNN
-	1    3100 2500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3300 2500 3250 2500
-Wire Wire Line
-	3300 1900 3250 1900
 Wire Wire Line
 	1350 1500 1350 1800
 Connection ~ 1350 1500
@@ -332,9 +282,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 1800 2900 1900
 Wire Wire Line
-	2950 1900 2900 1900
-Connection ~ 2900 1900
-Wire Wire Line
 	1350 2100 1350 2400
 Wire Wire Line
 	1350 2400 1550 2400
@@ -357,41 +304,101 @@ Wire Wire Line
 Connection ~ 2900 2500
 Wire Wire Line
 	2900 2500 2950 2500
-$Comp
-L Connector_Generic:Conn_01x06 J1
-U 1 1 616C9815
-P 4400 2000
-F 0 "J1" H 4480 1992 50  0000 L CNN
-F 1 "Conn_01x06" H 4480 1901 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 4400 2000 50  0001 C CNN
-F 3 "~" H 4400 2000 50  0001 C CNN
-	1    4400 2000
-	1    0    0    -1  
-$EndComp
-Text Label 4150 2200 2    50   ~ 0
-COL1
-Text Label 4150 2300 2    50   ~ 0
-COL2
-Text Label 4150 2100 2    50   ~ 0
-SWR1
-Text Label 4150 1900 2    50   ~ 0
-LEDC1
-Text Label 4150 2000 2    50   ~ 0
-SWR2
-Text Label 4150 1800 2    50   ~ 0
-LEDC2
-Wire Wire Line
-	4200 1800 4150 1800
-Wire Wire Line
-	4150 1900 4200 1900
-Wire Wire Line
-	4200 2000 4150 2000
-Wire Wire Line
-	4150 2100 4200 2100
-Wire Wire Line
-	4200 2200 4150 2200
-Wire Wire Line
-	4150 2300 4200 2300
 Wire Notes Line
 	1400 7700 1400 7000
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 616E0BCE
+P 4750 1100
+F 0 "J3" H 4700 1200 50  0000 L CNN
+F 1 "JST_PH" H 4650 900 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 4750 1100 50  0001 C CNN
+F 3 "~" H 4750 1100 50  0001 C CNN
+	1    4750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 616E4C32
+P 4050 1200
+F 0 "J1" H 4050 1000 50  0000 C CNN
+F 1 "JST_PH" H 4050 1300 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 4050 1200 50  0001 C CNN
+F 3 "~" H 4050 1200 50  0001 C CNN
+	1    4050 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 1100 4250 1100
+Wire Wire Line
+	4550 1200 4250 1200
+Text Label 4500 1200 2    50   ~ 0
+COL2
+Text Label 4500 1100 2    50   ~ 0
+COL1
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 616EC52B
+P 4750 1600
+F 0 "J4" H 4700 1800 50  0000 L CNN
+F 1 "JST_PH" H 4600 1300 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 4750 1600 50  0001 C CNN
+F 3 "~" H 4750 1600 50  0001 C CNN
+	1    4750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 616EDB7A
+P 4050 1700
+F 0 "J2" H 4050 1400 50  0000 C CNN
+F 1 "JST_PH" H 4050 1900 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 4050 1700 50  0001 C CNN
+F 3 "~" H 4050 1700 50  0001 C CNN
+	1    4050 1700
+	-1   0    0    1   
+$EndComp
+Text Label 4500 1500 2    50   ~ 0
+SWR1
+Text Label 4500 1600 2    50   ~ 0
+LEDC1
+Text Label 4500 1700 2    50   ~ 0
+SWR2
+Text Label 4500 1800 2    50   ~ 0
+LEDC2
+Wire Wire Line
+	4550 1500 4250 1500
+Wire Wire Line
+	4250 1600 4550 1600
+Wire Wire Line
+	4550 1700 4250 1700
+Wire Wire Line
+	4250 1800 4550 1800
+Connection ~ 2900 1900
+Wire Wire Line
+	2950 1900 2900 1900
+Text Label 2950 1900 0    50   ~ 0
+LEDC1
+$Comp
+L SquantorSwitches:keycap_1 cap7
+U 1 1 616790C4
+P 2850 3450
+F 0 "cap7" H 2750 3500 50  0000 L CNN
+F 1 "3" H 2800 3400 50  0000 L CNN
+F 2 "SquantorSwitches:KAILH_choc_keycap_1" H 2850 3450 50  0001 C CNN
+F 3 "" H 2850 3450 50  0001 C CNN
+	1    2850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorSwitches:keycap_1 cap6
+U 1 1 616781F9
+P 3050 3250
+F 0 "cap6" H 2950 3300 50  0000 L CNN
+F 1 "2" H 3000 3200 50  0000 L CNN
+F 2 "SquantorSwitches:KAILH_choc_keycap_1" H 3050 3250 50  0001 C CNN
+F 3 "" H 3050 3250 50  0001 C CNN
+	1    3050 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
