@@ -79,17 +79,6 @@ F 3 "" H 2850 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SquantorSwitches:keycap_1 cap8
-U 1 1 6167911E
-P 3050 3450
-F 0 "cap8" H 2950 3500 50  0000 L CNN
-F 1 "4" H 3000 3400 50  0000 L CNN
-F 2 "SquantorSwitches:KAILH_choc_keycap_1" H 3050 3450 50  0001 C CNN
-F 3 "" H 3050 3450 50  0001 C CNN
-	1    3050 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D2
 U 1 1 6167B613
 P 2500 1800
@@ -112,17 +101,6 @@ F 3 "~" H 1700 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D6
-U 1 1 6167D1E5
-P 2500 2400
-F 0 "D6" H 2500 2300 50  0000 C CNN
-F 1 "LED" H 2500 2500 50  0000 C CNN
-F 2 "SquantorDiodes:LED_1208_0603" H 2500 2400 50  0001 C CNN
-F 3 "~" H 2500 2400 50  0001 C CNN
-	1    2500 2400
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:D D3
 U 1 1 6167E7F4
 P 1900 1500
@@ -133,8 +111,6 @@ F 3 "~" H 1900 1500 50  0001 C CNN
 	1    1900 1500
 	-1   0    0    1   
 $EndComp
-Text Label 2950 2500 0    50   ~ 0
-LEDC2
 Wire Wire Line
 	1700 1500 1750 1500
 $Comp
@@ -185,30 +161,6 @@ F 3 "~" H 2700 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 1500 2550 1500
-$Comp
-L SquantorSwitches:2pin_tact_switch S4
-U 1 1 6168B77E
-P 2350 2100
-F 0 "S4" H 2350 2200 60  0000 C CNN
-F 1 "choc" H 2350 2050 60  0000 C CNN
-F 2 "SquantorSwitches:KAILH_choc_LED" H 2350 2100 60  0001 C CNN
-F 3 "" H 2350 2100 60  0001 C CNN
-	1    2350 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D8
-U 1 1 6168B788
-P 2700 2100
-F 0 "D8" H 2600 2050 50  0000 C CNN
-F 1 "D" H 2600 2150 50  0000 C CNN
-F 2 "SquantorDiodes:SOD-523_hand" H 2700 2100 50  0001 C CNN
-F 3 "~" H 2700 2100 50  0001 C CNN
-	1    2700 2100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2500 2100 2550 2100
 Wire Wire Line
 	1350 1400 1350 1500
 Wire Wire Line
@@ -219,8 +171,6 @@ Wire Wire Line
 	2150 1400 2150 1500
 Wire Wire Line
 	2150 1500 2200 1500
-Wire Wire Line
-	2150 2100 2200 2100
 Wire Wire Line
 	2050 1500 2100 1500
 Wire Wire Line
@@ -238,23 +188,12 @@ Wire Wire Line
 	2050 2100 2100 2100
 Wire Wire Line
 	2100 2100 2100 2200
-Wire Wire Line
-	2100 2200 2900 2200
-Wire Wire Line
-	2850 2100 2900 2100
-Wire Wire Line
-	2900 2100 2900 2200
-Connection ~ 2900 2200
-Wire Wire Line
-	2900 2200 2950 2200
 Text Label 1350 1400 1    50   ~ 0
 COL1
 Text Label 2150 1400 1    50   ~ 0
 COL2
 Text Label 2950 1600 0    50   ~ 0
 SWR1
-Text Label 2950 2200 0    50   ~ 0
-SWR2
 Wire Wire Line
 	1350 1500 1350 1800
 Connection ~ 1350 1500
@@ -268,9 +207,6 @@ Wire Wire Line
 Connection ~ 2150 1500
 Wire Wire Line
 	2350 1800 2150 1800
-Connection ~ 2150 1800
-Wire Wire Line
-	2150 1800 2150 2100
 Wire Wire Line
 	1850 1800 2100 1800
 Wire Wire Line
@@ -287,23 +223,9 @@ Wire Wire Line
 	1350 2400 1550 2400
 Connection ~ 1350 2100
 Wire Wire Line
-	2150 2100 2150 2400
-Wire Wire Line
-	2150 2400 2350 2400
-Connection ~ 2150 2100
-Wire Wire Line
 	1850 2400 2100 2400
 Wire Wire Line
 	2100 2400 2100 2500
-Wire Wire Line
-	2100 2500 2900 2500
-Wire Wire Line
-	2650 2400 2900 2400
-Wire Wire Line
-	2900 2400 2900 2500
-Connection ~ 2900 2500
-Wire Wire Line
-	2900 2500 2950 2500
 Wire Notes Line
 	1400 7700 1400 7000
 $Comp
@@ -401,4 +323,12 @@ F 3 "" H 3050 3250 50  0001 C CNN
 	1    3050 3250
 	1    0    0    -1  
 $EndComp
+Text Label 2950 2200 0    50   ~ 0
+SWR2
+Wire Wire Line
+	2100 2200 2950 2200
+Text Label 2950 2500 0    50   ~ 0
+LEDC2
+Wire Wire Line
+	2100 2500 2950 2500
 $EndSCHEMATC
