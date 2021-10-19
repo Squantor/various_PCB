@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
 P 1050 7450
 F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20211015" H 800 7450 60  0000 L CNN
+F 1 "20211019" H 800 7450 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
 F 3 "" H 1050 7450 60  0001 C CNN
 	1    1050 7450
@@ -56,50 +56,6 @@ F 1 "1" H 2850 3200 50  0000 L CNN
 F 2 "SquantorSwitches:KAILH_choc_plate_1" H 2850 3250 50  0001 C CNN
 F 3 "" H 2850 3250 50  0001 C CNN
 	1    2850 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 61699D38
-P 2650 3050
-F 0 "H1" H 2750 3100 50  0000 L CNN
-F 1 "M3" H 2750 3000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2650 3050 50  0001 C CNN
-F 3 "~" H 2650 3050 50  0001 C CNN
-	1    2650 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 6169E247
-P 3250 3050
-F 0 "H3" H 3350 3100 50  0000 L CNN
-F 1 "M3" H 3350 3000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3250 3050 50  0001 C CNN
-F 3 "~" H 3250 3050 50  0001 C CNN
-	1    3250 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 6169EB76
-P 3250 3650
-F 0 "H4" H 3350 3700 50  0000 L CNN
-F 1 "M3" H 3350 3600 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3250 3650 50  0001 C CNN
-F 3 "~" H 3250 3650 50  0001 C CNN
-	1    3250 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 6169F8F7
-P 2650 3650
-F 0 "H2" H 2750 3700 50  0000 L CNN
-F 1 "M3" H 2750 3600 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2650 3650 50  0001 C CNN
-F 3 "~" H 2650 3650 50  0001 C CNN
-	1    2650 3650
 	1    0    0    -1  
 $EndComp
 $Comp
