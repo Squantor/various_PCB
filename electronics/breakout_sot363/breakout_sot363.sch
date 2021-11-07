@@ -48,10 +48,10 @@ Wire Notes Line
 Wire Notes Line
 	600  7550 1400 7550
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J1
 U 1 1 61883BF3
 P 1450 1650
-F 0 "J?" H 1450 1850 50  0000 C CNN
+F 0 "J1" H 1450 1850 50  0000 C CNN
 F 1 "Conn_01x03" H 1450 1450 50  0000 C CNN
 F 2 "SquantorConnectors:Header-0254-1X03-H010" H 1450 1650 50  0001 C CNN
 F 3 "~" H 1450 1650 50  0001 C CNN
@@ -59,14 +59,37 @@ F 3 "~" H 1450 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J2
 U 1 1 618840B6
-P 2150 1650
-F 0 "J?" H 2150 1450 50  0000 C CNN
-F 1 "Conn_01x03" H 2150 1850 50  0000 C CNN
-F 2 "SquantorConnectors:Header-0254-1X03-H010" H 2150 1650 50  0001 C CNN
-F 3 "~" H 2150 1650 50  0001 C CNN
-	1    2150 1650
+P 2350 1650
+F 0 "J2" H 2350 1450 50  0000 C CNN
+F 1 "Conn_01x03" H 2350 1850 50  0000 C CNN
+F 2 "SquantorConnectors:Header-0254-1X03-H010" H 2350 1650 50  0001 C CNN
+F 3 "~" H 2350 1650 50  0001 C CNN
+	1    2350 1650
 	1    0    0    1   
 $EndComp
+$Comp
+L SquantorDevice:Generic_6pin_IC U1
+U 1 1 61885CC0
+P 1900 1650
+F 0 "U1" H 1900 2015 50  0000 C CNN
+F 1 "Generic_6pin_IC" H 1900 1924 50  0000 C CNN
+F 2 "SquantorIC:SOT363-NXP-hand" H 1900 1650 50  0001 C CNN
+F 3 "" H 1900 1650 50  0001 C CNN
+	1    1900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1550 1650 1550
+Wire Wire Line
+	1650 1650 1700 1650
+Wire Wire Line
+	1700 1750 1650 1750
+Wire Wire Line
+	2100 1750 2150 1750
+Wire Wire Line
+	2150 1650 2100 1650
+Wire Wire Line
+	2100 1550 2150 1550
 $EndSCHEMATC
