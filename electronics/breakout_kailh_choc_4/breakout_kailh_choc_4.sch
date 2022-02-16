@@ -358,13 +358,13 @@ F 3 "~" H 4050 1700 50  0001 C CNN
 	1    4050 1700
 	-1   0    0    1   
 $EndComp
-Text Label 4500 1500 2    50   ~ 0
-SWR1
 Text Label 4500 1600 2    50   ~ 0
+SWR1
+Text Label 4500 1500 2    50   ~ 0
 LEDC1
-Text Label 4500 1700 2    50   ~ 0
-SWR2
 Text Label 4500 1800 2    50   ~ 0
+SWR2
+Text Label 4500 1700 2    50   ~ 0
 LEDC2
 Wire Wire Line
 	4550 1500 4250 1500
