@@ -64,7 +64,7 @@ U 1 1 62609363
 P 1350 900
 F 0 "F1" V 1250 900 50  0000 C CNN
 F 1 "Fuse" V 1450 900 50  0000 C CNN
-F 2 "" V 1280 900 50  0001 C CNN
+F 2 "SquantorRcl:F-FH1-200C" V 1280 900 50  0001 C CNN
 F 3 "~" H 1350 900 50  0001 C CNN
 	1    1350 900 
 	0    1    1    0   
@@ -117,7 +117,7 @@ U 1 1 6260DAE0
 P 1850 1100
 F 0 "L1" H 1850 1250 50  0000 C CNN
 F 1 "744844221" H 1850 950 50  0000 C CNN
-F 2 "" H 1850 1100 50  0001 C CNN
+F 2 "SquantorWurth:LC-744844221" H 1850 1100 50  0001 C CNN
 F 3 "~" H 1850 1100 50  0001 C CNN
 	1    1850 1100
 	1    0    0    -1  
@@ -234,4 +234,62 @@ Connection ~ 2150 1300
 Connection ~ 2550 1350
 Wire Wire Line
 	2250 900  2150 900 
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 62623D03
+P 750 6250
+F 0 "H1" H 850 6296 50  0000 L CNN
+F 1 "MountingHole" H 850 6205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 750 6250 50  0001 C CNN
+F 3 "~" H 750 6250 50  0001 C CNN
+	1    750  6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 626241CD
+P 750 6400
+F 0 "H2" H 850 6446 50  0000 L CNN
+F 1 "MountingHole" H 850 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 750 6400 50  0001 C CNN
+F 3 "~" H 750 6400 50  0001 C CNN
+	1    750  6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 62624449
+P 750 6550
+F 0 "H3" H 850 6596 50  0000 L CNN
+F 1 "MountingHole" H 850 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 750 6550 50  0001 C CNN
+F 3 "~" H 750 6550 50  0001 C CNN
+	1    750  6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 626247B6
+P 750 6700
+F 0 "H4" H 850 6746 50  0000 L CNN
+F 1 "MountingHole" H 850 6655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 750 6700 50  0001 C CNN
+F 3 "~" H 750 6700 50  0001 C CNN
+	1    750  6700
+	1    0    0    -1  
+$EndComp
+Text Notes 950  6900 0    50   ~ 0
+Mechanical
+Wire Notes Line
+	1400 6950 1400 6150
+Wire Notes Line
+	1400 6150 600  6150
+Wire Notes Line
+	600  6150 600  6950
+Wire Notes Line
+	600  6950 1400 6950
+Wire Notes Line
+	1400 6800 900  6800
+Wire Notes Line
+	900  6800 900  6950
 $EndSCHEMATC
