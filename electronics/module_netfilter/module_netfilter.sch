@@ -48,21 +48,21 @@ Wire Notes Line
 Wire Notes Line
 	600  7550 1400 7550
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J1
 U 1 1 62606F84
 P 900 1150
-F 0 "J?" H 900 950 50  0000 C CNN
+F 0 "J1" H 900 950 50  0000 C CNN
 F 1 "Conn_01x02" H 900 1250 50  0000 C CNN
-F 2 "" H 900 1150 50  0001 C CNN
+F 2 "SquantorPhoenixContact:MKDS_2conn_508pitch_1711725" H 900 1150 50  0001 C CNN
 F 3 "~" H 900 1150 50  0001 C CNN
 	1    900  1150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Device:Fuse F1
 U 1 1 62609363
 P 1350 900
-F 0 "F?" V 1250 900 50  0000 C CNN
+F 0 "F1" V 1250 900 50  0000 C CNN
 F 1 "Fuse" V 1450 900 50  0000 C CNN
 F 2 "" V 1280 900 50  0001 C CNN
 F 3 "~" H 1350 900 50  0001 C CNN
@@ -70,23 +70,23 @@ F 3 "~" H 1350 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 6260A00D
 P 1550 1100
-F 0 "C?" H 1450 1200 50  0000 L CNN
+F 0 "C1" H 1450 1200 50  0000 L CNN
 F 1 "X2" H 1400 1000 50  0000 L CNN
-F 2 "" H 1588 950 50  0001 C CNN
+F 2 "SquantorRcl:C-100-060X130-film" H 1588 950 50  0001 C CNN
 F 3 "~" H 1550 1100 50  0001 C CNN
 	1    1550 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J2
 U 1 1 6260A64D
 P 3100 1100
-F 0 "J?" H 3180 1142 50  0000 L CNN
+F 0 "J2" H 3180 1142 50  0000 L CNN
 F 1 "Conn_01x03" H 3180 1051 50  0000 L CNN
-F 2 "" H 3100 1100 50  0001 C CNN
+F 2 "SquantorPhoenixContact:MKDS_3conn_508pitch_1711725" H 3100 1100 50  0001 C CNN
 F 3 "~" H 3100 1100 50  0001 C CNN
 	1    3100 1100
 	1    0    0    -1  
@@ -112,10 +112,10 @@ Wire Wire Line
 Wire Wire Line
 	1550 900  1550 950 
 $Comp
-L Device:L_Core_Ferrite_Coupled_1423 L?
+L Device:L_Core_Ferrite_Coupled_1423 L1
 U 1 1 6260DAE0
 P 1850 1100
-F 0 "L?" H 1850 1250 50  0000 C CNN
+F 0 "L1" H 1850 1250 50  0000 C CNN
 F 1 "744844221" H 1850 950 50  0000 C CNN
 F 2 "" H 1850 1100 50  0001 C CNN
 F 3 "~" H 1850 1100 50  0001 C CNN
@@ -137,23 +137,23 @@ Wire Wire Line
 	1600 1000 1650 1000
 Connection ~ 1550 900 
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 626102E5
 P 2350 1050
-F 0 "C?" H 2350 1150 50  0000 L CNN
+F 0 "C3" H 2350 1150 50  0000 L CNN
 F 1 "Y2" H 2350 950 50  0000 L CNN
-F 2 "" H 2388 900 50  0001 C CNN
+F 2 "SquantorRcl:C-075-050X105-disc" H 2388 900 50  0001 C CNN
 F 3 "~" H 2350 1050 50  0001 C CNN
 	1    2350 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 62613D2C
 P 2550 1150
-F 0 "C?" H 2550 1250 50  0000 L CNN
+F 0 "C4" H 2550 1250 50  0000 L CNN
 F 1 "Y2" H 2550 1050 50  0000 L CNN
-F 2 "" H 2588 1000 50  0001 C CNN
+F 2 "SquantorRcl:C-075-050X105-disc" H 2588 1000 50  0001 C CNN
 F 3 "~" H 2550 1150 50  0001 C CNN
 	1    2550 1150
 	1    0    0    -1  
@@ -200,12 +200,12 @@ Wire Wire Line
 	2700 1100 2900 1100
 Connection ~ 2550 950 
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 6261E236
 P 2150 1100
-F 0 "C?" H 2150 1200 50  0000 L CNN
+F 0 "C2" H 2150 1200 50  0000 L CNN
 F 1 "X2" H 2150 1000 50  0000 L CNN
-F 2 "" H 2188 950 50  0001 C CNN
+F 2 "SquantorRcl:C-100-060X130-film" H 2188 950 50  0001 C CNN
 F 3 "~" H 2150 1100 50  0001 C CNN
 	1    2150 1100
 	1    0    0    -1  
