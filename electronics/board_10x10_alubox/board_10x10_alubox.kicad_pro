@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [],
@@ -379,7 +379,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "alu_box_10x10cm_jlc2layer.kicad_pro",
+    "filename": "board_10x10_alubox.kicad_pro",
     "version": 1
   },
   "net_settings": {
