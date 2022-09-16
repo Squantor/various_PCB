@@ -2286,7 +2286,7 @@
     (property "Reference" "N2" (id 0) (at 153.67 179.07 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "V:20220506" (id 1) (at 148.59 181.61 0)
+    (property "Value" "V:20220916" (id 1) (at 148.59 181.61 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (id 2) (at 154.94 181.61 0)
@@ -5354,7 +5354,7 @@
       (reference "N1") (unit 1) (value "OHWLOGO") (footprint "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen")
     )
     (path "/00000000-0000-0000-0000-00005da0a665"
-      (reference "N2") (unit 1) (value "V:20220506") (footprint "SquantorLabels:Label_Generic")
+      (reference "N2") (unit 1) (value "V:20220916") (footprint "SquantorLabels:Label_Generic")
     )
   )
 )
