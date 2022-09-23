@@ -313,7 +313,7 @@
   (symbol (lib_id "SquantorConnectorsNamed:JTAG_2X05_IN") (at 71.12 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0252c765-633e-4fc1-9afb-3779a148938d)
-    (property "Reference" "J?" (id 0) (at 62.23 26.67 0)
+    (property "Reference" "J2" (id 0) (at 62.23 26.67 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "JTAG_2X05_IN" (id 1) (at 71.12 44.45 0)
@@ -340,9 +340,9 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 69.85 21.59 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 49817da2-5604-4d33-9113-9c545a2004aa)
-    (property "Reference" "J?" (id 0) (at 69.85 16.51 0))
+    (property "Reference" "J1" (id 0) (at 69.85 16.51 0))
     (property "Value" "Conn_01x03" (id 1) (at 69.85 26.67 0))
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" (id 2) (at 69.85 21.59 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (id 2) (at 69.85 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 69.85 21.59 0)
@@ -358,11 +358,11 @@
   )
 
   (symbol_instances
-    (path "/0252c765-633e-4fc1-9afb-3779a148938d"
-      (reference "J?") (unit 1) (value "JTAG_2X05_IN") (footprint "SquantorConnectors:Header-0127-2X05-SMD")
-    )
     (path "/49817da2-5604-4d33-9113-9c545a2004aa"
-      (reference "J?") (unit 1) (value "Conn_01x03") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal")
+      (reference "J1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+    )
+    (path "/0252c765-633e-4fc1-9afb-3779a148938d"
+      (reference "J2") (unit 1) (value "JTAG_2X05_IN") (footprint "SquantorConnectors:Header-0127-2X05-SMD")
     )
     (path "/00000000-0000-0000-0000-00005ee12bf3"
       (reference "N1") (unit 1) (value "20220923") (footprint "SquantorLabels:Label_Generic")
