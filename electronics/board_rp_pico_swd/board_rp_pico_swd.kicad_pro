@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.12,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.508
+          "45_degree_only": true,
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [],
@@ -391,7 +391,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Aisler_simple_2_layer.kicad_pro",
+    "filename": "board_rp_pico_swd.kicad_pro",
     "version": 1
   },
   "net_settings": {
