@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.39999999999999997
         }
       },
       "diff_pair_dimensions": [],
@@ -391,7 +391,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Aisler_simple_2_layer.kicad_pro",
+    "filename": "board_SG1_adapter.kicad_pro",
     "version": 1
   },
   "net_settings": {
