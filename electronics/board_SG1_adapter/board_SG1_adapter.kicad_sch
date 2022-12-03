@@ -1614,7 +1614,7 @@
     (property "Reference" "C2" (id 0) (at 83.82 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 81.28 39.37 0)
+    (property "Value" "100u" (id 1) (at 78.74 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "SquantorRcl:C-050-100-elco" (id 2) (at 83.82 36.83 0)
@@ -1682,7 +1682,7 @@
     (property "Reference" "C1" (id 0) (at 83.82 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 81.28 31.75 0)
+    (property "Value" "100u" (id 1) (at 78.74 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "SquantorRcl:C-050-100-elco" (id 2) (at 83.82 29.21 0)
@@ -1837,7 +1837,7 @@
     (property "Reference" "C3" (id 0) (at 83.82 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 82.55 55.88 0)
+    (property "Value" "100u" (id 1) (at 78.74 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "SquantorRcl:C-050-100-elco" (id 2) (at 83.82 53.34 0)
@@ -1890,7 +1890,7 @@
     (property "Reference" "C4" (id 0) (at 83.82 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 82.55 63.5 0)
+    (property "Value" "100u" (id 1) (at 78.74 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "SquantorRcl:C-050-100-elco" (id 2) (at 83.82 60.96 0)
@@ -2220,16 +2220,16 @@
 
   (symbol_instances
     (path "/33a96a7d-b1b6-4d63-a112-8e0892e19753"
-      (reference "C1") (unit 1) (value "C") (footprint "SquantorRcl:C-050-100-elco")
+      (reference "C1") (unit 1) (value "100u") (footprint "SquantorRcl:C-050-100-elco")
     )
     (path "/2b78c5ce-aeac-4cdf-9dfa-5948914964b5"
-      (reference "C2") (unit 1) (value "C") (footprint "SquantorRcl:C-050-100-elco")
+      (reference "C2") (unit 1) (value "100u") (footprint "SquantorRcl:C-050-100-elco")
     )
     (path "/6118800c-273b-49bc-ae5c-e88a0e55130d"
-      (reference "C3") (unit 1) (value "C") (footprint "SquantorRcl:C-050-100-elco")
+      (reference "C3") (unit 1) (value "100u") (footprint "SquantorRcl:C-050-100-elco")
     )
     (path "/78f42d71-b71d-46fc-9742-f3a159a96a0b"
-      (reference "C4") (unit 1) (value "C") (footprint "SquantorRcl:C-050-100-elco")
+      (reference "C4") (unit 1) (value "100u") (footprint "SquantorRcl:C-050-100-elco")
     )
     (path "/431a0f33-663b-4db5-8d23-d3860d969f31"
       (reference "C5") (unit 1) (value "100n") (footprint "SquantorRcl:C_0805+0603")
