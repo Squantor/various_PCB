@@ -2074,7 +2074,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 44.45 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9a78483e-a4a9-442b-9b78-185e6ef8e163)
-    (property "Reference" "H?" (id 0) (at 46.99 180.3399 0)
+    (property "Reference" "H1" (id 0) (at 46.99 180.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (id 1) (at 46.99 182.8799 0)
@@ -2139,7 +2139,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 44.45 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c4c5520e-ab64-4797-a9b6-5f1cd79f7616)
-    (property "Reference" "H?" (id 0) (at 46.99 185.4199 0)
+    (property "Reference" "H2" (id 0) (at 46.99 185.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (id 1) (at 46.99 187.9599 0)
@@ -2425,10 +2425,10 @@
       (reference "D8") (unit 1) (value "D") (footprint "Diode_SMD:D_SMB")
     )
     (path "/9a78483e-a4a9-442b-9b78-185e6ef8e163"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/c4c5520e-ab64-4797-a9b6-5f1cd79f7616"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/79b5ad3e-5f04-49f9-b44e-dfdc53bea2eb"
       (reference "J1") (unit 1) (value "Conn_01x01") (footprint "SquantorConnectors:pad_power")
