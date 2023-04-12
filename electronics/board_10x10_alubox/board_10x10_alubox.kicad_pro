@@ -456,7 +456,12 @@
           "/MOSI",
           "/SCK",
           "/SCL0",
-          "/SDA0"
+          "/SDA0",
+          "Net-(J14-Pad1)",
+          "Net-(J14-Pad2)",
+          "Net-(J14-Pad3)",
+          "Net-(LED1-Pad1)",
+          "Net-(LED1-Pad3)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -475,7 +480,18 @@
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "signal heavy",
-        "nets": [],
+        "nets": [
+          "Net-(C1-Pad1)",
+          "Net-(C2-Pad1)",
+          "Net-(C3-Pad1)",
+          "Net-(C4-Pad1)",
+          "Net-(J13-Pad1)",
+          "Net-(J13-Pad2)",
+          "Net-(J13-Pad3)",
+          "Net-(J15-Pad1)",
+          "Net-(J15-Pad2)",
+          "Net-(J15-Pad3)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
