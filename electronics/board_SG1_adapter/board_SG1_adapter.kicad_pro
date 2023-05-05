@@ -48,7 +48,13 @@
           "min_clearance": 0.39999999999999997
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -411,6 +417,41 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "nets": [
+          "/Neutral",
+          "/P1_Neutral",
+          "/P1_Phase",
+          "/P2_Neutral",
+          "/P2_Phase",
+          "/Phase",
+          "/V1n",
+          "/V1p",
+          "/V2n",
+          "/V2p",
+          "Net-(C2-Pad1)",
+          "Net-(C2-Pad2)",
+          "Net-(C3-Pad1)",
+          "Net-(C3-Pad2)",
+          "Net-(C4-Pad1)",
+          "Net-(C4-Pad2)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "via_diameter": 0.9,
+        "via_drill": 0.6,
         "wire_width": 6.0
       }
     ],
