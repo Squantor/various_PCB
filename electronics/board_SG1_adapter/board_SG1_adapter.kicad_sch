@@ -1018,7 +1018,7 @@
     (property "Value" "1000uF 35V" (id 1) (at 134.62 37.2109 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SquantorRcl:C-050_035-100-elco" (id 2) (at 131.7752 40.64 0)
+    (property "Footprint" "SquantorRcl:C-035-100-elco" (id 2) (at 131.7752 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 130.81 36.83 0)
@@ -1054,7 +1054,7 @@
     (property "Value" "1000uF 35V" (id 1) (at 134.62 47.3709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SquantorRcl:C-050_035-100-elco" (id 2) (at 131.7752 50.8 0)
+    (property "Footprint" "SquantorRcl:C-035-100-elco" (id 2) (at 131.7752 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 130.81 46.99 0)
@@ -1163,7 +1163,7 @@
     (property "Value" "1000uF 35V" (id 1) (at 130.81 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SquantorRcl:C-050_035-100-elco" (id 2) (at 131.7752 60.96 0)
+    (property "Footprint" "SquantorRcl:C-035-100-elco" (id 2) (at 131.7752 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 130.81 57.15 0)
@@ -1233,13 +1233,13 @@
       (reference "C3") (unit 1) (value "1uF") (footprint "SquantorRcl:C_0805+0603")
     )
     (path "/9918c233-acd8-4236-9cf7-d13316320c47"
-      (reference "C4") (unit 1) (value "1000uF 35V") (footprint "SquantorRcl:C-050_035-100-elco")
+      (reference "C4") (unit 1) (value "1000uF 35V") (footprint "SquantorRcl:C-035-100-elco")
     )
     (path "/a0a5ef6d-ec20-42a2-a277-7b12246ee59a"
-      (reference "C5") (unit 1) (value "1000uF 35V") (footprint "SquantorRcl:C-050_035-100-elco")
+      (reference "C5") (unit 1) (value "1000uF 35V") (footprint "SquantorRcl:C-035-100-elco")
     )
     (path "/d04fdd37-5d71-4e1a-95d0-b724036e166f"
-      (reference "C6") (unit 1) (value "1000uF 35V") (footprint "SquantorRcl:C-050_035-100-elco")
+      (reference "C6") (unit 1) (value "1000uF 35V") (footprint "SquantorRcl:C-035-100-elco")
     )
     (path "/364fd55d-7179-4bb3-972f-bafd4d9e48c6"
       (reference "D1") (unit 1) (value "D") (footprint "Diode_SMD:D_SMB")
