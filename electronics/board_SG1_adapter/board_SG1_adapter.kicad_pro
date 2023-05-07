@@ -443,9 +443,7 @@
           "Net-(C2-Pad1)",
           "Net-(C2-Pad2)",
           "Net-(C3-Pad1)",
-          "Net-(C3-Pad2)",
-          "Net-(C4-Pad1)",
-          "Net-(C4-Pad2)"
+          "Net-(C3-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
