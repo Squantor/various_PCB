@@ -432,8 +432,10 @@
         "nets": [
           "/AC1_NEUT",
           "/AC1_PHASE",
+          "/AC1_PHASE_IN",
           "/AC2_NEUT",
           "/AC2_PHASE",
+          "/AC2_PHASE_IN",
           "/DC1n",
           "/DC1p",
           "/DC2",
