@@ -430,6 +430,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
+          "/+5V",
           "/AC1_NEUT",
           "/AC1_PHASE",
           "/AC1_PHASE_IN",
@@ -439,6 +440,8 @@
           "/DC1n",
           "/DC1p",
           "/DC2",
+          "/V+A",
+          "/V-A",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -458,7 +461,11 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Signal",
-        "nets": [],
+        "nets": [
+          "Net-(C4-Pad1)",
+          "Net-(C6-Pad1)",
+          "Net-(C8-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
