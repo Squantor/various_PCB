@@ -2200,7 +2200,7 @@
     (property "Reference" "N1" (id 0) (at 24.13 186.69 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "20220502" (id 1) (at 19.05 189.23 0)
+    (property "Value" "20220527" (id 1) (at 19.05 189.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (id 2) (at 25.4 189.23 0)
@@ -2416,7 +2416,7 @@
     (in_bom yes) (on_board yes)
     (uuid 3a7fe946-9ece-4f4b-8f98-c4b7695ce0c8)
     (property "Reference" "U3" (id 0) (at 96.52 77.47 0))
-    (property "Value" "LM317" (id 1) (at 102.87 87.63 0))
+    (property "Value" "LM337" (id 1) (at 102.87 87.63 0))
     (property "Footprint" "SquantorIC:TO-220-3_Vertical" (id 2) (at 96.52 83.82 90)
       (effects (font (size 1.524 1.524)) hide)
     )
@@ -3710,7 +3710,7 @@
       (reference "J6") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005ee12bf3"
-      (reference "N1") (unit 1) (value "20220502") (footprint "SquantorLabels:Label_Generic")
+      (reference "N1") (unit 1) (value "20220527") (footprint "SquantorLabels:Label_Generic")
     )
     (path "/00000000-0000-0000-0000-00005ee13678"
       (reference "N2") (unit 1) (value "OHWLOGO") (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen")
@@ -3752,7 +3752,7 @@
       (reference "U2") (unit 1) (value "LM317") (footprint "SquantorIC:TO-220-3_Vertical")
     )
     (path "/3a7fe946-9ece-4f4b-8f98-c4b7695ce0c8"
-      (reference "U3") (unit 1) (value "LM317") (footprint "SquantorIC:TO-220-3_Vertical")
+      (reference "U3") (unit 1) (value "LM337") (footprint "SquantorIC:TO-220-3_Vertical")
     )
     (path "/53a1dfd9-3814-4051-94d4-5b09a459de2f"
       (reference "U4") (unit 1) (value "LM78XX") (footprint "SquantorIC:TO-220-3_Vertical")
