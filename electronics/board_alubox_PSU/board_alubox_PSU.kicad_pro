@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|149200000|115210000|51941a25-fd60-442b-ade8-f73bac4e5825|94027574-1218-41c8-a9e9-23ef4a85fd2e",
+        "silk_over_copper|158400000|115210000|51941a25-fd60-442b-ade8-f73bac4e5825|456d9890-59d2-4f67-a1cd-9712195bfc6c",
+        "silk_over_copper|166300000|115210000|51941a25-fd60-442b-ade8-f73bac4e5825|e9603bb7-12ee-48a8-9816-53c7feea10fb",
+        "silk_over_copper|175500000|115210000|51941a25-fd60-442b-ade8-f73bac4e5825|b1a22c56-ed36-4c57-a86e-326dd0a3ddf0"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
