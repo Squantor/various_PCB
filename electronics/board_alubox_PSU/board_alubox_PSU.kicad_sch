@@ -2857,7 +2857,7 @@
     (uuid 837c9c04-5af2-4c6e-9662-27fe535a0a0d)
     (property "Reference" "J4" (id 0) (at 17.78 130.81 0))
     (property "Value" "Jack-DC" (id 1) (at 21.59 140.97 0))
-    (property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal" (id 2) (at 22.86 136.906 0)
+    (property "Footprint" "SquantorConnectors:BarrelJack_Horizontal_Holed" (id 2) (at 22.86 136.906 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 22.86 136.906 0)
@@ -3281,7 +3281,7 @@
     (uuid c196efd6-6e87-4f59-9bfe-6cfd33e48ead)
     (property "Reference" "J3" (id 0) (at 17.78 120.65 0))
     (property "Value" "Jack-DC" (id 1) (at 22.86 130.81 0))
-    (property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal" (id 2) (at 22.86 126.746 0)
+    (property "Footprint" "SquantorConnectors:BarrelJack_Horizontal_Holed" (id 2) (at 22.86 126.746 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 22.86 126.746 0)
@@ -3844,10 +3844,10 @@
       (reference "J2") (unit 1) (value "module_2x15_right_input") (footprint "SquantorConnectorsNamed:module_2x15_right")
     )
     (path "/c196efd6-6e87-4f59-9bfe-6cfd33e48ead"
-      (reference "J3") (unit 1) (value "Jack-DC") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
+      (reference "J3") (unit 1) (value "Jack-DC") (footprint "SquantorConnectors:BarrelJack_Horizontal_Holed")
     )
     (path "/837c9c04-5af2-4c6e-9662-27fe535a0a0d"
-      (reference "J4") (unit 1) (value "Jack-DC") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
+      (reference "J4") (unit 1) (value "Jack-DC") (footprint "SquantorConnectors:BarrelJack_Horizontal_Holed")
     )
     (path "/8e3b90f5-6f98-406d-9f4d-0d2da16da4ae"
       (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
