@@ -56,8 +56,6 @@
         }
       ],
       "drc_exclusions": [
-        "holes_co_located|127500000|135000000|822a335c-78db-4d54-8a9c-a8edc0fe8599|f8fc38ec-0b98-40bc-ae2f-e5cc29973bca",
-        "holes_co_located|189500000|135000000|0ae82096-0994-4fb0-9a2a-d4ac4804abac|9abc6490-ba25-4f68-9056-7f17c3deac9d",
         "silk_over_copper|113502380|57622857|212489e9-0399-45ef-9191-ab15ef70d74f|1b4ce17d-299c-47f0-b574-233c9b869bef",
         "silk_over_copper|127500000|138100000|4e9bb2fd-0de1-4f59-bf23-0139d1c9ac6b|822a335c-78db-4d54-8a9c-a8edc0fe8599",
         "silk_over_copper|127500000|138100000|4e9bb2fd-0de1-4f59-bf23-0139d1c9ac6b|f8fc38ec-0b98-40bc-ae2f-e5cc29973bca",
