@@ -2287,7 +2287,7 @@
     (property "Reference" "N1" (at 24.13 186.69 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "20220527" (at 19.05 189.23 0)
+    (property "Value" "20220716" (at 19.05 189.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (at 25.4 189.23 0)
