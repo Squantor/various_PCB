@@ -1,0 +1,7 @@
+# Freecad stuff
+# freecad backup files
+*.FCStd?
+
+# ignore STL files, you can add them by forcing it
+*.stl
+*.3mf
