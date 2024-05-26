@@ -321,11 +321,11 @@
     (property "ki_keywords" "connector")
     (path "/00000000-0000-0000-0000-000061883bf3")
     (attr exclude_from_pos_files)
-    (fp_text reference "J1" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "J1" (at 0 2 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b147cb53-817f-43da-ab45-f9e2812b8d35)
     )
-    (fp_text value "Conn_01x03" (at 0 -2.1 90) (layer "B.Fab")
+    (fp_text value "Conn_01x03" (at 0 -2.1 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 21fa32fb-17b3-48f6-920b-879f4602d871)
     )
@@ -400,11 +400,11 @@
     (property "ki_keywords" "connector")
     (path "/00000000-0000-0000-0000-0000618840b6")
     (attr exclude_from_pos_files)
-    (fp_text reference "J2" (at 0 2 270) (layer "B.SilkS")
+    (fp_text reference "J2" (at 0 2 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b328bf18-b86f-4d7a-aba6-7faacbc87eb8)
     )
-    (fp_text value "Conn_01x03" (at 0 -2.1 270) (layer "B.Fab")
+    (fp_text value "Conn_01x03" (at 0 -2.1 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3ff960ed-7c73-4de8-9a05-7b69241b95c5)
     )
