@@ -275,7 +275,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 1d746af3-49c7-40e8-addf-fa56abdcd785)
     )
-    (fp_text value "gnd" (at 0 0.8) (layer "F.SilkS") hide
+    (fp_text value "gnd" (at -1.524 0) (layer "F.SilkS")
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 069fc221-60cf-4a7e-84d1-d68154c95613)
     )
