@@ -527,11 +527,11 @@
     (property "ki_keywords" "cap capacitor")
     (path "/e0acab43-c9ea-44bf-bdcf-0b0e89d3322a")
     (attr smd)
-    (fp_text reference "C1" (at -2.1 0 -180) (layer "F.SilkS")
+    (fp_text reference "C1" (at -2.1 0 -180) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 9d04860d-551f-4679-b180-ad25d9c14310)
     )
-    (fp_text value "10u" (at 0 1.5 90) (layer "F.Fab")
+    (fp_text value "10u" (at 0 1.5 90) (layer "F.Fab") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp a655c757-180b-41d5-987e-fffde464890b)
     )
