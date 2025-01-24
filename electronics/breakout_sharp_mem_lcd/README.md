@@ -2,7 +2,7 @@
 Breakout board to test out sharp memory LCD support circuits.
 ## TODO's
 * Review with one night in between
-* Produce at [OSHPARK](https://oshpark.com/)
+* Produce
 * Assemble
 * Test & characterise
 * update Readme.md with pictures and BOM
