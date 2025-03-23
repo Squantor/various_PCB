@@ -1576,18 +1576,124 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(no_connect
-		(at 38.1 96.52)
+		(at 46.99 173.99)
 		(uuid "8ed3d4bf-1b4f-4905-b219-fd1bf9cdcc0a")
 	)
 	(no_connect
-		(at 38.1 83.82)
+		(at 46.99 161.29)
 		(uuid "ae8c0b64-26dc-4d9e-afe1-09d485c1ebde")
 	)
 	(no_connect
-		(at 38.1 81.28)
+		(at 46.99 158.75)
 		(uuid "d81c7ae1-2066-4207-9715-d9b310477cd1")
+	)
+	(wire
+		(pts
+			(xy 52.07 186.69) (xy 54.61 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164dca08-0f7f-4215-bbf3-7d36d307fbad")
 	)
 	(polyline
 		(pts
@@ -1611,6 +1717,36 @@
 	)
 	(polyline
 		(pts
+			(xy 38.1 195.58) (xy 38.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72487a8f-d1c8-4238-9279-80bdacc25100")
+	)
+	(polyline
+		(pts
+			(xy 38.1 119.38) (xy 81.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d5e481-30cc-41d6-b48d-1c5f6462896e")
+	)
+	(polyline
+		(pts
+			(xy 81.28 119.38) (xy 81.28 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920d82db-e71e-4545-9005-bd76effe353f")
+	)
+	(polyline
+		(pts
 			(xy 35.56 195.58) (xy 35.56 177.8)
 		)
 		(stroke
@@ -1631,6 +1767,26 @@
 	)
 	(polyline
 		(pts
+			(xy 81.28 191.77) (xy 58.42 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c168ec3b-1dd0-4cfb-92ea-6029c902ffff")
+	)
+	(wire
+		(pts
+			(xy 62.23 186.69) (xy 64.77 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13be34d-72de-4eb4-bc99-e3d992a824a5")
+	)
+	(polyline
+		(pts
 			(xy 15.24 191.77) (xy 35.56 191.77)
 		)
 		(stroke
@@ -1638,6 +1794,36 @@
 			(type default)
 		)
 		(uuid "f144a97d-c3f0-423f-b0a9-3f7dbc42478b")
+	)
+	(polyline
+		(pts
+			(xy 58.42 191.77) (xy 58.42 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f2516e-2cc2-40a5-9063-4851168c63fe")
+	)
+	(polyline
+		(pts
+			(xy 81.28 195.58) (xy 38.1 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9802b8b-358e-422b-9900-86c86d8ad9d6")
+	)
+	(text "NAND Flash Breakout"
+		(exclude_from_sim no)
+		(at 69.85 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07f295a3-d53b-4a65-81aa-58052de187b5")
 	)
 	(text "Logos and version"
 		(exclude_from_sim no)
@@ -1651,8 +1837,7 @@
 		(uuid "37e4dc66-4492-4061-908d-7213940a2ec3")
 	)
 	(label "ALE"
-		(at 60.96 100.33 180)
-		(fields_autoplaced yes)
+		(at 55.88 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1662,8 +1847,7 @@
 		(uuid "0025034c-c497-4b71-82c9-0311a0a7a3d0")
 	)
 	(label "ALE"
-		(at 38.1 91.44 0)
-		(fields_autoplaced yes)
+		(at 46.99 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1673,8 +1857,7 @@
 		(uuid "037ae3aa-d710-4e8f-85ee-9dc62376e50a")
 	)
 	(label "I{slash}O7"
-		(at 78.74 69.85 0)
-		(fields_autoplaced yes)
+		(at 73.66 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1684,8 +1867,7 @@
 		(uuid "0b62b20b-e955-47ad-901a-3a09af009421")
 	)
 	(label "I{slash}O5"
-		(at 78.74 74.93 0)
-		(fields_autoplaced yes)
+		(at 73.66 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1695,8 +1877,7 @@
 		(uuid "0e97ffbe-14a0-49aa-bca1-4d93e2cf42f8")
 	)
 	(label "VSS"
-		(at 78.74 90.17 0)
-		(fields_autoplaced yes)
+		(at 73.66 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1706,19 +1887,17 @@
 		(uuid "0f1474f9-2a68-4f59-8505-cbf62b3e3877")
 	)
 	(label "I{slash}O4"
-		(at 101.6 93.98 180)
-		(fields_autoplaced yes)
+		(at 46.99 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "12c3b7dc-9043-4a8d-971f-6fef39453fdf")
 	)
 	(label "!WE"
-		(at 38.1 88.9 0)
-		(fields_autoplaced yes)
+		(at 46.99 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1728,8 +1907,7 @@
 		(uuid "1ddb69a8-9ef2-450b-8297-07272471b102")
 	)
 	(label "VSS"
-		(at 73.66 48.26 0)
-		(fields_autoplaced yes)
+		(at 53.34 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1739,8 +1917,7 @@
 		(uuid "1fcd8bf3-7aec-42a4-8688-aab63859f694")
 	)
 	(label "R{slash}!B"
-		(at 38.1 104.14 0)
-		(fields_autoplaced yes)
+		(at 46.99 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1750,19 +1927,17 @@
 		(uuid "282f3cf7-21fb-419a-b8f3-6ca05066947e")
 	)
 	(label "I{slash}O0"
-		(at 101.6 83.82 180)
-		(fields_autoplaced yes)
+		(at 46.99 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2a22aa65-1547-48a9-8c43-f3a94613d192")
 	)
 	(label "I{slash}O1"
-		(at 78.74 105.41 0)
-		(fields_autoplaced yes)
+		(at 73.66 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1772,8 +1947,7 @@
 		(uuid "2f967347-8421-4781-934a-82f097c1e0a8")
 	)
 	(label "CLE"
-		(at 38.1 93.98 0)
-		(fields_autoplaced yes)
+		(at 46.99 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,19 +1957,17 @@
 		(uuid "31b5c1d0-b135-41cd-86fc-bbb9fa9b3769")
 	)
 	(label "I{slash}O6"
-		(at 101.6 99.06 180)
-		(fields_autoplaced yes)
+		(at 46.99 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "39bba060-d831-4e63-b30e-88853d21a0d6")
 	)
 	(label "VSS"
-		(at 73.66 53.34 0)
-		(fields_autoplaced yes)
+		(at 62.23 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1805,8 +1977,7 @@
 		(uuid "3f891959-2fba-4ced-941c-db9b453c96ae")
 	)
 	(label "!CE"
-		(at 60.96 80.01 180)
-		(fields_autoplaced yes)
+		(at 55.88 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1816,8 +1987,7 @@
 		(uuid "435a31c3-a0c4-4f74-90f7-20040704863e")
 	)
 	(label "!CE"
-		(at 38.1 99.06 0)
-		(fields_autoplaced yes)
+		(at 46.99 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1827,19 +1997,17 @@
 		(uuid "495732ef-0658-44ca-b2a2-0c4dfc930b59")
 	)
 	(label "VCC"
-		(at 101.6 81.28 180)
-		(fields_autoplaced yes)
+		(at 46.99 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4ae14135-b55f-4e3b-8fec-3fefca65712c")
 	)
 	(label "R{slash}!B"
-		(at 60.96 74.93 180)
-		(fields_autoplaced yes)
+		(at 55.88 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1849,8 +2017,7 @@
 		(uuid "5418d38a-f732-4ee3-ba1b-9d8d2bf32376")
 	)
 	(label "VCC"
-		(at 60.96 87.63 180)
-		(fields_autoplaced yes)
+		(at 55.88 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1860,8 +2027,7 @@
 		(uuid "58047053-8969-4443-b477-ab6f9c0c44f4")
 	)
 	(label "VCC"
-		(at 78.74 87.63 0)
-		(fields_autoplaced yes)
+		(at 73.66 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1871,8 +2037,7 @@
 		(uuid "6a20456a-473e-4cdc-b31e-4b0abb65db84")
 	)
 	(label "I{slash}O0"
-		(at 78.74 107.95 0)
-		(fields_autoplaced yes)
+		(at 73.66 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1882,8 +2047,7 @@
 		(uuid "6eb15b50-fafd-487d-b6c4-a67ff1746f72")
 	)
 	(label "!RE"
-		(at 38.1 101.6 0)
-		(fields_autoplaced yes)
+		(at 46.99 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1893,8 +2057,7 @@
 		(uuid "780ccc2a-bb44-48e8-b6f2-0b64bf92eb08")
 	)
 	(label "!WE"
-		(at 60.96 102.87 180)
-		(fields_autoplaced yes)
+		(at 55.88 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1904,19 +2067,17 @@
 		(uuid "790e1d7c-b394-4cac-b576-4fcc8936dd3b")
 	)
 	(label "I{slash}O2"
-		(at 101.6 88.9 180)
-		(fields_autoplaced yes)
+		(at 46.99 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7b59b56d-a9d8-4d89-8fe2-6515ddd3c98b")
 	)
 	(label "I{slash}O4"
-		(at 78.74 77.47 0)
-		(fields_autoplaced yes)
+		(at 73.66 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1926,8 +2087,7 @@
 		(uuid "8054f298-c7a9-4bcb-b223-178997a7f0af")
 	)
 	(label "VCC"
-		(at 66.04 48.26 180)
-		(fields_autoplaced yes)
+		(at 45.72 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1937,8 +2097,7 @@
 		(uuid "afb1fd86-830c-40f8-95f9-b251cf3194b9")
 	)
 	(label "I{slash}O2"
-		(at 78.74 102.87 0)
-		(fields_autoplaced yes)
+		(at 73.66 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1948,8 +2107,7 @@
 		(uuid "b05b0efe-ffd5-48cc-b539-a0aca4b86df3")
 	)
 	(label "!RE"
-		(at 60.96 77.47 180)
-		(fields_autoplaced yes)
+		(at 55.88 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1959,8 +2117,7 @@
 		(uuid "b31cd7c6-ba9f-4747-80de-ea3d643a2a28")
 	)
 	(label "!WP"
-		(at 60.96 105.41 180)
-		(fields_autoplaced yes)
+		(at 55.88 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1970,8 +2127,7 @@
 		(uuid "babc26ac-f537-48c1-b336-be1d24ce1530")
 	)
 	(label "VCC"
-		(at 66.04 53.34 180)
-		(fields_autoplaced yes)
+		(at 54.61 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1981,8 +2137,7 @@
 		(uuid "babee9cb-bc37-40a8-8879-56ecf1933c10")
 	)
 	(label "!WP"
-		(at 38.1 86.36 0)
-		(fields_autoplaced yes)
+		(at 46.99 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1992,41 +2147,37 @@
 		(uuid "be136639-517d-4ffb-af17-688e3a933830")
 	)
 	(label "I{slash}O3"
-		(at 101.6 91.44 180)
-		(fields_autoplaced yes)
+		(at 46.99 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ccf0cc2c-115e-462e-aeb8-dcd652318940")
 	)
 	(label "I{slash}O5"
-		(at 101.6 96.52 180)
-		(fields_autoplaced yes)
+		(at 46.99 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "cd1d5c09-3745-4839-96a9-155a0fce076b")
 	)
 	(label "VSS"
-		(at 101.6 104.14 180)
-		(fields_autoplaced yes)
+		(at 46.99 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ce5718f3-8674-44a1-ad65-4426a1bab3d7")
 	)
 	(label "VSS"
-		(at 60.96 90.17 180)
-		(fields_autoplaced yes)
+		(at 55.88 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2036,30 +2187,27 @@
 		(uuid "cf43e0cb-6c00-437e-9600-19fb5f35b1b4")
 	)
 	(label "I{slash}O7"
-		(at 101.6 101.6 180)
-		(fields_autoplaced yes)
+		(at 46.99 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ed6e9df7-8f88-4dc5-a4c8-f81323e91c67")
 	)
 	(label "I{slash}O1"
-		(at 101.6 86.36 180)
-		(fields_autoplaced yes)
+		(at 46.99 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f8ff07bd-3495-4a75-acb7-0601478720a3")
 	)
 	(label "I{slash}O3"
-		(at 78.74 100.33 0)
-		(fields_autoplaced yes)
+		(at 73.66 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2069,8 +2217,7 @@
 		(uuid "f9772a81-2032-4496-b1f7-6bb78048a939")
 	)
 	(label "CLE"
-		(at 60.96 97.79 180)
-		(fields_autoplaced yes)
+		(at 55.88 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2080,8 +2227,7 @@
 		(uuid "fa900c1e-2702-45ad-a492-1533d36d6836")
 	)
 	(label "I{slash}O6"
-		(at 78.74 72.39 0)
-		(fields_autoplaced yes)
+		(at 73.66 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2108,7 +2254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20240717"
+		(property "Value" "20250323"
 			(at 20.32 189.23 0)
 			(effects
 				(font
@@ -2218,7 +2364,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 48.26 90)
+		(at 49.53 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2226,7 +2372,7 @@
 		(dnp no)
 		(uuid "0b7e7e05-e020-4c83-8d86-cc667b8dc6dc")
 		(property "Reference" "C2"
-			(at 72.39 46.99 90)
+			(at 52.07 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2380,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 72.39 49.53 90)
+			(at 52.07 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2388,7 @@
 			)
 		)
 		(property "Footprint" "SquantorCapacitor:C_0603"
-			(at 73.66 47.2948 0)
+			(at 53.34 190.8048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 48.26 0)
+			(at 49.53 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2406,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 69.85 48.26 0)
+			(at 49.53 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2431,7 @@
 	)
 	(symbol
 		(lib_id "SquantorGenericDigital:TSSOP48_NAND_8x")
-		(at 69.85 88.9 0)
+		(at 64.77 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2293,7 +2439,7 @@
 		(dnp no)
 		(uuid "3416f365-b1bc-4061-838e-49d9244d4f6c")
 		(property "Reference" "U1"
-			(at 69.85 57.404 0)
+			(at 64.77 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2447,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 69.85 57.15 0)
+			(at 64.77 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2455,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm"
-			(at 69.85 88.9 0)
+			(at 64.77 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 88.9 0)
+			(at 64.77 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 88.9 0)
+			(at 64.77 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2636,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 33.02 91.44 0)
+		(at 41.91 168.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2499,7 +2645,7 @@
 		(dnp no)
 		(uuid "5a344fd9-fc3a-4f3d-b946-0643e8b2ad0e")
 		(property "Reference" "J1"
-			(at 30.48 91.4399 0)
+			(at 43.18 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2654,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 30.48 93.9799 0)
+			(at 52.07 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2663,7 @@
 			)
 		)
 		(property "Footprint" "SquantorConnectors:Header-0254-1X10-H010"
-			(at 33.02 91.44 0)
+			(at 41.91 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2672,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 91.44 0)
+			(at 41.91 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2681,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 91.44 0)
+			(at 41.91 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,17 +2729,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
-		(at 106.68 93.98 0)
-		(mirror x)
+		(lib_id "power:PWR_FLAG")
+		(at 64.77 186.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8323df07-14a6-4b3a-8f99-f4a52b996406")
-		(property "Reference" "J2"
-			(at 109.22 93.9801 0)
+		(uuid "5cbe9ae0-e53a-42a6-81dd-5f70f971ff51")
+		(property "Reference" "#FLG2"
+			(at 66.675 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 67.31 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,17 +2755,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x10"
-			(at 109.22 91.4401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SquantorConnectors:Header-0254-1X10-H010"
-			(at 106.68 93.98 0)
+		(property "Footprint" ""
+			(at 64.77 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2765,140 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 93.98 0)
+			(at 64.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0b586fc-386e-4664-8272-b9c6def8e41e")
+		)
+		(instances
+			(project "breakout_NAND_TSSOP48"
+				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
+					(reference "#FLG2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 52.07 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ce5bef3-cedb-43fb-87a9-58cd91794791")
+		(property "Reference" "#FLG1"
+			(at 50.165 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 52.07 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06d38904-e952-4d43-9fec-d57be737cc6a")
+		)
+		(instances
+			(project ""
+				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
+					(reference "#FLG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 41.91 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8323df07-14a6-4b3a-8f99-f4a52b996406")
+		(property "Reference" "J2"
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SquantorConnectors:Header-0254-1X10-H010"
+			(at 41.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2907,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 93.98 0)
+			(at 41.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2956,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 53.34 90)
+		(at 58.42 186.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2686,7 +2964,7 @@
 		(dnp no)
 		(uuid "d0a842d5-0419-4721-b6e8-532459761d70")
 		(property "Reference" "C1"
-			(at 72.39 52.07 90)
+			(at 60.96 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2972,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 72.39 54.61 90)
+			(at 60.96 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2980,7 @@
 			)
 		)
 		(property "Footprint" "SquantorCapacitor:C_0603"
-			(at 73.66 52.3748 0)
+			(at 62.23 185.7248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 53.34 0)
+			(at 58.42 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2998,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 69.85 53.34 0)
+			(at 58.42 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

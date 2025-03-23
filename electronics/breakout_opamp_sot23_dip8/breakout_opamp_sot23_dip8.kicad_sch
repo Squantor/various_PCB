@@ -489,81 +489,6 @@
 				)
 			)
 		)
-		(symbol "SquantorLabels:OHWLOGO"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "N"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "OHWLOGO"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OHWLOGO_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "SquantorLabels:VYYYYMMDD"
 			(pin_names
 				(offset 1.016)
@@ -628,18 +553,124 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(no_connect
-		(at 85.09 50.8)
+		(at 78.74 186.69)
 		(uuid "19d12a3d-3f7d-4837-9ebd-1811578b016d")
 	)
 	(no_connect
-		(at 85.09 43.18)
+		(at 78.74 179.07)
 		(uuid "67e6b2da-0fb1-478a-8c8d-dfa17bd175f7")
 	)
 	(no_connect
-		(at 50.8 43.18)
+		(at 45.72 179.07)
 		(uuid "7ad1738f-e661-4f5c-b386-39618192c12e")
+	)
+	(polyline
+		(pts
+			(xy 86.36 194.31) (xy 86.36 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b6ee52-c109-421b-b1d9-33bd8456d0a4")
 	)
 	(polyline
 		(pts
@@ -663,6 +694,56 @@
 	)
 	(polyline
 		(pts
+			(xy 86.36 170.18) (xy 38.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e33642a-a05c-4baf-9ec4-efd0b347a58e")
+	)
+	(polyline
+		(pts
+			(xy 38.1 170.18) (xy 38.1 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a21914-15c1-4fb2-bb84-6eda6a7bd826")
+	)
+	(polyline
+		(pts
+			(xy 68.58 191.77) (xy 68.58 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61605a3c-fddd-489e-b1c8-0dcbaefe8c0f")
+	)
+	(polyline
+		(pts
+			(xy 86.36 191.77) (xy 68.58 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5fb34f-2672-4b5d-b3cd-6d2eeec814f4")
+	)
+	(polyline
+		(pts
+			(xy 86.36 194.31) (xy 86.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac44794d-078c-4bf6-9131-2cb4fd936025")
+	)
+	(polyline
+		(pts
 			(xy 35.56 195.58) (xy 35.56 177.8)
 		)
 		(stroke
@@ -680,6 +761,16 @@
 			(type default)
 		)
 		(uuid "b994142f-02ac-4881-9587-6d3df53c96d2")
+	)
+	(polyline
+		(pts
+			(xy 38.1 195.58) (xy 86.36 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97fdbb0-f087-42cc-8322-d8434e25c422")
 	)
 	(polyline
 		(pts
@@ -702,9 +793,18 @@
 		)
 		(uuid "37e4dc66-4492-4061-908d-7213940a2ec3")
 	)
+	(text "opamp breakout"
+		(exclude_from_sim no)
+		(at 77.47 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c1adda1-214e-4a27-9102-640ed9395d7e")
+	)
 	(label "OUT"
-		(at 76.2 49.53 0)
-		(fields_autoplaced yes)
+		(at 69.85 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -713,9 +813,18 @@
 		)
 		(uuid "1dc08b64-89db-4f7e-9dfd-6b5df105cfb6")
 	)
+	(label "V+"
+		(at 64.77 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33aeb393-932a-44e5-9421-9f6bde6dc599")
+	)
 	(label "V-"
-		(at 64.77 36.83 180)
-		(fields_autoplaced yes)
+		(at 58.42 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -725,8 +834,7 @@
 		(uuid "3a22f1bf-9331-46bb-8cb9-ee64c80ff2be")
 	)
 	(label "+IN"
-		(at 50.8 48.26 0)
-		(fields_autoplaced yes)
+		(at 45.72 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -736,8 +844,7 @@
 		(uuid "515dbb66-0e70-4d55-8ec0-975b7e98971b")
 	)
 	(label "V+"
-		(at 72.39 36.83 0)
-		(fields_autoplaced yes)
+		(at 66.04 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -747,8 +854,7 @@
 		(uuid "68fe5c18-fa1d-4740-a9e7-1886898ecdc5")
 	)
 	(label "OUT"
-		(at 85.09 48.26 180)
-		(fields_autoplaced yes)
+		(at 78.74 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -758,8 +864,7 @@
 		(uuid "9b550e13-521a-439d-ad4d-d4fa528e7f61")
 	)
 	(label "V+"
-		(at 85.09 45.72 180)
-		(fields_autoplaced yes)
+		(at 78.74 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -769,8 +874,7 @@
 		(uuid "9f5bd018-67b4-46c2-8d2b-1ed28919f8f1")
 	)
 	(label "V-"
-		(at 50.8 50.8 0)
-		(fields_autoplaced yes)
+		(at 45.72 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -780,8 +884,7 @@
 		(uuid "a9a6cdfe-00fa-4e34-9f55-a747219f03ec")
 	)
 	(label "V-"
-		(at 60.96 46.99 180)
-		(fields_autoplaced yes)
+		(at 54.61 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -791,8 +894,7 @@
 		(uuid "d4d1634b-96c8-41e5-a452-2706852d9de7")
 	)
 	(label "V+"
-		(at 76.2 44.45 0)
-		(fields_autoplaced yes)
+		(at 69.85 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -802,8 +904,7 @@
 		(uuid "e5a7c192-86e8-440d-93df-113046368db4")
 	)
 	(label "-IN"
-		(at 60.96 49.53 180)
-		(fields_autoplaced yes)
+		(at 54.61 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -813,8 +914,7 @@
 		(uuid "e7e0b633-6315-45a7-af28-b842cbd1b634")
 	)
 	(label "+IN"
-		(at 60.96 44.45 180)
-		(fields_autoplaced yes)
+		(at 54.61 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -824,8 +924,7 @@
 		(uuid "eef3a161-c2b6-4fed-8575-d7138df70ff9")
 	)
 	(label "-IN"
-		(at 50.8 45.72 0)
-		(fields_autoplaced yes)
+		(at 45.72 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -833,6 +932,16 @@
 			(justify left bottom)
 		)
 		(uuid "faae1c4e-0183-4410-b1c1-b0e8f28af898")
+	)
+	(label "V-"
+		(at 64.77 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc3a0ec9-736c-4e49-b2f6-d4fa7f9bc160")
 	)
 	(symbol
 		(lib_id "SquantorLabels:VYYYYMMDD")
@@ -852,7 +961,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20240915"
+		(property "Value" "20250323"
 			(at 20.32 189.23 0)
 			(effects
 				(font
@@ -898,52 +1007,17 @@
 		)
 	)
 	(symbol
-		(lib_id "SquantorLabels:OHWLOGO")
-		(at 20.32 181.61 0)
+		(lib_id "power:PWR_FLAG")
+		(at 64.77 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee13678")
-		(property "Reference" "N2"
-			(at 23.5712 180.2638 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OHWLOGO"
-			(at 23.5712 182.9562 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
-			(at 20.32 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 181.61 0)
+		(fields_autoplaced yes)
+		(uuid "7dd7c555-6da0-471f-933d-92fe051ab21b")
+		(property "Reference" "#FLG1"
+			(at 62.865 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -951,10 +1025,116 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "PWR_FLAG"
+			(at 60.96 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "244d54b6-fa05-45f8-b2a9-844862609f7c")
+		)
 		(instances
-			(project "Aisler_simple_2_layer"
+			(project ""
 				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-					(reference "N2")
+					(reference "#FLG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 64.77 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e12aed8-890f-4d75-b787-13261cb7f1bf")
+		(property "Reference" "#FLG2"
+			(at 62.865 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.96 193.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "028a206c-ac06-4ca0-bc4c-53051db62740")
+		)
+		(instances
+			(project "breakout_opamp_sot23_dip8"
+				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -962,7 +1142,7 @@
 	)
 	(symbol
 		(lib_id "SquantorGenericAnalog:opamp_single_SOT23-5")
-		(at 68.58 46.99 0)
+		(at 62.23 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -970,7 +1150,7 @@
 		(dnp no)
 		(uuid "ba520635-866a-489e-976f-cbae3721da7d")
 		(property "Reference" "U1"
-			(at 68.58 40.894 0)
+			(at 58.42 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +1158,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 68.58 40.64 0)
+			(at 62.23 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,7 +1166,7 @@
 			)
 		)
 		(property "Footprint" "SquantorIC:SOT23-5-Microchip-OT"
-			(at 67.31 46.99 0)
+			(at 60.96 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +1175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 46.99 0)
+			(at 60.96 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +1184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 46.99 0)
+			(at 60.96 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,7 +1218,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 90.17 48.26 0)
+		(at 83.82 184.15 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1047,7 +1227,7 @@
 		(dnp no)
 		(uuid "f2232f30-3096-4d79-a6b8-0638e071a373")
 		(property "Reference" "J2"
-			(at 90.17 40.894 0)
+			(at 83.82 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1235,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 90.17 53.086 0)
+			(at 78.74 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,7 +1243,7 @@
 			)
 		)
 		(property "Footprint" "SquantorConnectors:Header-0254-1X04-H010"
-			(at 90.17 48.26 0)
+			(at 83.82 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 48.26 0)
+			(at 83.82 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1261,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 48.26 0)
+			(at 83.82 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1292,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 45.72 45.72 0)
+		(at 40.64 181.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1121,7 +1301,7 @@
 		(dnp no)
 		(uuid "f403cdf7-3033-478d-904c-f6c53fd2e5c2")
 		(property "Reference" "J1"
-			(at 45.72 40.894 0)
+			(at 40.64 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1309,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 45.72 53.086 0)
+			(at 45.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +1317,7 @@
 			)
 		)
 		(property "Footprint" "SquantorConnectors:Header-0254-1X04-H010"
-			(at 45.72 45.72 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 45.72 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1335,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 45.72 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1366,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 36.83 90)
+		(at 62.23 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1194,7 +1374,7 @@
 		(dnp no)
 		(uuid "fa064e14-58b6-47b8-83fb-bdca210891e2")
 		(property "Reference" "C1"
-			(at 71.12 35.56 90)
+			(at 64.77 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1382,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 71.628 38.1 90)
+			(at 65.278 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1390,7 @@
 			)
 		)
 		(property "Footprint" "SquantorCapacitor:C_0805+0603"
-			(at 72.39 35.8648 0)
+			(at 66.04 173.0248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 36.83 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1408,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 36.83 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

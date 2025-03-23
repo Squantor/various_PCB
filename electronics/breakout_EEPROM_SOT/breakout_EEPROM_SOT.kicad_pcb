@@ -144,7 +144,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603")
 		(property "Reference" "C1"
-			(at 0.86 1.26 0)
+			(at -1.016 1.26 0)
 			(layer "F.SilkS")
 			(uuid "402c1e25-f9a3-4e09-8a9c-fd3969e65e5b")
 			(effects
@@ -155,7 +155,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at -1.54 1.2 0)
+			(at 1.651 1.2 0)
 			(layer "F.SilkS")
 			(uuid "71ccb88b-3dbe-4e27-baa6-d6bd28fea78e")
 			(effects
@@ -585,7 +585,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "20250113"
+		(property "Value" "20250323"
 			(at 0 0 90)
 			(layer "B.SilkS")
 			(uuid "b6bcc3cf-50de-4a33-bc41-678825c1ecf2")
@@ -725,7 +725,7 @@
 		(path "/8e3ef24e-fb82-421d-a2b8-99c4afa033ad")
 		(sheetname "Root")
 		(sheetfile "breakout_EEPROM_SOT.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start 3.175 -1.27)
 			(end 3.81 -0.635)
@@ -962,7 +962,12 @@
 			(at -2.54 0 270)
 			(size 1.2 1.2)
 			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "Net-(J1-Pin_1)")
 			(pinfunction "Pin_1")
@@ -973,7 +978,12 @@
 			(at 0 0 270)
 			(size 1.2 1.2)
 			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pinfunction "Pin_2")
@@ -984,7 +994,12 @@
 			(at 2.54 0 270)
 			(size 1.2 1.2)
 			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 3 "Net-(J1-Pin_3)")
 			(pinfunction "Pin_3")
@@ -1077,7 +1092,7 @@
 		(path "/aa9698a3-06d6-48a4-bf12-3125db91e41c")
 		(sheetname "Root")
 		(sheetfile "breakout_EEPROM_SOT.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -1.905 1.27)
 			(end -3.175 1.27)
@@ -1314,7 +1329,12 @@
 			(at -2.54 0 90)
 			(size 1.2 1.2)
 			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 5 "Net-(J2-Pin_1)")
 			(pinfunction "Pin_1")
@@ -1325,7 +1345,12 @@
 			(at 0 0 90)
 			(size 1.2 1.2)
 			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pinfunction "Pin_2")
@@ -1336,7 +1361,12 @@
 			(at 2.54 0 90)
 			(size 1.2 1.2)
 			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 4 "Net-(J2-Pin_3)")
 			(pinfunction "Pin_3")
@@ -1478,7 +1508,7 @@
 	(zone
 		(net 2)
 		(net_name "GND")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "43f83950-2af4-49e8-99a1-2c3cda39b67e")
 		(hatch edge 0.5)
 		(connect_pads
