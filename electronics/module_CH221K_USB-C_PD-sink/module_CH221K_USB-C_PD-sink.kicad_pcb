@@ -1343,7 +1343,7 @@
 			)
 		)
 		(property "Value" "Power Good"
-			(at 3.7 1.3 360)
+			(at 3.7 1.3 0)
 			(layer "F.SilkS")
 			(uuid "111b49d4-3eed-40f2-8d9e-432dffd6a6ea")
 			(effects
@@ -1354,7 +1354,7 @@
 			)
 		)
 		(property "Footprint" "SquantorDiodes:LED_0603_hand"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "01cdfc98-b25e-4a8e-b271-11e4b1627d1a")
@@ -1366,7 +1366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d4ae0841-ebef-4254-aab4-a96725042a64")
@@ -1378,7 +1378,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d1fd4db-f644-4d77-be6c-38557e637b41")
@@ -4337,7 +4337,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0603_hand"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "33ecfd81-84ff-4159-b005-5f2dea308105")
@@ -4349,7 +4349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7834ef24-7276-4340-8428-033e3b02f95d")
@@ -4361,7 +4361,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c61c098a-b255-4235-bfa1-c8a5b13f60be")

@@ -1916,6 +1916,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 22.86) (xy 90.17 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4ba36d-ed91-4900-b7db-68b200953215")
+	)
+	(wire
+		(pts
 			(xy 87.63 50.8) (xy 88.9 50.8)
 		)
 		(stroke
@@ -2046,7 +2056,7 @@
 	)
 	(polyline
 		(pts
-			(xy 106.68 38.1) (xy 106.68 13.97)
+			(xy 99.06 36.83) (xy 99.06 13.97)
 		)
 		(stroke
 			(width 0)
@@ -2126,7 +2136,7 @@
 	)
 	(polyline
 		(pts
-			(xy 106.68 13.97) (xy 53.34 13.97)
+			(xy 99.06 13.97) (xy 53.34 13.97)
 		)
 		(stroke
 			(width 0)
@@ -2186,7 +2196,7 @@
 	)
 	(polyline
 		(pts
-			(xy 53.34 38.1) (xy 106.68 38.1)
+			(xy 53.34 36.83) (xy 99.06 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2226,7 @@
 	)
 	(polyline
 		(pts
-			(xy 87.63 34.29) (xy 87.63 38.1)
+			(xy 80.01 33.02) (xy 80.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2276,7 +2286,7 @@
 	)
 	(polyline
 		(pts
-			(xy 53.34 13.97) (xy 53.34 38.1)
+			(xy 53.34 13.97) (xy 53.34 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2396,7 +2406,7 @@
 	)
 	(polyline
 		(pts
-			(xy 106.68 34.29) (xy 87.63 34.29)
+			(xy 99.06 33.02) (xy 80.01 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2476,16 +2486,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 22.86) (xy 88.9 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dccb09b0-0df1-4a26-8cc5-4d7d982bbb5f")
-	)
-	(wire
-		(pts
 			(xy 58.42 19.05) (xy 59.69 19.05)
 		)
 		(stroke
@@ -2553,16 +2553,6 @@
 			(type default)
 		)
 		(uuid "f144a97d-c3f0-423f-b0a9-3f7dbc42478b")
-	)
-	(wire
-		(pts
-			(xy 96.52 22.86) (xy 97.79 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4000e59-c446-4842-9fe8-f1704377ebc7")
 	)
 	(polyline
 		(pts
@@ -2637,7 +2627,7 @@
 	)
 	(text "USB-C PD Sink"
 		(exclude_from_sim no)
-		(at 96.52 36.83 0)
+		(at 88.9 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4052,7 +4042,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 22.86 90)
+		(at 93.98 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4060,7 +4050,7 @@
 		(dnp no)
 		(uuid "971333ab-b74d-42b8-ab1c-1fada006445c")
 		(property "Reference" "R2"
-			(at 96.52 24.13 90)
+			(at 97.79 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4058,7 @@
 			)
 		)
 		(property "Value" "RSET"
-			(at 92.71 22.86 90)
+			(at 93.98 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4066,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0603_hand"
-			(at 92.71 24.638 90)
+			(at 93.98 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 22.86 0)
+			(at 93.98 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4084,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 22.86 0)
+			(at 93.98 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
