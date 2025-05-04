@@ -885,104 +885,104 @@
 		)
 	)
 	(junction
-		(at 31.75 54.61)
+		(at 53.34 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f9f24d8-a228-48b2-8a2a-187e033afe9a")
 	)
 	(junction
-		(at 31.75 46.99)
+		(at 53.34 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ad2ed08-c933-46a3-a24d-4a51c5023560")
 	)
 	(junction
-		(at 44.45 54.61)
+		(at 66.04 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b5d676e-f661-4b70-8acb-1352fa0e0454")
 	)
 	(junction
-		(at 19.05 39.37)
+		(at 40.64 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69e824a2-cbcb-4103-b95e-e5430b1219f4")
 	)
 	(junction
-		(at 54.61 54.61)
+		(at 76.2 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eaaef1c-f151-440a-8b03-843f46dc8455")
 	)
 	(junction
-		(at 54.61 39.37)
+		(at 76.2 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "723240a0-b751-4ec0-a88e-2621d06da391")
 	)
 	(junction
-		(at 54.61 36.83)
+		(at 76.2 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85d4dcf0-e9ae-4795-88a6-9176a092af08")
 	)
 	(junction
-		(at 31.75 39.37)
+		(at 53.34 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9537484e-1425-4924-a274-e660c9a0bded")
 	)
 	(junction
-		(at 54.61 41.91)
+		(at 76.2 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0bea95c-a15f-4d00-8a1b-91db6c74573f")
 	)
 	(junction
-		(at 54.61 52.07)
+		(at 76.2 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aae40d22-1224-441c-914f-1caed80611b9")
 	)
 	(junction
-		(at 54.61 46.99)
+		(at 76.2 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acba8c5b-2343-4729-8b8c-7032ee603577")
 	)
 	(junction
-		(at 54.61 44.45)
+		(at 76.2 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be4cc52a-4e9b-4d6d-ad3d-da29099e43a3")
 	)
 	(junction
-		(at 54.61 49.53)
+		(at 76.2 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c691d287-0dce-48a7-984c-1e1f9a63478c")
 	)
 	(junction
-		(at 44.45 39.37)
+		(at 66.04 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb45dc27-da8a-4a71-808f-e683306bf4cf")
 	)
 	(junction
-		(at 19.05 46.99)
+		(at 40.64 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1c6844f-4404-4b20-8604-d4c190706bcb")
 	)
 	(junction
-		(at 44.45 46.99)
+		(at 66.04 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eadfc8ce-430a-4434-b2e0-50c0d9c7b351")
 	)
 	(wire
 		(pts
-			(xy 31.75 36.83) (xy 31.75 39.37)
+			(xy 53.34 22.86) (xy 53.34 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1002,7 +1002,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 44.45 41.91)
+			(xy 66.04 25.4) (xy 66.04 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1012,13 +1012,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 39.37) (xy 35.56 39.37)
+			(xy 53.34 25.4) (xy 57.15 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "083e3c24-98e3-4348-8abb-c85b87a6f4df")
+	)
+	(polyline
+		(pts
+			(xy 77.47 15.24) (xy 38.1 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0946feb0-52ab-4178-927b-5cb0a2d490ce")
 	)
 	(polyline
 		(pts
@@ -1032,7 +1042,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 46.99) (xy 19.05 46.99)
+			(xy 41.91 33.02) (xy 40.64 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1052,7 +1062,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 36.83) (xy 54.61 39.37)
+			(xy 76.2 22.86) (xy 76.2 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1062,7 +1072,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 39.37) (xy 54.61 39.37)
+			(xy 74.93 25.4) (xy 76.2 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1102,6 +1112,16 @@
 	)
 	(polyline
 		(pts
+			(xy 69.85 45.72) (xy 69.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d656e7-9ee5-439c-9b0a-1bb715e606d1")
+	)
+	(polyline
+		(pts
 			(xy 35.56 15.24) (xy 17.78 15.24)
 		)
 		(stroke
@@ -1112,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 46.99) (xy 35.56 46.99)
+			(xy 53.34 33.02) (xy 57.15 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1122,7 +1142,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 36.83) (xy 44.45 39.37)
+			(xy 66.04 22.86) (xy 66.04 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1132,7 +1152,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 57.15) (xy 53.34 57.15)
+			(xy 76.2 43.18) (xy 74.93 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1140,9 +1160,19 @@
 		)
 		(uuid "39942703-990f-4bd1-95cb-e300ff2423d6")
 	)
+	(polyline
+		(pts
+			(xy 77.47 45.72) (xy 69.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4cfcb3-50ad-4865-a136-6874bb635f66")
+	)
 	(wire
 		(pts
-			(xy 53.34 52.07) (xy 54.61 52.07)
+			(xy 74.93 38.1) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1152,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 54.61) (xy 19.05 54.61)
+			(xy 41.91 40.64) (xy 40.64 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1172,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 44.45) (xy 54.61 46.99)
+			(xy 76.2 30.48) (xy 76.2 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1180,9 +1210,19 @@
 		)
 		(uuid "4f9641f4-1206-4d0b-99a9-21cc81d6fd5e")
 	)
+	(polyline
+		(pts
+			(xy 38.1 15.24) (xy 38.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb056c5-3edf-452c-8aac-3f645de53c28")
+	)
 	(wire
 		(pts
-			(xy 44.45 44.45) (xy 44.45 46.99)
+			(xy 66.04 30.48) (xy 66.04 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1202,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 46.99) (xy 45.72 46.99)
+			(xy 66.04 33.02) (xy 67.31 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1212,7 +1252,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 46.99) (xy 44.45 49.53)
+			(xy 66.04 33.02) (xy 66.04 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1222,7 +1262,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 52.07) (xy 44.45 54.61)
+			(xy 66.04 38.1) (xy 66.04 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1232,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 52.07) (xy 54.61 54.61)
+			(xy 76.2 38.1) (xy 76.2 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1242,7 +1282,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 57.15) (xy 44.45 57.15)
+			(xy 67.31 43.18) (xy 66.04 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 46.99) (xy 44.45 46.99)
+			(xy 64.77 33.02) (xy 66.04 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1262,7 +1302,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 52.07) (xy 31.75 54.61)
+			(xy 53.34 38.1) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1272,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 46.99) (xy 31.75 46.99)
+			(xy 49.53 33.02) (xy 53.34 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1292,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 31.75) (xy 19.05 31.75)
+			(xy 41.91 17.78) (xy 40.64 17.78)
 		)
 		(stroke
 			(width 0)
@@ -1302,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 46.99) (xy 19.05 54.61)
+			(xy 40.64 33.02) (xy 40.64 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1352,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 36.83) (xy 54.61 36.83)
+			(xy 74.93 22.86) (xy 76.2 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1322,7 +1362,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 39.37) (xy 31.75 39.37)
+			(xy 49.53 25.4) (xy 53.34 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1372,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 31.75) (xy 54.61 31.75)
+			(xy 74.93 17.78) (xy 76.2 17.78)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +1382,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 44.45 44.45)
+			(xy 67.31 30.48) (xy 66.04 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1362,7 +1402,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 45.72 39.37)
+			(xy 66.04 25.4) (xy 67.31 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1370,9 +1410,19 @@
 		)
 		(uuid "7fdf6689-8fea-49d7-9708-45c5247d078e")
 	)
+	(polyline
+		(pts
+			(xy 77.47 49.53) (xy 77.47 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab46028-8c01-491b-8bd0-f3c2e9c3fb4c")
+	)
 	(wire
 		(pts
-			(xy 54.61 39.37) (xy 54.61 41.91)
+			(xy 76.2 25.4) (xy 76.2 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1382,7 +1432,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 52.07) (xy 44.45 52.07)
+			(xy 67.31 38.1) (xy 66.04 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1392,7 +1442,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 39.37) (xy 44.45 39.37)
+			(xy 64.77 25.4) (xy 66.04 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1402,7 +1452,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 46.99) (xy 54.61 46.99)
+			(xy 74.93 33.02) (xy 76.2 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1412,7 +1462,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 44.45 57.15)
+			(xy 66.04 40.64) (xy 66.04 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1432,7 +1482,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 39.37) (xy 19.05 46.99)
+			(xy 40.64 25.4) (xy 40.64 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1452,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 41.91) (xy 44.45 41.91)
+			(xy 67.31 27.94) (xy 66.04 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1462,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 31.75) (xy 54.61 36.83)
+			(xy 76.2 17.78) (xy 76.2 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1472,7 +1522,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 54.61) (xy 54.61 57.15)
+			(xy 76.2 40.64) (xy 76.2 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1482,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 54.61) (xy 44.45 54.61)
+			(xy 64.77 40.64) (xy 66.04 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1502,7 +1552,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 54.61) (xy 54.61 54.61)
+			(xy 74.93 40.64) (xy 76.2 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1522,7 +1572,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 54.61 49.53)
+			(xy 76.2 33.02) (xy 76.2 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 49.53) (xy 53.34 49.53)
+			(xy 76.2 35.56) (xy 74.93 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1542,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 31.75) (xy 19.05 39.37)
+			(xy 40.64 17.78) (xy 40.64 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1572,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 49.53) (xy 44.45 49.53)
+			(xy 67.31 35.56) (xy 66.04 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 39.37) (xy 20.32 39.37)
+			(xy 40.64 25.4) (xy 41.91 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1602,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 44.45) (xy 54.61 44.45)
+			(xy 74.93 30.48) (xy 76.2 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1610,9 +1660,19 @@
 		)
 		(uuid "e7ff7bf9-14ae-40cb-afe0-36f8f46635aa")
 	)
+	(polyline
+		(pts
+			(xy 38.1 49.53) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea91deb9-daf0-4195-b3fb-ddeccab7b5e4")
+	)
 	(wire
 		(pts
-			(xy 31.75 54.61) (xy 35.56 54.61)
+			(xy 53.34 40.64) (xy 57.15 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 41.91) (xy 53.34 41.91)
+			(xy 76.2 27.94) (xy 74.93 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 41.91) (xy 54.61 44.45)
+			(xy 76.2 27.94) (xy 76.2 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 54.61) (xy 31.75 54.61)
+			(xy 49.53 40.64) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 44.45) (xy 31.75 46.99)
+			(xy 53.34 30.48) (xy 53.34 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 49.53) (xy 54.61 52.07)
+			(xy 76.2 35.56) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 44.45 36.83)
+			(xy 67.31 22.86) (xy 66.04 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1692,13 +1752,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 45.72 54.61)
+			(xy 66.04 40.64) (xy 67.31 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f51c19aa-bc81-4f78-8dd7-08f91007a3e7")
+	)
+	(text "LEDS"
+		(exclude_from_sim no)
+		(at 73.66 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22c08a01-41f3-4cab-9cf0-3980df1943fa")
 	)
 	(text "Logos and version"
 		(exclude_from_sim no)
@@ -1732,7 +1802,7 @@
 		(uuid "a8b75615-0b14-4fbc-a153-d3e3bf8332a7")
 	)
 	(label "COOL5"
-		(at 44.45 52.07 180)
+		(at 66.04 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1742,7 +1812,7 @@
 		(uuid "677988f7-3e49-4172-ab0e-50ff3271b8db")
 	)
 	(label "COOL4"
-		(at 31.75 44.45 180)
+		(at 53.34 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1752,7 +1822,7 @@
 		(uuid "762cc7d3-ddc0-40fb-8a07-f0c7b977df18")
 	)
 	(label "COOL2"
-		(at 31.75 36.83 180)
+		(at 53.34 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1762,7 +1832,7 @@
 		(uuid "9229beff-69ef-49eb-9a2a-995fb2a0bd26")
 	)
 	(label "COOL3"
-		(at 44.45 44.45 180)
+		(at 66.04 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1772,7 +1842,7 @@
 		(uuid "cb71fb59-49de-498f-93f6-925335a4e18e")
 	)
 	(label "COOL1"
-		(at 44.45 36.83 180)
+		(at 66.04 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1782,7 +1852,7 @@
 		(uuid "f279d5ea-4aba-465b-b80a-c2061e192d65")
 	)
 	(label "COOL6"
-		(at 31.75 52.07 180)
+		(at 53.34 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1919,7 +1989,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 46.99 90)
+		(at 71.12 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1927,7 +1997,7 @@
 		(dnp no)
 		(uuid "1fc13e0b-f3d7-43cd-82d6-67f5003ee7dd")
 		(property "Reference" "R5"
-			(at 53.34 45.72 90)
+			(at 74.93 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2005,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 49.53 46.99 90)
+			(at 71.12 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +2013,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0805+0603"
-			(at 49.53 48.768 90)
+			(at 71.12 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +2022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 46.99 0)
+			(at 71.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2031,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 46.99 0)
+			(at 71.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2186,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 49.53 90)
+		(at 71.12 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2124,7 +2194,7 @@
 		(dnp no)
 		(uuid "2fe4275d-16e6-4650-9a1a-4ddae1d18653")
 		(property "Reference" "R6"
-			(at 53.34 48.26 90)
+			(at 74.93 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2202,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 49.53 49.53 90)
+			(at 71.12 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2210,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0805+0603"
-			(at 49.53 51.308 90)
+			(at 71.12 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +2219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 49.53 0)
+			(at 71.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +2228,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 49.53 0)
+			(at 71.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2253,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 54.61 90)
+		(at 71.12 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2191,7 +2261,7 @@
 		(dnp no)
 		(uuid "3258bee0-493b-47b7-a37e-ac1f14fb9943")
 		(property "Reference" "R8"
-			(at 53.34 53.34 90)
+			(at 74.93 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2269,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 49.53 54.61 90)
+			(at 71.12 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2277,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0805+0603"
-			(at 49.53 56.388 90)
+			(at 71.12 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 54.61 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2295,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 54.61 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2320,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 24.13 39.37 0)
+		(at 45.72 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2258,7 +2328,7 @@
 		(dnp no)
 		(uuid "358970c3-420a-41e4-95c5-c9aa8bf25fd2")
 		(property "Reference" "D2"
-			(at 26.67 38.1 0)
+			(at 48.26 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +2336,7 @@
 			)
 		)
 		(property "Value" "GW JDSRS1.CC"
-			(at 25.4 40.64 0)
+			(at 46.99 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2344,7 @@
 			)
 		)
 		(property "Footprint" "SquantorDiodes:LED_5630_PAD_ANODE"
-			(at 24.13 39.37 0)
+			(at 45.72 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 39.37 0)
+			(at 45.72 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2362,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 24.13 39.37 0)
+			(at 45.72 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2387,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 54.61 0)
+		(at 60.96 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2325,7 +2395,7 @@
 		(dnp no)
 		(uuid "375dc18f-43b9-468e-ab91-31b56cf88ebb")
 		(property "Reference" "D6"
-			(at 41.91 53.34 0)
+			(at 63.5 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2403,7 @@
 			)
 		)
 		(property "Value" "GW JDSRS1.CC"
-			(at 39.37 55.88 0)
+			(at 60.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2411,7 @@
 			)
 		)
 		(property "Footprint" "SquantorDiodes:LED_5630_PAD_ANODE"
-			(at 39.37 54.61 0)
+			(at 60.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 54.61 0)
+			(at 60.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2429,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 39.37 54.61 0)
+			(at 60.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2517,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 53.34 31.75 90)
+		(at 74.93 17.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2456,7 +2526,7 @@
 		(fields_autoplaced yes)
 		(uuid "65a9917a-3869-4b33-85a2-2938df7641e8")
 		(property "Reference" "#PWR4"
-			(at 57.15 31.75 0)
+			(at 78.74 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2535,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 49.53 31.7499 90)
+			(at 71.12 17.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2544,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 31.75 0)
+			(at 74.93 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 31.75 0)
+			(at 74.93 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2562,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 53.34 31.75 0)
+			(at 74.93 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +2584,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 39.37 0)
+		(at 60.96 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2522,7 +2592,7 @@
 		(dnp no)
 		(uuid "6cc07a74-b2fc-483d-b350-4e39b61b9ec5")
 		(property "Reference" "D1"
-			(at 41.91 38.1 0)
+			(at 63.5 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2600,7 @@
 			)
 		)
 		(property "Value" "GW JDSRS1.CC"
-			(at 39.37 40.64 0)
+			(at 60.96 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2608,7 @@
 			)
 		)
 		(property "Footprint" "SquantorDiodes:LED_5630_PAD_ANODE"
-			(at 39.37 39.37 0)
+			(at 60.96 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 39.37 0)
+			(at 60.96 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2626,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 39.37 39.37 0)
+			(at 60.96 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2719,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 41.91 90)
+		(at 71.12 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2657,7 +2727,7 @@
 		(dnp no)
 		(uuid "6e8ed2ee-e897-4dda-9a45-7849bf47bb9a")
 		(property "Reference" "R3"
-			(at 53.34 40.64 90)
+			(at 74.93 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2735,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 49.53 41.91 90)
+			(at 71.12 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2743,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0805+0603"
-			(at 49.53 43.688 90)
+			(at 71.12 29.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +2752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 41.91 0)
+			(at 71.12 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +2761,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 41.91 0)
+			(at 71.12 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2786,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 36.83 90)
+		(at 71.12 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2724,7 +2794,7 @@
 		(dnp no)
 		(uuid "7aaa2c1d-217e-46db-a406-0fdec2f264cd")
 		(property "Reference" "R1"
-			(at 53.34 35.56 90)
+			(at 74.93 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2802,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 49.53 36.83 90)
+			(at 71.12 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2810,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0805+0603"
-			(at 49.53 38.608 90)
+			(at 71.12 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +2819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 36.83 0)
+			(at 71.12 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2828,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 36.83 0)
+			(at 71.12 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2853,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 52.07 90)
+		(at 71.12 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2791,7 +2861,7 @@
 		(dnp no)
 		(uuid "8be13a43-e301-4120-8cb9-ad08a068d80a")
 		(property "Reference" "R7"
-			(at 53.34 50.8 90)
+			(at 74.93 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2869,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 49.53 52.07 90)
+			(at 71.12 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2877,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0805+0603"
-			(at 49.53 53.848 90)
+			(at 71.12 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 52.07 0)
+			(at 71.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2895,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 52.07 0)
+			(at 71.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2920,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 39.37 90)
+		(at 71.12 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2858,7 +2928,7 @@
 		(dnp no)
 		(uuid "8f6b4920-d7ac-4795-b29f-d813965f2ad1")
 		(property "Reference" "R2"
-			(at 53.34 38.1 90)
+			(at 74.93 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2936,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 49.53 39.37 90)
+			(at 71.12 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2944,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0805+0603"
-			(at 49.53 41.148 90)
+			(at 71.12 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 39.37 0)
+			(at 71.12 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2962,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 39.37 0)
+			(at 71.12 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,7 +2987,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 46.99 0)
+		(at 60.96 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2925,7 +2995,7 @@
 		(dnp no)
 		(uuid "9987768f-1459-40d2-b270-34253daaffa8")
 		(property "Reference" "D4"
-			(at 41.91 45.72 0)
+			(at 63.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +3003,7 @@
 			)
 		)
 		(property "Value" "GW JDSRS1.CC"
-			(at 39.37 48.26 0)
+			(at 60.96 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +3011,7 @@
 			)
 		)
 		(property "Footprint" "SquantorDiodes:LED_5630_PAD_ANODE"
-			(at 39.37 46.99 0)
+			(at 60.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +3020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 46.99 0)
+			(at 60.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +3029,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 39.37 46.99 0)
+			(at 60.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3117,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 57.15 90)
+		(at 71.12 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3055,7 +3125,7 @@
 		(dnp no)
 		(uuid "cec438a9-05bf-47e8-bea7-b23faae4f780")
 		(property "Reference" "R9"
-			(at 53.34 55.88 90)
+			(at 74.93 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +3133,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 49.53 57.15 90)
+			(at 71.12 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3141,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0805+0603"
-			(at 49.53 58.928 90)
+			(at 71.12 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 57.15 0)
+			(at 71.12 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3159,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 57.15 0)
+			(at 71.12 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3184,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 20.32 31.75 270)
+		(at 41.91 17.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3123,7 +3193,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2984802-9985-4558-aab1-ffc15d87fcf5")
 		(property "Reference" "#PWR3"
-			(at 16.51 31.75 0)
+			(at 38.1 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3202,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 24.13 31.7499 90)
+			(at 45.72 17.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 31.75 0)
+			(at 41.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 31.75 0)
+			(at 41.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 20.32 31.75 0)
+			(at 41.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3251,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 24.13 54.61 0)
+		(at 45.72 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3189,7 +3259,7 @@
 		(dnp no)
 		(uuid "dcb6d1db-fcb2-4d87-84ac-436e834de4ff")
 		(property "Reference" "D5"
-			(at 26.67 53.34 0)
+			(at 48.26 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3267,7 @@
 			)
 		)
 		(property "Value" "GW JDSRS1.CC"
-			(at 24.13 55.88 0)
+			(at 45.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3275,7 @@
 			)
 		)
 		(property "Footprint" "SquantorDiodes:LED_5630_PAD_ANODE"
-			(at 24.13 54.61 0)
+			(at 45.72 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 54.61 0)
+			(at 45.72 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3293,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 24.13 54.61 0)
+			(at 45.72 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3381,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 44.45 90)
+		(at 71.12 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3319,7 +3389,7 @@
 		(dnp no)
 		(uuid "f2954b4a-6bac-46ce-8614-e3b4ee728695")
 		(property "Reference" "R4"
-			(at 53.34 43.18 90)
+			(at 74.93 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3397,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 49.53 44.45 90)
+			(at 71.12 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3405,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0805+0603"
-			(at 49.53 46.228 90)
+			(at 71.12 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 44.45 0)
+			(at 71.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3423,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 44.45 0)
+			(at 71.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3515,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 24.13 46.99 0)
+		(at 45.72 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3453,7 +3523,7 @@
 		(dnp no)
 		(uuid "fd92e9b3-0eba-499b-a567-39c034b73224")
 		(property "Reference" "D3"
-			(at 26.67 45.72 0)
+			(at 48.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3531,7 @@
 			)
 		)
 		(property "Value" "GW JDSRS1.CC"
-			(at 24.13 48.26 0)
+			(at 45.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3539,7 @@
 			)
 		)
 		(property "Footprint" "SquantorDiodes:LED_5630_PAD_ANODE"
-			(at 24.13 46.99 0)
+			(at 45.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 46.99 0)
+			(at 45.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3557,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 24.13 46.99 0)
+			(at 45.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
