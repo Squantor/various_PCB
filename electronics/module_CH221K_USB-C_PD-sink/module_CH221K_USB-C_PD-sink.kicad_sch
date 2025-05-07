@@ -3923,7 +3923,7 @@
 				)
 			)
 		)
-		(property "Value" "VGate"
+		(property "Value" "8V"
 			(at 62.23 62.23 0)
 			(effects
 				(font

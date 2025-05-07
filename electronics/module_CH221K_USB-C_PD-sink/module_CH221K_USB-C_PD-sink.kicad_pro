@@ -59,7 +59,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|88700000|46930000|9c0861a7-d74f-4e30-916b-7bed717408e4|7eae76bb-4fd9-4c5d-bb64-87bbab87cfbd",
+        "silk_edge_clearance|88700000|46930000|9c0861a7-d74f-4e30-916b-7bed717408e4|fa998e10-70f2-43cc-aad4-efa723ee9087",
+        "silk_edge_clearance|88700000|55870000|9c0861a7-d74f-4e30-916b-7bed717408e4|e73db228-5d42-4bb2-8c03-05bd9abbe8b3"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -129,7 +133,7 @@
         "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
@@ -501,7 +505,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Aisler_simple_2_layer.kicad_pro",
+    "filename": "module_CH221K_USB-C_PD-sink.kicad_pro",
     "version": 1
   },
   "net_settings": {
