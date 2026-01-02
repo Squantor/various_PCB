@@ -1373,7 +1373,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R1"
-			(at -0.8 -1.1 0)
+			(at -1.2 -1.1 0)
 			(layer "F.SilkS")
 			(uuid "95ecd6ea-ebad-40ea-b2fd-0c61ac958e93")
 			(effects
@@ -1384,7 +1384,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 1.5 -1.1 0)
+			(at 0.9 -1.1 0)
 			(layer "F.SilkS")
 			(uuid "079bd0ac-ef1e-47af-8408-39c924468149")
 			(effects
@@ -1551,7 +1551,7 @@
 		(descr "Capacitor SMD 1206 and 0805")
 		(tags "capacitor 1206&0805 dual footprint")
 		(property "Reference" "C1"
-			(at -3.8 -0.5 0)
+			(at -3 -1.1 0)
 			(layer "F.SilkS")
 			(uuid "a908d7de-9c8d-4125-affb-ca3d122af4d5")
 			(effects
@@ -1562,7 +1562,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at -3.4 0.7 0)
+			(at -4.9 -1.1 0)
 			(layer "F.SilkS")
 			(uuid "e5e4f1b4-7b7c-41e8-bdf2-8fe654de0b4e")
 			(effects
@@ -1969,7 +1969,7 @@
 		(descr "SOT-23 standard 6 pin")
 		(tags "SOT-23-6")
 		(property "Reference" "U1"
-			(at 3.7 2.4 0)
+			(at 3.7 2.2 0)
 			(layer "F.SilkS")
 			(uuid "bdc892be-ca33-4d0b-a0df-296b72c5fd76")
 			(effects
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Value" "VPS8505"
-			(at 0 2.4 0)
+			(at 0 2.2 0)
 			(layer "F.SilkS")
 			(uuid "aa374c5e-965d-4f98-b5f6-5163563ba163")
 			(effects
@@ -4556,6 +4556,46 @@
 			)
 		)
 	)
+	(gr_line
+		(start 133.4 82.9)
+		(end 133.6 82.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61dac726-19b0-48d9-8b4c-19b62dde31cb")
+	)
+	(gr_line
+		(start 133.4 83.3)
+		(end 133.4 82.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "87b5f617-8a21-41ba-ac41-969446801140")
+	)
+	(gr_line
+		(start 138.4 83.2)
+		(end 138.4 82.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a01ce4b8-7e89-4d06-8dc0-d3db67574461")
+	)
+	(gr_line
+		(start 138.4 82.9)
+		(end 138.2 82.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c25640aa-5236-4847-a72e-4fe3396f44d4")
+	)
 	(gr_rect
 		(start 130.4 80.9)
 		(end 166.78 94.3)
@@ -4566,6 +4606,110 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "692af358-1cad-4890-ba6c-f612075e0433")
+	)
+	(gr_text "V+"
+		(at 162.9 82 0)
+		(layer "F.SilkS")
+		(uuid "403f9844-4388-4b95-966d-ffc4f4cb58c7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 154.1 82.9 0)
+		(layer "F.SilkS")
+		(uuid "5b12685e-6e3e-42fe-8316-a3f76a2c82d9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ECLK"
+		(at 132.1 84.4 0)
+		(layer "F.SilkS")
+		(uuid "62f71233-3eae-470a-9394-03db5e8da33f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VIN"
+		(at 137.3 92.1 0)
+		(layer "F.SilkS")
+		(uuid "6a14b057-d8eb-4032-a43a-40f590acb0f0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "V-"
+		(at 163.3 94.2 0)
+		(layer "F.SilkS")
+		(uuid "c1c768b8-ac1b-4e95-be3e-ae23616f1184")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 154.1 93.4 0)
+		(layer "F.SilkS")
+		(uuid "e0e4e0ca-8dbc-44a8-b92a-c1255fce2651")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Enable"
+		(at 135.3 84.4 0)
+		(layer "F.SilkS")
+		(uuid "e276b67a-a99d-4495-b906-3e5fbbc52c8d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 132.1 91.7 0)
+		(layer "F.SilkS")
+		(uuid "e8f7863d-09fe-40b6-98d6-0f63cddea2ea")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(via
 		(at 135 88.9)
