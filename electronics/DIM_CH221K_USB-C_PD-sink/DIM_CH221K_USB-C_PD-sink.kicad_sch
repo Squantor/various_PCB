@@ -1424,7 +1424,7 @@
 	)
 	(text "USB-C PD Sink"
 		(exclude_from_sim no)
-		(at 88.9 43.18 0)
+		(at 88.9 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1451,7 +1451,7 @@
 		(uuid "85fbb975-59cf-420c-864c-bdf9cb701b08")
 	)
 	(junction
-		(at 78.74 36.83)
+		(at 78.74 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bb9a96a-948e-498e-af01-76b148a01f86")
@@ -1470,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 34.29) (xy 87.63 34.29)
+			(xy 88.9 33.02) (xy 87.63 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1510,33 +1510,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 22.86) (xy 57.15 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128f7661-fb4c-4144-8715-6b2acbd96352")
-	)
-	(wire
-		(pts
-			(xy 78.74 36.83) (xy 80.01 36.83)
+			(xy 78.74 35.56) (xy 80.01 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "172ee64d-f38e-4ee7-9921-6ff528818a28")
-	)
-	(wire
-		(pts
-			(xy 57.15 40.64) (xy 60.96 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bb077f9-76ea-419e-85c6-19061bf9e4dd")
 	)
 	(wire
 		(pts
@@ -1580,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 34.29) (xy 78.74 36.83)
+			(xy 78.74 33.02) (xy 78.74 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1690,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 35.56) (xy 59.69 35.56)
+			(xy 60.96 39.37) (xy 59.69 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1700,17 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 69.85 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494b041c-a478-4da8-a30b-5accb4295899")
-	)
-	(wire
-		(pts
-			(xy 77.47 36.83) (xy 78.74 36.83)
+			(xy 77.47 35.56) (xy 78.74 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1760,7 +1730,7 @@
 	)
 	(polyline
 		(pts
-			(xy 99.06 44.45) (xy 99.06 13.97)
+			(xy 99.06 41.91) (xy 99.06 13.97)
 		)
 		(stroke
 			(width 0)
@@ -1830,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 34.29) (xy 78.74 34.29)
+			(xy 80.01 33.02) (xy 78.74 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1848,9 +1818,19 @@
 		)
 		(uuid "81d5436b-562f-401a-8a23-3644c0bf6125")
 	)
+	(wire
+		(pts
+			(xy 59.69 22.86) (xy 59.69 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844484d1-7352-4273-b372-7101effee3a8")
+	)
 	(polyline
 		(pts
-			(xy 53.34 44.45) (xy 99.06 44.45)
+			(xy 53.34 41.91) (xy 99.06 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1880,7 +1860,7 @@
 	)
 	(polyline
 		(pts
-			(xy 80.01 40.64) (xy 80.01 44.45)
+			(xy 80.01 38.1) (xy 80.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1940,7 +1920,7 @@
 	)
 	(polyline
 		(pts
-			(xy 53.34 13.97) (xy 53.34 44.45)
+			(xy 53.34 13.97) (xy 53.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1970,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 36.83) (xy 87.63 36.83)
+			(xy 91.44 35.56) (xy 87.63 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1980,7 +1960,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 35.56) (xy 59.69 27.94)
+			(xy 59.69 39.37) (xy 59.69 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +2020,7 @@
 	)
 	(polyline
 		(pts
-			(xy 99.06 40.64) (xy 80.01 40.64)
+			(xy 99.06 38.1) (xy 80.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2060,17 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 22.86) (xy 57.15 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d79959c1-0f65-4b9b-ae9a-f6239cf6721b")
-	)
-	(wire
-		(pts
-			(xy 88.9 27.94) (xy 88.9 34.29)
+			(xy 88.9 27.94) (xy 88.9 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 25.4) (xy 91.44 36.83)
+			(xy 91.44 25.4) (xy 91.44 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2178,8 +2148,8 @@
 		)
 		(uuid "337606f4-29cd-4824-89bc-6b0eb2240436")
 	)
-	(label "VBUS"
-		(at 59.69 22.86 180)
+	(label "VPOW"
+		(at 59.69 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2188,7 +2158,7 @@
 		)
 		(uuid "3ba0b8ad-a46f-447a-846a-0dae0d7d76cd")
 	)
-	(label "VBUS"
+	(label "VPOW"
 		(at 25.4 58.42 0)
 		(effects
 			(font
@@ -2249,7 +2219,7 @@
 		(uuid "8cb2f818-6c29-4e10-b877-475c383769be")
 	)
 	(label "VDD"
-		(at 68.58 35.56 0)
+		(at 68.58 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2405,77 +2375,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 64.77 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fb43e26-6f14-437e-962f-59e31e8194f0")
-		(property "Reference" "C3"
-			(at 68.58 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 69.85 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SquantorCapacitor:C_1206_0805"
-			(at 68.58 39.6748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 64.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "babb16e0-ec6e-4fb6-a140-76b81812a253")
-		)
-		(pin "2"
-			(uuid "c1ffe462-5925-44ae-ab0a-282af77f6d77")
-		)
-		(instances
-			(project "DIP_CH221K_USB-C_PD-sink"
-				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 83.82 34.29 270)
+		(at 83.82 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2483,7 +2384,7 @@
 		(dnp no)
 		(uuid "10e9e023-943a-4049-9689-704feb67ec64")
 		(property "Reference" "R3"
-			(at 78.74 33.02 90)
+			(at 87.63 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2392,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 83.82 34.29 90)
+			(at 83.82 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2400,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0603_hand"
-			(at 83.82 32.512 90)
+			(at 83.82 31.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 34.29 0)
+			(at 83.82 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2418,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 34.29 0)
+			(at 83.82 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2723,7 @@
 		(dnp no)
 		(uuid "5794a9b7-8df8-4f53-a590-6eca3aba30ce")
 		(property "Reference" "D2"
-			(at 62.23 26.67 0)
+			(at 67.31 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +2731,7 @@
 			)
 		)
 		(property "Value" "Power Good"
-			(at 66.04 30.48 0)
+			(at 66.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3002,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 36.83 270)
+		(at 83.82 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3109,7 +3010,7 @@
 		(dnp no)
 		(uuid "75fb3df0-1eec-40fe-85cc-0323ca0814fe")
 		(property "Reference" "R4"
-			(at 78.74 35.56 90)
+			(at 87.63 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3018,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 83.82 36.83 90)
+			(at 83.82 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +3026,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0603_hand"
-			(at 83.82 35.052 90)
+			(at 83.82 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 36.83 0)
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +3044,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 36.83 0)
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,71 +3144,6 @@
 			(project ""
 				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82e30ad5-9b3a-462f-b4d5-3f9f1e95f123")
-		(property "Reference" "#PWR08"
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13824192-0e42-4dfa-9023-b7ebcc9c112f")
-		)
-		(instances
-			(project "DIP_CH221K_USB-C_PD-sink"
-				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3590,7 +3426,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 36.83 270)
+		(at 77.47 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3598,7 +3434,7 @@
 		(dnp no)
 		(uuid "adf626a3-be79-4c50-9b99-c8317227766d")
 		(property "Reference" "#PWR5"
-			(at 71.12 36.83 0)
+			(at 71.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3443,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 36.83 90)
+			(at 72.39 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +3451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 36.83 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 36.83 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +3469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 36.83 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3491,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 35.56 270)
+		(at 64.77 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3663,7 +3499,7 @@
 		(dnp no)
 		(uuid "bc889e73-ab49-4335-96bb-55468bde6978")
 		(property "Reference" "R11"
-			(at 59.69 34.29 90)
+			(at 59.69 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3507,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 64.77 35.56 90)
+			(at 64.77 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3515,7 @@
 			)
 		)
 		(property "Footprint" "SquantorResistor:R_0603_hand"
-			(at 64.77 33.782 90)
+			(at 64.77 37.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 35.56 0)
+			(at 64.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3533,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 35.56 0)
+			(at 64.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3629,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee88ef4f-3fb0-49bb-b2de-5b413bbf1135")
 		(property "Reference" "#FLG1"
 			(at 71.755 17.78 0)
