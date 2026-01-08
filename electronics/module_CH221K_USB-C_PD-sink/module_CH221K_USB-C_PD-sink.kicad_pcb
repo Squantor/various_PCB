@@ -173,7 +173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -199,7 +199,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/971aabcc-6408-4104-9569-239fea075a5b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -351,7 +351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -377,7 +377,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/22ca70c6-8eff-42d1-978a-786d873e1482")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -539,7 +539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -565,7 +565,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/75fb3df0-1eec-40fe-85cc-0323ca0814fe")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -717,7 +717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -741,9 +741,22 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a933ed5-8e21-4b5b-be66-0b1e13a0b6e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5794a9b7-8df8-4f53-a590-6eca3aba30ce")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -919,7 +932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -947,7 +960,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ed59ba5e-ba1b-4899-ad27-c27c34086fa2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1288,7 +1301,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1314,7 +1327,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/10e9e023-943a-4049-9689-704feb67ec64")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1466,7 +1479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1492,7 +1505,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/a5694ee9-35e0-4b18-9223-bd0c39f39a58")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1679,7 +1692,7 @@
 			)
 		)
 		(path "/78a17260-7930-4ede-9fe1-3aa68b527b78")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1980,7 +1993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2004,9 +2017,22 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5406f710-2292-4056-96ee-6415fbcbcc2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/2ab841b4-944b-44f8-a271-094976783eac")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2207,7 +2233,7 @@
 			)
 		)
 		(path "/65461677-f23f-4f64-921e-9ae690b6f39c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2441,7 +2467,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2467,7 +2493,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/72217369-2eca-4682-ad90-fc9582288946")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2619,7 +2645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2645,7 +2671,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/971333ab-b74d-42b8-ab1c-1fada006445c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2797,7 +2823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2823,7 +2849,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/bc889e73-ab49-4335-96bb-55468bde6978")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3005,7 +3031,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-00005ee12bf3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3081,7 +3107,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-00005ee13678")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "module_CH221K_USB-C_PD-sink.kicad_sch")
 		(attr exclude_from_pos_files allow_missing_courtyard)
 		(fp_poly
