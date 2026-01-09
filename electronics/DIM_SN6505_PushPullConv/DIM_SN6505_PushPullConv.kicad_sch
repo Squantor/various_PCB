@@ -947,7 +947,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SquantorVPSC:T_6pin"
+		(symbol "SquantorTransformer:PushPull_6pin"
 			(pin_names
 				(hide yes)
 			)
@@ -997,7 +997,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "T_6pin_1_1"
+			(symbol "PushPull_6pin_1_1"
 				(rectangle
 					(start -2.54 3.81)
 					(end 2.54 -3.81)
@@ -2092,6 +2092,16 @@
 			(type default)
 		)
 		(uuid "6454ed9c-beae-460e-aaa3-7bf5a41d972a")
+	)
+	(wire
+		(pts
+			(xy 132.08 20.32) (xy 132.08 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c75b03-3c9e-4294-a88f-9692081115f7")
 	)
 	(wire
 		(pts
@@ -3908,17 +3918,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SquantorVPSC:T_6pin")
+		(lib_id "SquantorTransformer:PushPull_6pin")
 		(at 85.09 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9df9edf9-5cf5-45b5-9a1d-89376b1894bd")
 		(property "Reference" "T1"
-			(at 85.09 17.78 0)
+			(at 85.09 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +3935,7 @@
 			)
 		)
 		(property "Value" "STR7040"
-			(at 85.09 20.32 0)
+			(at 85.09 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,6 +4536,71 @@
 			(project ""
 				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f83e308a-c426-4f7f-89bf-c4de4acef437")
+		(property "Reference" "#FLG03"
+			(at 132.08 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86523f82-f286-4275-91c8-c40a7567dfda")
+		)
+		(instances
+			(project "DIM_SN6505_PushPullConv"
+				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
