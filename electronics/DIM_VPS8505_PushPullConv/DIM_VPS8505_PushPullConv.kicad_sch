@@ -2242,6 +2242,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 20.32) (xy 132.08 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75992ca5-192b-4373-90b9-fd02e517122d")
+	)
+	(wire
+		(pts
 			(xy 125.73 20.32) (xy 127 20.32)
 		)
 		(stroke
@@ -3750,6 +3760,71 @@
 			(project "module_SN6505"
 				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fc07367-1030-4fd3-b863-84e33b7789ce")
+		(property "Reference" "#FLG03"
+			(at 132.08 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0e61927-f865-42bc-8b3c-7d58663eab7e")
+		)
+		(instances
+			(project "DIM_VPS8505_PushPullConv"
+				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
