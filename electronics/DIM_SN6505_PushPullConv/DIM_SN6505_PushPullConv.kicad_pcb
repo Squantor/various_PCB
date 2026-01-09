@@ -4600,6 +4600,16 @@
 		(uuid "12e23e20-8464-48f2-972f-7ef15aa659bf")
 	)
 	(gr_line
+		(start 138.43 81.28)
+		(end 138.43 83.82)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "22be54d2-d315-48cd-8141-8b8325400b09")
+	)
+	(gr_line
 		(start 152.4 91.567)
 		(end 151.257 91.567)
 		(stroke
@@ -4621,7 +4631,7 @@
 		(uuid "28f060e7-4d74-4b8c-992f-50eda41c229d")
 	)
 	(gr_line
-		(start 139.7 81.28)
+		(start 138.43 81.28)
 		(end 140.843 81.28)
 		(stroke
 			(width 0.15)
@@ -4754,17 +4764,6 @@
 		(layer "F.SilkS")
 		(uuid "752f575c-a02a-4c51-af2e-0f2913fc554d")
 	)
-	(gr_arc
-		(start 139.7 83.82)
-		(mid 138.43 82.55)
-		(end 139.7 81.28)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "83b7c1ca-8b9e-4a65-a9e9-222283683f0f")
-	)
 	(gr_line
 		(start 157.48 93.853)
 		(end 160.02 93.853)
@@ -4799,7 +4798,7 @@
 	)
 	(gr_line
 		(start 140.843 83.82)
-		(end 139.7 83.82)
+		(end 138.43 83.82)
 		(stroke
 			(width 0.15)
 			(type default)

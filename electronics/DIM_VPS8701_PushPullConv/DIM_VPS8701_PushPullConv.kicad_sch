@@ -2112,6 +2112,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 20.32) (xy 132.08 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472edac3-733d-4099-9d23-677e0feec93e")
+	)
+	(wire
+		(pts
 			(xy 114.3 24.13) (xy 114.3 27.94)
 		)
 		(stroke
@@ -2432,6 +2442,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 25.4) (xy 80.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab6c9f9-fd45-497e-bb81-20af689d0d47")
+	)
+	(wire
+		(pts
 			(xy 100.33 20.32) (xy 104.14 20.32)
 		)
 		(stroke
@@ -2651,7 +2671,7 @@
 		(uuid "26ae6207-2187-43e4-8468-042adaf175a6")
 	)
 	(label "P2"
-		(at 80.01 22.86 180)
+		(at 80.01 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2691,7 +2711,7 @@
 		(uuid "51519f50-42aa-4699-9246-d7ec110785da")
 	)
 	(label "P1"
-		(at 80.01 30.48 180)
+		(at 80.01 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3212,6 +3232,71 @@
 			(project ""
 				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fbcb073-07d1-4633-a460-2f9f6211a671")
+		(property "Reference" "#FLG03"
+			(at 132.08 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11d1a32b-fb81-491b-8533-a95ce28d483d")
+		)
+		(instances
+			(project "module_VPS8701_PushPullConv"
+				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4292,25 +4377,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c73b52d5-a2eb-4b0b-a778-72bb4f4aab0b")
 		(property "Reference" "U1"
-			(at 59.69 16.51 0)
+			(at 59.69 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 59.69 19.05 0)
+		(property "Value" "VPS8701"
+			(at 66.04 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SquantorIC:SOT23-6-HAND"
 			(at 59.69 25.4 0)
 			(effects
 				(font
